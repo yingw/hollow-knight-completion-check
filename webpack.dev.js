@@ -30,14 +30,6 @@ module.exports = {
             chunks: ['index'],
             filename: 'index.html',
             favicon: "./src/favicon.png"
-        }),
-        new HtmlWebpackPartialsPlugin({
-            path: './src/partials/cookiealert.html',
-            location: 'head',
-            priority: 'high',
-            options: {
-                mainColor: "#59d1da"
-            }
         })
     ],
     module: {

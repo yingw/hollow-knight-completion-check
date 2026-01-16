@@ -500,7 +500,7 @@ input[type="file"] {
 }
 
 .hint {
-  display: block;
+  /* display: block; */
   font-style: italic;
 }
 

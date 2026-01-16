@@ -1,4 +1,4 @@
-// ---------------- Hollow Knight Data Constant Objects ----------------- //
+// ---------------- 空洞骑士 Data Constant Objects ----------------- //
 /*
     This is the whole database for the tool, based on the .json save file data
 */
@@ -12,7 +12,7 @@ const HK = {
     /* ################ Intro ################### */
 
     intro: {
-      h2: "Game Status",
+      h2: "游戏完成度",
       id: "hk-intro",
 
       percent: 0,
@@ -29,7 +29,7 @@ const HK = {
         timePlayed: {
           id: "timePlayed",
           icon: "clock",
-          name: "Time Played:",
+          name: "游戏时间:",
           spoiler: "0 h 00 min 00 sec",
           timeH: 0,
           timeM: 0,
@@ -38,7 +38,7 @@ const HK = {
         gameCompletion: {
           id: "gameCompletion",
           icon: "red",
-          name: "Game Completion:",
+          name: "游戏完成度:",
           spoiler: 0,
           spoilerAfter: "(out of 112 %)",
           spoilerAfterDefault: "(out of 112 %)",
@@ -49,7 +49,7 @@ const HK = {
         gameCompletionExtended: {
           id: "gameCompletionExtended",
           icon: "red",
-          name: "<strong>True Completion:</strong>",
+          name: "整体完成度:",
           spoiler: 0,
           spoilerAfter: " / 0 = <b>0.00 %</b>",
           spoilerAfterDefault: " / 0 = <b>0.00 %</b>",
@@ -57,13 +57,13 @@ const HK = {
         saveVersion: {
           id: "saveVersion",
           icon: "none",
-          name: "Save Version:",
+          name: "游戏版本:",
           spoiler: "0.0.0.0"
         },
         health: {
           id: "health",
           icon: "none",
-          name: "Health:",
+          name: "生命值:",
           spoiler: "",
           amountTotal: 5,
           permadeathMode: false,
@@ -71,14 +71,14 @@ const HK = {
         soul: {
           id: "soul",
           icon: "none",
-          name: "Soul:",
+          name: "灵魂:",
           spoiler: "",
           amountTotal: 99
         },
         notches: {
           id: "notches",
           icon: "none",
-          name: "Notches:",
+          name: "护符槽:",
           spoiler: "",
           amountTotal: 3,
           amountFilled: 0,
@@ -88,7 +88,7 @@ const HK = {
         geo: {
           id: "geo",
           icon: "none",
-          name: "Geo:",
+          name: "吉欧:",
           spoiler: "",
           amount: 0,
           amountShade: 0,
@@ -100,74 +100,74 @@ const HK = {
     /* ################ Hints ################### */
 
     hints: {
-      h2: "Elderbug once told me...",
+      h2: "虫长者曾经告诉我……",
       id: "hk-hints",
       current: "fireballLevel",
       entries: {
         fireballLevel: {
-          spoiler: "A mysterious shaman is living in a dwelling, somewhere below the town of Dirtmouth."
+          spoiler: "一位神秘的萨满居住在某个地方，位于德特茅斯镇下方。"
         },
         hornet1Defeated: {
-          spoiler: "A skilled protector is guarding old ruins in a lush green forest."
+          spoiler: "一位技艺高超的守护者守护着茂密森林中的古老遗迹。"
         },
         hasDash: {
-          spoiler: "An old cloak is lying on a green path near a broken shell."
+          spoiler: "一件旧斗篷躺在一条绿色小路上，旁边有一个破碎的贝壳。"
         },
         hasWalljump: {
-          spoiler: "A sharp claw is lying forgotten, somewhere amidst the insect village."
+          spoiler: "一只锋利的爪子被遗忘在某个地方，位于昆虫村庄之中。"
         },
         Crossroads_04: {
-          spoiler: "A mother is sleeping peacefully, somewhere below the town of Dirtmouth."
+          spoiler: "一位母亲正在某个地方安详地沉睡，位于德特茅斯镇下方。"
         },
         slyRescued: {
-          spoiler: "Our fellow town bug seems to be lost, somewhere in the crossroads."
+          spoiler: "我们镇上的虫子朋友似乎迷路了，就在十字路口附近。"
         },
         hasLantern: {
-          spoiler: "Did you know? A bright little crystal companion is able to light a way through the thickest dark places."
+          spoiler: "你知道吗？一个明亮的小水晶伙伴能够照亮最黑暗的地方。"
         },
         hasSuperDash: {
-          spoiler: "There is some powerful crystal beating somewhere deep inside the mines."
+          spoiler: "矿井深处某个地方有一块强大的水晶在跳动。"
         },
         hasDreamNail: {
-          spoiler: "A weapon from a dream world can only be found, where the souls can peacefully rest."
+          spoiler: "一把来自梦境世界的武器只能在灵魂得以安息的地方找到。"
         },
-        /* 
-        Either:
-        - used the elevator in Resting Grounds to City of Tears
-        - opened the Fungal Wastes city gate
+        /*
+        要么: 
+        - 使用了休息之地的电梯前往泪水之城
+        - 打开了真菌荒地的城门
         */
         killedInfectedKnight: {
-          spoiler: "A shattered corpse forgotten in a windy cave is lying somewhere in the ancient depths below the rainy city."
+          spoiler: "一具破碎的尸体被遗忘在风吹的洞穴里，位于雨城下方古老的深处。"
         },
         hasDoubleJump: {
-          spoiler: "Something incredibly light was dropped by a monarchfly in the ancient depths below the rainy city."
+          spoiler: "一只帝王蝶在雨城下方古老的深处掉落了一件极其轻盈的东西。"
         },
         dungDefenderOrHornet2: {
-          spoiler: "There are two skilled combatants. One is living at the heart of the sewers. One is watching over a shell amidst ash falling from the sky."
+          spoiler: "有两位技艺高超的战士。一位住在下水道的中心。一位守护着一个贝壳，周围是漫天飞舞的灰烬。"
         },
         ismaTearOrShadeCloak: {
-          spoiler: "There are two precious items. One in a grove accessed from the waterways. One guarded by a massive royal door behind the darkness."
+          spoiler: "有两件珍贵的物品。一件在可以通过水道到达的树林里。一件被一扇巨大的皇家大门守护着，隐藏在黑暗之中。"
         },
         defeatedMegaJelly: {
-          spoiler: "An intelligent being is floating inside hidden archives, behind the fog."
+          spoiler: "一个聪明的生物漂浮在隐藏的档案室里，隐藏在迷雾之后。"
         },
         monomonDefeated: {
-          spoiler: "A dreamer is sleeping somewhere, hidden in a foggy area."
+          spoiler: "一位梦想家沉睡在某个地方，隐藏在迷雾之中。"
         },
         hegemolDefeated: {
-          spoiler: "A dreamer is sleeping near a spider nest area."
+          spoiler: "一位梦想家沉睡在蜘蛛巢穴附近。"
         },
         killedBlackKnight: {
-          spoiler: "Discarded shells of black guards can be seen lying on the floor of a high spire."
+          spoiler: "在高耸的尖塔地板上，可以看到一些被丢弃的黑色守卫的残骸。"
         },
         lurienDefeated: {
-          spoiler: "A dreamer is sleeping somewhere, at the top of a high spire."
+          spoiler: "一位梦想家沉睡在某个地方，位于一座高耸的尖塔顶端。"
         },
         killedHollowKnight: {
-          spoiler: "He heard a disturbance from inside a black temple. Maybe it's worth investigating."
+          spoiler: "他听到一座黑色神庙里传来骚动。或许值得去调查一下。"
         },
         endOfHints: {
-          spoiler: `The Knight still explores the world of Hallownest patiently, in constant search of its remaining secrets. [this is the end of the hint system (for the moment). The rest is up to you]`
+          spoiler: `骑士仍在耐心地探索霍洛巢穴的世界，不断寻找剩余的秘密。[这是提示系统的结尾（目前）。剩下的就靠你自己了]`
         },
       },
     },
@@ -175,164 +175,164 @@ const HK = {
     /* ################### Bosses ################### */
 
     bosses: {
-      h2: "Bosses",
+      h2: "BOSS",
       id: "hk-bosses",
-      description: `Each boss from this list provides 1% Game Completion.<br>
-      Note: There are many other bosses in the game. Only about ~half of the total bosses count directly towards % Game Completion stat.<br>
-      <b>P1-P4</b> = difficulty level and which <span class='spoiler-span blurred'>Pantheon</span> a given boss unlocks.`,
+      description: `每一个列表中的 Boss 增加 1% 游戏完成度.<br>
+      注意: 游戏中还有许多其他 Boss。但只有大约一半的 Boss 会直接计入游戏完成度百分比统计。<br>
+      <b>P1-P4</b> = 难度等级，也是 <span class='spoiler-span blurred'>万神殿</span> 解锁的 Boss 次序.`,
       percent: 0,
       maxPercent: 14,
       entries: {
         // killedBigFly
         bossGruzMother: {
-          name: "P1 Gruz Mother",
-          spoiler: "Forgotten Crossroads, lower right area",
+          name: "P1 格鲁兹之母",
+          spoiler: "遗忘十字路, lower right area",
           id: "Battle Scene",
           sceneName: "Crossroads_04",
           wiki: "Gruz_Mother"
         },
         falseKnightDefeated: {
-          name: "P1 False Knight",
-          spoiler: "Forgotten Crossroads, middle area map symbol",
+          name: "P1 假骑士",
+          spoiler: "遗忘十字路, middle area map symbol",
           wiki: "False_Knight"
         }, // "Battle Scene" - "Crossroads_10" ?
         hornet1Defeated: {
           name: "P1 Hornet Protector",
-          spoiler: "Greenpath, above Stag Station",
+          spoiler: "苍绿之径, above 鹿角虫车站",
           wiki: "Hornet_Protector"
         },
         defeatedDungDefender: {
           name: "P1 Dung Defender",
-          spoiler: "Royal Waterways, right area",
+          spoiler: "皇家水道, right area",
           wiki: "Dung_Defender"
         },
         // killedMawlek
         bossBroodingMawlek: {
           name: "P1 Brooding Mawlek",
-          spoiler: "Forgotten Crossroads, use Mantis Claw",
+          spoiler: "遗忘十字路, use Mantis Claw",
           id: "Battle Scene",
           sceneName: "Crossroads_09",
           wiki: "Brooding_Mawlek"
         },
         mageLordDefeated: {
           name: "P2 Soul Master",
-          spoiler: "City of Tears: Soul Sanctum",
+          spoiler: "泪水之城: 灵魂圣所",
           wiki: "Soul_Master"
         },
         defeatedMantisLords: {
           name: "P2 Mantis Lords",
-          spoiler: "Fungal Wastes: Mantis Village",
+          spoiler: "真菌荒地: Mantis Village",
           wiki: "Mantis_Lords"
         },
         // "Battle Scene" - "Deepnest_32" ?
         killedMimicSpider: {
           name: "P2 Nosk",
-          spoiler: "Deepnest, use Crystal Heart, left of Hot Spring",
+          spoiler: "深邃巢穴, use Crystal Heart, left of Hot Spring",
           wiki: "Nosk"
         },
         killedInfectedKnight: {
           name: "P2 Broken Vessel",
-          spoiler: "Ancient Basin, lower left, use Crystal Heart",
+          spoiler: "古老盆地, lower left, use Crystal Heart",
           wiki: "Broken_Vessel"
         },
         collectorDefeated: {
           name: "P3 The Collector",
-          spoiler: "City of Tears: Tower of Love",
+          spoiler: "泪水之城: Tower of Love",
           wiki: "Collector"
         },
         defeatedMegaJelly: {
           name: "P3 Uumuu",
-          spoiler: "Fog Canyon: Teacher's Archives",
+          spoiler: "雾之峡谷: Teacher's Archives",
           wiki: "Uumuu"
         },
         hornetOutskirtsDefeated: {
           name: "P3 Hornet Sentinel",
-          spoiler: "Kingdom's Edge, requires Monarch Wings",
+          spoiler: "王国边缘, requires Monarch Wings",
           wiki: "Hornet_Sentinel"
         },
         // "Battle Scene" - "Fungus3_23" ?
         killedTraitorLord: {
           name: "P4 Traitor Lord",
-          spoiler: "Queen's Gardens, requires Shade Cloak",
+          spoiler: "王后花园, requires Shade Cloak",
           wiki: "Traitor_Lord"
         },
         killedBlackKnight: {
           name: "P4 Watcher Knights",
-          spoiler: "City of Tears: Watcher's Spire",
+          spoiler: "泪水之城: Watcher's Spire",
           wiki: "Watcher_Knight"
         }
       },
     },
 
-    /* #################### Charms ################### */
+    /* #################### 护符 ################### */
 
     charms: {
-      h2: "Charms",
+      h2: "护符",
       id: "hk-charms",
-      description: `Each Charm found in the game provides 1% Game Completion.<br>
-      Note: 4 new Charms were added to the game in <a href="https://steamcommunity.com/app/367520/discussions/0/1480982338946444782/" target="_blank" title="See the official Patch Notes.">patch version 1.2.1.0</a>. They are part of the Grimm Troupe Content Pack section below.`,
+      description: `每一个护符增加 1% 游戏完成度.<br>
+      备注:  <a href="https://steamcommunity.com/app/367520/discussions/0/1480982338946444782/" target="_blank" title="See the official Patch Notes.">补丁版本 1.2.1.0</a> 后增加了4个新的护符，它们属于 格林剧团 DLC。`,
       percent: 0,
       maxPercent: 36,
       // reference: https://radiance.host/apidocs/Charms.html
       entries: {
         gotCharm_1: {
-          name: "#1 Gathering Swarm",
-          spoiler: "Sly: 300 Geo",
+          name: "#1 采集虫群",
+          spoiler: "Sly: 300吉欧",
           wiki: "Gathering_Swarm"
         }, // 1
         gotCharm_2: {
-          name: "#2 Wayward Compass",
-          spoiler: "Iselda: 220 Geo",
+          name: "#2 任性的指南针",
+          spoiler: "伊赛尔达: 220吉欧",
           wiki: "Wayward_Compass"
         }, // 1
         gotCharm_3: {
-          name: "#3 Grubsong",
-          spoiler: "Grubfather: 10 Grubs rescued",
+          name: "#3 幼虫之歌",
+          spoiler: "虫爷爷: 10 幼虫 rescued",
           wiki: "Grubsong"
         }, // 1
         gotCharm_4: {
           name: "#4 Stalwart Shell",
-          spoiler: "Sly: 200 Geo",
+          spoiler: "Sly: 200吉欧",
           wiki: "Stalwart_Shell"
         }, // 2
         gotCharm_5: {
           name: "#5 Baldur Shell",
-          spoiler: "Howling Cliffs, bottom, near Greenpath",
+          spoiler: "呼啸悬崖, bottom, near 苍绿之径",
           wiki: "Baldur_Shell"
         }, // 2
         gotCharm_6: {
           name: "#6 Fury of the Fallen",
-          spoiler: "King's Pass, nail-bounce spikes",
+          spoiler: "国王山道, nail-bounce spikes",
           wiki: "Fury_of_the_Fallen"
         }, // 2
         gotCharm_7: {
           name: "#7 Quick Focus",
-          spoiler: "Salubra: 800 Geo",
+          spoiler: "Salubra: 800吉欧",
           wiki: "Quick_Focus"
         }, // 3
         gotCharm_8: {
           name: "#8 Lifeblood Heart",
-          spoiler: "Salubra: 250 Geo",
+          spoiler: "Salubra: 250吉欧",
           wiki: "Lifeblood_Heart"
         }, // 2
         gotCharm_9: {
           name: "#9 Lifeblood Core",
-          spoiler: "The Abyss: 15 Lifeblood masks",
+          spoiler: "深渊: 15 Lifeblood masks",
           wiki: "Lifeblood_Core"
         }, // 3
         gotCharm_10: {
           name: "#10 Defender's Crest",
-          spoiler: "Royal Waterways, defeat Dung Defender",
+          spoiler: "皇家水道, defeat Dung Defender",
           wiki: "Defender's_Crest"
         }, // 1
         gotCharm_11: {
           name: "#11 Flukenest",
-          spoiler: "Royal Waterways, defeat Flukemarm",
+          spoiler: "皇家水道, defeat 吸虫之母",
           wiki: "Flukenest"
         }, // 3
         gotCharm_12: {
           name: "#12 Thorns of Agony",
-          spoiler: "Greenpath, requires Mothwing Cloak",
+          spoiler: "苍绿之径, requires 蛾翼披风",
           wiki: "Thorns_of_Agony"
         }, // 1
         gotCharm_13: {
@@ -342,47 +342,47 @@ const HK = {
         }, // 3
         gotCharm_14: {
           name: "#14 Steady Body",
-          spoiler: "Salubra: 120 Geo",
+          spoiler: "Salubra: 120吉欧",
           wiki: "Steady_Body"
         }, // 1
         gotCharm_15: {
           name: "#15 Heavy Blow",
-          spoiler: "Sly: 350 Geo + Shopkeeper's Key",
+          spoiler: "Sly: 350 Geo + 店主的钥匙",
           wiki: "Heavy_Blow"
         }, // 2
         gotCharm_16: {
           name: "#16 Sharp Shadow",
-          spoiler: "Deepnest, requires Shade Cloak",
+          spoiler: "深邃巢穴, requires Shade Cloak",
           wiki: "Sharp_Shadow"
         }, // 2
         gotCharm_17: {
           name: "#17 Spore Shroom",
-          spoiler: "Fungal Wastes, near Queen's Gardens",
+          spoiler: "真菌荒地, near 王后花园",
           wiki: "Spore_Shroom"
         }, // 1
         gotCharm_18: {
           name: "#18 Longnail",
-          spoiler: "Salubra: 300 Geo",
+          spoiler: "Salubra: 300吉欧",
           wiki: "Longnail"
         }, // 2
         gotCharm_19: {
           name: "#19 Shaman Stone",
-          spoiler: "Salubra: 220 Geo",
+          spoiler: "Salubra: 220吉欧",
           wiki: "Shaman_Stone"
         }, // 3
         gotCharm_20: {
           name: "#20 Soul Catcher",
-          spoiler: "Forgotten Crossroads: Ancestral Mound",
+          spoiler: "遗忘十字路: 祖先山丘",
           wiki: "Soul_Catcher"
         }, // 2
         gotCharm_21: {
           name: "#21 Soul Eater",
-          spoiler: "Resting Grounds, requires Desolate Dive",
+          spoiler: "安息之地, requires Desolate Dive",
           wiki: "Soul_Eater"
         }, // 4
         gotCharm_22: {
           name: "#22 Glowing Womb",
-          spoiler: "Forgotten Crossroads, requires Crystal Heart",
+          spoiler: "遗忘十字路, requires Crystal Heart",
           wiki: "Glowing_Womb"
         }, // 2
         gotCharm_23: {
@@ -407,17 +407,17 @@ const HK = {
         }, // 1
         gotCharm_27: {
           name: "#27 Joni’s Blessing",
-          spoiler: "Howling Cliffs: Joni's Repose",
+          spoiler: "呼啸悬崖: Joni's Repose",
           wiki: "Joni's_Blessing"
         }, // 4
         gotCharm_28: {
           name: "#28 Shape of Unn",
-          spoiler: "Greenpath: Lake of Unn, requires Isma's Tear",
+          spoiler: "苍绿之径: Lake of Unn, requires Isma's Tear",
           wiki: "Shape_of_Unn"
         }, // 2
         gotCharm_29: {
           name: "#29 Hiveblood",
-          spoiler: "The Hive, defeat Hive Knight",
+          spoiler: "蜂巢, defeat Hive Knight",
           wiki: "Hiveblood"
         }, // 4
         gotCharm_30: {
@@ -427,7 +427,7 @@ const HK = {
         }, // 1
         gotCharm_31: {
           name: "#31 Dashmaster",
-          spoiler: "Fungal Wastes, below bench, near Bretta",
+          spoiler: "真菌荒地, below bench, near Bretta",
           wiki: "Dashmaster"
           /* 
           "id": "Shiny Item Stand",
@@ -436,27 +436,27 @@ const HK = {
         }, // 2
         gotCharm_32: {
           name: "#32 Quick Slash",
-          spoiler: "Kingdom's Edge, requires Desolate Dive",
+          spoiler: "王国边缘, requires Desolate Dive",
           wiki: "Quick_Slash"
         }, // 3
         gotCharm_33: {
           name: "#33 Spell Twister",
-          spoiler: "City of Tears: Soul Sanctum",
+          spoiler: "泪水之城: 灵魂圣所",
           wiki: "Spell_Twister"
         }, // 2
         gotCharm_34: {
           name: "#34 Deep Focus",
-          spoiler: "Crystal Peak, requires Crystal Heart",
+          spoiler: "水晶山峰, requires Crystal Heart",
           wiki: "Deep_Focus"
         }, // 4
         gotCharm_35: {
-          name: "#35 Grubberfly’s Elegy",
-          spoiler: "Grubfather: All 46 Grubs rescued",
+          name: "#35 蜕变挽歌",
+          spoiler: "虫爷爷: All 46 幼虫 rescued",
           wiki: "Grubberfly's_Elegy"
         }, // 3
         gotCharm_36: {
           name: "#36 Kingsoul",
-          spoiler: "Queen's Gardens (Shade Cloak) + White Palace (Awoken Dream Nail)",
+          spoiler: "王后花园 (Shade Cloak) + 白色宫殿 (Awoken Dream Nail)",
           wiki: "Kingsoul"
         }, // 5
       },
@@ -465,45 +465,45 @@ const HK = {
     /* ################ Equipment ################### */
 
     equipment: {
-      h2: "Equipment",
+      h2: "能力",
       id: "hk-equipment",
-      description: "Also known as Abilities. Each piece of equipment collected provides 2% Game Completion.",
+      description: "每一种搜集到的能力提供 2% 游戏完成度。",
       percent: 0,
       maxPercent: 14,
       entries: {
         hasDash: {
-          name: "Mothwing Cloak",
-          spoiler: "Greenpath: Dash ability",
+          name: "蛾翼披风",
+          spoiler: "苍绿之径: Dash ability",
           wiki: "Mothwing_Cloak"
         },
         hasWalljump: {
-          name: "Mantis Claw",
+          name: "螳螂爪",
           spoiler: "Mantis Village: Wall Jump ability",
           wiki: "Mantis_Claw"
         },
         hasSuperDash: {
-          name: "Crystal Heart",
-          spoiler: "Crystal Peak: Super Dash ability",
+          name: "水晶之心",
+          spoiler: "水晶山峰: Super Dash ability",
           wiki: "Crystal_Heart"
         },
         hasDoubleJump: {
-          name: "Monarch Wings",
-          spoiler: "Ancient Basin: Double Jump ability",
+          name: "帝王之翼",
+          spoiler: "古老盆地: Double Jump ability",
           wiki: "Monarch_Wings"
         },
         hasAcidArmour: {
-          name: "Isma's Tear",
-          spoiler: "Royal Waterways: Acid Armour ability",
+          name: "伊思玛的眼泪",
+          spoiler: "皇家水道: Acid Armour ability",
           wiki: "Isma's_Tear"
         },
         hasKingsBrand: {
-          name: "King's Brand",
-          spoiler: "Kingdom's Edge, defeat Hornet Sentinel",
+          name: "王之印记",
+          spoiler: "王国边缘, defeat Hornet Sentinel",
           wiki: "King's_Brand"
         },
         hasShadowDash: {
-          name: "Shade Cloak",
-          spoiler: "The Abyss: Shadow Dash ability",
+          name: "暗影披风",
+          spoiler: "深渊: Shadow Dash ability",
           wiki: "Shade_Cloak"
         }
       },
@@ -512,35 +512,35 @@ const HK = {
     /* ################ Nail Upgrades ################### */
 
     nailUpgrades: {
-      h2: "Nail Upgrades",
+      h2: "骨钉升级",
       id: "hk-nailupgrades",
-      description: "Upgrades to the Knight's main weapon damage. Each upgrade provides 1% Game Completion.",
+      description: "提升小骑士的骨钉攻击力，每一次骨钉升级提供 1% 游戏完成度。",
       percent: 0,
       maxPercent: 4,
       entries: {
         oldNail: {
-          name: "#0 Old Nail",
+          name: "#0 旧骨钉",
           spoiler: "Starting Weapon",
           wiki: "Nail"
         },
         sharpenedNail: {
-          name: "#1 Sharpened Nail",
-          spoiler: "Nailsmith: 250 Geo",
+          name: "#1 锋利骨钉",
+          spoiler: "钉子匠: 250吉欧",
           wiki: "Nail#Nail_Upgrades"
         },
         channeledNail: {
-          name: "#2 Channeled Nail",
-          spoiler: "Nailsmith: 800 Geo + 1 Pale Ore",
+          name: "#2 开槽骨钉",
+          spoiler: "钉子匠: 800 Geo + 1 苍白矿石",
           wiki: "Nail#Nail_Upgrades"
         },
         coiledNail: {
-          name: "#3 Coiled Nail",
-          spoiler: "Nailsmith: 2000 Geo + 2 Pale Ore",
+          name: "#3 螺纹骨钉",
+          spoiler: "钉子匠: 2000 Geo + 2 苍白矿石",
           wiki: "Nail#Nail_Upgrades"
         },
         pureNail: {
-          name: "#4 Pure Nail",
-          spoiler: "Nailsmith: 4000 Geo + 3 Pale Ore",
+          name: "#4 纯粹骨钉",
+          spoiler: "钉子匠: 4000 Geo + 3 苍白矿石",
           wiki: "Nail#Nail_Upgrades"
         }
       },
@@ -549,27 +549,27 @@ const HK = {
     /* ################ Nail Arts ################### */
 
     nailArts: {
-      h2: "Nail Arts",
+      h2: "骨钉技艺",
       id: "hk-nailarts",
-      description: "Advanced weapon combat techniques. Each new technique learned provides 1% Game Completion.",
+      description: "高级骨钉战斗能力。每学习一种新的技艺，提供 1% 游戏完成度。",
       percent: 0,
       maxPercent: 3,
       entries: {
         /* this is correct - somehow Team Cherry switched the names here */
         hasDashSlash: {
-          name: "Great Slash",
-          spoiler: "Nailmaster Sheo: Greenpath",
+          name: "强力劈砍",
+          spoiler: "Nailmaster Sheo: 苍绿之径",
           wiki: "Great_Slash"
         },
         /* this is correct - somehow Team Cherry switched the names here */
         hasUpwardSlash: {
-          name: "Dash Slash",
-          spoiler: "Nailmaster Oro: Kingdom's Edge, 800 Geo",
+          name: "冲刺劈砍",
+          spoiler: "Nailmaster Oro: 王国边缘, 800吉欧",
           wiki: "Dash_Slash"
         },
         hasCyclone: {
-          name: "Cyclone Slash",
-          spoiler: "Nailmaster Mato: Howling Cliffs",
+          name: "旋风劈砍",
+          spoiler: "Nailmaster Mato: 呼啸悬崖",
           wiki: "Cyclone_Slash"
         },
       },
@@ -578,46 +578,46 @@ const HK = {
     /* ################ Spells ################### */
 
     spells: {
-      h2: "Spells",
+      h2: "法术",
       id: "hk-spells",
-      description: "Skills that consume Soul. Each new spell learned or upgraded provides 1% Game Completion.",
+      description: "法术需要消耗灵魂。每学习或升级一个新法术提供 1% 游戏完成度。",
       percent: 0,
       maxPercent: 6,
       entries: {
         vengefulSpirit: {
           fireballLevel: 1,
-          name: "Vengeful Spirit",
-          spoiler: "Forgotten Crossroads: Ancestral Mound",
+          name: "复仇之魂",
+          spoiler: "遗忘十字路: 祖先山丘",
           wiki: "Vengeful_Spirit"
         },
         shadeSoul: {
           fireballLevel: 2,
-          name: "Shade Soul",
-          spoiler: "City of Tears: Soul Sanctum + Elegant Key",
+          name: "暗影之魂",
+          spoiler: "泪水之城: 灵魂圣所 + Elegant Key",
           wiki: "Shade_Soul"
         },
         desolateDive: {
           quakeLevel: 1,
-          name: "Desolate Dive",
-          spoiler: "City of Tears: Soul Sanctum",
+          name: "荒芜俯冲",
+          spoiler: "泪水之城: 灵魂圣所",
           wiki: "Desolate_Dive"
         },
         descendingDark: {
           quakeLevel: 2,
-          name: "Descending Dark",
-          spoiler: "Crystal Peak: Crystallised Mound",
+          name: "黑暗降临",
+          spoiler: "水晶山峰: Crystallised Mound",
           wiki: "Descending_Dark"
         },
         howlingWraiths: {
           screamLevel: 1,
-          name: "Howling Wraiths",
-          spoiler: "Fog Canyon: Overgrown Mound",
+          name: "嚎叫幽灵",
+          spoiler: "雾之峡谷: Overgrown Mound",
           wiki: "Howling_Wraiths"
         },
         abyssShriek: {
           screamLevel: 2,
-          name: "Abyss Shriek",
-          spoiler: "The Abyss, use Howling Wraiths on podium",
+          name: "深渊尖啸",
+          spoiler: "深渊, use Howling Wraiths on podium",
           wiki: "Abyss_Shriek"
         }
       },
@@ -626,112 +626,112 @@ const HK = {
     /* ################ Mask Shards ################### */
 
     maskShards: {
-      h2: "Mask Shards",
+      h2: "面具碎片",
       id: "hk-maskshards",
-      description: "Fragments for increasing max health. Each 4 Mask Fragments collected (a full Mask) provide 1% Game Completion.",
+      description: "用于增加最大生命值的碎片。每收集 4 个面具碎片（一个完整的面具）提供 1% 游戏完成度。",
       percent: 0,
       maxPercent: 4,
       entries: {
         slyShellFrag1: {
-          name: "Mask Shard #1",
-          spoiler: "Sly: 150 Geo",
+          name: "面具碎片 #1",
+          spoiler: "Sly: 150吉欧",
           wiki: "Mask_Shard"
         },
         slyShellFrag2: {
-          name: "Mask Shard #2",
-          spoiler: "Sly: 500 Geo",
+          name: "面具碎片 #2",
+          spoiler: "Sly: 500吉欧",
           wiki: "Mask_Shard"
         },
         slyShellFrag3: {
-          name: "Mask Shard #3",
-          spoiler: "Sly: 800 Geo + Shopkeeper's Key",
+          name: "面具碎片 #3",
+          spoiler: "Sly: 800 Geo + 店主的钥匙",
           wiki: "Mask_Shard"
         },
         slyShellFrag4: {
-          name: "Mask Shard #4",
-          spoiler: "Sly: 1500 Geo + Shopkeeper's Key",
+          name: "面具碎片 #4",
+          spoiler: "Sly: 1500 Geo + 店主的钥匙",
           wiki: "Mask_Shard"
         },
         dreamReward7: {
-          name: "Mask Shard #5",
+          name: "面具碎片 #5",
           spoiler: "Seer: 1500 Essence",
           wiki: "Mask_Shard"
         },
         /* ########## Mask Shards World ########## */
         /* "Heart Piece" sceneData.persistentBoolItems.id */
         maskShardCrossroadsSprings: {
-          name: "Mask Shard #6",
-          spoiler: "Forgotten Crossroads: below Hot Springs",
+          name: "面具碎片 #6",
+          spoiler: "遗忘十字路: below Hot Springs",
           wiki: "Mask_Shard",
           id: "Heart Piece",
           sceneName: "Crossroads_13"
         },
         maskShardCrossroadsMawlek: {
-          name: "Mask Shard #7",
-          spoiler: "Forgotten Crossroads: defeat Brooding Mawlek",
+          name: "面具碎片 #7",
+          spoiler: "遗忘十字路: defeat Brooding Mawlek",
           wiki: "Mask_Shard",
           id: "Heart Piece",
           sceneName: "Crossroads_09"
         },
         maskShardGrubfather: {
-          name: "Mask Shard #8",
-          spoiler: "Grubfather: 5 Grubs rescued",
+          name: "面具碎片 #8",
+          spoiler: "虫爷爷: 5 幼虫 rescued",
           wiki: "Mask_Shard",
           id: "Heart Piece",
           sceneName: "Crossroads_38"
         },
         maskShardBretta: {
-          name: "Mask Shard #9",
-          spoiler: "Dirtmouth: Bretta's Room, rescue Bretta",
+          name: "面具碎片 #9",
+          spoiler: "德特茅斯: Bretta's Room, rescue Bretta",
           wiki: "Mask_Shard",
           id: "Heart Piece",
           sceneName: "Room_Bretta"
         },
         maskShardQueensStation: {
-          name: "Mask Shard #10",
-          spoiler: "Queen's Station: requires Mantis Claw",
+          name: "面具碎片 #10",
+          spoiler: "王后驿站: requires Mantis Claw",
           wiki: "Mask_Shard",
           id: "Heart Piece",
           sceneName: "Fungus2_01"
         },
         maskShardWaterways: {
-          name: "Mask Shard #11",
-          spoiler: "Royal Waterways: top left area, swim left",
+          name: "面具碎片 #11",
+          spoiler: "皇家水道: top left area, swim left",
           wiki: "Mask_Shard",
           id: "Heart Piece",
           sceneName: "Waterways_04b"
         },
         maskShardStoneSanctuary: {
-          name: "Mask Shard #12",
-          spoiler: "Greenpath: Stone Sanctuary, Lumafly Lantern",
+          name: "面具碎片 #12",
+          spoiler: "苍绿之径: Stone Sanctuary, 光蝇灯笼",
           wiki: "Mask_Shard",
           id: "Heart Piece",
           sceneName: "Fungus1_36"
         },
         maskShardCrystalPeak: {
-          name: "Mask Shard #13",
-          spoiler: "Crystal Peak: defeat Enraged Guardian",
+          name: "面具碎片 #13",
+          spoiler: "水晶山峰: defeat 暴怒守卫",
           wiki: "Mask_Shard",
           id: "Heart Piece",
           sceneName: "Mines_32"
         },
         maskShardDeepnest: {
-          name: "Mask Shard #14",
-          spoiler: "Deepnest: from Fungal Core (Monarch Wings)",
+          name: "面具碎片 #14",
+          spoiler: "深邃巢穴: from Fungal Core (Monarch Wings)",
           wiki: "Mask_Shard",
           id: "Heart Piece",
           sceneName: "Fungus2_25"
         },
         maskShardHive: {
-          name: "Mask Shard #15",
-          spoiler: "The Hive: use Hive Guardian to break wall",
+          name: "面具碎片 #15",
+          spoiler: "蜂巢: use Hive Guardian to break wall",
           wiki: "Mask_Shard",
           id: "Heart Piece",
           sceneName: "Hive_04"
         },
         maskShardDelicateFlower: {
-          name: "Mask Shard #16",
-          spoiler: "Resting Grounds: Delicate Flower (Grey Mourner)",
+          name: "面具碎片 #16",
+          spoiler: "安息之地: Delicate Flower (Grey Mourner)",
           wiki: "Mask_Shard",
           id: "Heart Piece",
           sceneName: "Room_Mansion"
@@ -742,65 +742,65 @@ const HK = {
     /* ################ Vessel Fragments ################### */
 
     vesselFragments: {
-      h2: "Vessel Fragments",
+      h2: "容器碎片",
       id: "hk-vesselfragments",
-      description: "Fragments for increasing max soul. Each 3 Vessel Fragments collected (a full Soul Vessel) provide 1% Game Completion.",
+      description: "用于增加最大灵魂值的碎片。每收集 3 个容器碎片（一个完整的灵魂容器）提供 1% 游戏完成度。",
       percent: 0,
       maxPercent: 3,
       entries: {
         slyVesselFrag1: {
-          name: "Vessel Fragment #1",
-          spoiler: "Sly: 550 Geo",
+          name: "容器碎片 #1",
+          spoiler: "Sly: 550吉欧",
           wiki: "Vessel_Fragment"
         },
         slyVesselFrag2: {
-          name: "Vessel Fragment #2",
-          spoiler: "Sly: 900 Geo + Shopkeeper's Key",
+          name: "容器碎片 #2",
+          spoiler: "Sly: 900 Geo + 店主的钥匙",
           wiki: "Vessel_Fragment"
         },
         dreamReward5: {
-          name: "Vessel Fragment #3",
+          name: "容器碎片 #3",
           spoiler: "Seer: 700 Essence",
           wiki: "Vessel_Fragment"
         },
         vesselFragStagNest: {
-          name: "Vessel Fragment #4",
-          spoiler: "Stag Nest",
+          name: "容器碎片 #4",
+          spoiler: "鹿角虫巢穴",
           wiki: "Vessel_Fragment"
         },
         /* ########## Vessel Fragments World ############ */
         /* "Vessel Fragment" sceneData.persistentBoolItems.id */
         vesselFragmentGreenpath: {
-          name: "Vessel Fragment #5",
-          spoiler: "Greenpath: near Queen's Gardens exit",
+          name: "容器碎片 #5",
+          spoiler: "苍绿之径: near 王后花园 exit",
           wiki: "Vessel_Fragment",
           id: "Vessel Fragment",
           sceneName: "Fungus1_13"
         },
         vesselFragmentCrossroads: {
-          name: "Vessel Fragment #6",
-          spoiler: "Forgotten Crossroads: unlock City of Tears lift",
+          name: "容器碎片 #6",
+          spoiler: "遗忘十字路: unlock 泪水之城 lift",
           wiki: "Vessel_Fragment",
           id: "Vessel Fragment",
           sceneName: "Crossroads_37"
         },
         vesselFragmentCityOfTears: {
-          name: "Vessel Fragment #7",
-          spoiler: "City of Tears: above King's Station",
+          name: "容器碎片 #7",
+          spoiler: "泪水之城: above 国王驿站",
           wiki: "Vessel_Fragment",
           id: "Vessel Fragment",
           sceneName: "Ruins2_09"
         },
         vesselFragmentDeepnest: {
-          name: "Vessel Fragment #8",
-          spoiler: "Deepnest: Goam platforming challenge",
+          name: "容器碎片 #8",
+          spoiler: "深邃巢穴: Goam platforming challenge",
           wiki: "Vessel_Fragment",
           id: "Vessel Fragment",
           sceneName: "Deepnest_38"
         },
         vesselFragmentFountain: {
-          name: "Vessel Fragment #9",
-          spoiler: "Ancient Basin Fountain: 3000 Geo",
+          name: "容器碎片 #9",
+          spoiler: "古老盆地 Fountain: 3000吉欧",
           wiki: "Vessel_Fragment",
           id: "Vessel Fragment",
           sceneName: "Abyss_04"
@@ -811,25 +811,25 @@ const HK = {
     /* ################ Dream Nail and Essence ################### */
 
     dreamNail: {
-      h2: "Dream Nail and Essence",
+      h2: "梦之钉和精华",
       id: "hk-dreamnail",
-      description: "A special dream Ability. Can collect Essence and enter dreams. Each milestone here will provide 1% Game Completion.",
+      description: "梦之钉是一个特殊的梦能力。可以收集精华并进入梦。每个升级提供 1% 游戏完成度。",
       percent: 0,
       maxPercent: 3,
       entries: {
         hasDreamNail: {
-          name: "Dream Nail Acquired",
-          spoiler: "Resting Grounds",
+          name: "梦之钉",
+          spoiler: "安息之地",
           wiki: "Dream_Nail"
         },
         dreamNailUpgraded: {
-          name: "Awoken Dream Nail",
-          spoiler: "Seer: 1800 Essence",
+          name: "觉醒的梦之钉",
+          spoiler: "先知: 1800 精华",
           wiki: "Dream_Nail#Awoken_Dream_Nail"
         },
         mothDeparted: {
-          name: "Hear the Seer's Final Words",
-          spoiler: "Seer: 2400 Essence",
+          name: "聆听先知的遗言",
+          spoiler: "先知: 2400 精华",
           wiki: "Seer"
         }
       },
@@ -838,46 +838,46 @@ const HK = {
     /* ################ Warrior Dreams ################### */
 
     warriorDreams: {
-      h2: "Warrior Dreams",
+      h2: "战士之梦",
       id: "hk-warriordreams",
-      description: `Special kind of bosses in Hollow Knight, which provide Essence and 1% Game Completion after defeat.<br>
-      Note: The Essence must be collected before each boss will provide 1% Game Completion. Uncollected Essence will be marked as not completed.`,
+      description: `特殊类型的 Boss，每一个 Boss 都提供精华以及 1% 游戏完成度。<br>
+      注意: 必须先收集精华才能提供 1% 游戏完成度。未收集的精华将被标记为未完成。`,
       percent: 0,
       maxPercent: 7,
       entries: {
         aladarSlugDefeated: {
-          name: "P1 Gorb",
-          spoiler: "Howling Cliffs, top middle area",
+          name: "P1 戈布",
+          spoiler: "呼啸悬崖, top middle area",
           wiki: "Gorb"
         },
         xeroDefeated: {
-          name: "P2 Xero",
-          spoiler: "Resting Grounds, below Crystal Peak drop",
+          name: "P2 泽若",
+          spoiler: "安息之地, below 水晶山峰 drop",
           wiki: "Xero"
         },
         mumCaterpillarDefeated: {
-          name: "P2 Marmu",
-          spoiler: "Queen's Gardens, left of Stag Station",
+          name: "P2 马尔穆",
+          spoiler: "王后花园, left of 鹿角虫车站",
           wiki: "Marmu"
         },
         elderHuDefeated: {
-          name: "P3 Elder Hu",
-          spoiler: "Fungal Wastes, above acid bridge",
+          name: "P3 胡长老",
+          spoiler: "真菌荒地, above acid bridge",
           wiki: "Elder_Hu"
         },
         galienDefeated: {
-          name: "P3 Galien",
-          spoiler: "Deepnest, below Failed Tramway",
+          name: "P3 加利安",
+          spoiler: "深邃巢穴, below Failed Tramway",
           wiki: "Galien"
         },
         noEyesDefeated: {
-          name: "P4 No Eyes",
-          spoiler: "Greenpath: Stone Sanctuary, requires Lumafly Lantern",
+          name: "P4 无眼",
+          spoiler: "苍绿之径: Stone Sanctuary, requires 光蝇灯笼",
           wiki: "No_Eyes"
         },
         markothDefeated: {
-          name: "P4 Markoth",
-          spoiler: "Kingdom's Edge, requires Shade Cloak",
+          name: "P4 马科斯",
+          spoiler: "王国边缘, requires Shade Cloak",
           wiki: "Markoth"
         },
       },
@@ -886,51 +886,51 @@ const HK = {
     /* ################ Dreamers ################### */
 
     dreamers: {
-      h2: "Dreamers",
+      h2: "守梦者",
       id: "hk-dreamers",
-      description: "Each Dreamer will provide 1% Game Completion.",
+      description: "每个守梦者都提供 1% 游戏完成度。",
       percent: 0,
       maxPercent: 3,
       entries: {
         lurienDefeated: {
           name: "Lurien the Watcher",
-          spoiler: "City of Tears: Watcher's Spire",
+          spoiler: "泪水之城: Watcher's Spire",
           wiki: "Lurien"
         },
         monomonDefeated: {
           name: "Monomon the Teacher",
-          spoiler: "Fog Canyon: Teacher's Archives",
+          spoiler: "雾之峡谷: Teacher's Archives",
           wiki: "Monomon"
         },
         hegemolDefeated: {
           name: "Herrah the Beast",
-          spoiler: "Deepnest: Distant Village",
+          spoiler: "深邃巢穴: 遥远的村庄",
           wiki: "Herrah"
         }
       },
     },
 
-    /* ################ Colosseum of Fools ################### */
+    /* ################ 愚人斗兽场 ################### */
 
     colosseum: {
-      h2: "Colosseum of Fools",
+      h2: "愚人斗兽场",
       id: "hk-colosseum",
-      description: "Completing each Trial in the Colosseum provides 1% Game Completion. This section sums up the original 100% Game Completion Percentage from Hollow Knight in 2017 (without Content Packs).",
+      description: "在愚人斗兽场完成每个试炼都提供 1% 游戏完成度。从2017年开始，这一部分的加入会提升原始的 100% 游戏完成度百分比（不包含内容包）。",
       percent: 0,
       maxPercent: 3,
       entries: {
         colosseumBronzeCompleted: {
-          name: "Trial of the Warrior",
-          spoiler: "Kingdom's Edge: top area, Little Fool: 100 Geo",
+          name: "勇士的试炼",
+          spoiler: "王国边缘: top area, Little Fool: 100吉欧",
           wiki: "Trial_of_the_Warrior"
         },
         colosseumSilverCompleted: {
-          name: "Trial of the Conqueror",
+          name: "征服者的试炼",
           spoiler: "Little Fool: 450 Geo + Warrior completed",
           wiki: "Trial_of_the_Conqueror"
         },
         colosseumGoldCompleted: {
-          name: "Trial of the Fool",
+          name: "愚人的试炼",
           spoiler: "Little Fool: 800 Geo + Conqueror completed",
           wiki: "Trial_of_the_Fool"
         },
@@ -940,43 +940,43 @@ const HK = {
     /* ################ Grimm Troupe Content Pack ################### */
 
     grimmTroupe: {
-      h2: "Grimm Troupe Content Pack",
+      h2: "格林剧团 DLC",
       id: "hk-grimmtroupe",
-      description: `The first Content Pack. Released October 26th, 2017 (<a href="https://steamcommunity.com/app/367520/discussions/0/1480982338946444782/" target="_blank" title="See the official Patch Notes.">1.2.1.0 Game Update</a>). It added additional +6% to max Game Completion Percentage.<br>
-      Note: It requires making a choice, but no matter what you will choose, you will still get the same +1%.`,
+      description: `首个 DLC，发布于 October 26th, 2017 (<a href="https://steamcommunity.com/app/367520/discussions/0/1480982338946444782/" target="_blank" title="See the official Patch Notes.">1.2.1.0 Game Update</a>). 增加了 +6% 的最大游戏完成度。<br>
+      注意: DLC 的最后有一个选择，无论你选择什么，都会获得 +1% 的游戏完成度。`,
       percent: 0,
       maxPercent: 6,
       entries: {
         gotCharm_37: {
-          name: "Charm #37 Sprintmaster",
-          spoiler: "Sly: 400 Geo + Shopkeeper's Key",
+          name: "护符 #37 Sprintmaster",
+          spoiler: "Sly: 400 Geo + 店主的钥匙",
           wiki: "Sprintmaster"
         },
         gotCharm_38: {
-          name: "Charm #38 Dreamshield",
-          spoiler: "Resting Grounds, go left below Seer",
+          name: "护符 #38 Dreamshield",
+          spoiler: "安息之地, go left below Seer",
           wiki: "Dreamshield"
         },
         gotCharm_39: {
-          name: "Charm #39 Weaversong",
-          spoiler: "Deepnest: Weaver's Den",
+          name: "护符 #39 Weaversong",
+          spoiler: "深邃巢穴: Weaver's Den",
           wiki: "Weaversong"
         },
         gotCharm_40: {
-          name: "Charm #40 Grimmchild or Carefree Melody",
-          nameDefault: "Charm #40 Grimmchild or Carefree Melody",
-          nameGrimmchildP1: "Charm #40: Grimmchild (Phase 1)",
-          nameGrimmchildP2: "Charm #40: Grimmchild (Phase 2)",
-          nameGrimmchildP3: "Charm #40: Grimmchild (Phase 3)",
-          nameGrimmchildP4: "Charm #40: Grimmchild (Phase 4)",
-          nameCarefreeMelody: "Charm #40: Carefree Melody",
-          spoiler: "Dirtmouth",
-          spoilerDefault: "Dirtmouth",
-          spoilerGrimmchildP1: "Collect 3 flames",
-          spoilerGrimmchildP2: "Collect 3 flames",
-          spoilerGrimmchildP3: "Collect 3 flames",
-          spoilerGrimmchildP4: "Completed the Ritual",
-          spoilerCarefreeMelody: "Banished Grimm Troupe",
+          name: "护符 #40 Grimmchild or Carefree Melody",
+          nameDefault: "护符 #40 Grimmchild or Carefree Melody",
+          nameGrimmchildP1: "护符 #40: Grimmchild (Phase 1)",
+          nameGrimmchildP2: "护符 #40: Grimmchild (Phase 2)",
+          nameGrimmchildP3: "护符 #40: Grimmchild (Phase 3)",
+          nameGrimmchildP4: "护符 #40: Grimmchild (Phase 4)",
+          nameCarefreeMelody: "护符 #40: Carefree Melody",
+          spoiler: "德特茅斯",
+          spoilerDefault: "德特茅斯",
+          spoilerGrimmchildP1: "搜集 3 团火焰",
+          spoilerGrimmchildP2: "搜集 3 团火焰",
+          spoilerGrimmchildP3: "搜集 3 团火焰",
+          spoilerGrimmchildP4: "完成仪式",
+          spoilerCarefreeMelody: "放逐格林剧团",
           wiki: "Grimmchild",
           wikiDefault: "Grimmchild",
           wikiGrimmchild: "Grimmchild",
@@ -984,16 +984,16 @@ const HK = {
         },
         killedGrimm: {
           name: "P3 Troupe Master Grimm",
-          spoiler: "Dirtmouth, collect 6 flames",
+          spoiler: "德特茅斯, collect 6 flames",
           wiki: "Grimm"
         },
         grimmChildLevel: {
-          name: "Complete Ritual or Banish Troupe",
-          nameDefault: "Complete Ritual or Banish Troupe",
+          name: "完成仪式或放逐格林剧团",
+          nameDefault: "完成仪式或放逐格林剧团",
           nameNightmareKing: "Grimm Troupe Choice: Nightmare King",
           nameBanishment: "Grimm Troupe Choice: Banishment",
-          spoiler: "One choice per save file: Dirtmouth or Howling Cliffs",
-          spoilerDefault: "One choice per save file: Dirtmouth or Howling Cliffs",
+          spoiler: "One choice per save file: 德特茅斯 or 呼啸悬崖",
+          spoilerDefault: "One choice per save file: 德特茅斯 or 呼啸悬崖",
           spoilerNightmareKing: "Completed the Ritual",
           spoilerBanishment: "Banished Grimm Troupe",
           wiki: "Grimm_Troupe_(Quest)",
@@ -1007,15 +1007,15 @@ const HK = {
     /* ################ Lifeblood Content Pack ################### */
 
     lifeblood: {
-      h2: "Lifeblood Content Pack",
+      h2: "生命血 DLC",
       id: "hk-lifeblood",
-      description: `The second Content Pack. Released April 20th, 2018 (<a href="https://steamcommunity.com/app/367520/discussions/0/3211505894131332245/" target="_blank" title="See the official Patch Notes.">1.3.1.5 Game Update</a>). Among many quality changes, it added one new boss, which increased the max Game Completion Percentage by +1%.`,
+      description: `第二个 DLC，发布于 April 20th, 2018 (<a href="https://steamcommunity.com/app/367520/discussions/0/3211505894131332245/" target="_blank" title="See the official Patch Notes.">1.3.1.5 Game Update</a>). 除了增加了许多优化，还增加了一个新的 Boss，使得游戏最大完成度又增加了 1%。`,
       percent: 0,
       maxPercent: 1,
       entries: {
         killedHiveKnight: {
-          name: "P3 Hive Knight",
-          spoiler: "The Hive, guards Hiveblood charm",
+          name: "P3 蜂巢骑士",
+          spoiler: "蜂巢, 守护着 Hiveblood 护符",
           wiki: "Hive_Knight"
         }
       },
@@ -1024,39 +1024,39 @@ const HK = {
     /* ################ Godmaster Content Pack ################### */
 
     godmaster: {
-      h2: "Godmaster Content Pack",
+      h2: "寻神者 DLC",
       id: "hk-godmaster",
-      description: `The third Content Pack. Released August 23rd, 2018 (<a href="https://hollowknight.fandom.com/wiki/Updates_(Hollow_Knight)#1.4.2.4" target="_blank" title="See the official Patch Notes.">1.4.2.4 Game Update</a>). It added additional +5% to max Game Completion Percentage (up to a total of 112%).`,
+      description: `第三个 DLC，发布于 August 23rd, 2018 (<a href="https://hollowknight.fandom.com/wiki/Updates_(Hollow_Knight)#1.4.2.4" target="_blank" title="See the official Patch Notes.">1.4.2.4 Game Update</a>). 增加了 +5% 的最大游戏完成度（最多 112%）。`,
       percent: 0,
       maxPercent: 5,
       entries: {
         hasGodfinder: {
-          name: "Godtuner",
-          spoiler: "Royal Waterways: Junk Pit, requires Simple Key",
+          name: "神明调谐器",
+          spoiler: "皇家水道: 垃圾坑, 需要简单钥匙",
           wiki: "Godtuner"
         },
         /* ########## Godmaster doors ########## */
         pantheonMaster: {
-          name: "P1 Pantheon of the Master",
-          spoiler: "Godhome: defeat P1 bosses",
+          name: "P1 大师万神殿",
+          spoiler: "万神殿: defeat P1 bosses",
           wiki: "Pantheon_of_the_Master",
           property: "bossDoorStateTier1"
         },
         pantheonArtist: {
-          name: "P2 Pantheon of the Artist",
-          spoiler: "Godhome: defeat P2 bosses",
+          name: "P2 艺术家万神殿",
+          spoiler: "万神殿: defeat P2 bosses",
           wiki: "Pantheon_of_the_Artist",
           property: "bossDoorStateTier2"
         },
         pantheonSage: {
-          name: "P3 Pantheon of the Sage",
-          spoiler: "Godhome: defeat P3 bosses",
+          name: "P3 贤者万神殿",
+          spoiler: "万神殿: defeat P3 bosses",
           wiki: "Pantheon_of_the_Sage",
           property: "bossDoorStateTier3"
         },
         pantheonKnight: {
-          name: "P4 Pantheon of the Knight",
-          spoiler: "Godhome: complete P1, P2 and P3",
+          name: "P4 骑士万神殿",
+          spoiler: "万神殿: complete P1, P2 and P3",
           wiki: "Pantheon_of_the_Knight",
           property: "bossDoorStateTier4"
         }
@@ -1066,27 +1066,27 @@ const HK = {
     /* ################ Essentials % -> Collectibles ################### */
 
     essentialsCollectibles: {
-      h2: "Game Completion % Essentials – Collectibles",
+      h2: "游戏完成度 % 搜集品",
       id: "hk-essentials-collectibles",
-      description: "Collectibles that don't count directly towards 112% Game Completion, but are required to achieve full 112%.",
+      description: "搜集品不直接影响游戏完成度的 112%, 但影响整体完成度 112%。",
       entries: {
         grubsCollected: {
-          name: "Grubs Rescued",
-          spoiler: "46 Grubs total",
+          name: "幼虫 Rescued",
+          spoiler: "46 幼虫 total",
           max: 46,
           maxDefault: 46,
           wiki: "Grub"
         },
         grubRewards: {
-          name: "Grubfather Rewards Awarded",
+          name: "虫爷爷 Rewards Awarded",
           spoiler: "46 Rewards total",
           max: 46,
           maxDefault: 46,
           wiki: "Grub#Rewards_and_locations"
         },
         charmsOwned: {
-          name: "Charms Owned",
-          spoiler: "40 Charms total, useful for Salubra Notches",
+          name: "护符s Owned",
+          spoiler: "40 护符 total, useful for Salubra Notches",
           max: 40,
           maxDefault: 40,
           wiki: "Category:Charms#List_of_Charms"
@@ -1099,173 +1099,173 @@ const HK = {
           wiki: "Dream_Nail#Essence"
         },
         hasLantern: {
-          name: "Lumafly Lantern",
-          spoiler: "Sly: 1800 Geo",
+          name: "光蝇灯笼",
+          spoiler: "Sly: 1800吉欧",
           wiki: "Lumafly_Lantern"
         },
         shopkeeperKey: {
-          name: "Shopkeeper's Key",
-          spoiler: "Crystal Peak, below Quirrel location",
+          name: "店主的钥匙",
+          spoiler: "水晶山峰, below Quirrel location",
           wiki: "Shopkeeper's_Key"
         },
         elegantKey: {
           name: "Elegant Key",
-          spoiler: "Sly: 800 Geo + Shopkeeper's Key",
+          spoiler: "Sly: 800 Geo + 店主的钥匙",
           wiki: "Elegant_Key"
         },
         loveKey: {
           name: "Love Key",
-          spoiler: "Queen's Gardens, near Fungal Wastes",
+          spoiler: "王后花园, near 真菌荒地",
           wiki: "Love_Key"
         },
         slySimpleKey: {
-          name: "Simple Key #1",
-          spoiler: "Sly: 950 Geo",
+          name: "简单钥匙 #1",
+          spoiler: "Sly: 950吉欧",
           wiki: "Simple_Key"
         },
         simpleKeyCityOfTears: {
-          name: "Simple Key #2",
-          spoiler: "City of Tears, below left Stag Station",
+          name: "简单钥匙 #2",
+          spoiler: "泪水之城, below left 鹿角虫车站",
           id: "Shiny Item",
           sceneName: "Ruins1_17",
           wiki: "Simple_Key#How_to_Acquire"
         },
         simpleKeyAncientBasin: {
-          name: "Simple Key #3",
-          spoiler: "Ancient Basin, below Broken Vessel",
+          name: "简单钥匙 #3",
+          spoiler: "古老盆地, below Broken Vessel",
           id: "Shiny Item Stand",
           sceneName: "Abyss_20",
           wiki: "Simple_Key#How_to_Acquire"
         },
         gotLurkerKey: {
-          name: "Simple Key #4",
-          spoiler: "Colosseum of Fools: Pale Lurker's Retreat",
+          name: "简单钥匙 #4",
+          spoiler: "愚人斗兽场: Pale Lurker's Retreat",
           wiki: "Simple_Key#How_to_Acquire"
         },
         paleOreAncientBasin: {
-          name: "Pale Ore #1",
-          spoiler: "Ancient Basin, left of Tram Station",
+          name: "苍白矿石 #1",
+          spoiler: "古老盆地, left of Tram Station",
           id: "Battle Scene Ore",
           sceneName: "Abyss_17",
           wiki: "Pale_Ore"
         },
         paleOreSeer: {
-          name: "Pale Ore #2",
+          name: "苍白矿石 #2",
           spoiler: "Seer: 300 Essence",
           wiki: "Pale_Ore#How_to_Acquire"
         },
         paleOreCrystalPeak: {
-          name: "Pale Ore #3",
-          spoiler: "Top of Crystal Peak, use Monarch Wings",
+          name: "苍白矿石 #3",
+          spoiler: "Top of 水晶山峰, use Monarch Wings",
           id: "Shiny Item Stand",
           sceneName: "Mines_34",
           wiki: "Pale_Ore#How_to_Acquire"
         },
         paleOreDeepnest: {
-          name: "Pale Ore #4",
-          spoiler: "Deepnest, Nosk reward",
+          name: "苍白矿石 #4",
+          spoiler: "深邃巢穴, Nosk reward",
           id: "Shiny Item Stand",
           sceneName: "Deepnest_32",
           wiki: "Pale_Ore#How_to_Acquire"
         },
         paleOreGrubfather: {
-          name: "Pale Ore #5",
-          spoiler: "Grubfather: 31 Grubs rescued",
+          name: "苍白矿石 #5",
+          spoiler: "虫爷爷: 31 幼虫 rescued",
           id: "Shiny Item Ore",
           sceneName: "Crossroads_38",
           wiki: "Pale_Ore#How_to_Acquire"
         },
         paleOreColosseum: {
-          name: "Pale Ore #6",
-          spoiler: "Colosseum of Fools: Trial of the Conqueror",
+          name: "苍白矿石 #6",
+          spoiler: "愚人斗兽场: Trial of the Conqueror",
           id: "Shiny Item",
           sceneName: "Room_Colosseum_Silver",
           wiki: "Pale_Ore#How_to_Acquire"
         },
         hasTramPass: {
-          name: "Tram Pass",
-          spoiler: "Deepnest: Failed Tramway",
+          name: "电车通行证",
+          spoiler: "深邃巢穴: Failed Tramway",
           wiki: "Tram_Pass"
         },
         gotQueenFragment: {
-          name: "White Fragment: Queen",
-          spoiler: "White Lady: Queen's Gardens",
+          name: "白色碎片: 王后",
+          spoiler: "White Lady: 王后花园",
           wiki: "Kingsoul#How_to_Acquire"
         },
         gotKingFragment: {
-          name: "White Fragment: King",
-          spoiler: "Pale King: White Palace",
+          name: "白色碎片: 国王",
+          spoiler: "苍白之王: 白色宫殿",
           wiki: "Kingsoul#How_to_Acquire"
         },
       },
       grubsList: ["Crossroads_35", "Crossroads_03", "Crossroads_05", "Crossroads_48", "Crossroads_31", "Fungus1_06", "Fungus1_07", "Fungus1_21", "Fungus1_28", "Fungus2_18", "Ruins1_05", "Mines_04", "Mines_03", "Mines_31", "Mines_19", "Ruins1_32", "RestingGrounds_10", "Ruins_House_01", "Mines_35", "Mines_16", "Waterways_04", "Waterways_13", "Abyss_19", "Abyss_17", "Mines_24", "Fungus1_13", "Fungus3_47", "Fungus3_10", "Fungus3_48", "Fungus3_22", "Ruins2_07", "Ruins2_11", "Ruins2_11", "Ruins2_11", "Deepnest_East_11", "Deepnest_East_14", "Fungus2_20", "Ruins2_03", "Deepnest_36", "Deepnest_03", "Deepnest_31", "Deepnest_39", "Deepnest_Spider_Town", "Waterways_14", "Hive_03", "Hive_04"],
     },
 
-    /* ################ Essentials % -> Stag Stations ################### */
+    /* ################ Essentials % -> 鹿角虫车站 ################### */
 
     essentialsStagStations: {
-      h2: "Game Completion % Essentials – Stag Stations",
+      h2: "游戏完成度 % Essentials - 鹿角虫车站",
       id: "hk-essentials-stag-stations",
-      description: `Opened Stag Stations don't count directly towards 112% Game Completion, but are required to achieve full 112% by discovering the <span class="spoiler-span blurred">Stag Nest for the Vessel Fragment</span>.`,
+      description: `Opened 鹿角虫车站 don't count directly towards 112% 游戏完成度, but are required to achieve full 112% by discovering the <span class="spoiler-span blurred">鹿角虫巢穴 for the Vessel Fragment</span>.`,
       entries: {
         openedTownBuilding: {
-          name: "Stag Station: Dirtmouth",
+          name: "鹿角虫车站: 德特茅斯",
           spoiler: "Opened from inside after travelling",
           wiki: "Dirtmouth"
         },
         openedCrossroads: {
-          name: "Stag Station: Forgotten Crossroads",
+          name: "鹿角虫车站: 遗忘十字路",
           spoiler: "50 Geo: Right middle-bottom area",
           wiki: "Forgotten_Crossroads"
         },
         openedGreenpath: {
-          name: "Stag Station: Greenpath",
+          name: "鹿角虫车站: 苍绿之径",
           spoiler: "140 Geo: Top middle area, below Hornet",
           wiki: "Greenpath"
         },
         openedFungalWastes: {
-          name: "Stag Station: Queen's Station",
-          spoiler: "120 Geo: Fungal Wastes, near Fog Canyon",
+          name: "鹿角虫车站: 王后驿站",
+          spoiler: "120 Geo: 真菌荒地, near 雾之峡谷",
           wiki: "Fungal_Wastes#Sub-area:_Queen.27s_Station"
         },
         openedRuins1: {
-          name: "Stag Station: City Storerooms",
-          spoiler: "200 Geo: City of Tears, top left area",
+          name: "鹿角虫车站: 城市仓库",
+          spoiler: "200 Geo: 泪水之城, top left area",
           wiki: "City_of_Tears#City_Storerooms"
         },
         openedRestingGrounds: {
-          name: "Stag Station: Resting Grounds",
+          name: "鹿角虫车站: 安息之地",
           spoiler: "0 Geo: Right middle area, near Seer",
           wiki: "Resting_Grounds"
         },
         openedRuins2: {
-          name: "Stag Station: King's Station",
-          spoiler: "300 Geo: City of Tears, far right area",
+          name: "鹿角虫车站: 国王驿站",
+          spoiler: "300 Geo: 泪水之城, far right area",
           wiki: "City_of_Tears#Sub-area:_King.27s_Station"
         },
         openedRoyalGardens: {
-          name: "Stag Station: Queen's Gardens",
+          name: "鹿角虫车站: 王后花园",
           spoiler: "200 Geo: Middle area, near Traitor's Grave",
           wiki: "Queen's_Gardens"
         },
         openedDeepnest: {
-          name: "Stag Station: Distant Village",
-          spoiler: "250 Geo: Deepnest, far left area",
+          name: "鹿角虫车站: 遥远的村庄",
+          spoiler: "250 Geo: 深邃巢穴, far left area",
           wiki: "Deepnest#Sub-area:_Distant_Village"
         },
         openedHiddenStation: {
-          name: "Stag Station: Hidden Station",
-          spoiler: "300 Geo: Ancient Basin: Palace Grounds",
+          name: "鹿角虫车站: 隐藏的鹿角站",
+          spoiler: "300 Geo: 古老盆地: Palace Grounds",
           wiki: "Ancient_Basin#Sub-Area:_Palace_Grounds"
         },
         openedStagNest: {
-          name: "Stag Station: Stag Nest",
-          spoiler: "Open all stations: Howling Cliffs, top area",
+          name: "鹿角虫车站: 鹿角虫巢穴",
+          spoiler: "Open all stations: 呼啸悬崖, top area",
           wiki: "Howling_Cliffs#Sub-area:_Stag_Nest"
         },
         stagStationsOpened: {
-          name: "Stag Stations Opened",
-          spoiler: "11 Stag Stations total including Dirtmouth",
+          name: "所有鹿角虫车站",
+          spoiler: "11 个鹿角虫车站全打开，包括德特茅斯",
           max: 11,
           maxDefault: 11,
           wiki: "Fast_Travel_(Hollow_Knight)#Locations_and_Prices"
@@ -1276,87 +1276,87 @@ const HK = {
     /* ################ Essentials % -> World Interactions ################### */
 
     essentialsWorldInteractions: {
-      h2: "Game Completion % Essentials – World Interactions",
+      h2: "游戏完成度 % 世界互动",
       id: "hk-essentials-world-interactions",
-      description: `Certain interactions the player can make with NPCs in the game or world objects which don't count directly towards 112% Game Completion, but are required to achieve full 112%.`,
+      description: `玩家在游戏中可以与NPC或世界物体进行一些互动，这些互动虽然不会直接计入112%的游戏完成度，但却是达到112%完整完成度所必需的。`,
       entries: {
         slyRescued: {
           name: "Sly Rescued",
-          spoiler: "Forgotten Crossroads, near Gruz Mother",
+          spoiler: "遗忘十字路, near Gruz Mother",
           wiki: "Sly"
         },
         brettaRescued: {
           name: "Bretta Rescued",
-          spoiler: "Fungal Wastes, near Dashmaster charm statue",
+          spoiler: "真菌荒地, near Dashmaster 护符 statue",
           wiki: "Bretta"
         },
         paidLegEater: {
           name: "Paid to See Something Nice",
-          spoiler: "Fungal Wastes, Leg Eater: 86 Geo",
+          spoiler: "真菌荒地, Leg Eater: 86吉欧",
           wiki: "Leg_Eater#In-game_events"
         },
         gaveSlykey: {
-          name: "Shopkeeper's Key Returned to Sly",
-          spoiler: "Dirtmouth, Sly's Shop",
+          name: "店主的钥匙 Returned to Sly",
+          spoiler: "德特茅斯, Sly's Shop",
           wiki: "Sly"
         },
         mantisVillageFloorLever: {
           name: "Mantis Village Floor Lever",
-          spoiler: "Fungal Wastes, right of Mantis Claw",
+          spoiler: "真菌荒地, right of Mantis Claw",
           id: "Mantis Lever (1)",
           sceneName: "Fungus2_14",
           wiki: "Fungal_Wastes#Sub-area:_Mantis_Village"
         },
         xunFlowerGiven: {
           name: "Delicate Flower Accepted",
-          spoiler: "Resting Grounds: listen to Grey Mourner",
+          spoiler: "安息之地: listen to Grey Mourner",
           wiki: "Grey_Mourner#In-game_events"
         },
         waterwaysAcidDrained: {
           name: "Acid Drained",
-          spoiler: "Royal Waterways, lever after Dung Defender",
+          spoiler: "皇家水道, lever after Dung Defender",
           wiki: "Royal_Waterways#Sub-area:_Isma.27s_Grove"
         },
         openedMageDoor_v2: {
           name: "Elegant Door Unlocked",
-          spoiler: "City of Tears: Soul Sanctum, requires Elegant Key",
+          spoiler: "泪水之城: 灵魂圣所, requires Elegant Key",
           wiki: "Elegant_Key#Use"
         },
         openedLoveDoor: {
           name: "Tower of Love Door Unlocked",
-          spoiler: "City of Tears, requires Love Key",
+          spoiler: "泪水之城, requires Love Key",
           wiki: "City_of_Tears#Sub-area:_Tower_of_Love"
         },
         abyssGateOpened: {
-          name: "The Abyss Gate Opened",
-          spoiler: "Ancient Basin, requires King's Brand",
+          name: "打开深渊入口",
+          spoiler: "古老盆地, requires 王之印记",
           wiki: "Ancient_Basin#Description"
         },
         blueVineDoor: {
           name: "Lifeblood Door Opened",
-          spoiler: "The Abyss, requires 14–15+ Lifeblood Masks",
+          spoiler: "深渊, requires 14-15+ Lifeblood Masks",
           wiki: "Lifeblood_Core#How_to_Acquire"
         },
         nightmareLanternLit: {
           name: "Nightmare Lantern Lit",
-          spoiler: "Howling Cliffs, corpse of a large bug",
+          spoiler: "呼啸悬崖, corpse of a large bug",
           wiki: "Howling_Cliffs#Nightmare_Lantern_Chamber"
         },
         paleLurkersRetreat: {
           name: "Pale Lurker's Retreat",
-          spoiler: "Colosseum of Fools, Room above Bench, break wall",
+          spoiler: "愚人斗兽场, Room above Bench, break wall",
           id: "Breakable Wall_Silhouette",
           sceneName: "Room_Colosseum_Spectate",
           wiki: "Colosseum_of_Fools#Description"
         },
         godseekerUnlocked: {
           name: "Godseeker Cocoon Unlocked",
-          spoiler: "Royal Waterways: Junk Pit",
+          spoiler: "皇家水道: 垃圾坑",
           wiki: "Royal_Waterways#Sub-area:_Junk_Pit"
         },
         fountainGeo: {
           name: "Geo in Fountain",
-          spoiler: "Ancient Basin: 3000 Geo maximum",
+          spoiler: "古老盆地: 3000 Geo maximum",
           max: 3000,
           maxDefault: 3000,
           wiki: "Ancient_Basin#Description"
@@ -1367,81 +1367,81 @@ const HK = {
     /* ################ Essentials % -> Bosses ################### */
 
     essentialsBosses: {
-      h2: "Game Completion % Essentials – Bosses",
+      h2: "游戏完成度 % BOSS",
       id: "hk-essentials-bosses",
-      description: "Bosses that don't count directly towards 112% Game Completion, but are required to defeat to achieve full 112%.",
+      description: "Bosses that don't count directly towards 112% 游戏完成度, but are required to defeat to achieve full 112%.",
       entries: {
         killedMegaMossCharger: {
-          name: "P1 Massive Moss Charger",
-          spoiler: "Greenpath, near Fog Canyon",
+          name: "P1 大型苔藓冲锋者",
+          spoiler: "苍绿之径, near 雾之峡谷",
           wiki: "Massive_Moss_Charger"
         },
         pantheonSoulWarrior: {
           name: "P1 Soul Warrior",
-          spoiler: "City of Tears: Soul Sanctum",
+          spoiler: "泪水之城: 灵魂圣所",
           id: "Battle Scene v2",
           sceneName: "Ruins1_23",
           wiki: "Soul_Warrior#Location"
         },
         shadeSoulWarrior: {
-          name: "Shade Soul Warrior",
-          spoiler: "City of Tears: Soul Sanctum, use Elegant Key",
+          name: "Shade Soul Warrior？",
+          spoiler: "泪水之城: 灵魂圣所, use Elegant Key",
           id: "Battle Scene v2",
           sceneName: "Ruins1_31",
           wiki: "Shade_Soul#How_to_Acquire"
         },
         pantheonCrystalGuardian: {
-          name: "P2 Crystal Guardian",
-          spoiler: "Crystal Peak, guards Central Bench",
+          name: "P2 水晶守卫",
+          spoiler: "水晶山峰, guards Central Bench",
           id: "Mega Zombie Beam Miner (1)",
           sceneName: "Mines_18",
           wiki: "Crystal_Guardian"
         },
         killedBigBuzzer: {
-          name: "Vengefly King",
-          spoiler: "Colosseum of Fools: Trial of the Warrior, Greenpath",
+          name: "复仇蝇之王",
+          spoiler: "愚人斗兽场: Trial of the Warrior, 苍绿之径",
           wiki: "Vengefly_King"
         },
         killedOblobble: {
-          name: "P2 Oblobble",
-          spoiler: "Colosseum of Fools: Trial of the Conqueror",
+          name: "P2 奥波路波",
+          spoiler: "愚人斗兽场: Trial of the Conqueror",
           wiki: "Oblobbles"
         },
         killedLobsterLancer: {
-          name: "God Tamer",
-          spoiler: "Colosseum of Fools: Trial of the Fool",
+          name: "神之驯服者",
+          spoiler: "愚人斗兽场: Trial of the Fool",
           wiki: "God_Tamer"
         },
         killedFlukeMother: {
-          name: "P2 Flukemarm",
-          spoiler: "Royal Waterways, requires Desolate Dive",
+          name: "P2 吸虫之母",
+          spoiler: "皇家水道, requires Desolate Dive",
           wiki: "Flukemarm"
         },
         pantheonEnragedGuardian: {
-          name: "P4 Enraged Guardian",
-          spoiler: "Crystal Peak, requires Monarch Wings",
+          name: "P4 暴怒守卫",
+          spoiler: "水晶山峰, requires Monarch Wings",
           id: "Zombie Beam Miner Rematch",
           sceneName: "Mines_32",
           wiki: "Enraged_Guardian"
         },
         killedNailBros: {
-          name: "Nailmasters Oro & Mato",
-          spoiler: "Godhome: Pantheon of the Master",
+          name: "骨钉兄弟奥罗与马托",
+          spoiler: "万神殿: Pantheon of the Master",
           wiki: "Brothers_Oro_%26_Mato"
         },
         killedPaintmaster: {
-          name: "Paintmaster Sheo",
-          spoiler: "Godhome: Pantheon of the Artist",
+          name: "绘画大师席奥",
+          spoiler: "万神殿: Pantheon of the Artist",
           wiki: "Paintmaster_Sheo"
         },
         killedNailsage: {
-          name: "Great Nailsage Sly",
-          spoiler: "Godhome: Pantheon of the Sage",
+          name: "伟大骨钉贤者斯莱",
+          spoiler: "万神殿: Pantheon of the Sage",
           wiki: "Great_Nailsage_Sly"
         },
         killedHollowKnightPrime: {
-          name: "Pure Vessel",
-          spoiler: "Godhome: Pantheon of the Knight",
+          name: "纯粹容器",
+          spoiler: "万神殿: Pantheon of the Knight",
           wiki: "Pure_Vessel"
         },
       },
@@ -1450,38 +1450,38 @@ const HK = {
     /* ################ Achievements Essentials -> Collectibles ################### */
 
     achievementsCollectibles: {
-      h2: "Achievements Essentials – Collectibles",
+      h2: "成就 - 搜集品",
       id: "hk-achievements-collectibles",
-      description: `Collectibles important for unlocking achievements. They don't count or matter towards 112% Game Completion.`,
+      description: `重要搜集品，用于解锁成就。它们影响或计入 112% 游戏完成度。`,
       entries: {
         hasMap: {
           name: "Inventory Map",
-          spoiler: "First map bought from Cornifer or Iselda",
+          spoiler: "First map bought from 柯尼法或伊赛尔达",
           wiki: "Map_and_Quill"
         },
         hasJournal: {
-          name: "Hunter's Journal",
-          spoiler: "Greenpath: Hunter, above Stone Sanctuary",
+          name: "猎人日志",
+          spoiler: "苍绿之径: Hunter, above Stone Sanctuary",
           wiki: "Hunter's_Journal"
         },
         hasHuntersMark: {
           name: "Hunter's Mark",
-          spoiler: "Greenpath: Hunter, complete base 146 Hunter Notes",
+          spoiler: "苍绿之径: Hunter, complete base 146 Hunter Notes",
           wiki: "Hunter's_Mark"
         },
         killsBigBuzzer: {
-          name: "Vengefly King Journal Note",
+          name: "复仇蝇之王 Journal Note",
           spoiler: "Colosseum: Trial of the Warrior",
           wiki: "Vengefly_King"
         },
         salubraBlessing: {
           name: "Salubra's Blessing",
-          spoiler: "Salubra: 800 Geo + all 40 Charms Owned",
+          spoiler: "Salubra: 800 Geo + all 40 护符 Owned",
           wiki: "Salubra's_Blessing"
         },
         gotShadeCharm: {
-          name: "Void Heart",
-          spoiler: "Equip Kingsoul Charm and find Birthplace",
+          name: "虚空之心",
+          spoiler: "Equip Kingsoul 护符 and find Birthplace",
           wiki: "Void_Heart"
         },
       },
@@ -1490,78 +1490,78 @@ const HK = {
     /* ################ Achievements Essentials -> Maps ################### */
 
     achievementsMaps: {
-      h2: "Achievements Essentials – Maps",
+      h2: "成就 - 地图",
       id: "hk-achievements-maps",
-      description: `Acquired maps are important for unlocking achievements. They don't count or matter towards 112% Game Completion.`,
+      description: `Acquired maps are important for unlocking achievements. They don't count or matter towards 112% 游戏完成度.`,
       entries: {
         mapCrossroads: {
-          name: "Map: Forgotten Crossroads",
+          name: "地图: 遗忘十字路",
           spoiler: "30/40 Geo: below Gruzzer area",
           wiki: "Forgotten_Crossroads"
         },
         mapGreenpath: {
-          name: "Map: Greenpath",
-          spoiler: "60/80 Geo: just below Greenpath entrance",
+          name: "地图: 苍绿之径",
+          spoiler: "60/80 Geo: just below 苍绿之径 entrance",
           wiki: "Greenpath"
         },
         mapFungalWastes: {
-          name: "Map: Fungal Wastes",
-          spoiler: "75/100 Geo: right of Queen's Station",
+          name: "地图: 真菌荒地",
+          spoiler: "75/100 Geo: right of 王后驿站",
           wiki: "Fungal_Wastes"
         },
         mapCliffs: {
-          name: "Map: Howling Cliffs",
+          name: "地图: 呼啸悬崖",
           spoiler: "75/100 Geo: left middle area, near Journal",
           wiki: "Howling_Cliffs"
         },
         mapCity: {
-          name: "Map: City of Tears",
-          spoiler: "90/120 Geo: left of Soul Sanctum",
+          name: "地图: 泪水之城",
+          spoiler: "90/120 Geo: left of 灵魂圣所",
           wiki: "City_of_Tears"
         },
         mapMines: {
-          name: "Map: Crystal Peak",
+          name: "地图: 水晶山峰",
           spoiler: "120/150 Geo: top left area",
           wiki: "Crystal_Peak"
         },
         mapWaterways: {
-          name: "Map: Royal Waterways",
+          name: "地图: 皇家水道",
           spoiler: "75/100 Geo: far left area, near Fungal",
           wiki: "Royal_Waterways"
         },
         mapRestingGrounds: {
-          name: "Map: Resting Grounds",
-          spoiler: "75 Geo: Iselda's Shop",
+          name: "地图: 安息之地",
+          spoiler: "75 Geo: 伊赛尔达's Shop",
           wiki: "Resting_Grounds"
         },
         mapAbyss: {
-          name: "Map: Ancient Basin",
+          name: "地图: 古老盆地",
           spoiler: "112/150 Geo: center area, near fountain",
           wiki: "Ancient_Basin"
         },
         mapOutskirts: {
-          name: "Map: Kingdom's Edge",
+          name: "地图: 王国边缘",
           spoiler: "112/150 Geo: left bottom area, inside pipe",
           wiki: "Kingdom's_Edge"
         },
         mapFogCanyon: {
-          name: "Map: Fog Canyon",
+          name: "地图: 雾之峡谷",
           spoiler: "150/200 Geo: above Teacher's Archives",
           wiki: "Fog_Canyon"
         },
         mapRoyalGardens: {
-          name: "Map: Queen's Gardens",
-          spoiler: "150/200 Geo: below Fog Canyon entrance",
+          name: "地图: 王后花园",
+          spoiler: "150/200 Geo: below 雾之峡谷 entrance",
           wiki: "Queen's_Gardens"
         },
         mapDeepnest: {
-          name: "Map: Deepnest",
-          spoiler: "38/50 Geo: near both Fungal Wastes entrances",
+          name: "地图: 深邃巢穴",
+          spoiler: "38/50 Geo: near both 真菌荒地 entrances",
           wiki: "Deepnest"
         },
         areaMaps: {
-          name: "Area Maps",
-          spoiler: "Cornifer and Iselda, 13 Area Maps total",
+          name: "所有地图",
+          spoiler: "柯尼法 and 伊赛尔达, 13 Area Maps total",
           max: 13,
           maxDefault: 13,
           wiki: "Map_and_Quill#Maps"
@@ -1572,9 +1572,9 @@ const HK = {
     /* ################ Achievements Essentials -> World Interactions ################### */
 
     achievementsWorldInteractions: {
-      h2: "Achievements Essentials – World Interactions",
+      h2: "成就 - 世界互动",
       id: "hk-achievements-world-interactions",
-      description: `Certain interactions the player can make with NPCs in the game or world objects important for unlocking achievements. They don't count or matter towards 112% Game Completion. This section includes some choices that the player can make in the game.`,
+      description: `Certain interactions the player can make with NPCs in the game or world objects important for unlocking achievements. They don't count or matter towards 112% 游戏完成度. This section includes some choices that the player can make in the game.`,
       entries: {
         quirrelEpilogueCompleted: {
           name: "Quirrel: Witness",
@@ -1583,39 +1583,39 @@ const HK = {
         },
         xunRewardGiven: {
           name: "Grey Mourner: Solace",
-          spoiler: "Resting Grounds: Complete Delicate Flower quest",
+          spoiler: "安息之地: Complete Delicate Flower quest",
           wiki: "Grey_Mourner"
         },
         zoteStatus: {
           id: "zoteStatus",
-          name: "Zote Status",
-          nameDefault: "Zote Status",
-          nameNeglect: "Zote Choice: Neglect",
-          nameRivalry: "Zote Choice: Rivalry",
-          nameTrappedVengefly: "Zote Status: Vengefly",
-          nameNotRescuedVengefly: "Zote Status: Greenpath",
-          nameTrappedDeepnest: "Zote Status: Deepnest",
-          nameColosseum: "Zote Status: Colosseum of Fools",
-          spoiler: "One achievement per save file",
-          spoilerDefault: "One achievement per save file",
+          name: "左特",
+          nameDefault: "左特",
+          nameNeglect: "左特: 忽略 不管左特让他去死",
+          nameRivalry: "左特: 恩怨 在愚人斗兽场中击败左特",
+          nameTrappedVengefly: "左特: Vengefly",
+          nameNotRescuedVengefly: "左特: 苍绿之径",
+          nameTrappedDeepnest: "左特: 深邃巢穴",
+          nameColosseum: "左特: 愚人斗兽场",
+          spoiler: "一次游戏只能拿到一个成就",
+          spoilerDefault: "一次游戏只能拿到一个成就",
           spoilerNeglect: "Left Zote to die",
-          spoilerRivalry: "Defeated Zote in the Colosseum of Fools",
-          spoilerTrappedVengefly: "Greenpath, defeat Vengefly King",
+          spoilerRivalry: "Defeated Zote in the 愚人斗兽场",
+          spoilerTrappedVengefly: "苍绿之径, defeat 复仇蝇之王",
           spoilerNotRescuedVengefly: "Check what happened with Zote",
-          spoilerTrappedDeepnest: "Deepnest, free from cobwebs",
+          spoilerTrappedDeepnest: "深邃巢穴, free from cobwebs",
           spoilerColosseum: "Trial of the Warrior",
           wiki: "Zote"
         },
         nailsmithStatus: {
           id: "nailsmithStatus",
-          name: "Nailsmith Status",
-          nameDefault: "Nailsmith Status",
-          nameHappyCouple: "Nailsmith Choice: Happy Couple",
-          namePurity: "Nailsmith Choice: Purity",
-          nameSheoHutWaiting: "Nailsmith Status: Sheo",
-          nameUpgradeNail: "Nailsmith Status: Waiting",
-          spoiler: "One achievement per save file",
-          spoilerDefault: "One achievement per save file",
+          name: "钉子匠",
+          nameDefault: "钉子匠",
+          nameHappyCouple: "钉子匠: 幸福成双",
+          namePurity: "钉子匠: 纯粹",
+          nameSheoHutWaiting: "钉子匠: 席奥",
+          nameUpgradeNail: "钉子匠: 等待",
+          spoiler: "一次游戏只能拿到一个成就",
+          spoilerDefault: "一次游戏只能拿到一个成就",
           spoilerHappyCouple: "Found a new calling",
           spoilerPurity: "Slain with Pure Nail",
           spoilerSheoHutWaiting: "Waiting at Sheo's Hut",
@@ -1623,54 +1623,54 @@ const HK = {
           wiki: "Nailsmith"
         },
         mrMushroomState1: {
-          name: "Mr Mushroom #1",
-          spoiler: "Fungal Wastes, near Cornifer",
+          name: "蘑菇先生 #1",
+          spoiler: "真菌荒地, near 柯尼法",
           wiki: "Mister_Mushroom",
           state: 2
         },
         mrMushroomState2: {
-          name: "Mr Mushroom #2",
-          spoiler: "Kingdom's Edge, near Isma's Grove",
+          name: "蘑菇先生 #2",
+          spoiler: "王国边缘, near Isma's Grove",
           wiki: "Mister_Mushroom",
           state: 3
         },
         mrMushroomState3: {
-          name: "Mr Mushroom #3",
-          spoiler: "Deepnest, near Galien",
+          name: "蘑菇先生 #3",
+          spoiler: "深邃巢穴, near Galien",
           wiki: "Mister_Mushroom",
           state: 4
         },
         mrMushroomState4: {
-          name: "Mr Mushroom #4",
-          spoiler: "Howling Cliffs, near Nailmaster Mato",
+          name: "蘑菇先生 #4",
+          spoiler: "呼啸悬崖, near Nailmaster Mato",
           wiki: "Mister_Mushroom",
           state: 5
         },
         mrMushroomState5: {
-          name: "Mr Mushroom #5",
-          spoiler: "Ancient Basin, near Monarch Wings",
+          name: "蘑菇先生 #5",
+          spoiler: "古老盆地, near Monarch Wings",
           wiki: "Mister_Mushroom",
           state: 6
         },
         mrMushroomState6: {
-          name: "Mr Mushroom #6",
-          spoiler: "Fog Canyon, near Overgrown Mound",
+          name: "蘑菇先生 #6",
+          spoiler: "雾之峡谷, near Overgrown Mound",
           wiki: "Mister_Mushroom",
           state: 7
         },
         mrMushroomState7: {
-          name: "Mr Mushroom #7",
-          spoiler: "King's Pass, game starting location",
+          name: "蘑菇先生 #7",
+          spoiler: "国王山道, game starting location",
           wiki: "Mister_Mushroom",
           state: 8
         },
         pantheonHallownest: {
-          name: "P5 Embrace the Void",
-          spoiler: "Godhome: Pantheon of Hallownest",
+          name: "P5 Embrace the Void？",
+          spoiler: "万神殿: Pantheon of Hallownest",
           wiki: "Pantheon_of_Hallownest"
         },
         /* 
-          Mr Mushroom data
+          蘑菇先生 data
           case SplitName.MrMushroom1: shouldSplit = mem.PlayerData<int>(Offset.mrMushroomState) == 2; break;
           case SplitName.MrMushroom2: shouldSplit = mem.PlayerData<int>(Offset.mrMushroomState) == 3; break;
           case SplitName.MrMushroom3: shouldSplit = mem.PlayerData<int>(Offset.mrMushroomState) == 4; break;
@@ -1679,15 +1679,15 @@ const HK = {
           case SplitName.MrMushroom6: shouldSplit = mem.PlayerData<int>(Offset.mrMushroomState) == 7; break;
           case SplitName.MrMushroom7: shouldSplit = mem.PlayerData<int>(Offset.mrMushroomState) == 8; break;
   
-          "mrMushroomState": 4, < this is the current location of Mr Mushroom (Howling Cliffs)
+          "mrMushroomState": 4, < this is the current location of 蘑菇先生 (呼啸悬崖)
   
-          1. Spawn of self, their minds unite, (Fungal Wastes)
-          2. Aside the source of acid blight, (Kingdom's Edge, near Isma's Grove)
-          3. Aglow in darkest, winding depths, (Deepnest, near Galien)
-          4. Winds all howl above fossilstone steps, (Howling Cliffs)
-          5. Monarchflys in air set still, (Ancient Basin, near the Monarch Wings location)
-          6. To Root's domain and snail once shrill, (Fog Canyon, near Overgrown Mound)
-          7. Path of Wyrm, at new lands entered, (King's Pass)
+          1. Spawn of self, their minds unite, (真菌荒地)
+          2. Aside the source of acid blight, (王国边缘, near Isma's Grove)
+          3. Aglow in darkest, winding depths, (深邃巢穴, near Galien)
+          4. Winds all howl above fossilstone steps, (呼啸悬崖)
+          5. Monarchflys in air set still, (古老盆地, near the Monarch Wings location)
+          6. To Root's domain and snail once shrill, (雾之峡谷, near Overgrown Mound)
+          7. Path of Wyrm, at new lands entered, (国王山道)
           8. There journeys end. The kingdom ventured.
           */
       },
@@ -1696,38 +1696,38 @@ const HK = {
     /* ################ Achievements Essentials -> Bosses ################### */
 
     achievementsBosses: {
-      h2: "Achievements Essentials – Bosses",
+      h2: "成就 - BOSS",
       id: "hk-achievements-bosses",
-      description: `Bosses important for unlocking achievements. They don't count or matter towards 112% Game Completion.`,
+      description: `Bosses important for unlocking achievements. They don't count or matter towards 112% 游戏完成度.`,
       entries: {
         falseKnightDreamDefeated: {
-          name: "Failed Champion",
-          spoiler: "Forgotten Crossroads, near False Knight",
+          name: "失败冠军",
+          spoiler: "遗忘十字路, near 假骑士",
           wiki: "Failed_Champion"
         },
         mageLordDreamDefeated: {
-          name: "Soul Tyrant",
-          spoiler: "City of Tears: Soul Sanctum, near Soul Master",
+          name: "灵魂暴君",
+          spoiler: "泪水之城: 灵魂圣所, near Soul Master",
           wiki: "Soul_Tyrant"
         },
         infectedKnightDreamDefeated: {
-          name: "Lost Kin",
-          spoiler: "Ancient Basin, Broken Vessel location",
+          name: "失落近亲",
+          spoiler: "古老盆地, Broken Vessel location",
           wiki: "Lost_Kin"
         },
         whiteDefenderDefeated: {
-          name: "White Defender",
-          spoiler: "Royal Waterways, Dung Defender, use Desolate Dive",
+          name: "白色防御者",
+          spoiler: "皇家水道, Dung Defender, use Desolate Dive",
           wiki: "White_Defender"
         },
         greyPrinceDefeated: {
-          name: "Grey Prince Zote",
-          spoiler: "Dirtmouth: Bretta's Room (per save choice)",
+          name: "灰色王子左特",
+          spoiler: "德特茅斯: Bretta's Room (per save choice)",
           wiki: "Grey_Prince_Zote"
         },
         killedHollowKnight: {
-          name: "Hollow Knight",
-          spoiler: "Forgotten Crossroads: Black Egg Temple",
+          name: "空洞骑士",
+          spoiler: "遗忘十字路: Black Egg Temple",
           wiki: "Hollow_Knight"
         },
         /* 
@@ -1736,19 +1736,19 @@ const HK = {
         Winged Nosk (for P5, achievements)
         */
         killedFinalBoss: {
-          name: "The Radiance",
-          spoiler: "Requires Void Heart & Dream Nail Hollow Knight",
+          name: "辐光",
+          spoiler: "Requires 虚空之心 & Dream Nail 空洞骑士",
           wiki: "Radiance"
         },
       },
     },
 
-    /* ################ Hunter's Journal ################### */
+    /* ################ 猎人日志 ################### */
 
     huntersJournal: {
-      h2: "Hunter's Journal",
+      h2: "猎人日志",
       id: "hk-journal",
-      description: `All the 146 base-game Hunter's Journal entries that are counted for Hunter's Mark and Keen Hunter/True Hunter achievements. The 17 most commonly missed Journal entries are right at the top of this list.<br>
+      description: `All the 146 base-game 猎人日志 entries that are counted for Hunter's Mark and Keen Hunter/True Hunter achievements. The 17 most commonly missed Journal entries are right at the top of this list.<br>
       Numbers above: <b>Completed/Encountered</b> of <b>146</b> Base Total<br>
       <i class="icon-ok-squared"></i>= note completed.<br>
       <i class="icon-ok-squared partial"></i>= entry discovered, but note not completed.<br>
@@ -1761,7 +1761,7 @@ const HK = {
         PrayerSlug: {
           name: "Maggot (2)",
           nameDefault: "Maggot",
-          spoiler: "Forgotten Crossroads: False Knight secret room",
+          spoiler: "遗忘十字路: 假骑士 secret room",
           wiki: "Maggot"
         },
         OrangeScuttler: {
@@ -1773,535 +1773,535 @@ const HK = {
         Pigeon: {
           name: "Maskfly (15)",
           nameDefault: "Maskfly",
-          spoiler: "Greenpath, Queen's Gardens",
+          spoiler: "苍绿之径, 王后花园",
           wiki: "Maskfly"
         },
         LazyFlyer: {
           name: "Aluba (1)",
           nameDefault: "Aluba",
-          spoiler: "Lake of Unn, Queen's Gardens (near White Lady)",
+          spoiler: "Lake of Unn, 王后花园 (near White Lady)",
           wiki: "Aluba"
         },
         AcidFlyer: {
           name: "Duranda (8)",
           nameDefault: "Duranda",
-          spoiler: "Greenpath: Nailmaster Sheo's tent path",
+          spoiler: "苍绿之径: Nailmaster Sheo's tent path",
           wiki: "Duranda"
         },
         AcidWalker: {
           name: "Durandoo (8)",
           nameDefault: "Durandoo",
-          spoiler: "Greenpath, Queen's Gardens",
+          spoiler: "苍绿之径, 王后花园",
           wiki: "Durandoo"
         },
         PlantShooter: {
           name: "Gulka (15)",
           nameDefault: "Gulka",
-          spoiler: "Greenpath: left of Stone Sanctuary",
+          spoiler: "苍绿之径: left of Stone Sanctuary",
           wiki: "Gulka"
         },
         MushroomTurret: {
           name: "Sporg (20)",
           nameDefault: "Sporg",
-          spoiler: "Fungal Wastes",
+          spoiler: "真菌荒地",
           wiki: "Sporg"
         },
         ZapBug: {
           name: "Charged Lumafly (1)",
           nameDefault: "Charged Lumafly",
-          spoiler: "Fog Canyon: Teacher's Archives (tank)",
+          spoiler: "雾之峡谷: Teacher's Archives (tank)",
           wiki: "Charged_Lumafly"
         },
         LaserBug: {
           name: "Crystal Crawler (15)",
           nameDefault: "Crystal Crawler",
-          spoiler: "Crystal Peak: try to use spells",
+          spoiler: "水晶山峰: try to use spells",
           wiki: "Crystal_Crawler"
         },
         GorgeousHusk: {
           name: "Gorgeous Husk (1)",
           nameDefault: "Gorgeous Husk",
-          spoiler: "City of Tears: secret room",
+          spoiler: "泪水之城: secret room",
           wiki: "Gorgeous_Husk"
         },
         Worm: {
           name: "Goam (10)",
           nameDefault: "Goam",
-          spoiler: "Infected Crossroads: near Fungal Wastes entrance",
+          spoiler: "Infected Crossroads: near 真菌荒地 entrance",
           wiki: "Goam"
         },
         BigCentipede: {
           name: "Garpede (10)",
           nameDefault: "Garpede",
-          spoiler: "Deepnest: right of Hot Spring",
+          spoiler: "深邃巢穴: right of Hot Spring",
           wiki: "Garpede"
         },
         AbyssTendril: {
           name: "Void Tendrils (10)",
           nameDefault: "Void Tendrils",
-          spoiler: "The Abyss: secret room near Shade Cloak",
+          spoiler: "深渊: secret room near Shade Cloak",
           wiki: "Void_Tendrils"
         },
         LobsterLancer: {
           name: "God Tamer (1)",
           nameDefault: "God Tamer",
-          spoiler: "Colosseum of Fools: Trial of the Fool boss",
+          spoiler: "愚人斗兽场: Trial of the Fool boss",
           wiki: "God_Tamer"
         },
         FatFluke: {
           name: "Flukemunga (8)",
           nameDefault: "Flukemunga",
-          spoiler: "Royal Waterways: secret area, left of bench",
+          spoiler: "皇家水道: secret area, left of bench",
           wiki: "Flukemunga"
         },
         PaleLurker: {
           name: "Pale Lurker (1)",
           nameDefault: "Pale Lurker",
-          spoiler: "Colosseum of Fools: top right breakable wall",
+          spoiler: "愚人斗兽场: top right breakable wall",
           wiki: "Pale_Lurker"
         },
         Crawler: {
           name: "Crawlid (0)",
           nameDefault: "Crawlid",
-          spoiler: "King's Pass, Forgotten Crossroads, Greenpath",
+          spoiler: "国王山道, 遗忘十字路, 苍绿之径",
           wiki: "Crawlid"
         },
         Buzzer: {
           name: "Vengefly (45)",
           nameDefault: "Vengefly",
-          spoiler: "Howling Cliffs, Forgotten Crossroads, City of Tears",
+          spoiler: "呼啸悬崖, 遗忘十字路, 泪水之城",
           wiki: "Vengefly"
         },
         Bouncer: {
           name: "Gruzzer (25)",
           nameDefault: "Gruzzer",
-          spoiler: "Forgotten Crossroads",
+          spoiler: "遗忘十字路",
           wiki: "Gruzzer"
         },
         Climber: {
           name: "Tiktik (30)",
           nameDefault: "Tiktik",
-          spoiler: "Forgotten Crossroads, Howling Cliffs, Greenpath",
+          spoiler: "遗忘十字路, 呼啸悬崖, 苍绿之径",
           wiki: "Tiktik"
         },
         Hopper: {
           name: "Hopper (25)",
           nameDefault: "Hopper",
-          spoiler: "Kingdom's Edge",
+          spoiler: "王国边缘",
           wiki: "Hopper"
         },
         Spitter: {
           name: "Aspid Hunter (20)",
           nameDefault: "Aspid Hunter",
-          spoiler: "Forgotten Crossroads, Ancient Basin, The Collector",
+          spoiler: "遗忘十字路, 古老盆地, The Collector",
           wiki: "Aspid_Hunter"
         },
         Hatcher: {
           name: "Aspid Mother (15)",
           nameDefault: "Aspid Mother",
-          spoiler: "Forgotten Crossroads, mainly next to the Tram station",
+          spoiler: "遗忘十字路, mainly next to the Tram station",
           wiki: "Aspid_Mother"
         },
         Hatchling: {
           name: "Aspid Hatchling (30)",
           nameDefault: "Aspid Hatchling",
-          spoiler: "Forgotten Crossroads, summoned by Aspid Mother",
+          spoiler: "遗忘十字路, summoned by Aspid Mother",
           wiki: "Aspid_Hatchling"
         },
         ZombieRunner: {
           name: "Wandering Husk (35)",
           nameDefault: "Wandering Husk",
-          spoiler: "Forgotten Crossroads, City of Tears, Deepnest",
+          spoiler: "遗忘十字路, 泪水之城, 深邃巢穴",
           wiki: "Wandering_Husk"
         },
         ZombieHornhead: {
           name: "Husk Hornhead (35)",
           nameDefault: "Husk Hornhead",
-          spoiler: "Forgotten Crossroads, City of Tears, Deepnest",
+          spoiler: "遗忘十字路, 泪水之城, 深邃巢穴",
           wiki: "Husk_Hornhead"
         },
         ZombieLeaper: {
           name: "Leaping Husk (35)",
           nameDefault: "Leaping Husk",
-          spoiler: "Forgotten Crossroads, City of Tears, Howling Cliffs",
+          spoiler: "遗忘十字路, 泪水之城, 呼啸悬崖",
           wiki: "Leaping_Husk"
         },
         ZombieBarger: {
           name: "Husk Bully (35)",
           nameDefault: "Husk Bully",
-          spoiler: "Forgotten Crossroads, City of Tears, Howling Cliffs",
+          spoiler: "遗忘十字路, 泪水之城, 呼啸悬崖",
           wiki: "Husk_Bully"
         },
         ZombieShield: {
           name: "Husk Warrior (10)",
           nameDefault: "Husk Warrior",
-          spoiler: "Forgotten Crossroads: right of the Stag Station",
+          spoiler: "遗忘十字路: right of the 鹿角虫车站",
           wiki: "Husk_Warrior"
         },
         ZombieGuard: {
           name: "Husk Guard (6)",
           nameDefault: "Husk Guard",
-          spoiler: "Forgotten Crossroads: upper right area",
+          spoiler: "遗忘十字路: upper right area",
           wiki: "Husk_Guard"
         },
         BigBuzzer: {
-          name: "Vengefly King (2)",
-          nameDefault: "Vengefly King",
-          spoiler: "Greenpath, Colosseum: Trial of the Warrior",
+          name: "复仇蝇之王 (2)",
+          nameDefault: "复仇蝇之王",
+          spoiler: "苍绿之径, Colosseum: Trial of the Warrior",
           wiki: "Vengefly_King"
         },
         BigFly: {
           name: "Gruz Mother (3)",
           nameDefault: "Gruz Mother",
-          spoiler: "Forgotten Crossroads: lower right area",
+          spoiler: "遗忘十字路: lower right area",
           wiki: "Gruz_Mother"
         },
         Mawlek: {
           name: "Brooding Mawlek (1)",
           nameDefault: "Brooding Mawlek",
-          spoiler: "Forgotten Crossroads: down from Grubfather",
+          spoiler: "遗忘十字路: down from 虫爷爷",
           wiki: "Brooding_Mawlek"
         },
         FalseKnight: {
-          name: "False Knight (1)",
-          nameDefault: "False Knight",
-          spoiler: "Forgotten Crossroads: middle area map symbol",
+          name: "假骑士 (1)",
+          nameDefault: "假骑士",
+          spoiler: "遗忘十字路: middle area map symbol",
           wiki: "False_Knight"
         },
         Roller: {
           name: "Baldur (20)",
           nameDefault: "Baldur",
-          spoiler: "Ancestral Mound, Crystallised Mound, Howling Cliffs",
+          spoiler: "祖先山丘, Crystallised Mound, 呼啸悬崖",
           wiki: "Baldur"
         },
         Blocker: {
           name: "Elder Baldur (1)",
           nameDefault: "Elder Baldur",
-          spoiler: "Ancestral Mound, Greenpath, Howling Cliffs",
+          spoiler: "祖先山丘, 苍绿之径, 呼啸悬崖",
           wiki: "Elder_Baldur"
         },
         MossmanRunner: {
           name: "Mosskin (25)",
           nameDefault: "Mosskin",
-          spoiler: "Greenpath: usually near a Volatile Mosskin",
+          spoiler: "苍绿之径: usually near a Volatile Mosskin",
           wiki: "Mosskin"
         },
         MossmanShaker: {
           name: "Volatile Mosskin (25)",
           nameDefault: "Volatile Mosskin",
-          spoiler: "Greenpath",
+          spoiler: "苍绿之径",
           wiki: "Volatile_Mosskin"
         },
         Mosquito: {
           name: "Squit (25)",
           nameDefault: "Squit",
-          spoiler: "Greenpath and the Overgrown Mound",
+          spoiler: "苍绿之径 and the Overgrown Mound",
           wiki: "Squit"
         },
         BlobFlyer: {
           name: "Obble (20)",
           nameDefault: "Obble",
-          spoiler: "Greenpath: top left of Stone Sanctuary",
+          spoiler: "苍绿之径: top left of Stone Sanctuary",
           wiki: "Obble"
         },
         FungifiedZombie: {
           name: "Fungified Husk (10)",
           nameDefault: "Fungified Husk",
-          spoiler: "Found only in Fungal Wastes",
+          spoiler: "Found only in 真菌荒地",
           wiki: "Fungified_Husk"
         },
         MossCharger: {
           name: "Moss Charger (15)",
           nameDefault: "Moss Charger",
-          spoiler: "Found only in Greenpath",
+          spoiler: "Found only in 苍绿之径",
           wiki: "Moss_Charger"
         },
         MegaMossCharger: {
-          name: "Massive Moss Charger (1)",
-          nameDefault: "Massive Moss Charger",
-          spoiler: "Greenpath: bottom left near Fog Canyon",
+          name: "大型苔藓冲锋者 (1)",
+          nameDefault: "大型苔藓冲锋者",
+          spoiler: "苍绿之径: bottom left near 雾之峡谷",
           wiki: "Massive_Moss_Charger"
         },
         SnapperTrap: {
           name: "Fool Eater (15)",
           nameDefault: "Fool Eater",
-          spoiler: "Greenpath and Queen's Gardens",
+          spoiler: "苍绿之径 and 王后花园",
           wiki: "Fool_Eater"
         },
         MossKnight: {
           name: "Moss Knight (8)",
           nameDefault: "Moss Knight",
-          spoiler: "Found only in Greenpath",
+          spoiler: "Found only in 苍绿之径",
           wiki: "Moss_Knight"
         },
         GrassHopper: {
           name: "Loodle (15)",
           nameDefault: "Loodle",
-          spoiler: "Found only in Queen's Gardens",
+          spoiler: "Found only in 王后花园",
           wiki: "Loodle"
         },
         MossFlyer: {
           name: "Mossfly (25)",
           nameDefault: "Mossfly",
-          spoiler: "Queen's Gardens, Overgrown Mound",
+          spoiler: "王后花园, Overgrown Mound",
           wiki: "Mossfly"
         },
         MossKnightFat: {
           name: "Mossy Vagabond (10)",
           nameDefault: "Mossy Vagabond",
-          spoiler: "Queen's Gardens: near exit to Fungal Wastes",
+          spoiler: "王后花园: near exit to 真菌荒地",
           wiki: "Mossy_Vagabond"
         },
         MossWalker: {
           name: "Mosscreep (30)",
           nameDefault: "Mosscreep",
-          spoiler: "Greenpath and Queen's Gardens",
+          spoiler: "苍绿之径 and 王后花园",
           wiki: "Mosscreep"
         },
         InfectedKnight: {
           name: "Broken Vessel (1)",
           nameDefault: "Broken Vessel",
-          spoiler: "Ancient Basin: far left, needs Crystal Heart",
+          spoiler: "古老盆地: far left, needs Crystal Heart",
           wiki: "Broken_Vessel"
         },
         Jellyfish: {
           name: "Ooma (12)",
           nameDefault: "Ooma",
-          spoiler: "Fog Canyon: almost everywhere",
+          spoiler: "雾之峡谷: almost everywhere",
           wiki: "Ooma"
         },
         JellyCrawler: {
           name: "Uoma (20)",
           nameDefault: "Uoma",
-          spoiler: "Fog Canyon: almost everywhere",
+          spoiler: "雾之峡谷: almost everywhere",
           wiki: "Uoma"
         },
         MegaJellyfish: {
           name: "Uumuu (1)",
           nameDefault: "Uumuu",
-          spoiler: "Fog Canyon: inside Teacher's Archives",
+          spoiler: "雾之峡谷: inside Teacher's Archives",
           wiki: "Uumuu"
         },
         FungoonBaby: {
           name: "Fungling (30)",
           nameDefault: "Fungling",
-          spoiler: "Fungal Wastes, Fungal Core, Junk Pit",
+          spoiler: "真菌荒地, Fungal Core, 垃圾坑",
           wiki: "Fungling"
         },
         Mantis: {
           name: "Mantis Warrior (25)",
           nameDefault: "Mantis Warrior",
-          spoiler: "Fungal Wastes: Mantis Village",
+          spoiler: "真菌荒地: Mantis Village",
           wiki: "Mantis_Warrior"
         },
         MushroomRoller: {
           name: "Shrumal Warrior (20)",
           nameDefault: "Shrumal Warrior",
-          spoiler: "Fungal Wastes, Fungal Core",
+          spoiler: "真菌荒地, Fungal Core",
           wiki: "Shrumal_Warrior"
         },
         MushroomBrawler: {
           name: "Shrumal Ogre (8)",
           nameDefault: "Shrumal Ogre",
-          spoiler: "Fungal Wastes, bottom of Fungal Core",
+          spoiler: "真菌荒地, bottom of Fungal Core",
           wiki: "Shrumal_Ogre"
         },
         MushroomBaby: {
           name: "Shrumeling (20)",
           nameDefault: "Shrumeling",
-          spoiler: "Fungal Wastes, near Shrumal Warriors",
+          spoiler: "真菌荒地, near Shrumal Warriors",
           wiki: "Shrumeling"
         },
         MantisFlyerChild: {
           name: "Mantis Youth (25)",
           nameDefault: "Mantis Youth",
-          spoiler: "Fungal Wastes: Mantis Village",
+          spoiler: "真菌荒地: Mantis Village",
           wiki: "Mantis_Youth"
         },
         FungusFlyer: {
           name: "Fungoon (20)",
           nameDefault: "Fungoon",
-          spoiler: "Found only in Fungal Wastes",
+          spoiler: "Found only in 真菌荒地",
           wiki: "Fungoon"
         },
         FungCrawler: {
           name: "Ambloom (15)",
           nameDefault: "Ambloom",
-          spoiler: "Fungal Wastes, Fungal Core",
+          spoiler: "真菌荒地, Fungal Core",
           wiki: "Ambloom"
         },
         MantisLord: {
           name: "Mantis Lords (1)",
           nameDefault: "Mantis Lords",
-          spoiler: "Fungal Wastes: Mantis Village, switch lever",
+          spoiler: "真菌荒地: Mantis Village, switch lever",
           wiki: "Mantis_Lords"
         },
         BlackKnight: {
           name: "Watcher Knight (10)",
           nameDefault: "Watcher Knight",
-          spoiler: "City of Tears: Watcher's Spire, Monarch Wings",
+          spoiler: "泪水之城: Watcher's Spire, Monarch Wings",
           wiki: "Watcher_Knight"
         },
         ElectricMage: {
           name: "Volt Twister (6)",
           nameDefault: "Volt Twister",
-          spoiler: "Colosseum of Fools: Trial of the Fool",
+          spoiler: "愚人斗兽场: Trial of the Fool",
           wiki: "Volt_Twister"
         },
         Mage: {
           name: "Soul Twister (20)",
           nameDefault: "Soul Twister",
-          spoiler: "City of Tears: Soul Sanctum, Trial of the Fool",
+          spoiler: "泪水之城: 灵魂圣所, Trial of the Fool",
           wiki: "Soul_Twister"
         },
         MageKnight: {
           name: "Soul Warrior (2)",
           nameDefault: "Soul Warrior",
-          spoiler: "City of Tears: Soul Sanctum, Trial of the Fool",
+          spoiler: "泪水之城: 灵魂圣所, Trial of the Fool",
           wiki: "Soul_Warrior"
         },
         RoyalDandy: {
           name: "Husk Dandy (25)",
           nameDefault: "Husk Dandy",
-          spoiler: "City of Tears: right section",
+          spoiler: "泪水之城: right section",
           wiki: "Husk_Dandy"
         },
         RoyalCoward: {
           name: "Cowardly Husk (25)",
           nameDefault: "Cowardly Husk",
-          spoiler: "City of Tears: right section",
+          spoiler: "泪水之城: right section",
           wiki: "Cowardly_Husk"
         },
         RoyalPlumper: {
           name: "Gluttonous Husk (25)",
           nameDefault: "Gluttonous Husk",
-          spoiler: "City of Tears: right section",
+          spoiler: "泪水之城: right section",
           wiki: "Gluttonous_Husk"
         },
         FlyingSentrySword: {
           name: "Winged Sentry (30)",
           nameDefault: "Winged Sentry",
-          spoiler: "City of Tears, Royal Waterways, Ancient Basin",
+          spoiler: "泪水之城, 皇家水道, 古老盆地",
           wiki: "Winged_Sentry"
         },
         FlyingSentryJavelin: {
           name: "Lance Sentry (25)",
           nameDefault: "Lance Sentry",
-          spoiler: "City of Tears, Royal Waterways, Ancient Basin",
+          spoiler: "泪水之城, 皇家水道, 古老盆地",
           wiki: "Lance_Sentry"
         },
         Sentry: {
           name: "Husk Sentry (25)",
           nameDefault: "Husk Sentry",
-          spoiler: "City of Tears, Royal Waterways, Isma's Grove",
+          spoiler: "泪水之城, 皇家水道, Isma's Grove",
           wiki: "Husk_Sentry"
         },
         SentryFat: {
           name: "Heavy Sentry (20)",
           nameDefault: "Heavy Sentry",
-          spoiler: "Found only in City of Tears",
+          spoiler: "Found only in 泪水之城",
           wiki: "Heavy_Sentry"
         },
         MageBlob: {
           name: "Mistake (25)",
           nameDefault: "Mistake",
-          spoiler: "City of Tears: Soul Sanctum, Trial of the Fool",
+          spoiler: "泪水之城: 灵魂圣所, Trial of the Fool",
           wiki: "Mistake"
         },
         GreatShieldZombie: {
           name: "Great Husk Sentry (10)",
           nameDefault: "Great Husk Sentry",
-          spoiler: "City of Tears, Watcher's Spire",
+          spoiler: "泪水之城, Watcher's Spire",
           wiki: "Great_Husk_Sentry"
         },
         JarCollector: {
           name: "The Collector (1)",
           nameDefault: "The Collector",
-          spoiler: "City of Tears: Tower of Love, Love Key",
+          spoiler: "泪水之城: Tower of Love, Love Key",
           wiki: "The_Collector"
         },
         MageBalloon: {
           name: "Folly (15)",
           nameDefault: "Folly",
-          spoiler: "City of Tears: Soul Sanctum, Trial of the Fool",
+          spoiler: "泪水之城: 灵魂圣所, Trial of the Fool",
           wiki: "Folly"
         },
         MageLord: {
           name: "Soul Master (1)",
           nameDefault: "Soul Master",
-          spoiler: "City of Tears: Soul Sanctum",
+          spoiler: "泪水之城: 灵魂圣所",
           wiki: "Soul_Master"
         },
         FlipHopper: {
           name: "Pilflip (20)",
           nameDefault: "Pilflip",
-          spoiler: "Royal Waterways: central part",
+          spoiler: "皇家水道: central part",
           wiki: "Pilflip"
         },
         Flukeman: {
           name: "Flukemon (20)",
           nameDefault: "Flukemon",
-          spoiler: "Royal Waterways: central part",
+          spoiler: "皇家水道: central part",
           wiki: "Flukemon"
         },
         Inflater: {
           name: "Hwurmp (20)",
           nameDefault: "Hwurmp",
-          spoiler: "Royal Waterways, Isma's Grove",
+          spoiler: "皇家水道, Isma's Grove",
           wiki: "Hwurmp"
         },
         Flukefly: {
           name: "Flukefey (15)",
           nameDefault: "Flukefey",
-          spoiler: "Found only in Royal Waterways",
+          spoiler: "Found only in 皇家水道",
           wiki: "Flukefey"
         },
         FlukeMother: {
-          name: "Flukemarm (1)",
-          nameDefault: "Flukemarm",
-          spoiler: "Royal Waterways: bottom, Desolate Dive",
+          name: "吸虫之母 (1)",
+          nameDefault: "吸虫之母",
+          spoiler: "皇家水道: bottom, Desolate Dive",
           wiki: "Flukemarm"
         },
         DungDefender: {
           name: "Dung Defender (1)",
           nameDefault: "Dung Defender",
-          spoiler: "Royal Waterways: right area",
+          spoiler: "皇家水道: right area",
           wiki: "Dung_Defender"
         },
         CrystalCrawler: {
           name: "Glimback (15)",
           nameDefault: "Glimback",
-          spoiler: "Crystal Peak, Forgotten Crossroads toll booth",
+          spoiler: "水晶山峰, 遗忘十字路 toll booth",
           wiki: "Glimback"
         },
         CrystalFlyer: {
           name: "Crystal Hunter (20)",
           nameDefault: "Crystal Hunter",
-          spoiler: "Crystal Peak, Crystallized Mound",
+          spoiler: "水晶山峰, Crystallized Mound",
           wiki: "Crystal_Hunter"
         },
         BeamMiner: {
           name: "Crystallised Husk (15)",
           nameDefault: "Crystallised Husk",
-          spoiler: "Crystal Peak: top right areas",
+          spoiler: "水晶山峰: top right areas",
           wiki: "Crystallised_Husk"
         },
         ZombieMiner: {
           name: "Husk Miner (20)",
           nameDefault: "Husk Miner",
-          spoiler: "Found only in Crystal Peak",
+          spoiler: "Found only in 水晶山峰",
           wiki: "Husk_Miner"
         },
         MegaBeamMiner: {
-          name: "Crystal Guardian (2)",
-          nameDefault: "Crystal Guardian",
-          spoiler: "Crystal Peak: center bench area",
+          name: "水晶守卫 (2)",
+          nameDefault: "水晶守卫",
+          spoiler: "水晶山峰: center bench area",
           wiki: "Crystal_Guardian"
         },
         MinesCrawler: {
           name: "Shardmite (15)",
           nameDefault: "Shardmite",
-          spoiler: "Found only in Crystal Peak",
+          spoiler: "Found only in 水晶山峰",
           wiki: "Shardmite"
         },
         AngryBuzzer: {
@@ -2331,61 +2331,61 @@ const HK = {
         BabyCentipede: {
           name: "Dirtcarver (35)",
           nameDefault: "Dirtcarver",
-          spoiler: "Deepnest, Carver Hatcher",
+          spoiler: "深邃巢穴, Carver Hatcher",
           wiki: "Dirtcarver"
         },
         CentipedeHatcher: {
           name: "Carver Hatcher (15)",
           nameDefault: "Carver Hatcher",
-          spoiler: "Deepnest: top area Failed Tramway",
+          spoiler: "深邃巢穴: top area Failed Tramway",
           wiki: "Carver_Hatcher"
         },
         LesserMawlek: {
           name: "Lesser Mawlek (10)",
           nameDefault: "Lesser Mawlek",
-          spoiler: "Ancient Basin: left of tram, Trial of the Fool",
+          spoiler: "古老盆地: left of tram, Trial of the Fool",
           wiki: "Lesser_Mawlek"
         },
         SlashSpider: {
           name: "Stalking Devout (15)",
           nameDefault: "Stalking Devout",
-          spoiler: "Deepnest: left area, Distant Village",
+          spoiler: "深邃巢穴: left area, 遥远的村庄",
           wiki: "Stalking_Devout"
         },
         SpiderCorpse: {
           name: "Corpse Creeper (15)",
           nameDefault: "Corpse Creeper",
-          spoiler: "Found only in Deepnest: middle area",
+          spoiler: "Found only in 深邃巢穴: middle area",
           wiki: "Corpse_Creeper"
         },
         ShootSpider: {
           name: "Deephunter (20)",
           nameDefault: "Deephunter",
-          spoiler: "Found only in Deepnest",
+          spoiler: "Found only in 深邃巢穴",
           wiki: "Deephunter"
         },
         MiniSpider: {
           name: "Deepling (25)",
           nameDefault: "Deepling",
-          spoiler: "Deepnest: left areas",
+          spoiler: "深邃巢穴: left areas",
           wiki: "Deepling"
         },
         SpiderFlyer: {
           name: "Little Weaver (20)",
           nameDefault: "Little Weaver",
-          spoiler: "Deepnest: left areas",
+          spoiler: "深邃巢穴: left areas",
           wiki: "Little_Weaver"
         },
         MimicSpider: {
           name: "Nosk (1)",
           nameDefault: "Nosk",
-          spoiler: "Deepnest: left of Hot Spring, use Crystal Heart",
+          spoiler: "深邃巢穴: left of Hot Spring, use Crystal Heart",
           wiki: "Nosk"
         },
         BeeHatchling: {
           name: "Hiveling (30)",
           nameDefault: "Hiveling",
-          spoiler: "The Hive, Kingdom's Edge",
+          spoiler: "蜂巢, 王国边缘",
           wiki: "Hiveling"
         },
         BeeStinger: {
@@ -2403,37 +2403,37 @@ const HK = {
         HiveKnight: {
           name: "Hive Knight (1)",
           nameDefault: "Hive Knight",
-          spoiler: "The Hive: right area",
+          spoiler: "蜂巢: right area",
           wiki: "Hive_Knight"
         },
         BlowFly: {
           name: "Boofly (20)",
           nameDefault: "Boofly",
-          spoiler: "Found only in Kingdom's Edge",
+          spoiler: "Found only in 王国边缘",
           wiki: "Boofly"
         },
         CeilingDropper: {
           name: "Belfly (15)",
           nameDefault: "Belfly",
-          spoiler: "City of Tears, Royal Waterways, Kingdom's Edge",
+          spoiler: "泪水之城, 皇家水道, 王国边缘",
           wiki: "Belfly"
         },
         GiantHopper: {
           name: "Great Hopper (10)",
           nameDefault: "Great Hopper",
-          spoiler: "Kingdom's Edge, Trial of the Conqueror",
+          spoiler: "王国边缘, Trial of the Conqueror",
           wiki: "Great_Hopper"
         },
         GrubMimic: {
           name: "Grub Mimic (5)",
           nameDefault: "Grub Mimic",
-          spoiler: "Crystal Peak, Deepnest, Trial of the Conqueror",
+          spoiler: "水晶山峰, 深邃巢穴, Trial of the Conqueror",
           wiki: "Grub_Mimic"
         },
         MawlekTurret: {
           name: "Mawlurk (10)",
           nameDefault: "Mawlurk",
-          spoiler: "Ancient Basin: left area",
+          spoiler: "古老盆地: left area",
           wiki: "Mawlurk"
         },
         HealthScuttler: {
@@ -2451,181 +2451,181 @@ const HK = {
         Hornet: {
           name: "Hornet (2)",
           nameDefault: "Hornet",
-          spoiler: "Greenpath, Kingdom's Edge, Godhome",
+          spoiler: "苍绿之径, 王国边缘, 万神殿",
           wiki: "Hornet"
         },
         AbyssCrawler: {
           name: "Shadow Creeper (20)",
           nameDefault: "Shadow Creeper",
-          spoiler: "Ancient Basin, the Abyss",
+          spoiler: "古老盆地, 深渊",
           wiki: "Shadow_Creeper"
         },
         SuperSpitter: {
           name: "Primal Aspid (25)",
           nameDefault: "Primal Aspid",
-          spoiler: "Kingdom's Edge, Colosseum of Fools Trials",
+          spoiler: "王国边缘, 愚人斗兽场 Trials",
           wiki: "Primal_Aspid"
         },
         Sibling: {
           name: "Sibling (25)",
           nameDefault: "Sibling",
-          spoiler: "The Abyss, lighthouse, Birthplace",
+          spoiler: "深渊, lighthouse, Birthplace",
           wiki: "Sibling"
         },
         PalaceFly: {
           name: "Wingmould (10)",
           nameDefault: "Wingmould",
-          spoiler: "Found only in the White Palace",
+          spoiler: "Found only in the 白色宫殿",
           wiki: "Wingmould"
         },
         EggSac: {
           name: "Bluggsac (5)",
           nameDefault: "Bluggsac",
-          spoiler: "Royal Waterways, Crystal Peak, Deepnest, Hallownest",
+          spoiler: "皇家水道, 水晶山峰, 深邃巢穴, Hallownest",
           wiki: "Bluggsac"
         },
         Mummy: {
           name: "Entombed Husk (10)",
           nameDefault: "Entombed Husk",
-          spoiler: "Resting Grounds: bottom area tombs",
+          spoiler: "安息之地: bottom area tombs",
           wiki: "Entombed_Husk"
         },
         OrangeBalloon: {
           name: "Infected Balloon (10)",
           nameDefault: "Infected Balloon",
-          spoiler: "Ancient Basin: left areas",
+          spoiler: "古老盆地: left areas",
           wiki: "Infected_Balloon"
         },
         HeavyMantis: {
           name: "Mantis Traitor (15)",
           nameDefault: "Mantis Traitor",
-          spoiler: "Queen's Gardens, Trial of the Fool",
+          spoiler: "王后花园, Trial of the Fool",
           wiki: "Mantis_Traitor"
         },
         TraitorLord: {
           name: "Traitor Lord (1)",
           nameDefault: "Traitor Lord",
-          spoiler: "Queen's Gardens: upper left, Shade Cloak",
+          spoiler: "王后花园: upper left, Shade Cloak",
           wiki: "Traitor_Lord"
         },
         MantisHeavyFlyer: {
           name: "Mantis Petra (16)",
           nameDefault: "Mantis Petra",
-          spoiler: "Queen's Gardens, Trial of the Fool",
+          spoiler: "王后花园, Trial of the Fool",
           wiki: "Mantis_Petra"
         },
         GardenZombie: {
           name: "Spiny Husk (20)",
           nameDefault: "Spiny Husk",
-          spoiler: "Found only in Queen's Gardens",
+          spoiler: "Found only in 王后花园",
           wiki: "Spiny_Husk"
         },
         RoyalGuard: {
           name: "Kingsmould (2)",
           nameDefault: "Kingsmould",
-          spoiler: "Found only in the White Palace",
+          spoiler: "Found only in the 白色宫殿",
           wiki: "Kingsmould"
         },
         WhiteRoyal: {
           name: "Royal Retainer (10)",
           nameDefault: "Royal Retainer",
-          spoiler: "Found only in the White Palace",
+          spoiler: "Found only in the 白色宫殿",
           wiki: "Royal_Retainer"
         },
         Oblobble: {
-          name: "Oblobble (3)",
-          nameDefault: "Oblobble",
-          spoiler: "Trial of the Conqueror, Godhome",
+          name: "奥波路波 (3)",
+          nameDefault: "奥波路波",
+          spoiler: "Trial of the Conqueror, 万神殿",
           wiki: "Oblobbles"
         },
         Blobble: {
           name: "Battle Obble (15)",
           nameDefault: "Battle Obble",
-          spoiler: "Colosseum of Fools: Trials #2 and #3",
+          spoiler: "愚人斗兽场: Trials #2 and #3",
           wiki: "Battle_Obble"
         },
         ColMosquito: {
           name: "Armoured Squit (15)",
           nameDefault: "Armoured Squit",
-          spoiler: "Colosseum of Fools: Trials #2 and #3",
+          spoiler: "愚人斗兽场: Trials #2 and #3",
           wiki: "Armoured_Squit"
         },
         ColRoller: {
           name: "Sharp Baldur (20)",
           nameDefault: "Sharp Baldur",
-          spoiler: "Colosseum of Fools: Trials #1 and #3",
+          spoiler: "愚人斗兽场: Trials #1 and #3",
           wiki: "Sharp_Baldur"
         },
         ColFlyingSentry: {
           name: "Winged Fool (25)",
           nameDefault: "Winged Fool",
-          spoiler: "Colosseum of Fools: Trials #2 and #3",
+          spoiler: "愚人斗兽场: Trials #2 and #3",
           wiki: "Winged_Fool"
         },
         ColMiner: {
           name: "Sturdy Fool (25)",
           nameDefault: "Sturdy Fool",
-          spoiler: "Colosseum of Fools: Trials #1 and #3",
+          spoiler: "愚人斗兽场: Trials #1 and #3",
           wiki: "Sturdy_Fool"
         },
         ColShield: {
           name: "Shielded Fool (25)",
           nameDefault: "Shielded Fool",
-          spoiler: "Colosseum of Fools: All Trials",
+          spoiler: "愚人斗兽场: All Trials",
           wiki: "Shielded_Fool"
         },
         ColWorm: {
           name: "Heavy Fool (20)",
           nameDefault: "Heavy Fool",
-          spoiler: "Colosseum of Fools: Trials #2 and #3",
+          spoiler: "愚人斗兽场: Trials #2 and #3",
           wiki: "Heavy_Fool"
         },
         ColHopper: {
           name: "Death Loodle (15)",
           nameDefault: "Death Loodle",
-          spoiler: "Colosseum of Fools: Trial of the Fool",
+          spoiler: "愚人斗兽场: Trial of the Fool",
           wiki: "Death_Loodle"
         },
         GhostAladar: {
           name: "Gorb (1)",
           nameDefault: "Gorb",
-          spoiler: "Howling Cliffs: top area",
+          spoiler: "呼啸悬崖: top area",
           wiki: "Gorb"
         },
         GhostXero: {
           name: "Xero (1)",
           nameDefault: "Xero",
-          spoiler: "Resting Grounds: left area",
+          spoiler: "安息之地: left area",
           wiki: "Xero"
         },
         GhostHu: {
           name: "Elder Hu (1)",
           nameDefault: "Elder Hu",
-          spoiler: "Fungal Wastes: above acid bridge",
+          spoiler: "真菌荒地: above acid bridge",
           wiki: "Elder_Hu"
         },
         GhostMarmu: {
           name: "Marmu (1)",
           nameDefault: "Marmu",
-          spoiler: "Queen's Gardens: left of Stag Station",
+          spoiler: "王后花园: left of 鹿角虫车站",
           wiki: "Marmu"
         },
         GhostNoEyes: {
           name: "No Eyes (1)",
           nameDefault: "No Eyes",
-          spoiler: "Greenpath: Stone Sanctuary, requires Lumafly Lantern",
+          spoiler: "苍绿之径: Stone Sanctuary, requires 光蝇灯笼",
           wiki: "No_Eyes"
         },
         GhostMarkoth: {
           name: "Markoth (1)",
           nameDefault: "Markoth",
-          spoiler: "Kingdom's Edge, requires Shade Cloak",
+          spoiler: "王国边缘, requires Shade Cloak",
           wiki: "Markoth"
         },
         GhostGalien: {
           name: "Galien (1)",
           nameDefault: "Galien",
-          spoiler: "Deepnest: below Failed Tramway",
+          spoiler: "深邃巢穴: below Failed Tramway",
           wiki: "Galien"
         },
         ShadeJournal: {
@@ -2642,18 +2642,18 @@ const HK = {
     huntersJournalOptional: {
       h2: "Optional Journal Entries",
       id: "hk-journal-optional",
-      description: "The remaining Hunter's Journal entries which don't count for Hunter's Mark and Keen/True Hunter achievements. Note: 6 entries can be permanently unobtainable, depending on your choices in the save file (<span class='spoiler-span blurred'>Grey Prince Zote, all 3 Zotelings, Grimmkin Nightmare and Nightmare King</span>).",
+      description: "The remaining 猎人日志 entries which don't count for Hunter's Mark and Keen/True Hunter achievements. Note: 6 entries can be permanently unobtainable, depending on your choices in the save file (<span class='spoiler-span blurred'>灰色王子左特, all 3 Zotelings, Grimmkin Nightmare and Nightmare King</span>).",
       entries: {
         HunterMark: {
           name: "Hunter's Mark (1)",
           nameDefault: "Hunter's Mark",
-          spoiler: "Greenpath: Hunter, complete base 146 Hunter Notes",
+          spoiler: "苍绿之径: Hunter, complete base 146 Hunter Notes",
           wiki: "Hunter's_Mark"
         },
         MenderBug: {
           name: "Menderbug (1)",
           nameDefault: "Menderbug",
-          spoiler: "Forgotten Crossroads: destroy sign",
+          spoiler: "遗忘十字路: destroy sign",
           wiki: "Menderbug"
         },
         Zote: {
@@ -2663,105 +2663,105 @@ const HK = {
           wiki: "Zote"
         },
         HollowKnight: {
-          name: "Hollow Knight (1)",
-          nameDefault: "Hollow Knight",
-          spoiler: "Forgotten Crossroads: Black Egg Temple",
+          name: "空洞骑士 (1)",
+          nameDefault: "空洞骑士",
+          spoiler: "遗忘十字路: Black Egg Temple",
           wiki: "Hollow_Knight"
         },
         FinalBoss: {
-          name: "The Radiance (1)",
-          nameDefault: "The Radiance",
-          spoiler: "Requires Void Heart & Dream Nail Hollow Knight",
+          name: "辐光 (1)",
+          nameDefault: "辐光",
+          spoiler: "Requires 虚空之心 & Dream Nail 空洞骑士",
           wiki: "Radiance"
         },
         WhiteDefender: {
-          name: "White Defender (1)",
-          nameDefault: "White Defender",
-          spoiler: "Royal Waterways: Dung Defender, Desolate Dive",
+          name: "白色防御者 (1)",
+          nameDefault: "白色防御者",
+          spoiler: "皇家水道: Dung Defender, Desolate Dive",
           wiki: "White_Defender"
         },
         GreyPrince: {
-          name: "Grey Prince Zote (1)",
-          nameDefault: "Grey Prince Zote",
-          spoiler: "Dirtmouth: Bretta's Room (per save choice)",
+          name: "灰色王子左特 (1)",
+          nameDefault: "灰色王子左特",
+          spoiler: "德特茅斯: Bretta's Room (per save choice)",
           wiki: "Grey_Prince_Zote"
         },
         ZotelingBalloon: {
           name: "Volatile Zoteling (1)",
           nameDefault: "Volatile Zoteling",
-          spoiler: "Only from Grey Prince Zote, Battle 3+",
+          spoiler: "Only from 灰色王子左特, Battle 3+",
           wiki: "Volatile_Zoteling"
         },
         ZotelingHopper: {
           name: "Hopping Zoteling (1)",
           nameDefault: "Hopping Zoteling",
-          spoiler: "Only from Grey Prince Zote, Battle 2+",
+          spoiler: "Only from 灰色王子左特, Battle 2+",
           wiki: "Hopping_Zoteling"
         },
         ZotelingBuzzer: {
           name: "Winged Zoteling (1)",
           nameDefault: "Winged Zoteling",
-          spoiler: "Only from Grey Prince Zote, Battle 1+",
+          spoiler: "Only from 灰色王子左特, Battle 1+",
           wiki: "Winged_Zoteling"
         },
         FlameBearerSmall: {
           name: "Grimmkin Novice (3)",
           nameDefault: "Grimmkin Novice",
-          spoiler: "Greenpath, Crystal Peak, City of Tears",
+          spoiler: "苍绿之径, 水晶山峰, 泪水之城",
           wiki: "Grimmkin_Novice"
         },
         FlameBearerMed: {
           name: "Grimmkin Master (4)",
           nameDefault: "Grimmkin Master",
-          spoiler: "King's Pass, Resting Grounds, Kingdom's Edge",
+          spoiler: "国王山道, 安息之地, 王国边缘",
           wiki: "Grimmkin_Master"
         },
         FlameBearerLarge: {
           name: "Grimmkin Nightmare (5)",
           nameDefault: "Grimmkin Nightmare",
-          spoiler: "Fungal Core, Royal Waterways, Hive",
+          spoiler: "Fungal Core, 皇家水道, Hive",
           wiki: "Grimmkin_Nightmare"
         },
         Grimm: {
           name: "Troupe Master Grimm (1)",
           nameDefault: "Troupe Master Grimm",
-          spoiler: "Dirtmouth: collect 6 flames",
+          spoiler: "德特茅斯: collect 6 flames",
           wiki: "Grimm"
         },
         NightmareGrimm: {
           name: "Nightmare King (1)",
           nameDefault: "Nightmare King",
-          spoiler: "Dirtmouth: collect 9 flames",
+          spoiler: "德特茅斯: collect 9 flames",
           wiki: "Nightmare_King"
         },
         BindingSeal: {
           name: "Seal of Binding (1)",
           nameDefault: "Seal of Binding",
-          spoiler: "White Palace: Path of Pain completion",
+          spoiler: "白色宫殿: Path of Pain completion",
           wiki: "Seal_of_Binding"
         },
         NailBros: {
-          name: "Nailmasters Oro & Mato (1)",
-          nameDefault: "Nailmasters Oro & Mato",
-          spoiler: "Godhome: Pantheon of the Master",
+          name: "骨钉兄弟奥罗与马托 (1)",
+          nameDefault: "骨钉兄弟奥罗与马托",
+          spoiler: "万神殿: Pantheon of the Master",
           wiki: "Brothers_Oro_%26_Mato"
         },
         Paintmaster: {
-          name: "Paintmaster Sheo (1)",
-          nameDefault: "Paintmaster Sheo",
-          spoiler: "Godhome: Pantheon of the Artist",
+          name: "绘画大师席奥 (1)",
+          nameDefault: "绘画大师席奥",
+          spoiler: "万神殿: Pantheon of the Artist",
           wiki: "Paintmaster_Sheo"
         },
         Nailsage: {
-          name: "Great Nailsage Sly (1)",
-          nameDefault: "Great Nailsage Sly",
-          spoiler: "Godhome: Pantheon of the Sage",
+          name: "伟大骨钉贤者斯莱 (1)",
+          nameDefault: "伟大骨钉贤者斯莱",
+          spoiler: "万神殿: Pantheon of the Sage",
           wiki: "Great_Nailsage_Sly"
         },
         HollowKnightPrime: {
-          name: "Pure Vessel (1)",
-          nameDefault: "Pure Vessel",
-          spoiler: "Godhome: Pantheon of the Knight",
+          name: "纯粹容器 (1)",
+          nameDefault: "纯粹容器",
+          spoiler: "万神殿: Pantheon of the Knight",
           wiki: "Pure_Vessel"
         },
         GodseekerMask: {
@@ -2773,404 +2773,404 @@ const HK = {
         VoidIdol_1: {
           name: "Void Idol Attuned (1)",
           nameDefault: "Void Idol Attuned",
-          spoiler: "Hall of Gods: Defeat All (Attuned)",
+          spoiler: "诸神堂: Defeat All (Attuned)",
           wiki: "Void_Idol"
         },
         VoidIdol_2: {
           name: "Void Idol Ascended (1)",
           nameDefault: "Void Idol Ascended",
-          spoiler: "Hall of Gods: Defeat All (Ascended)",
+          spoiler: "诸神堂: Defeat All (Ascended)",
           wiki: "Void_Idol"
         },
         VoidIdol_3: {
           name: "Void Idol Radiant (1)",
           nameDefault: "Void Idol Radiant",
-          spoiler: "Hall of Gods: Defeat All (Radiant)",
+          spoiler: "诸神堂: Defeat All (Radiant)",
           wiki: "Void_Idol"
         },
       },
     },
 
-    /* ###################################### Collectibles -> Charm Notches ############################################## */
+    /* ###################################### Collectibles -> 护符 Notches ############################################## */
 
     charmNotches: {
-      h2: "Charm Notches",
+      h2: "护符槽",
       id: "hk-charm-notches",
-      description: `Charm Notches are required to equip Charms. They can be found in the game world, bought from Salubra or won from certain challenges.`,
+      description: `护符槽 are required to equip 护符. They can be found in the game world, bought from Salubra or won from certain challenges.`,
       percent: 0,
       maxPercent: 8,
       entries: {
         notchShroomOgres: {
-          name: "Charm Notch #1",
-          spoiler: "Fungal Wastes: Shroom Ogres room",
+          name: "护符槽 #1",
+          spoiler: "真菌荒地: Shroom Ogres room",
           wiki: "Category:Charms#Notches"
         },
         salubraNotch1: {
-          name: "Charm Notch #2",
-          spoiler: "Salubra: 120 Geo + 5 Charms found",
+          name: "护符槽 #2",
+          spoiler: "Salubra: 120 Geo + 5 护符 found",
           wiki: "Category:Charms#Notches"
         },
         salubraNotch2: {
-          name: "Charm Notch #3",
-          spoiler: "Salubra: 500 Geo + 10 Charms found",
+          name: "护符槽 #3",
+          spoiler: "Salubra: 500 Geo + 10 护符 found",
           wiki: "Category:Charms#Notches"
         },
         salubraNotch3: {
-          name: "Charm Notch #4",
-          spoiler: "Salubra: 900 Geo + 18 Charms found",
+          name: "护符槽 #4",
+          spoiler: "Salubra: 900 Geo + 18 护符 found",
           wiki: "Category:Charms#Notches"
         },
         salubraNotch4: {
-          name: "Charm Notch #5",
-          spoiler: "Salubra: 1400 Geo + 25 Charms found",
+          name: "护符槽 #5",
+          spoiler: "Salubra: 1400 Geo + 25 护符 found",
           wiki: "Category:Charms#Notches"
         },
         colosseumBronzeCompleted: {
-          name: "Charm Notch #6",
-          spoiler: "Colosseum of Fools: Trial of the Warrior",
+          name: "护符槽 #6",
+          spoiler: "愚人斗兽场: Trial of the Warrior",
           wiki: "Category:Charms#Notches"
         },
         notchFogCanyon: {
-          name: "Charm Notch #7",
-          spoiler: "Fog Canyon: explosive eggs room",
+          name: "护符槽 #7",
+          spoiler: "雾之峡谷: explosive eggs room",
           wiki: "Category:Charms#Notches"
         },
         gotGrimmNotch: {
-          name: "Charm Notch #8",
-          spoiler: "Dirtmouth: Troupe Leader Grimm",
+          name: "护符槽 #8",
+          spoiler: "德特茅斯: Troupe Leader Grimm",
           wiki: "Category:Charms#Notches"
         },
       },
     },
 
-    /* ###################################### Collectibles -> Grubs ############################################## */
+    /* ###################################### Collectibles -> 幼虫 ############################################## */
 
     grubs: {
-      h2: "Grubs",
+      h2: "幼虫",
       id: "hk-grubs",
-      description: `Creatures found trapped in glass jars throughout Hallownest. They can be freed from their jar after which the Grubfather grants a reward for each Grub that is saved.<br>
-      <b>Note:</b> Due to a bug in recent versions of Hollow Knight, Grubs #33 and #34 (The Collector/Tower of Love) are not marked as released correctly in the save file. As a workaround for this bug, when Grub #32 is detected as released, #33 and #34 are automatically marked as released too in this app.`,
+      description: `Creatures found trapped in glass jars throughout Hallownest. They can be freed from their jar after which the 虫爷爷 grants a reward for each 幼虫 that is saved.<br>
+      <b>Note:</b> Due to a bug in recent versions of 空洞骑士, 幼虫 #33 and #34 (The Collector/Tower of Love) are not marked as released correctly in the save file. As a workaround for this bug, when 幼虫 #32 is detected as released, #33 and #34 are automatically marked as released too in this app.`,
       percent: 0,
       maxPercent: 46,
       entries: {
         grub1: {
-          name: "Grub #1",
-          spoiler: "Forgotten Crossroads: Acid Corridor",
+          name: "幼虫 #1",
+          spoiler: "遗忘十字路: Acid Corridor",
           id: "Grub Bottle",
           sceneName: "Crossroads_35",
           wiki: "Grub#Rewards_and_locations"
         },
         grub2: {
-          name: "Grub #2",
-          spoiler: "Forgotten Crossroads: Left of Dark Corridor",
+          name: "幼虫 #2",
+          spoiler: "遗忘十字路: Left of Dark Corridor",
           id: "Grub Bottle",
           sceneName: "Crossroads_03",
           wiki: "Grub#Rewards_and_locations"
         },
         grub3: {
-          name: "Grub #3",
-          spoiler: "Forgotten Crossroads: Above Ancestral Mound",
+          name: "幼虫 #3",
+          spoiler: "遗忘十字路: Above 祖先山丘",
           id: "Grub Bottle",
           sceneName: "Crossroads_05",
           wiki: "Grub#Rewards_and_locations"
         },
         grub4: {
-          name: "Grub #4",
-          spoiler: "Forgotten Crossroads: Husk Guard Room",
+          name: "幼虫 #4",
+          spoiler: "遗忘十字路: Husk Guard Room",
           id: "Grub Bottle",
           sceneName: "Crossroads_48",
           wiki: "Grub#Rewards_and_locations"
         },
         grub5: {
-          name: "Grub #5",
-          spoiler: "Forgotten Crossroads: Spikes Room",
+          name: "幼虫 #5",
+          spoiler: "遗忘十字路: Spikes Room",
           id: "Grub Bottle",
           sceneName: "Crossroads_31",
           wiki: "Grub#Rewards_and_locations"
         },
         grub6: {
-          name: "Grub #6",
-          spoiler: "Greenpath: Cornifer Room",
+          name: "幼虫 #6",
+          spoiler: "苍绿之径: 柯尼法 Room",
           id: "Grub Bottle",
           sceneName: "Fungus1_06",
           wiki: "Grub#Rewards_and_locations"
         },
         grub7: {
-          name: "Grub #7",
-          spoiler: "Greenpath: Outside Hunter",
+          name: "幼虫 #7",
+          spoiler: "苍绿之径: Outside Hunter",
           id: "Grub Bottle",
           sceneName: "Fungus1_07",
           wiki: "Grub#Rewards_and_locations"
         },
         grub8: {
-          name: "Grub #8",
-          spoiler: "Greenpath: Outside Hornet",
+          name: "幼虫 #8",
+          spoiler: "苍绿之径: Outside Hornet",
           id: "Grub Bottle",
           sceneName: "Fungus1_21",
           wiki: "Grub#Rewards_and_locations"
         },
         grub9: {
-          name: "Grub #9",
-          spoiler: "Howling Cliffs: Baldur's Shell Room",
+          name: "幼虫 #9",
+          spoiler: "呼啸悬崖: Baldur's Shell Room",
           id: "Grub Bottle",
           sceneName: "Fungus1_28",
           wiki: "Grub#Rewards_and_locations"
         },
         grub10: {
-          name: "Grub #10",
-          spoiler: "Fungal Wastes: Cornifer Room",
+          name: "幼虫 #10",
+          spoiler: "真菌荒地: 柯尼法 Room",
           id: "Grub Bottle",
           sceneName: "Fungus2_18",
           wiki: "Grub#Rewards_and_locations"
         },
         grub11: {
-          name: "Grub #11",
-          spoiler: "City of Tears: Above Lemm",
+          name: "幼虫 #11",
+          spoiler: "泪水之城: Above 文物搜寻者里姆",
           id: "Grub Bottle (1)",
           sceneName: "Ruins1_05",
           wiki: "Grub#Rewards_and_locations"
         },
         grub12: {
-          name: "Grub #12",
-          spoiler: "Crystal Peak: Left of Dark Corridor",
+          name: "幼虫 #12",
+          spoiler: "水晶山峰: Left of Dark Corridor",
           id: "Grub Bottle",
           sceneName: "Mines_04",
           wiki: "Grub#Rewards_and_locations"
         },
         grub13: {
-          name: "Grub #13",
-          spoiler: "Crystal Peak: Spiked Conveyor Belts",
+          name: "幼虫 #13",
+          spoiler: "水晶山峰: Spiked Conveyor Belts",
           id: "Grub Bottle",
           sceneName: "Mines_03",
           wiki: "Grub#Rewards_and_locations"
         },
         grub14: {
-          name: "Grub #14",
-          spoiler: "Crystal Peak: Crystal Heart Gauntlet",
+          name: "幼虫 #14",
+          spoiler: "水晶山峰: Crystal Heart Gauntlet",
           id: "Grub Bottle",
           sceneName: "Mines_31",
           wiki: "Grub#Rewards_and_locations"
         },
         grub15: {
-          name: "Grub #15",
-          spoiler: "Crystal Peak: Crushers Below Top Bench",
+          name: "幼虫 #15",
+          spoiler: "水晶山峰: Crushers Below Top Bench",
           id: "Grub Bottle",
           sceneName: "Mines_19",
           wiki: "Grub#Rewards_and_locations"
         },
         grub16: {
-          name: "Grub #16",
-          spoiler: "City of Tears: Soul Master Rewards Room",
+          name: "幼虫 #16",
+          spoiler: "泪水之城: Soul Master Rewards Room",
           id: "Grub Bottle",
           sceneName: "Ruins1_32",
           wiki: "Grub#Rewards_and_locations"
         },
         grub17: {
-          name: "Grub #17",
-          spoiler: "Resting Grounds: Crypts",
+          name: "幼虫 #17",
+          spoiler: "安息之地: Crypts",
           id: "Grub Bottle",
           sceneName: "RestingGrounds_10",
           wiki: "Grub#Rewards_and_locations"
         },
         grub18: {
-          name: "Grub #18",
-          spoiler: "City of Tears: Guarded House Room in Main Hub",
+          name: "幼虫 #18",
+          spoiler: "泪水之城: Guarded House Room in Main Hub",
           id: "Grub Bottle",
           sceneName: "Ruins_House_01",
           wiki: "Grub#Rewards_and_locations"
         },
         grub19: {
-          name: "Grub #19",
-          spoiler: "Crystal Peak: Crystallized Mound",
+          name: "幼虫 #19",
+          spoiler: "水晶山峰: Crystallized Mound",
           id: "Grub Bottle",
           sceneName: "Mines_35",
           wiki: "Grub#Rewards_and_locations"
         },
         grub20: {
-          name: "Grub #20",
-          spoiler: "Crystal Peak: Down from Dirtmouth entrance",
+          name: "幼虫 #20",
+          spoiler: "水晶山峰: Down from 德特茅斯 entrance",
           id: "Grub Bottle",
           sceneName: "Mines_16",
           wiki: "Grub#Rewards_and_locations"
         },
         grub21: {
-          name: "Grub #21",
-          spoiler: "Royal Waterways: Top Left Corridor Above Bench",
+          name: "幼虫 #21",
+          spoiler: "皇家水道: Top Left Corridor Above Bench",
           id: "Grub Bottle",
           sceneName: "Waterways_04",
           wiki: "Grub#Rewards_and_locations"
         },
         grub22: {
-          name: "Grub #22",
-          spoiler: "Royal Waterways: Isma's Grove",
+          name: "幼虫 #22",
+          spoiler: "皇家水道: Isma's Grove",
           id: "Grub Bottle",
           sceneName: "Waterways_13",
           wiki: "Grub#Rewards_and_locations"
         },
         grub23: {
-          name: "Grub #23",
-          spoiler: "Ancient Basin: Broken Vessel Top Room",
+          name: "幼虫 #23",
+          spoiler: "古老盆地: Broken Vessel Top Room",
           id: "Grub Bottle",
           sceneName: "Abyss_19",
           wiki: "Grub#Rewards_and_locations"
         },
         grub24: {
-          name: "Grub #24",
-          spoiler: "Ancient Basin: Cloth/Pale Ore Room",
+          name: "幼虫 #24",
+          spoiler: "古老盆地: Cloth/苍白矿石 Room",
           id: "Grub Bottle",
           sceneName: "Abyss_17",
           wiki: "Grub#Rewards_and_locations"
         },
         grub25: {
-          name: "Grub #25",
-          spoiler: "Crystal Peak: Hallownest Crown Corridor",
+          name: "幼虫 #25",
+          spoiler: "水晶山峰: Hallownest Crown Corridor",
           id: "Grub Bottle",
           sceneName: "Mines_24",
           wiki: "Grub#Rewards_and_locations"
         },
         grub26: {
-          name: "Grub #26",
-          spoiler: "Greenpath: Whispering Root Corridor",
+          name: "幼虫 #26",
+          spoiler: "苍绿之径: 低语之根 Corridor",
           id: "Grub Bottle",
           sceneName: "Fungus1_13",
           wiki: "Grub#Rewards_and_locations"
         },
         grub27: {
-          name: "Grub #27",
-          spoiler: "Fog Canyon: Teacher's Archives Entrance",
+          name: "幼虫 #27",
+          spoiler: "雾之峡谷: Teacher's Archives Entrance",
           id: "Grub Bottle",
           sceneName: "Fungus3_47",
           wiki: "Grub#Rewards_and_locations"
         },
         grub28: {
-          name: "Grub #28",
-          spoiler: "Queen's Gardens: Main Arena Above Left Bench",
+          name: "幼虫 #28",
+          spoiler: "王后花园: Main Arena Above Left Bench",
           id: "Grub Bottle",
           sceneName: "Fungus3_10",
           wiki: "Grub#Rewards_and_locations"
         },
         grub29: {
-          name: "Grub #29",
-          spoiler: "Queen's Gardens: Near White Lady",
+          name: "幼虫 #29",
+          spoiler: "王后花园: Near White Lady",
           id: "Grub Bottle",
           sceneName: "Fungus3_48",
           wiki: "Grub#Rewards_and_locations"
         },
         grub30: {
-          name: "Grub #30",
-          spoiler: "Queen's Gardens: Upper Room near Greenpath",
+          name: "幼虫 #30",
+          spoiler: "王后花园: Upper Room near 苍绿之径",
           id: "Grub Bottle",
           sceneName: "Fungus3_22",
           wiki: "Grub#Rewards_and_locations"
         },
         grub31: {
-          name: "Grub #31",
-          spoiler: "City of Tears: Below King's Station",
+          name: "幼虫 #31",
+          spoiler: "泪水之城: Below 国王驿站",
           id: "Grub Bottle",
           sceneName: "Ruins2_07",
           wiki: "Grub#Rewards_and_locations"
         },
         grub32: {
-          name: "Grub #32",
-          spoiler: "City of Tears: The Collector Arena",
+          name: "幼虫 #32",
+          spoiler: "泪水之城: The Collector Arena",
           id: "Grub Bottle",
           sceneName: "Ruins2_11",
           wiki: "Grub#Rewards_and_locations"
         },
         grub33: {
-          name: "Grub #33",
-          spoiler: "City of Tears: The Collector Arena",
+          name: "幼虫 #33",
+          spoiler: "泪水之城: The Collector Arena",
           id: "Grub Bottle (1)",
           sceneName: "Ruins2_11",
           wiki: "Grub#Rewards_and_locations"
         },
         grub34: {
-          name: "Grub #34",
-          spoiler: "City of Tears: The Collector Arena",
+          name: "幼虫 #34",
+          spoiler: "泪水之城: The Collector Arena",
           id: "Grub Bottle (2)",
           sceneName: "Ruins2_11",
           wiki: "Grub#Rewards_and_locations"
         },
         grub35: {
-          name: "Grub #35",
-          spoiler: "Kingdom's Edge: Below Camp Bench",
+          name: "幼虫 #35",
+          spoiler: "王国边缘: Below Camp Bench",
           id: "Grub Bottle",
           sceneName: "Deepnest_East_11",
           wiki: "Grub#Rewards_and_locations"
         },
         grub36: {
-          name: "Grub #36",
-          spoiler: "Kingdom's Edge: Below Nailmaster Oro",
+          name: "幼虫 #36",
+          spoiler: "王国边缘: Below Nailmaster Oro",
           id: "Grub Bottle",
           sceneName: "Deepnest_East_14",
           wiki: "Grub#Rewards_and_locations"
         },
         grub37: {
-          name: "Grub #37",
-          spoiler: "Fungal Wastes: Spore Shroom Room",
+          name: "幼虫 #37",
+          spoiler: "真菌荒地: Spore Shroom Room",
           id: "Grub Bottle",
           sceneName: "Fungus2_20",
           wiki: "Grub#Rewards_and_locations"
         },
         grub38: {
-          name: "Grub #38",
-          spoiler: "City of Tears: Watcher's Spire Fourth Floor",
+          name: "幼虫 #38",
+          spoiler: "泪水之城: Watcher's Spire Fourth Floor",
           id: "Grub Bottle",
           sceneName: "Ruins2_03",
           wiki: "Grub#Rewards_and_locations"
         },
         grub39: {
-          name: "Grub #39",
-          spoiler: "Deepnest: Right of Fungal Wastes Drop",
+          name: "幼虫 #39",
+          spoiler: "深邃巢穴: Right of 真菌荒地 Drop",
           id: "Grub Bottle",
           sceneName: "Deepnest_36",
           wiki: "Grub#Rewards_and_locations"
         },
         grub40: {
-          name: "Grub #40",
-          spoiler: "Deepnest: Left of Hot Spring",
+          name: "幼虫 #40",
+          spoiler: "深邃巢穴: Left of Hot Spring",
           id: "Grub Bottle",
           sceneName: "Deepnest_03",
           wiki: "Grub#Rewards_and_locations"
         },
         grub41: {
-          name: "Grub #41",
-          spoiler: "Deepnest: Nosk Corridor",
+          name: "幼虫 #41",
+          spoiler: "深邃巢穴: Nosk Corridor",
           id: "Grub Bottle",
           sceneName: "Deepnest_31",
           wiki: "Grub#Rewards_and_locations"
         },
         grub42: {
-          name: "Grub #42",
-          spoiler: "Deepnest: Whispering Root Room",
+          name: "幼虫 #42",
+          spoiler: "深邃巢穴: 低语之根 Room",
           id: "Grub Bottle",
           sceneName: "Deepnest_39",
           wiki: "Grub#Rewards_and_locations"
         },
         grub43: {
-          name: "Grub #43",
-          spoiler: "Deepnest: Beast's Den",
+          name: "幼虫 #43",
+          spoiler: "深邃巢穴: Beast's Den",
           id: "Grub Bottle",
           sceneName: "Deepnest_Spider_Town",
           wiki: "Grub#Rewards_and_locations"
         },
         grub44: {
-          name: "Grub #44",
-          spoiler: "Royal Waterways: Kingdom's Edge Acid Corridor",
+          name: "幼虫 #44",
+          spoiler: "皇家水道: 王国边缘 Acid Corridor",
           id: "Grub Bottle",
           sceneName: "Waterways_14",
           wiki: "Grub#Rewards_and_locations"
         },
         grub45: {
-          name: "Grub #45",
-          spoiler: "The Hive: Kingdom's Edge Secret",
+          name: "幼虫 #45",
+          spoiler: "蜂巢: 王国边缘 Secret",
           id: "Grub Bottle",
           sceneName: "Hive_03",
           wiki: "Grub#Rewards_and_locations"
         },
         grub46: {
-          name: "Grub #46",
-          spoiler: "The Hive: Mask Shard Room",
+          name: "幼虫 #46",
+          spoiler: "蜂巢: Mask Shard Room",
           id: "Grub Bottle",
           sceneName: "Hive_04",
           wiki: "Grub#Rewards_and_locations"
@@ -3178,116 +3178,116 @@ const HK = {
       },
     },
 
-    /* ###################################### Collectibles -> Whispering Roots ############################################## */
+    /* ###################################### Collectibles -> 低语之根 ############################################## */
 
     whisperingRoots: {
-      h2: "Whispering Roots",
+      h2: "低语之根",
       id: "hk-whispering-roots",
-      description: `There are 15 Whispering Roots in the game, containing a total of 482 Essence. Whispering Root Pin from Iselda reveals the locations of every Whispering Root in an area after that area's Map has been purchased.`,
+      description: `There are 15 低语之根 in the game, containing a total of 482 Essence. 低语之根 Pin from 伊赛尔达 reveals the locations of every 低语之根 in an area after that area's Map has been purchased.`,
       percent: 0,
       maxPercent: 15,
       entries: {
         whisperingRoot1: {
-          name: "Whispering Root #1: 29 Orbs",
-          spoiler: "Forgotten Crossroads: Right of Grubfather",
+          name: "低语之根 #1: 29 Orbs",
+          spoiler: "遗忘十字路: Right of 虫爷爷",
           id: "Dream Plant",
           sceneName: "Crossroads_07",
           wiki: "Whispering_Root"
         },
         whisperingRoot2: {
-          name: "Whispering Root #2: 42 Orbs",
-          spoiler: "Forgotten Crossroads: Ancestral Mound",
+          name: "低语之根 #2: 42 Orbs",
+          spoiler: "遗忘十字路: 祖先山丘",
           id: "Dream Plant",
           sceneName: "Crossroads_ShamanTemple",
           wiki: "Whispering_Root"
         },
         whisperingRoot3: {
-          name: "Whispering Root #3: 18 Orbs",
-          spoiler: "Fungal Wastes: Above Mantis Village",
+          name: "低语之根 #3: 18 Orbs",
+          spoiler: "真菌荒地: Above Mantis Village",
           id: "Dream Plant",
           sceneName: "Fungus2_17",
           wiki: "Whispering_Root"
         },
         whisperingRoot4: {
-          name: "Whispering Root #4: 28 Orbs",
-          spoiler: "City of Tears: Below Stag Station",
+          name: "低语之根 #4: 28 Orbs",
+          spoiler: "泪水之城: Below 鹿角虫车站",
           id: "Dream Plant",
           sceneName: "Ruins1_17",
           wiki: "Whispering_Root"
         },
         whisperingRoot5: {
-          name: "Whispering Root #5: 46 Orbs",
-          spoiler: "Howling Cliffs: Big Main Area",
+          name: "低语之根 #5: 46 Orbs",
+          spoiler: "呼啸悬崖: Big Main Area",
           id: "Dream Plant",
           sceneName: "Cliffs_01",
           wiki: "Whispering_Root"
         },
         whisperingRoot6: {
-          name: "Whispering Root #6: 21 Orbs",
-          spoiler: "Crystal Peak: Hallownest Crown Big Area",
+          name: "低语之根 #6: 21 Orbs",
+          spoiler: "水晶山峰: Hallownest Crown Big Area",
           id: "Dream Plant",
           sceneName: "Mines_23",
           wiki: "Whispering_Root"
         },
         whisperingRoot7: {
-          name: "Whispering Root #7: 20 Orbs",
-          spoiler: "Resting Grounds: Right of Seer, Main Area",
+          name: "低语之根 #7: 20 Orbs",
+          spoiler: "安息之地: Right of Seer, Main Area",
           id: "Dream Plant",
           sceneName: "RestingGrounds_05",
           wiki: "Whispering_Root"
         },
         whisperingRoot8: {
-          name: "Whispering Root #8: 34 Orbs",
-          spoiler: "Resting Grounds: Spirit's Glade",
+          name: "低语之根 #8: 34 Orbs",
+          spoiler: "安息之地: Spirit's Glade",
           id: "Dream Plant",
           sceneName: "RestingGrounds_08",
           wiki: "Whispering_Root"
         },
         whisperingRoot9: {
-          name: "Whispering Root #9: 35 Orbs",
-          spoiler: "City of Tears: Broken Elevator",
+          name: "低语之根 #9: 35 Orbs",
+          spoiler: "泪水之城: Broken Elevator",
           id: "Dream Plant",
           sceneName: "Abyss_01",
           wiki: "Whispering_Root"
         },
         whisperingRoot10: {
-          name: "Whispering Root #10: 44 Orbs",
-          spoiler: "Greenpath: Right of Queen's Gardens",
+          name: "低语之根 #10: 44 Orbs",
+          spoiler: "苍绿之径: Right of 王后花园",
           id: "Dream Plant",
           sceneName: "Fungus1_13",
           wiki: "Whispering_Root"
         },
         whisperingRoot11: {
-          name: "Whispering Root #11: 20 Orbs",
-          spoiler: "Fungal Wastes: Left of Leg Eater",
+          name: "低语之根 #11: 20 Orbs",
+          spoiler: "真菌荒地: Left of Leg Eater",
           id: "Dream Plant",
           sceneName: "Fungus2_33",
           wiki: "Whispering_Root"
         },
         whisperingRoot12: {
-          name: "Whispering Root #12: 29 Orbs",
-          spoiler: "Queen's Gardens: Below Right Bench",
+          name: "低语之根 #12: 29 Orbs",
+          spoiler: "王后花园: Below Right Bench",
           id: "Dream Plant",
           sceneName: "Fungus3_11",
           wiki: "Whispering_Root"
         },
         whisperingRoot13: {
-          name: "Whispering Root #13: 51 Orbs",
-          spoiler: "Kingdom's Edge: Right of Tower of Love",
+          name: "低语之根 #13: 51 Orbs",
+          spoiler: "王国边缘: Right of Tower of Love",
           id: "Dream Plant",
           sceneName: "Deepnest_East_07",
           wiki: "Whispering_Root"
         },
         whisperingRoot14: {
-          name: "Whispering Root #14: 45 Orbs",
-          spoiler: "Deepnest: Below Queen's Gardens",
+          name: "低语之根 #14: 45 Orbs",
+          spoiler: "深邃巢穴: Below 王后花园",
           id: "Dream Plant",
           sceneName: "Deepnest_39",
           wiki: "Whispering_Root"
         },
         whisperingRoot15: {
-          name: "Whispering Root #15: 20 Orbs",
-          spoiler: "The Hive: Right of Bench",
+          name: "低语之根 #15: 20 Orbs",
+          spoiler: "蜂巢: Right of Bench",
           id: "Dream Plant",
           sceneName: "Hive_02",
           wiki: "Whispering_Root"
@@ -3295,110 +3295,110 @@ const HK = {
       },
     },
 
-    /* ###################################### Collectibles -> Relics - Wanderer's Journal ############################################## */
+    /* ###################################### Collectibles -> Relics - 漫游者日记 ############################################## */
 
     relicsWanderersJournal: {
-      h2: "Relics - Wanderer's Journal",
+      h2: "文物 - 漫游者日记",
       id: "hk-relics-journal",
-      description: `Tablets found commonly throughout Hallownest. They are always found next to corpses that are assumed to be the authors of the journal. Can be sold to Relic Seeker Lemm for 200 Geo.<br>
+      description: `Tablets found commonly throughout Hallownest. They are always found next to corpses that are assumed to be the authors of the journal. Can be sold to 文物搜寻者里姆 for 200 Geo.<br>
       14 x 200 = 2800 Geo Total.`,
       percent: 0,
       maxPercent: 14,
       entries: {
         wanderersJournal1: {
-          name: "Wanderer's Journal #1",
-          spoiler: "Greenpath: Room Above Fog Canyon",
+          name: "漫游者日记 #1",
+          spoiler: "苍绿之径: Room Above 雾之峡谷",
           id: "Shiny Item",
           sceneName: "Fungus1_11",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal2: {
-          name: "Wanderer's Journal #2",
-          spoiler: "Greenpath: Right of Stag Station",
+          name: "漫游者日记 #2",
+          spoiler: "苍绿之径: Right of 鹿角虫车站",
           id: "Shiny Item",
           sceneName: "Fungus1_22",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal3: {
-          name: "Wanderer's Journal #3",
-          spoiler: "Fungal Wastes: Below Shrumal Ogres",
+          name: "漫游者日记 #3",
+          spoiler: "真菌荒地: Below Shrumal Ogres",
           id: "Shiny Item",
           sceneName: "Fungus2_04",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal4: {
-          name: "Wanderer's Journal #4",
-          spoiler: "Fungal Wastes: Room Above Mantis Village",
+          name: "漫游者日记 #4",
+          spoiler: "真菌荒地: Room Above Mantis Village",
           id: "Shiny Item",
           sceneName: "Fungus2_17",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal5: {
-          name: "Wanderer's Journal #5",
-          spoiler: "City of Tears: City Storerooms",
+          name: "漫游者日记 #5",
+          spoiler: "泪水之城: 城市仓库",
           id: "Shiny Item",
           sceneName: "Ruins1_28",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal6: {
-          name: "Wanderer's Journal #6",
-          spoiler: "Howling Cliffs: Main Open Air Area",
+          name: "漫游者日记 #6",
+          spoiler: "呼啸悬崖: Main Open Air Area",
           id: "Shiny Item (1)",
           sceneName: "Cliffs_01",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal7: {
-          name: "Wanderer's Journal #7",
-          spoiler: "Crystal Peak: Right Tall Room",
+          name: "漫游者日记 #7",
+          spoiler: "水晶山峰: Right Tall Room",
           id: "Shiny Item (1)",
           sceneName: "Mines_20",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal8: {
-          name: "Wanderer's Journal #8",
-          spoiler: "Resting Grounds: Crypts",
+          name: "漫游者日记 #8",
+          spoiler: "安息之地: Crypts",
           id: "Shiny Item",
           sceneName: "RestingGrounds_10",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal9: {
-          name: "Wanderer's Journal #9",
-          spoiler: "City of Tears: Room Above King's Station",
+          name: "漫游者日记 #9",
+          spoiler: "泪水之城: Room Above 国王驿站",
           id: "Shiny Item",
           sceneName: "Ruins2_05",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal10: {
-          name: "Wanderer's Journal #10",
-          spoiler: "Ancient Basin: Broken Bridge",
+          name: "漫游者日记 #10",
+          spoiler: "古老盆地: Broken Bridge",
           id: "Shiny Item",
           sceneName: "Abyss_02",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal11: {
-          name: "Wanderer's Journal #11",
-          spoiler: "City of Tears: Pleasure House Elevator",
+          name: "漫游者日记 #11",
+          spoiler: "泪水之城: Pleasure House Elevator",
           id: "Shiny Item (1)",
           sceneName: "Ruins_Elevator",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal12: {
-          name: "Wanderer's Journal #12",
-          spoiler: "Kingdom's Edge: Whispering Root Area",
+          name: "漫游者日记 #12",
+          spoiler: "王国边缘: 低语之根 Area",
           id: "Shiny Item",
           sceneName: "Deepnest_East_07",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal13: {
-          name: "Wanderer's Journal #13",
-          spoiler: "Kingdom's Edge: Camp Bench",
+          name: "漫游者日记 #13",
+          spoiler: "王国边缘: Camp Bench",
           id: "Shiny Item",
           sceneName: "Deepnest_East_13",
           wiki: "Wanderer%27s_Journal"
         },
         wanderersJournal14: {
-          name: "Wanderer's Journal #14",
-          spoiler: "Kingdom's Edge: Left of Markoth",
+          name: "漫游者日记 #14",
+          spoiler: "王国边缘: Left of Markoth",
           id: "Shiny Item",
           sceneName: "Deepnest_East_18",
           wiki: "Wanderer%27s_Journal"
@@ -3406,130 +3406,130 @@ const HK = {
       },
     },
 
-    /* ###################################### Collectibles -> Relics - Hallownest Seal ############################################## */
+    /* ###################################### Collectibles -> Relics - 圣巢印章 ############################################## */
 
     relicsHallownestSeal: {
-      h2: "Relics - Hallownest Seal",
+      h2: "文物 - 圣巢印章",
       id: "hk-relics-seal",
-      description: `Official symbols of the Pale King and the Five Great Knights. The seals can be found in various locations throughout the world. Can be sold to Relic Seeker Lemm for 450 Geo. Seal #16 is missable when a player enters the <span class="spoiler-span blurred">Beast's Den</span> through the secret path without <span class="spoiler-span blurred">being trapped by using the bench</span>.<br>
+      description: `Official symbols of the 苍白之王 and the Five Great Knights. The seals can be found in various locations throughout the world. Can be sold to 文物搜寻者里姆 for 450 Geo. Seal #16 is missable when a player enters the <span class="spoiler-span blurred">Beast's Den</span> through the secret path without <span class="spoiler-span blurred">being trapped by using the bench</span>.<br>
       17 x 450 = 7650 Geo Total.`,
       percent: 0,
       maxPercent: 17,
       entries: {
         hallownestSeal1: {
-          name: "Hallownest Seal #1",
-          spoiler: "Forgotten Crossroads: Inside the Well",
+          name: "圣巢印章 #1",
+          spoiler: "遗忘十字路: Inside the Well",
           id: "Shiny Item",
           sceneName: "Crossroads_01",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal2: {
-          name: "Hallownest Seal #2",
-          spoiler: "Fungal Wastes: Willoh's Room above Queen's Station",
+          name: "圣巢印章 #2",
+          spoiler: "真菌荒地: Willoh's Room above 王后驿站",
           id: "Shiny Item",
           sceneName: "Fungus2_34",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal3: {
-          name: "Hallownest Seal #3",
-          spoiler: "Greenpath: Acid Bridge",
+          name: "圣巢印章 #3",
+          spoiler: "苍绿之径: Acid Bridge",
           id: "Shiny Item",
           sceneName: "Fungus1_10",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal4: {
-          name: "Hallownest Seal #4",
-          spoiler: "Fungal Wastes: Right of Queen's Station",
+          name: "圣巢印章 #4",
+          spoiler: "真菌荒地: Right of 王后驿站",
           id: "Shiny Item",
           sceneName: "Fungus2_03",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal5: {
-          name: "Hallownest Seal #5",
-          spoiler: "City of Tears: Open Air Rafters",
+          name: "圣巢印章 #5",
+          spoiler: "泪水之城: Open Air Rafters",
           id: "Shiny Item",
           sceneName: "Ruins1_03",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal6: {
-          name: "Hallownest Seal #6",
-          spoiler: "City of Tears: Soul Master Rewards Room",
+          name: "圣巢印章 #6",
+          spoiler: "泪水之城: Soul Master Rewards Room",
           id: "Shiny Item",
           sceneName: "Ruins1_32",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal7: {
-          name: "Hallownest Seal #7",
-          spoiler: "Resting Grounds: Crypts",
+          name: "圣巢印章 #7",
+          spoiler: "安息之地: Crypts",
           id: "Shiny Item (1)",
           sceneName: "RestingGrounds_10",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal8: {
-          name: "Hallownest Seal #8",
-          spoiler: "City of Tears: King's Station Stag Station",
+          name: "圣巢印章 #8",
+          spoiler: "泪水之城: 国王驿站 鹿角虫车站",
           id: "Shiny Item",
           sceneName: "Ruins2_08",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal9: {
-          name: "Hallownest Seal #9",
-          spoiler: "Grubfather: 23 Grubs rescued",
+          name: "圣巢印章 #9",
+          spoiler: "虫爷爷: 23 幼虫 rescued",
           id: "Shiny Item Relic2",
           sceneName: "Crossroads_38",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal10: {
-          name: "Hallownest Seal #10",
-          spoiler: "Fog Canyon: Right Tall Area",
+          name: "圣巢印章 #10",
+          spoiler: "雾之峡谷: Right Tall Area",
           id: "Shiny Item",
           sceneName: "Fungus3_26",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal11: {
-          name: "Hallownest Seal #11",
-          spoiler: "Fog Canyon: Lifeblood Cocoon Room",
+          name: "圣巢印章 #11",
+          spoiler: "雾之峡谷: Lifeblood Cocoon Room",
           id: "Shiny Item",
           sceneName: "Fungus3_30",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal12: {
-          name: "Hallownest Seal #12",
-          spoiler: "Queen's Gardens: Outside White Lady",
+          name: "圣巢印章 #12",
+          spoiler: "王后花园: Outside White Lady",
           id: "Shiny Item",
           sceneName: "Fungus3_48",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal13: {
-          name: "Hallownest Seal #13",
-          spoiler: "Fungal Wastes: Mantis Lords Reward Room",
+          name: "圣巢印章 #13",
+          spoiler: "真菌荒地: Mantis Lords Reward Room",
           id: "Shiny Item",
           sceneName: "Fungus2_31",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal14: {
-          name: "Hallownest Seal #14",
-          spoiler: "City of Tears: Watcher's Spire Fourth Floor",
+          name: "圣巢印章 #14",
+          spoiler: "泪水之城: Watcher's Spire Fourth Floor",
           id: "Shiny Item",
           sceneName: "Ruins2_03",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal15: {
-          name: "Hallownest Seal #15",
-          spoiler: "Deepnest: Room Above Lower Cornifer",
+          name: "圣巢印章 #15",
+          spoiler: "深邃巢穴: Room Above Lower 柯尼法",
           id: "Shiny Item",
           sceneName: "Deepnest_16",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal16: {
-          name: "Hallownest Seal #16 (missable)",
-          spoiler: "Deepnest: Beast's Den",
+          name: "圣巢印章 #16 (missable)",
+          spoiler: "深邃巢穴: Beast's Den",
           id: "Shiny Item",
           sceneName: "Deepnest_Spider_Town",
           wiki: "Hallownest_Seal"
         },
         hallownestSeal17: {
-          name: "Hallownest Seal #17",
+          name: "圣巢印章 #17",
           spoiler: "Seer: 100 Essence collected",
           id: "dreamReward1",
           sceneName: "",
@@ -3538,68 +3538,68 @@ const HK = {
       },
     },
 
-    /* ###################################### Collectibles -> Relics - King's Idol ############################################## */
+    /* ###################################### Collectibles -> Relics - 国王神像 ############################################## */
 
     relicsKingsIdol: {
-      h2: "Relics - King's Idol",
+      h2: "文物 - 国王神像",
       id: "hk-relics-idol",
-      description: `Idols made of a mysterious white metal that depict the Pale King. They are found in various locations throughout Hallownest. Can be sold to Relic Seeker Lemm for 800 Geo.<br>
+      description: `Idols made of a mysterious white metal that depict the 苍白之王. They are found in various locations throughout Hallownest. Can be sold to 文物搜寻者里姆 for 800 Geo.<br>
       8 x 800 = 6400 Geo Total.`,
       percent: 0,
       maxPercent: 8,
       entries: {
         kingsIdol1: {
-          name: "King's Idol #1",
-          spoiler: "Howling Cliffs: Main Open Air Area",
+          name: "国王神像 #1",
+          spoiler: "呼啸悬崖: Main Open Air Area",
           id: "Shiny Item",
           sceneName: "Cliffs_01",
           wiki: "King%27s_Idol"
-        }, 
+        },
         kingsIdol2: {
-          name: "King's Idol #2",
-          spoiler: "Crystal Peak: Cornifer Room, use Monarch Wings",
+          name: "国王神像 #2",
+          spoiler: "水晶山峰: 柯尼法 Room, use Monarch Wings",
           id: "Shiny Item Stand",
           sceneName: "Mines_30",
           wiki: "King%27s_Idol"
-        }, 
+        },
         kingsIdol3: {
-          name: "King's Idol #3",
-          spoiler: "Resting Grounds: Spirit's Glade, Waterfall",
+          name: "国王神像 #3",
+          spoiler: "安息之地: Spirit's Glade, Waterfall",
           id: "Shiny Item",
           sceneName: "RestingGrounds_08",
           wiki: "King%27s_Idol"
-        }, 
+        },
         kingsIdol4: {
-          name: "King's Idol #4",
-          spoiler: "Royal Waterways: Dung Defender's Cave",
+          name: "国王神像 #4",
+          spoiler: "皇家水道: Dung Defender's Cave",
           id: "Shiny Item Stand",
           sceneName: "Waterways_15",
           wiki: "King%27s_Idol"
         },
         kingsIdol5: {
-          name: "King's Idol #5",
-          spoiler: "Kingdom's Edge: Great Hopper Below Colosseum Entrance",
+          name: "国王神像 #5",
+          spoiler: "王国边缘: Great Hopper Below Colosseum Entrance",
           id: "Shiny Item",
           sceneName: "Deepnest_East_08",
           wiki: "King%27s_Idol"
         },
         kingsIdol6: {
-          name: "King's Idol #6",
-          spoiler: "Deepnest: Zote Arena Left Side",
+          name: "国王神像 #6",
+          spoiler: "深邃巢穴: Zote Arena Left Side",
           id: "Shiny Item",
           sceneName: "Deepnest_33",
           wiki: "King%27s_Idol"
         },
         kingsIdol7: {
-          name: "King's Idol #7",
-          spoiler: "Grubfather: 38 Grubs rescued",
+          name: "国王神像 #7",
+          spoiler: "虫爷爷: 38 幼虫 rescued",
           id: "Shiny Item Relic3",
           sceneName: "Crossroads_38",
           wiki: "King%27s_Idol"
         },
         kingsIdol8: {
-          name: "King's Idol #8",
-          spoiler: "Kingdom's Edge: Pale Lurker Room",
+          name: "国王神像 #8",
+          spoiler: "王国边缘: Pale Lurker Room",
           id: "Shiny Item",
           sceneName: "GG_Lurker",
           wiki: "King%27s_Idol"
@@ -3607,40 +3607,40 @@ const HK = {
       },
     },
 
-    /* ###################################### Collectibles -> Relics - Arcane Egg ############################################## */
+    /* ###################################### Collectibles -> Relics - 神秘蛋 ############################################## */
 
     relicsArcaneEgg: {
-      h2: "Relics - Arcane Egg",
+      h2: "文物 - 神秘蛋",
       id: "hk-relics-egg",
-      description: `Jet black stone eggs originating from a civilisation that existed before the Kingdom of Hallownest was founded. Egg #4 is missable when the player will go right instead of left in the <span class="spoiler-span blurred">Lifeblood Core room in the Abyss</span> and will touch the Charm. Can be sold to Relic Seeker Lemm for 1200 Geo.<br>
+      description: `Jet black stone eggs originating from a civilisation that existed before the Kingdom of Hallownest was founded. Egg #4 is missable when the player will go right instead of left in the <span class="spoiler-span blurred">Lifeblood Core room in 深渊</span> and will touch the Charm. Can be sold to 文物搜寻者里姆 for 1200 Geo.<br>
       4 x 1200 = 4800 Geo Total.`,
       percent: 0,
       maxPercent: 4,
       entries: {
         arcaneEgg1: {
-          name: "Arcane Egg #1",
-          spoiler: "The Abyss: Shade Cloak Room",
+          name: "神秘蛋 #1",
+          spoiler: "深渊: Shade Cloak Room",
           id: "Shiny Item",
           sceneName: "Abyss_10",
           wiki: "Arcane_Egg"
         },
         arcaneEgg2: {
-          name: "Arcane Egg #2",
+          name: "神秘蛋 #2",
           spoiler: "Seer: 1200 Essence",
           id: "dreamReward6",
           sceneName: "",
           wiki: "Arcane_Egg"
         },
         arcaneEgg3: {
-          name: "Arcane Egg #3",
-          spoiler: "The Abyss: Birthplace, requires Kingsoul",
+          name: "神秘蛋 #3",
+          spoiler: "深渊: Birthplace, requires Kingsoul",
           id: "Shiny Item",
           sceneName: "Abyss_15",
           wiki: "Arcane_Egg"
         },
         arcaneEgg4: {
-          name: "Arcane Egg #4 (missable)",
-          spoiler: "The Abyss: Lifeblood Core Room",
+          name: "神秘蛋 #4 (missable)",
+          spoiler: "深渊: Lifeblood Core Room",
           id: "Shiny Item (1)",
           sceneName: "Abyss_08",
           wiki: "Abyss#Lifeblood_Chamber"
@@ -3648,160 +3648,160 @@ const HK = {
       },
     },
 
-    /* ###################################### Collectibles -> Rancid Eggs ############################################## */
+    /* ###################################### Collectibles -> 腐臭蛋 ############################################## */
 
     rancidEggs: {
-      h2: "Rancid Eggs",
+      h2: "腐臭蛋",
       id: "hk-rancid-eggs",
-      description: `A collectable item recovered from the corpses of Bluggsacs. Either an already-dead Bluggsac has to be found or a living one has to be killed to make it drop a Rancid Egg. A certain NPC in the game may be <em>very</em> interested in these... Egg #16 is missable when a player enters the <span class="spoiler-span blurred">Beast's Den</span> through the secret path without <span class="spoiler-span blurred">being trapped by using the bench</span>.`,
+      description: `A collectable item recovered from the corpses of Bluggsacs. Either an already-dead Bluggsac has to be found or a living one has to be killed to make it drop a 腐臭蛋. A certain NPC in the game may be <em>very</em> interested in these... Egg #16 is missable when a player enters the <span class="spoiler-span blurred">Beast's Den</span> through the secret path without <span class="spoiler-span blurred">being trapped by using the bench</span>.`,
       percent: 0,
       maxPercent: 21,
       entries: {
         rancidEgg1: {
-          name: "Rancid Egg #1",
-          spoiler: "Fungal Wastes: Fungal Core Upper Room",
+          name: "腐臭蛋 #1",
+          spoiler: "真菌荒地: Fungal Core Upper Room",
           id: "Shiny Item",
           sceneName: "Fungus2_29",
           wiki: "Rancid_Egg"
         },
         rancidEgg2: {
-          name: "Rancid Egg #2",
-          spoiler: "City of Tears: Room Above Lemm",
+          name: "腐臭蛋 #2",
+          spoiler: "泪水之城: Room Above 文物搜寻者里姆",
           id: "Shiny Item",
           sceneName: "Ruins1_05",
           wiki: "Rancid_Egg"
         },
         rancidEgg3: {
-          name: "Rancid Egg #3",
-          spoiler: "Crystal Peak: Dark Bench Room",
+          name: "腐臭蛋 #3",
+          spoiler: "水晶山峰: Dark Bench Room",
           id: "Shiny Item",
           sceneName: "Mines_29",
           wiki: "Rancid_Egg"
         },
         rancidEgg4: {
-          name: "Rancid Egg #4",
-          spoiler: "Resting Grounds: Blue Lake",
+          name: "腐臭蛋 #4",
+          spoiler: "安息之地: Blue Lake",
           id: "Shiny Item(Clone)",
           sceneName: "Crossroads_50",
           wiki: "Rancid_Egg"
         },
         rancidEgg5: {
-          name: "Rancid Egg #5",
-          spoiler: "Crystal Peak: Desolate Dive Entrance",
+          name: "腐臭蛋 #5",
+          spoiler: "水晶山峰: Desolate Dive Entrance",
           id: "Shiny Item(Clone)",
           sceneName: "Mines_01",
           wiki: "Rancid_Egg"
         },
         rancidEgg6: {
-          name: "Rancid Egg #6",
-          spoiler: "Royal Waterways: Mask Shard Room",
+          name: "腐臭蛋 #6",
+          spoiler: "皇家水道: Mask Shard Room",
           id: "Shiny Item",
           sceneName: "Waterways_04b",
           wiki: "Rancid_Egg"
         },
         rancidEgg7: {
-          name: "Rancid Egg #7",
-          spoiler: "Royal Waterways: Hidden Grub Room",
+          name: "腐臭蛋 #7",
+          spoiler: "皇家水道: Hidden 幼虫 Room",
           id: "Shiny Item(Clone)",
           sceneName: "Waterways_04",
           wiki: "Rancid_Egg"
         },
         rancidEgg8: {
-          name: "Rancid Egg #8",
-          spoiler: "Royal Waterways: Left of Isma's Grove",
+          name: "腐臭蛋 #8",
+          spoiler: "皇家水道: Left of Isma's Grove",
           id: "Shiny Item(Clone)",
           sceneName: "Waterways_07",
           wiki: "Rancid_Egg"
         },
         rancidEgg9: {
-          name: "Rancid Egg #9",
-          spoiler: "Greenpath: Outside Sheo's Hut",
+          name: "腐臭蛋 #9",
+          spoiler: "苍绿之径: Outside Sheo's Hut",
           id: "Shiny Item",
           sceneName: "Fungus1_15",
           wiki: "Rancid_Egg"
         },
         rancidEgg10: {
-          name: "Rancid Egg #10",
-          spoiler: "Grubfather: 16 Grubs rescued",
+          name: "腐臭蛋 #10",
+          spoiler: "虫爷爷: 16 幼虫 rescued",
           id: "Shiny Item Rancid Egg",
           sceneName: "Crossroads_38",
           wiki: "Rancid_Egg"
         },
         rancidEgg11: {
-          name: "Rancid Egg #11",
-          spoiler: "Queen's Gardens: Entrance from Fog Canyon",
+          name: "腐臭蛋 #11",
+          spoiler: "王后花园: Entrance from 雾之峡谷",
           id: "Shiny Item(Clone)",
           sceneName: "Fungus3_34",
           wiki: "Rancid_Egg"
         },
         rancidEgg12: {
-          name: "Rancid Egg #12",
-          spoiler: "City of Tears: Pleasure House Elevator",
+          name: "腐臭蛋 #12",
+          spoiler: "泪水之城: Pleasure House Elevator",
           id: "Shiny Item",
           sceneName: "Ruins_Elevator",
           wiki: "Rancid_Egg"
         },
         rancidEgg13: {
-          name: "Rancid Egg #13",
-          spoiler: "Kingdom's Edge: Whispering Root Area",
+          name: "腐臭蛋 #13",
+          spoiler: "王国边缘: 低语之根 Area",
           id: "Shiny Item (1)",
           sceneName: "Deepnest_East_07",
           wiki: "Rancid_Egg"
         },
         rancidEgg14: {
-          name: "Rancid Egg #14",
-          spoiler: "Deepnest: Weaver's Den",
+          name: "腐臭蛋 #14",
+          spoiler: "深邃巢穴: Weaver's Den",
           id: "Shiny Item",
           sceneName: "Deepnest_45_v02",
           wiki: "Rancid_Egg"
         },
         rancidEgg15: {
-          name: "Rancid Egg #15",
-          spoiler: "Deepnest: Whispering Root Big Area Left Side",
+          name: "腐臭蛋 #15",
+          spoiler: "深邃巢穴: 低语之根 Big Area Left Side",
           id: "Shiny Item(Clone)",
           sceneName: "Deepnest_39",
           wiki: "Rancid_Egg"
         },
         rancidEgg16: {
-          name: "Rancid Egg #16 (missable)",
-          spoiler: "Deepnest: Beast's Den",
+          name: "腐臭蛋 #16 (missable)",
+          spoiler: "深邃巢穴: Beast's Den",
           id: "Shiny Item(Clone)",
           sceneName: "Deepnest_Spider_Town",
           wiki: "Rancid_Egg"
         },
         rancidEgg17: {
-          name: "Rancid Egg #17",
-          spoiler: "Crystal Peak: Right Tall Room",
+          name: "腐臭蛋 #17",
+          spoiler: "水晶山峰: Right Tall Room",
           id: "Shiny Item(Clone)",
           sceneName: "Mines_20",
           wiki: "Rancid_Egg"
         },
         rancidEgg18: {
-          name: "Rancid Egg #18",
-          spoiler: "Royal Waterways: Main Bench Area",
+          name: "腐臭蛋 #18",
+          spoiler: "皇家水道: Main Bench Area",
           id: "Shiny Item(Clone)",
           sceneName: "Waterways_02",
           wiki: "Rancid_Egg"
         },
         rancidEgg19: {
-          name: "Rancid Egg #19",
-          spoiler: "Kingdom's Edge: Below Nailmaster Oro",
+          name: "腐臭蛋 #19",
+          spoiler: "王国边缘: Below Nailmaster Oro",
           id: "Shiny Item(Clone)",
           sceneName: "Deepnest_East_14",
           wiki: "Rancid_Egg"
         },
         rancidEgg20: {
-          name: "Rancid Egg #20",
-          spoiler: "Sly: 60 Geo",
+          name: "腐臭蛋 #20",
+          spoiler: "Sly: 60吉欧",
           id: "slyRancidEgg",
           sceneName: "",
           wiki: "Rancid_Egg"
         },
         rancidEgg21: {
-          name: "Rancid Egg #21",
-          spoiler: "Royal Waterways: Tuk's free Egg",
-          spoilerNormal: "Royal Waterways: Tuk, with Defender's Crest",
-          spoilerSteelSoul: "Royal Waterways: Inspect Tuk",
+          name: "腐臭蛋 #21",
+          spoiler: "皇家水道: Tuk's free Egg",
+          spoilerNormal: "皇家水道: Tuk, with Defender's Crest",
+          spoilerSteelSoul: "皇家水道: Inspect Tuk",
           idPlayerData: "tukDungEgg",
           id: "Shiny Item",
           sceneName: "Waterways_03",
@@ -3813,95 +3813,95 @@ const HK = {
     /* ###################################### Collectibles -> Items ############################################## */
 
     items: {
-      h2: "Items",
+      h2: "物品",
       id: "hk-items",
-      description: `Certain acquirable items, map markers or collectibles in the game that won't fit any specific category. Using custom map pins to mark interesting locations on the map is very useful while playing Hollow Knight. 1440 Geo is needed to buy all map pins from Iselda.`,
+      description: `Certain acquirable items, map markers or collectibles in the game that won't fit any specific category. Using custom map pins to mark interesting locations on the map is very useful while playing 空洞骑士. 1440 Geo is needed to buy all map pins from 伊赛尔达.`,
       percent: 0,
       maxPercent: 21,
       entries: {
         hasQuill: {
-          name: "Quill",
-          spoiler: "120 Geo: Iselda's Shop, updates map with explored areas",
+          name: "羽毛笔",
+          spoiler: "120 Geo: 伊赛尔达's Shop, updates map with explored areas",
           wiki: "Map_and_Quill#Mapping_Tools"
         },
         hasPinBench: {
-          name: "Map Pin: Bench",
-          spoiler: "100 Geo: Iselda's Shop",
+          name: "长椅图针",
+          spoiler: "100 Geo: 伊赛尔达's Shop",
           wiki: "Bench_(Hollow_Knight)"
         },
         hasPinShop: {
-          name: "Map Pin: Vendor",
-          spoiler: "100 Geo: Iselda's Shop",
+          name: "商贩图针",
+          spoiler: "100 Geo: 伊赛尔达's Shop",
           wiki: "Category:NPCs_(Hollow_Knight)#Merchants"
         },
         hasPinCocoon: {
-          name: "Map Pin: Lifeblood Cocoon",
-          spoiler: "100 Geo: Iselda's Shop",
+          name: "虫茧图针",
+          spoiler: "100 Geo: 伊赛尔达's Shop",
           wiki: "Lifeblood_Cocoon"
         },
         hasPinSpa: {
-          name: "Map Pin: Hot Springs",
-          spoiler: "100 Geo: Iselda's Shop",
+          name: "温泉图针",
+          spoiler: "100 Geo: 伊赛尔达's Shop",
           wiki: "Hot_Springs"
         },
         hasPinStag: {
-          name: "Map Pin: Stag Station",
-          spoiler: "100 Geo: Iselda's Shop, unlock first Station",
+          name: "鹿角虫车站图针",
+          spoiler: "100 Geo: 伊赛尔达's Shop, unlock first Station",
           wiki: "Stag_Station"
         },
         hasPinGhost: {
-          name: "Map Pin: Warrior's Grave",
-          spoiler: "180 Geo: Iselda's Shop, acquire Dream Nail",
+          name: "战士之墓图针",
+          spoiler: "180 Geo: 伊赛尔达's Shop, acquire Dream Nail",
           wiki: "Warrior_Dreams"
         },
         hasPinDreamPlant: {
-          name: "Map Pin: Whispering Root",
-          spoiler: "150 Geo: Iselda's Shop, acquire Dream Nail",
+          name: "低语之根图针",
+          spoiler: "150 Geo: 伊赛尔达's Shop, acquire Dream Nail",
           wiki: "Whispering_Root"
         },
         hasPinTram: {
-          name: "Map Pin: Tram",
-          spoiler: "100 Geo: Iselda's Shop, acquire Tram Pass",
+          name: "电车图针",
+          spoiler: "100 Geo: 伊赛尔达's Shop, acquire 电车通行证",
           wiki: "Tram"
         },
         hasMarker_r: {
-          name: "Map Pin: Shell Marker",
-          spoiler: "100 Geo: Iselda's Shop",
+          name: "贝壳标记",
+          spoiler: "100 Geo: 伊赛尔达's Shop",
           wiki: "Iselda#Map_Pins"
         },
         hasMarker_b: {
-          name: "Map Pin: Scarab Marker",
-          spoiler: "100 Geo: Iselda's Shop",
+          name: "圣甲虫标记",
+          spoiler: "100 Geo: 伊赛尔达's Shop",
           wiki: "Iselda#Map_Pins"
         },
         hasMarker_y: {
-          name: "Map Pin: Token Marker",
-          spoiler: "100 Geo: Iselda's Shop, acquire Mothwing Cloak",
+          name: "铜币标记",
+          spoiler: "100 Geo: 伊赛尔达's Shop, acquire 蛾翼披风",
           wiki: "Iselda#Map_Pins"
         },
         hasMarker_w: {
-          name: "Map Pin: Gleaming Marker",
-          spoiler: "210 Geo: Iselda, acquire Mothwing Cloak",
+          name: "闪亮标记",
+          spoiler: "210 Geo: 伊赛尔达, acquire 蛾翼披风",
           wiki: "Iselda#Map_Pins"
         },
         hasPinGuardian: {
           name: "Map Pin: Dreamers",
-          spoiler: "Resting Grounds: Inspect the shrine",
+          spoiler: "安息之地: Inspect the shrine",
           wiki: "Dreamers"
         },
         hasPinBlackEgg: {
           name: "Map Pin: Temple of the Black Egg",
-          spoiler: "City of Tears: Inspect fountain",
+          spoiler: "泪水之城: Inspect fountain",
           wiki: "Temple_of_the_Black_Egg"
         },
         hasPinGrub: {
           name: "Collector's Map",
-          spoiler: "Kingdom's Edge: Tower of Love, Love Key",
+          spoiler: "王国边缘: Tower of Love, Love Key",
           wiki: "Map_and_Quill#The_Collector's_Map"
         },
         cityCrest: {
           name: "City Crest",
-          spoiler: "Forgotten Crossroads: False Knight Reward",
+          spoiler: "遗忘十字路: 假骑士 Reward",
           id: "Shiny Item",
           sceneName: "Crossroads_10",
           wiki: "City_Crest"
@@ -3913,125 +3913,125 @@ const HK = {
         },
         fragileGreed_unbreakable: {
           name: "Unbreakable Greed",
-          spoiler: "Divine: Fragile Greed + 9000 Geo",
+          spoiler: "Divine: Fragile Greed + 9000吉欧",
           wiki: "Divine#Unbreakable_Charms"
         },
         fragileHealth_unbreakable: {
           name: "Unbreakable Heart",
-          spoiler: "Divine: Fragile Heart + 12000 Geo",
+          spoiler: "Divine: Fragile Heart + 12000吉欧",
           wiki: "Divine#Unbreakable_Charms"
         },
         fragileStrength_unbreakable: {
           name: "Unbreakable Strength",
-          spoiler: "Divine: Fragile Strength + 15000 Geo",
+          spoiler: "Divine: Fragile Strength + 15000吉欧",
           wiki: "Divine#Unbreakable_Charms"
         },
       },
     },
 
-    /* ###################################### Geo Caches -> Geo Chests ############################################## */
+    /* ###################################### Geo Caches -> 吉欧宝箱 ############################################## */
 
     geoChests: {
-      h2: "Geo Chests",
+      h2: "吉欧宝箱",
       id: "hk-geo-chests",
-      description: `All Geo Chests in the game, including one empty one and one with 1 Geo. A total of 2380 Geo can be collected from Geo Chests. Equipping the Fragile Greed Charm won't increase the amount of Geo found inside Geo Chests.`,
+      description: `All 吉欧宝箱 in the game, including one empty one and one with 1 Geo. A total of 2380 Geo can be collected from 吉欧宝箱. Equipping the Fragile Greed Charm won't increase the amount of Geo found inside 吉欧宝箱.`,
       percent: 0,
       maxPercent: 14,
       entries: {
         chest1: {
-          name: "Chest #1: 200 Geo",
-          spoiler: "Forgotten Crossroads: False Knight Reward",
+          name: "宝箱 #1: 200吉欧",
+          spoiler: "遗忘十字路: 假骑士 Reward",
           id: "Chest",
           sceneName: "Crossroads_10",
           wiki: "Geo#How_to_Acquire"
         },
         chest2: {
-          name: "Chest #2: 1 Geo",
-          spoiler: "Howling Cliffs: Baldur's Shell Room",
+          name: "宝箱 #2: 1吉欧",
+          spoiler: "呼啸悬崖: Baldur's Shell Room",
           id: "Chest",
           sceneName: "Fungus1_28",
           wiki: "Geo#How_to_Acquire"
         },
         chest3: {
-          name: "Chest #3: 78 Geo",
-          spoiler: "Crystal Peak: Crushers Room",
+          name: "宝箱 #3: 78吉欧",
+          spoiler: "水晶山峰: Crushers Room",
           id: "Chest",
           sceneName: "Mines_37",
           wiki: "Geo#How_to_Acquire"
         },
         chest4: {
-          name: "Chest #4: 380 Geo",
-          spoiler: "City of Tears: Soul Master Reward",
+          name: "宝箱 #4: 380吉欧",
+          spoiler: "泪水之城: Soul Master Reward",
           id: "Chest",
           sceneName: "Ruins1_32",
           wiki: "Geo#How_to_Acquire"
         },
         chest5: {
-          name: "Chest #5: 150 Geo",
-          spoiler: "Resting Grounds: Crypts",
+          name: "宝箱 #5: 150吉欧",
+          spoiler: "安息之地: Crypts",
           id: "Chest",
           sceneName: "RestingGrounds_10",
           wiki: "Geo#How_to_Acquire"
         },
         chest6: {
-          name: "Chest #6: 85 Geo",
-          spoiler: "Greenpath: Whispering Root Room",
+          name: "宝箱 #6: 85吉欧",
+          spoiler: "苍绿之径: 低语之根 Room",
           id: "Chest",
           sceneName: "Fungus1_13",
           wiki: "Geo#How_to_Acquire"
         },
         chest7: {
-          name: "Chest #7: 620 Geo",
-          spoiler: "Fungal Wastes: Mantis Lords Reward",
+          name: "宝箱 #7: 620吉欧",
+          spoiler: "真菌荒地: Mantis Lords Reward",
           id: "Mantis Chest (2)",
           sceneName: "Fungus2_31",
           wiki: "Geo#How_to_Acquire"
         },
         chest8: {
-          name: "Chest #8: 655 Geo",
-          spoiler: "City of Tears: Watcher Knight Reward",
+          name: "宝箱 #8: 655吉欧",
+          spoiler: "泪水之城: Watcher Knight Reward",
           id: "Chest",
           sceneName: "Ruins2_03",
           wiki: "Geo#How_to_Acquire"
         },
         chest9: {
-          name: "Chest #9: 160 Geo",
-          spoiler: "Deepnest: Weaver's Den, Secret Room",
+          name: "宝箱 #9: 160吉欧",
+          spoiler: "深邃巢穴: Weaver's Den, Secret Room",
           id: "Chest",
           sceneName: "Deepnest_45_v02",
           wiki: "Geo#How_to_Acquire"
         },
         chest10: {
-          name: "Chest #10: 8 Geo",
-          spoiler: "Royal Waterways: Junk Pit",
+          name: "宝箱 #10: 8吉欧",
+          spoiler: "皇家水道: 垃圾坑",
           id: "Chest",
           sceneName: "GG_Waterways",
           wiki: "Geo#How_to_Acquire"
         },
         chest11: {
-          name: "Chest #11: 8 Geo",
-          spoiler: "Royal Waterways: Junk Pit",
+          name: "宝箱 #11: 8吉欧",
+          spoiler: "皇家水道: 垃圾坑",
           id: "Chest (1)",
           sceneName: "GG_Waterways",
           wiki: "Geo#How_to_Acquire"
         },
         chest12: {
-          name: "Chest #12: 25 Geo",
-          spoiler: "Royal Waterways: Junk Pit",
+          name: "宝箱 #12: 25吉欧",
+          spoiler: "皇家水道: 垃圾坑",
           id: "Chest (2)",
           sceneName: "GG_Waterways",
           wiki: "Geo#How_to_Acquire"
         },
         chest13: {
-          name: "Chest #13: 0 Geo",
-          spoiler: "Royal Waterways: Junk Pit",
+          name: "宝箱 #13: 0吉欧",
+          spoiler: "皇家水道: 垃圾坑",
           id: "Chest (3)",
           sceneName: "GG_Waterways",
           wiki: "Geo#How_to_Acquire"
         },
         chest14: {
-          name: "Chest #14: 10 Geo",
-          spoiler: "Royal Waterways: Junk Pit",
+          name: "宝箱 #14: 10吉欧",
+          spoiler: "皇家水道: 垃圾坑",
           id: "Chest (4)",
           sceneName: "GG_Waterways",
           wiki: "Geo#How_to_Acquire"
@@ -4039,1666 +4039,1666 @@ const HK = {
       },
     },
 
-    /* ###################################### Geo Caches -> Geo Rocks ############################################## */
+    /* ###################################### Geo Caches -> 吉欧堆 ############################################## */
 
     geoRocks: {
-      h2: "Geo Rocks",
+      h2: "吉欧堆",
       id: "hk-geo-rocks",
-      description: `All Geo Rocks that can be found in the game. Only fully destroyed Geo Rocks are counted. Partially hit Geo Rocks won't be counted. Equipping the Fragile Greed Charm won't increase the amount of Geo found inside Geo Rocks. A total of 5074 Geo can be collected from Geo Rocks (credit: <a href="https://github.com/ReznoRMichael/hollow-knight-completion-check/pull/9" target="_blank">Araraura</a>).`,
+      description: `All 吉欧堆 that can be found in the game. Only fully destroyed 吉欧堆 are counted. Partially hit 吉欧堆 won't be counted. Equipping the Fragile Greed Charm won't increase the amount of Geo found inside 吉欧堆. A total of 5074 Geo can be collected from 吉欧堆 (credit: <a href="https://github.com/ReznoRMichael/hollow-knight-completion-check/pull/9" target="_blank">Araraura</a>).`,
       percent: 0,
       maxPercent: 207,
       entries: {
         geoRock1: {
-          name: "Geo Rock #1: 15 Geo",
-          spoiler: "King's Pass",
+          name: "吉欧堆 #1: 15吉欧",
+          spoiler: "国王山道",
           id: "Geo Rock 4",
           sceneName: "Tutorial_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock2: {
-          name: "Geo Rock #2: 15 Geo",
-          spoiler: "King's Pass",
+          name: "吉欧堆 #2: 15吉欧",
+          spoiler: "国王山道",
           id: "Geo Rock 1",
           sceneName: "Tutorial_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock3: {
-          name: "Geo Rock #3: 15 Geo",
-          spoiler: "King's Pass",
+          name: "吉欧堆 #3: 15吉欧",
+          spoiler: "国王山道",
           id: "Geo Rock 3",
           sceneName: "Tutorial_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock4: {
-          name: "Geo Rock #4: 18 Geo",
-          spoiler: "King's Pass",
+          name: "吉欧堆 #4: 18吉欧",
+          spoiler: "国王山道",
           id: "Geo Rock 2",
           sceneName: "Tutorial_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock5: {
-          name: "Geo Rock #5: 15 Geo",
-          spoiler: "King's Pass",
+          name: "吉欧堆 #5: 15吉欧",
+          spoiler: "国王山道",
           id: "Geo Rock 5",
           sceneName: "Tutorial_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock6: {
-          name: "Geo Rock #6: 19 Geo",
-          spoiler: "Forgotten Crossroads: Well",
+          name: "吉欧堆 #6: 19吉欧",
+          spoiler: "遗忘十字路: Well",
           id: "Geo Rock 2",
           sceneName: "Crossroads_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock7: {
-          name: "Geo Rock #7: 15 Geo",
-          spoiler: "Forgotten Crossroads: Gruzzer Vertical Room",
+          name: "吉欧堆 #7: 15吉欧",
+          spoiler: "遗忘十字路: Gruzzer Vertical Room",
           id: "Geo Rock 1",
           sceneName: "Crossroads_07",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock8: {
-          name: "Geo Rock #8: 15 Geo",
-          spoiler: "Forgotten Crossroads: Gruzzer Vertical Room",
+          name: "吉欧堆 #8: 15吉欧",
+          spoiler: "遗忘十字路: Gruzzer Vertical Room",
           id: "Geo Rock 1 (2)",
           sceneName: "Crossroads_07",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock9: {
-          name: "Geo Rock #9: 15 Geo",
-          spoiler: "Forgotten Crossroads: Gruzzer Vertical Room",
+          name: "吉欧堆 #9: 15吉欧",
+          spoiler: "遗忘十字路: Gruzzer Vertical Room",
           id: "Geo Rock 1 (1)",
           sceneName: "Crossroads_07",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock10: {
-          name: "Geo Rock #10: 15 Geo",
-          spoiler: "Forgotten Crossroads: Corridor to Acid Grub",
+          name: "吉欧堆 #10: 15吉欧",
+          spoiler: "遗忘十字路: Corridor to Acid Grub",
           id: "Geo Rock 2",
           sceneName: "Crossroads_12",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock11: {
-          name: "Geo Rock #11: 10 Geo",
-          spoiler: "Forgotten Crossroads: Aspid Arena",
+          name: "吉欧堆 #11: 10吉欧",
+          spoiler: "遗忘十字路: Aspid Arena",
           id: "Geo Rock 1 (3)",
           sceneName: "Crossroads_08",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock12: {
-          name: "Geo Rock #12: 10 Geo",
-          spoiler: "Forgotten Crossroads: Aspid Arena",
+          name: "吉欧堆 #12: 10吉欧",
+          spoiler: "遗忘十字路: Aspid Arena",
           id: "Geo Rock 1 (2)",
           sceneName: "Crossroads_08",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock13: {
-          name: "Geo Rock #13: 15 Geo",
-          spoiler: "Forgotten Crossroads: Aspid Arena",
+          name: "吉欧堆 #13: 15吉欧",
+          spoiler: "遗忘十字路: Aspid Arena",
           id: "Geo Rock 1",
           sceneName: "Crossroads_08",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock14: {
-          name: "Geo Rock #14: 10 Geo",
-          spoiler: "Forgotten Crossroads: Aspid Arena",
+          name: "吉欧堆 #14: 10吉欧",
+          spoiler: "遗忘十字路: Aspid Arena",
           id: "Geo Rock 1 (1)",
           sceneName: "Crossroads_08",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock15: {
-          name: "Geo Rock #15: 15 Geo",
-          spoiler: "Forgotten Crossroads: Fungal Wastes Entrance",
+          name: "吉欧堆 #15: 15吉欧",
+          spoiler: "遗忘十字路: 真菌荒地 Entrance",
           id: "Geo Rock 1",
           sceneName: "Crossroads_18",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock16: {
-          name: "Geo Rock #16: 15 Geo",
-          spoiler: "Forgotten Crossroads: Fungal Wastes Entrance",
+          name: "吉欧堆 #16: 15吉欧",
+          spoiler: "遗忘十字路: 真菌荒地 Entrance",
           id: "Geo Rock 2",
           sceneName: "Crossroads_18",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock17: {
-          name: "Geo Rock #17: 15 Geo",
-          spoiler: "Forgotten Crossroads: Fungal Wastes Entrance",
+          name: "吉欧堆 #17: 15吉欧",
+          spoiler: "遗忘十字路: 真菌荒地 Entrance",
           id: "Geo Rock 3",
           sceneName: "Crossroads_18",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock18: {
-          name: "Geo Rock #18: 15 Geo",
-          spoiler: "Forgotten Crossroads: Goam Mask Shard",
+          name: "吉欧堆 #18: 15吉欧",
+          spoiler: "遗忘十字路: Goam Mask Shard",
           id: "Geo Rock 2",
           sceneName: "Crossroads_13",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock19: {
-          name: "Geo Rock #19: 15 Geo",
-          spoiler: "Forgotten Crossroads: Goam Mask Shard",
+          name: "吉欧堆 #19: 15吉欧",
+          spoiler: "遗忘十字路: Goam Mask Shard",
           id: "Geo Rock 1",
           sceneName: "Crossroads_13",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock20: {
-          name: "Geo Rock #20: 15 Geo",
-          spoiler: "Forgotten Crossroads: Right of Mask Shard",
+          name: "吉欧堆 #20: 15吉欧",
+          spoiler: "遗忘十字路: Right of Mask Shard",
           id: "Geo Rock 2",
           sceneName: "Crossroads_42",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock21: {
-          name: "Geo Rock #21: 15 Geo",
-          spoiler: "Forgotten Crossroads: Right of Mask Shard",
+          name: "吉欧堆 #21: 15吉欧",
+          spoiler: "遗忘十字路: Right of Mask Shard",
           id: "Geo Rock 1",
           sceneName: "Crossroads_42",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock22: {
-          name: "Geo Rock #22: 15 Geo",
-          spoiler: "Forgotten Crossroads: Before Gruz Mother",
+          name: "吉欧堆 #22: 15吉欧",
+          spoiler: "遗忘十字路: Before Gruz Mother",
           id: "Geo Rock 1",
           sceneName: "Crossroads_19",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock23: {
-          name: "Geo Rock #23: 15 Geo",
-          spoiler: "Forgotten Crossroads: Outside False Knight",
+          name: "吉欧堆 #23: 15吉欧",
+          spoiler: "遗忘十字路: Outside 假骑士",
           id: "Geo Rock 1",
           sceneName: "Crossroads_21",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock24: {
-          name: "Geo Rock #24: 15 Geo",
-          spoiler: "Forgotten Crossroads: Crystal Peak Dark Toll",
+          name: "吉欧堆 #24: 15吉欧",
+          spoiler: "遗忘十字路: 水晶山峰 Dark Toll",
           id: "Geo Rock 2 (1)",
           sceneName: "Mines_33",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock25: {
-          name: "Geo Rock #25: 15 Geo",
-          spoiler: "Forgotten Crossroads: Crystal Peak Dark Toll",
+          name: "吉欧堆 #25: 15吉欧",
+          spoiler: "遗忘十字路: 水晶山峰 Dark Toll",
           id: "Geo Rock 2",
           sceneName: "Mines_33",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock26: {
-          name: "Geo Rock #26: 15 Geo",
-          spoiler: "Forgotten Crossroads: Crystal Peak Dark Toll",
+          name: "吉欧堆 #26: 15吉欧",
+          spoiler: "遗忘十字路: 水晶山峰 Dark Toll",
           id: "Geo Rock 2 (2)",
           sceneName: "Mines_33",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock27: {
-          name: "Geo Rock #27: 15 Geo",
-          spoiler: "Forgotten Crossroads: Above Lever",
+          name: "吉欧堆 #27: 15吉欧",
+          spoiler: "遗忘十字路: Above Lever",
           id: "Geo Rock 2",
           sceneName: "Crossroads_16",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock28: {
-          name: "Geo Rock #28: 15 Geo",
-          spoiler: "Forgotten Crossroads: Central Grub",
+          name: "吉欧堆 #28: 15吉欧",
+          spoiler: "遗忘十字路: Central Grub",
           id: "Geo Rock 1",
           sceneName: "Crossroads_05",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock29: {
-          name: "Geo Rock #29: 15 Geo",
-          spoiler: "Forgotten Crossroads: Outside Tram",
+          name: "吉欧堆 #29: 15吉欧",
+          spoiler: "遗忘十字路: Outside Tram",
           id: "Geo Rock 1",
           sceneName: "Crossroads_27",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock30: {
-          name: "Geo Rock #30: 15 Geo",
-          spoiler: "Forgotten Crossroads: Tram",
+          name: "吉欧堆 #30: 15吉欧",
+          spoiler: "遗忘十字路: Tram",
           id: "Geo Rock 1",
           sceneName: "Crossroads_46",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock31: {
-          name: "Geo Rock #31: 15 Geo",
-          spoiler: "Forgotten Crossroads: False Knight Arena",
+          name: "吉欧堆 #31: 15吉欧",
+          spoiler: "遗忘十字路: 假骑士 Arena",
           id: "Geo Rock 1",
           sceneName: "Crossroads_10",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock32: {
-          name: "Geo Rock #32: 15 Geo",
-          spoiler: "Forgotten Crossroads: Ancestral Mound",
+          name: "吉欧堆 #32: 15吉欧",
+          spoiler: "遗忘十字路: 祖先山丘",
           id: "Geo Rock 2",
           sceneName: "Crossroads_ShamanTemple",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock33: {
-          name: "Geo Rock #33: 15 Geo",
-          spoiler: "Forgotten Crossroads: Ancestral Mound",
+          name: "吉欧堆 #33: 15吉欧",
+          spoiler: "遗忘十字路: 祖先山丘",
           id: "Geo Rock 2 (1)",
           sceneName: "Crossroads_ShamanTemple",
           hitsLeft: "5",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock34: {
-          name: "Geo Rock #34: 15 Geo",
-          spoiler: "Forgotten Crossroads: Ancestral Mound",
+          name: "吉欧堆 #34: 15吉欧",
+          spoiler: "遗忘十字路: 祖先山丘",
           id: "Geo Rock 1",
           sceneName: "Crossroads_ShamanTemple",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock35: {
-          name: "Geo Rock #35: 15 Geo",
-          spoiler: "Forgotten Crossroads: Ancestral Mound",
+          name: "吉欧堆 #35: 15吉欧",
+          spoiler: "遗忘十字路: 祖先山丘",
           id: "Geo Rock 2",
           sceneName: "Crossroads_ShamanTemple",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock36: {
-          name: "Geo Rock #36: 26 Geo",
-          spoiler: "Greenpath: Entrance",
+          name: "吉欧堆 #36: 26吉欧",
+          spoiler: "苍绿之径: Entrance",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock37: {
-          name: "Geo Rock #37: 26 Geo",
-          spoiler: "Greenpath: Waterfall Bench",
+          name: "吉欧堆 #37: 26吉欧",
+          spoiler: "苍绿之径: Waterfall Bench",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_01b",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock38: {
-          name: "Geo Rock #38: 26 Geo",
-          spoiler: "Greenpath: First Hornet Sighting",
+          name: "吉欧堆 #38: 26吉欧",
+          spoiler: "苍绿之径: First Hornet Sighting",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock39: {
-          name: "Geo Rock #39: 26 Geo",
-          spoiler: "Greenpath: First Hornet Sighting",
+          name: "吉欧堆 #39: 26吉欧",
+          spoiler: "苍绿之径: First Hornet Sighting",
           id: "Geo Rock Green Path 01 (1)",
           sceneName: "Fungus1_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock40: {
-          name: "Geo Rock #40: 26 Geo",
-          spoiler: "Greenpath: Outside Hunter",
+          name: "吉欧堆 #40: 26吉欧",
+          spoiler: "苍绿之径: Outside Hunter",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_07",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock41: {
-          name: "Geo Rock #41: 26 Geo",
-          spoiler: "Greenpath: Above Sanctuary Bench",
+          name: "吉欧堆 #41: 26吉欧",
+          spoiler: "苍绿之径: Above Sanctuary Bench",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_19",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock42: {
-          name: "Geo Rock #42: 26 Geo",
-          spoiler: "Greenpath: Acid Bridge",
+          name: "吉欧堆 #42: 26吉欧",
+          spoiler: "苍绿之径: Acid Bridge",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_10",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock43: {
-          name: "Geo Rock #43: 26 Geo",
-          spoiler: "Greenpath: Outside Stag Station",
+          name: "吉欧堆 #43: 26吉欧",
+          spoiler: "苍绿之径: Outside 鹿角虫车站",
           id: "Geo Rock Green Path 01 (1)",
           sceneName: "Fungus1_22",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock44: {
-          name: "Geo Rock #44: 26 Geo",
-          spoiler: "Greenpath: Outside Stag Station",
+          name: "吉欧堆 #44: 26吉欧",
+          spoiler: "苍绿之径: Outside 鹿角虫车站",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_22",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock45: {
-          name: "Geo Rock #45: 26 Geo",
-          spoiler: "Greenpath: Toll",
+          name: "吉欧堆 #45: 26吉欧",
+          spoiler: "苍绿之径: Toll",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_31",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock46: {
-          name: "Geo Rock #46: 15 Geo",
-          spoiler: "Greenpath: Toll",
+          name: "吉欧堆 #46: 15吉欧",
+          spoiler: "苍绿之径: Toll",
           id: "Geo Rock 1 (1)",
           sceneName: "Fungus1_31",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock47: {
-          name: "Geo Rock #47: 15 Geo",
-          spoiler: "Greenpath: Toll",
+          name: "吉欧堆 #47: 15吉欧",
+          spoiler: "苍绿之径: Toll",
           id: "Geo Rock 2 (1)",
           sceneName: "Fungus1_31",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock48: {
-          name: "Geo Rock #48: 26 Geo",
-          spoiler: "Greenpath: Storerooms",
+          name: "吉欧堆 #48: 26吉欧",
+          spoiler: "苍绿之径: Storerooms",
           id: "Geo Rock Green Path 01 (2)",
           sceneName: "Fungus1_03",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock49: {
-          name: "Geo Rock #49: 26 Geo",
-          spoiler: "Greenpath: Storerooms",
+          name: "吉欧堆 #49: 26吉欧",
+          spoiler: "苍绿之径: Storerooms",
           id: "Geo Rock Green Path 01 (1)",
           sceneName: "Fungus1_03",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock50: {
-          name: "Geo Rock #50: 26 Geo",
-          spoiler: "Greenpath: Storerooms",
+          name: "吉欧堆 #50: 26吉欧",
+          spoiler: "苍绿之径: Storerooms",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_03",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock51: {
-          name: "Geo Rock #51: 15 Geo",
-          spoiler: "Greenpath: Outside Thorns",
+          name: "吉欧堆 #51: 15吉欧",
+          spoiler: "苍绿之径: Outside Thorns",
           id: "Geo Rock 2",
           sceneName: "Fungus1_05",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock52: {
-          name: "Geo Rock #52: 15 Geo",
-          spoiler: "Howling Cliffs: Baldur's Shell",
+          name: "吉欧堆 #52: 15吉欧",
+          spoiler: "呼啸悬崖: Baldur's Shell",
           id: "Geo Rock 2",
           sceneName: "Fungus1_28",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock53: {
-          name: "Geo Rock #53: 15 Geo",
-          spoiler: "Howling Cliffs: Baldur's Shell",
+          name: "吉欧堆 #53: 15吉欧",
+          spoiler: "呼啸悬崖: Baldur's Shell",
           id: "Geo Rock 1 (2)",
           sceneName: "Fungus1_28",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock54: {
-          name: "Geo Rock #54: 30 Geo",
-          spoiler: "Greenpath: Outside Hornet",
+          name: "吉欧堆 #54: 30吉欧",
+          spoiler: "苍绿之径: Outside Hornet",
           id: "Geo Rock Green Path 02",
           sceneName: "Fungus1_21",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock55: {
-          name: "Geo Rock #55: 30 Geo",
-          spoiler: "Greenpath: Outside Hornet",
+          name: "吉欧堆 #55: 30吉欧",
+          spoiler: "苍绿之径: Outside Hornet",
           id: "Geo Rock Green Path 02 (1)",
           sceneName: "Fungus1_21",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock56: {
-          name: "Geo Rock #56: 30 Geo",
-          spoiler: "Greenpath: Outside Hornet",
+          name: "吉欧堆 #56: 30吉欧",
+          spoiler: "苍绿之径: Outside Hornet",
           id: "Geo Rock Green Path 02 (2)",
           sceneName: "Fungus1_21",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock57: {
-          name: "Geo Rock #57: 26 Geo",
-          spoiler: "Greenpath: Hornet",
+          name: "吉欧堆 #57: 26吉欧",
+          spoiler: "苍绿之径: Hornet",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_04",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock58: {
-          name: "Geo Rock #58: 26 Geo",
-          spoiler: "Greenpath: Massive Moss Charger",
+          name: "吉欧堆 #58: 26吉欧",
+          spoiler: "苍绿之径: 大型苔藓冲锋者",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_29",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock59: {
-          name: "Geo Rock #59: 26 Geo",
-          spoiler: "Greenpath: Massive Moss Charger Corridor",
+          name: "吉欧堆 #59: 26吉欧",
+          spoiler: "苍绿之径: 大型苔藓冲锋者 Corridor",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus1_12",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock60: {
-          name: "Geo Rock #60: 26 Geo",
-          spoiler: "Greenpath: Massive Moss Charger Corridor",
+          name: "吉欧堆 #60: 26吉欧",
+          spoiler: "苍绿之径: 大型苔藓冲锋者 Corridor",
           id: "Geo Rock Green Path 01 (1)",
           sceneName: "Fungus1_12",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock61: {
-          name: "Geo Rock #61: 30 Geo",
-          spoiler: "Greenpath: Massive Moss Charger Corridor",
+          name: "吉欧堆 #61: 30吉欧",
+          spoiler: "苍绿之径: 大型苔藓冲锋者 Corridor",
           id: "Geo Rock Green Path 02",
           sceneName: "Fungus1_12",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock62: {
-          name: "Geo Rock #62: 26 Geo",
-          spoiler: "Fog Canyon: Queen's Gardens Acid Entrance",
+          name: "吉欧堆 #62: 26吉欧",
+          spoiler: "雾之峡谷: 王后花园 Acid Entrance",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus3_03",
           hitsLeft: "5",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock63: {
-          name: "Geo Rock #63: 22 Geo",
-          spoiler: "Fungal Wastes: Below Shrumal Ogres",
+          name: "吉欧堆 #63: 22吉欧",
+          spoiler: "真菌荒地: Below Shrumal Ogres",
           id: "Geo Rock Fung 01",
           sceneName: "Fungus2_04",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock64: {
-          name: "Geo Rock #64: 22 Geo",
-          spoiler: "Fungal Wastes: Cornifer",
+          name: "吉欧堆 #64: 22吉欧",
+          spoiler: "真菌荒地: 柯尼法",
           id: "Geo Rock Fung 01 (1)",
           sceneName: "Fungus2_18",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock65: {
-          name: "Geo Rock #65: 22 Geo",
-          spoiler: "Fungal Wastes: Cornifer",
+          name: "吉欧堆 #65: 22吉欧",
+          spoiler: "真菌荒地: 柯尼法",
           id: "Geo Rock Fung 01",
           sceneName: "Fungus2_18",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock66: {
-          name: "Geo Rock #66: 17 Geo",
-          spoiler: "Fungal Wastes: Cornifer",
+          name: "吉欧堆 #66: 17吉欧",
+          spoiler: "真菌荒地: 柯尼法",
           id: "Geo Rock Fung 02 (1)",
           sceneName: "Fungus2_18",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock67: {
-          name: "Geo Rock #67: 17 Geo",
-          spoiler: "Fungal Wastes: Cornifer",
+          name: "吉欧堆 #67: 17吉欧",
+          spoiler: "真菌荒地: 柯尼法",
           id: "Geo Rock Fung 02 (2)",
           sceneName: "Fungus2_18",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock68: {
-          name: "Geo Rock #68: 15 Geo",
-          spoiler: "Forgotten Crossroads: Goam Journal",
+          name: "吉欧堆 #68: 15吉欧",
+          spoiler: "遗忘十字路: Goam Journal",
           id: "Geo Rock 1",
           sceneName: "Crossroads_52",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock69: {
-          name: "Geo Rock #69: 15 Geo",
-          spoiler: "Forgotten Crossroads: Goam Journal",
+          name: "吉欧堆 #69: 15吉欧",
+          spoiler: "遗忘十字路: Goam Journal",
           id: "Geo Rock 2",
           sceneName: "Crossroads_52",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock70: {
-          name: "Geo Rock #70: 22 Geo",
-          spoiler: "Fungal Wastes: Outside Elder Hu",
+          name: "吉欧堆 #70: 22吉欧",
+          spoiler: "真菌荒地: Outside Elder Hu",
           id: "Geo Rock Fung 01",
           sceneName: "Fungus2_08",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock71: {
-          name: "Geo Rock #71: 22 Geo",
-          spoiler: "Fungal Wastes: Left Of Pilgrim's Way",
+          name: "吉欧堆 #71: 22吉欧",
+          spoiler: "真菌荒地: Left Of Pilgrim's Way",
           id: "Geo Rock Fung 01",
           sceneName: "Fungus2_10",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock72: {
-          name: "Geo Rock #72: 17 Geo",
-          spoiler: "Fungal Wastes: Right of Bouncy Mushroom Grub",
+          name: "吉欧堆 #72: 17吉欧",
+          spoiler: "真菌荒地: Right of Bouncy Mushroom Grub",
           id: "Geo Rock Fung 02",
           sceneName: "Fungus2_11",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock73: {
-          name: "Geo Rock #73: 22 Geo",
-          spoiler: "Fungal Wastes: Right of Bouncy Mushroom Grub",
+          name: "吉欧堆 #73: 22吉欧",
+          spoiler: "真菌荒地: Right of Bouncy Mushroom Grub",
           id: "Geo Rock Fung 01",
           sceneName: "Fungus2_11",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock74: {
-          name: "Geo Rock #74: 22 Geo",
-          spoiler: "Fungal Wastes: Bretta Bench",
+          name: "吉欧堆 #74: 22吉欧",
+          spoiler: "真菌荒地: Bretta Bench",
           id: "Geo Rock Fung 01 (1)",
           sceneName: "Fungus2_13",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock75: {
-          name: "Geo Rock #75: 22 Geo",
-          spoiler: "Fungal Wastes: Bretta Bench",
+          name: "吉欧堆 #75: 22吉欧",
+          spoiler: "真菌荒地: Bretta Bench",
           id: "Geo Rock Fung 01",
           sceneName: "Fungus2_13",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock76: {
-          name: "Geo Rock #76: 17 Geo",
-          spoiler: "Fungal Wastes: Bretta Bench",
+          name: "吉欧堆 #76: 17吉欧",
+          spoiler: "真菌荒地: Bretta Bench",
           id: "Geo Rock Fung 02",
           sceneName: "Fungus2_13",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock77: {
-          name: "Geo Rock #77: 15 Geo",
-          spoiler: "Fungal Wastes: Mantis Village",
+          name: "吉欧堆 #77: 15吉欧",
+          spoiler: "真菌荒地: Mantis Village",
           id: "Geo Rock 2 (2)",
           sceneName: "Fungus2_14",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock78: {
-          name: "Geo Rock #78: 15 Geo",
-          spoiler: "Fungal Wastes: Mantis Village",
+          name: "吉欧堆 #78: 15吉欧",
+          spoiler: "真菌荒地: Mantis Village",
           id: "Geo Rock 1",
           sceneName: "Fungus2_14",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock79: {
-          name: "Geo Rock #79: 15 Geo",
-          spoiler: "Fungal Wastes: Mantis Village",
+          name: "吉欧堆 #79: 15吉欧",
+          spoiler: "真菌荒地: Mantis Village",
           id: "Geo Rock 2 (3)",
           sceneName: "Fungus2_14",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock80: {
-          name: "Geo Rock #80: 15 Geo",
-          spoiler: "Fungal Wastes: Mantis Village",
+          name: "吉欧堆 #80: 15吉欧",
+          spoiler: "真菌荒地: Mantis Village",
           id: "Geo Rock 2 (1)",
           sceneName: "Fungus2_14",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock81: {
-          name: "Geo Rock #81: 15 Geo",
-          spoiler: "Fungal Wastes: Mantis Village",
+          name: "吉欧堆 #81: 15吉欧",
+          spoiler: "真菌荒地: Mantis Village",
           id: "Geo Rock 2",
           sceneName: "Fungus2_14",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock82: {
-          name: "Geo Rock #82: 15 Geo",
-          spoiler: "Fungal Wastes: Mantis Lords",
+          name: "吉欧堆 #82: 15吉欧",
+          spoiler: "真菌荒地: Mantis Lords",
           id: "Geo Rock 1",
           sceneName: "Fungus2_15",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock83: {
-          name: "Geo Rock #83: 15 Geo",
-          spoiler: "Fungal Wastes: Mantis Lords",
+          name: "吉欧堆 #83: 15吉欧",
+          spoiler: "真菌荒地: Mantis Lords",
           id: "Geo Rock 1 (1)",
           sceneName: "Fungus2_15",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock84: {
-          name: "Geo Rock #84: 22 Geo",
-          spoiler: "Fungal Wastes: Fungal Core Upper",
+          name: "吉欧堆 #84: 22吉欧",
+          spoiler: "真菌荒地: Fungal Core Upper",
           id: "Geo Rock Fung 01",
           sceneName: "Fungus2_29",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock85: {
-          name: "Geo Rock #85: 15 Geo",
-          spoiler: "Fungal Wastes: Pilgrim's Way",
+          name: "吉欧堆 #85: 15吉欧",
+          spoiler: "真菌荒地: Pilgrim's Way",
           id: "Geo Rock 1",
           sceneName: "Fungus2_21",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock86: {
-          name: "Geo Rock #86: 30 Geo",
-          spoiler: "City of Tears: Rafters",
+          name: "吉欧堆 #86: 30吉欧",
+          spoiler: "泪水之城: Rafters",
           id: "Geo Rock City 1",
           sceneName: "Ruins1_03",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock87: {
-          name: "Geo Rock #87: 30 Geo",
-          spoiler: "City of Tears: Lemm Room",
+          name: "吉欧堆 #87: 30吉欧",
+          spoiler: "泪水之城: 文物搜寻者里姆 Room",
           id: "Geo Rock City 1 (1)",
           sceneName: "Ruins1_05b",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock88: {
-          name: "Geo Rock #88: 30 Geo",
-          spoiler: "City of Tears: Rancid Egg Above Lemm",
+          name: "吉欧堆 #88: 30吉欧",
+          spoiler: "泪水之城: 腐臭蛋 Above 文物搜寻者里姆",
           id: "Geo Rock City 1",
           sceneName: "Ruins1_05c",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock89: {
-          name: "Geo Rock #89: 15 Geo",
-          spoiler: "Forgotten Crossroads: Vessel Fragment",
+          name: "吉欧堆 #89: 15吉欧",
+          spoiler: "遗忘十字路: Vessel Fragment",
           id: "Geo Rock 2",
           sceneName: "Crossroads_37",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock90: {
-          name: "Geo Rock #90: 15 Geo",
-          spoiler: "Forgotten Crossroads: Brooding Mawlek Middle",
+          name: "吉欧堆 #90: 15吉欧",
+          spoiler: "遗忘十字路: Brooding Mawlek Middle",
           id: "Geo Rock 1",
           sceneName: "Crossroads_36",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock91: {
-          name: "Geo Rock #91: 15 Geo",
-          spoiler: "Howling Cliffs: Gorb",
+          name: "吉欧堆 #91: 15吉欧",
+          spoiler: "呼啸悬崖: Gorb",
           id: "Geo Rock 1",
           sceneName: "Cliffs_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock92: {
-          name: "Geo Rock #92: 15 Geo",
-          spoiler: "Howling Cliffs: Gorb",
+          name: "吉欧堆 #92: 15吉欧",
+          spoiler: "呼啸悬崖: Gorb",
           id: "Geo Rock 1 (1)",
           sceneName: "Cliffs_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock93: {
-          name: "Geo Rock #93: 15 Geo",
-          spoiler: "Howling Cliffs: Main",
+          name: "吉欧堆 #93: 15吉欧",
+          spoiler: "呼啸悬崖: Main",
           id: "Geo Rock 2 (2)",
           sceneName: "Cliffs_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock94: {
-          name: "Geo Rock #94: 15 Geo",
-          spoiler: "Howling Cliffs: Main",
+          name: "吉欧堆 #94: 15吉欧",
+          spoiler: "呼啸悬崖: Main",
           id: "Geo Rock 2 (1)",
           sceneName: "Cliffs_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock95: {
-          name: "Geo Rock #95: 15 Geo",
-          spoiler: "Howling Cliffs: Main",
+          name: "吉欧堆 #95: 15吉欧",
+          spoiler: "呼啸悬崖: Main",
           id: "Geo Rock 2 (4)",
           sceneName: "Cliffs_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock96: {
-          name: "Geo Rock #96: 15 Geo",
-          spoiler: "Howling Cliffs: Main",
+          name: "吉欧堆 #96: 15吉欧",
+          spoiler: "呼啸悬崖: Main",
           id: "Geo Rock 2 (3)",
           sceneName: "Cliffs_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock97: {
-          name: "Geo Rock #97: 24 Geo",
-          spoiler: "Crystal Peak: Dark Entrance",
+          name: "吉欧堆 #97: 24吉欧",
+          spoiler: "水晶山峰: Dark Entrance",
           id: "Geo Rock Mine",
           sceneName: "Mines_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock98: {
-          name: "Geo Rock #98: 15 Geo",
-          spoiler: "Crystal Peak: Dark Entrance",
+          name: "吉欧堆 #98: 15吉欧",
+          spoiler: "水晶山峰: Dark Entrance",
           id: "Geo Rock 1",
           sceneName: "Mines_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock99: {
-          name: "Geo Rock #99: 22 Geo",
-          spoiler: "Crystal Peak: Dark Entrance",
+          name: "吉欧堆 #99: 22吉欧",
+          spoiler: "水晶山峰: Dark Entrance",
           id: "Geo Rock Mine (1)",
           sceneName: "Mines_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock100: {
-          name: "Geo Rock #100: 16 Geo",
-          spoiler: "Crystal Peak: Conveyor Belts Entrance",
+          name: "吉欧堆 #100: 16吉欧",
+          spoiler: "水晶山峰: Conveyor Belts Entrance",
           id: "Geo Rock Mine (1)",
           sceneName: "Mines_04",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock101: {
-          name: "Geo Rock #101: 16 Geo",
-          spoiler: "Crystal Peak: Conveyor Belts Entrance",
+          name: "吉欧堆 #101: 16吉欧",
+          spoiler: "水晶山峰: Conveyor Belts Entrance",
           id: "Geo Rock Mine",
           sceneName: "Mines_04",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock102: {
-          name: "Geo Rock #102: 22 Geo",
-          spoiler: "Crystal Peak: Above Spike Grub",
+          name: "吉欧堆 #102: 22吉欧",
+          spoiler: "水晶山峰: Above Spike Grub",
           id: "Geo Rock Mine",
           sceneName: "Mines_05",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock103: {
-          name: "Geo Rock #103: 24 Geo",
-          spoiler: "Crystal Peak: East Tall",
+          name: "吉欧堆 #103: 24吉欧",
+          spoiler: "水晶山峰: East Tall",
           id: "Geo Rock Mine (4)",
           sceneName: "Mines_20",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock104: {
-          name: "Geo Rock #104: 24 Geo",
-          spoiler: "Crystal Peak: East Tall",
+          name: "吉欧堆 #104: 24吉欧",
+          spoiler: "水晶山峰: East Tall",
           id: "Geo Rock Mine (3)",
           sceneName: "Mines_20",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock105: {
-          name: "Geo Rock #105: 24 Geo",
-          spoiler: "Crystal Peak: East Tall",
+          name: "吉欧堆 #105: 24吉欧",
+          spoiler: "水晶山峰: East Tall",
           id: "Geo Rock Mine (2)",
           sceneName: "Mines_20",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock106: {
-          name: "Geo Rock #106: 24 Geo",
-          spoiler: "Crystal Peak: Chest Crushers",
+          name: "吉欧堆 #106: 24吉欧",
+          spoiler: "水晶山峰: Chest Crushers",
           id: "Geo Rock Mine",
           sceneName: "Mines_37",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock107: {
-          name: "Geo Rock #107: 24 Geo",
-          spoiler: "Crystal Peak: Chest Crushers",
+          name: "吉欧堆 #107: 24吉欧",
+          spoiler: "水晶山峰: Chest Crushers",
           id: "Geo Rock Mine (1)",
           sceneName: "Mines_37",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock108: {
-          name: "Geo Rock #108: 30 Geo",
-          spoiler: "Royal Waterways: Entrance",
+          name: "吉欧堆 #108: 30吉欧",
+          spoiler: "皇家水道: Entrance",
           id: "Geo Rock City 1",
           sceneName: "Waterways_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock109: {
-          name: "Geo Rock #109: 26 Geo",
-          spoiler: "Royal Waterways: Entrance",
+          name: "吉欧堆 #109: 26吉欧",
+          spoiler: "皇家水道: Entrance",
           id: "Geo Rock City 1 (1)",
           sceneName: "Waterways_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock110: {
-          name: "Geo Rock #110: 30 Geo",
-          spoiler: "Royal Waterways: Mask Shard Room",
+          name: "吉欧堆 #110: 30吉欧",
+          spoiler: "皇家水道: Mask Shard Room",
           id: "Geo Rock City 1",
           sceneName: "Waterways_04b",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock111: {
-          name: "Geo Rock #111: 15 Geo",
-          spoiler: "City of Tears: Broken Elevator",
+          name: "吉欧堆 #111: 15吉欧",
+          spoiler: "泪水之城: Broken Elevator",
           id: "Geo Rock 2 (1)",
           sceneName: "Abyss_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock112: {
-          name: "Geo Rock #112: 15 Geo",
-          spoiler: "City of Tears: Broken Elevator",
+          name: "吉欧堆 #112: 15吉欧",
+          spoiler: "泪水之城: Broken Elevator",
           id: "Geo Rock 2",
           sceneName: "Abyss_01",
           hitsLeft: "5",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock113: {
-          name: "Geo Rock #113: 15 Geo",
-          spoiler: "City of Tears: Broken Elevator",
+          name: "吉欧堆 #113: 15吉欧",
+          spoiler: "泪水之城: Broken Elevator",
           id: "Geo Rock 1",
           sceneName: "Abyss_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock114: {
-          name: "Geo Rock #114: 15 Geo",
-          spoiler: "Ancient Basin: Broken Bridge",
+          name: "吉欧堆 #114: 15吉欧",
+          spoiler: "古老盆地: Broken Bridge",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Abyss_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock115: {
-          name: "Geo Rock #115: 15 Geo",
-          spoiler: "Ancient Basin: Broken Bridge",
+          name: "吉欧堆 #115: 15吉欧",
+          spoiler: "古老盆地: Broken Bridge",
           id: "Geo Rock Deepnest",
           sceneName: "Abyss_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock116: {
-          name: "Geo Rock #116: 15 Geo",
-          spoiler: "Ancient Basin: Broken Bridge",
+          name: "吉欧堆 #116: 15吉欧",
+          spoiler: "古老盆地: Broken Bridge",
           id: "Geo Rock Deepnest (2)",
           sceneName: "Abyss_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock117: {
-          name: "Geo Rock #117: 30 Geo",
-          spoiler: "City of Tears: King's Station",
+          name: "吉欧堆 #117: 30吉欧",
+          spoiler: "泪水之城: 国王驿站",
           id: "Geo Rock City 1",
           sceneName: "Ruins2_06",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock118: {
-          name: "Geo Rock #118: 30 Geo",
-          spoiler: "City of Tears: Above King's Station",
+          name: "吉欧堆 #118: 30吉欧",
+          spoiler: "泪水之城: Above 国王驿站",
           id: "Geo Rock City 1",
           sceneName: "Ruins2_05",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock119: {
-          name: "Geo Rock #119: 44 Geo",
-          spoiler: "Kingdom's Edge: Whispering Root",
+          name: "吉欧堆 #119: 44吉欧",
+          spoiler: "王国边缘: 低语之根",
           id: "Geo Rock Outskirts",
           sceneName: "Deepnest_East_07",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock120: {
-          name: "Geo Rock #120: 44 Geo",
-          spoiler: "Kingdom's Edge: Whispering Root",
+          name: "吉欧堆 #120: 44吉欧",
+          spoiler: "王国边缘: 低语之根",
           id: "Geo Rock Outskirts (1)",
           sceneName: "Deepnest_East_07",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock121: {
-          name: "Geo Rock #121: 44 Geo",
-          spoiler: "Kingdom's Edge: Outside Nailmaster Oro",
+          name: "吉欧堆 #121: 44吉欧",
+          spoiler: "王国边缘: Outside Nailmaster Oro",
           id: "Geo Rock Outskirts",
           sceneName: "Deepnest_East_06",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock122: {
-          name: "Geo Rock #122: 44 Geo",
-          spoiler: "Kingdom's Edge: Outside Nailmaster Oro",
+          name: "吉欧堆 #122: 44吉欧",
+          spoiler: "王国边缘: Outside Nailmaster Oro",
           id: "Geo Rock Outskirts (1)",
           sceneName: "Deepnest_East_06",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock123: {
-          name: "Geo Rock #123: 44 Geo",
-          spoiler: "Kingdom's Edge: Bardoon",
+          name: "吉欧堆 #123: 44吉欧",
+          spoiler: "王国边缘: Bardoon",
           id: "Geo Rock Outskirts",
           sceneName: "Deepnest_East_04",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock124: {
-          name: "Geo Rock #124: 44 Geo",
-          spoiler: "Kingdom's Edge: Great Hopper King's Idol",
+          name: "吉欧堆 #124: 44吉欧",
+          spoiler: "王国边缘: Great Hopper 国王神像",
           id: "Geo Rock Outskirts",
           sceneName: "Deepnest_East_08",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock125: {
-          name: "Geo Rock #125: 44 Geo",
-          spoiler: "Kingdom's Edge: Pale Lurker Arena",
+          name: "吉欧堆 #125: 44吉欧",
+          spoiler: "王国边缘: Pale Lurker Arena",
           id: "Geo Rock Outskirts",
           sceneName: "GG_Lurker",
           hitsLeft: "5",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock126: {
-          name: "Geo Rock #126: 30 Geo",
-          spoiler: "Fog Canyon: Overgrown Mound",
+          name: "吉欧堆 #126: 30吉欧",
+          spoiler: "雾之峡谷: Overgrown Mound",
           id: "Geo Rock Green Path 02",
           sceneName: "Room_Fungus_Shaman",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock127: {
-          name: "Geo Rock #127: 30 Geo",
-          spoiler: "City of Tears: Soul Master Rewards Room",
+          name: "吉欧堆 #127: 30吉欧",
+          spoiler: "泪水之城: Soul Master Rewards Room",
           id: "Geo Rock City 1",
           sceneName: "Ruins1_32",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock128: {
-          name: "Geo Rock #128: 30 Geo",
-          spoiler: "Royal Waterways: Outside Flukemarm",
+          name: "吉欧堆 #128: 30吉欧",
+          spoiler: "皇家水道: Outside 吸虫之母",
           id: "Geo Rock City 1",
           sceneName: "Waterways_08",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock129: {
-          name: "Geo Rock #129: 30 Geo",
-          spoiler: "Royal Waterways: Flukemunga Corridor",
+          name: "吉欧堆 #129: 30吉欧",
+          spoiler: "皇家水道: Flukemunga Corridor",
           id: "Geo Rock City 1",
           sceneName: "GG_Pipeway",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock130: {
-          name: "Geo Rock #130: 22 Geo",
-          spoiler: "Royal Waterways: Fluke Hermit Room",
+          name: "吉欧堆 #130: 22吉欧",
+          spoiler: "皇家水道: Fluke Hermit Room",
           id: "Geo Rock Fung 01",
           sceneName: "Room_GG_Shortcut",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock131: {
-          name: "Geo Rock #131: 17 Geo",
-          spoiler: "Royal Waterways: Fluke Hermit Room",
+          name: "吉欧堆 #131: 17吉欧",
+          spoiler: "皇家水道: Fluke Hermit Room",
           id: "Geo Rock Fung 02 (1)",
           sceneName: "Room_GG_Shortcut",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock132: {
-          name: "Geo Rock #132: 25 Geo",
-          spoiler: "Resting Grounds: Crypts",
+          name: "吉欧堆 #132: 25吉欧",
+          spoiler: "安息之地: Crypts",
           id: "Geo Rock Grave 02 (1)",
           sceneName: "RestingGrounds_10",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock133: {
-          name: "Geo Rock #133: 25 Geo",
-          spoiler: "Resting Grounds: Crypts",
+          name: "吉欧堆 #133: 25吉欧",
+          spoiler: "安息之地: Crypts",
           id: "Geo Rock Grave 02",
           sceneName: "RestingGrounds_10",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock134: {
-          name: "Geo Rock #134: 25 Geo",
-          spoiler: "Resting Grounds: Crypts",
+          name: "吉欧堆 #134: 25吉欧",
+          spoiler: "安息之地: Crypts",
           id: "Geo Rock Grave 01",
           sceneName: "RestingGrounds_10",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock135: {
-          name: "Geo Rock #135: 24 Geo",
-          spoiler: "Crystal Peak: Crystal Heart Gauntlet",
+          name: "吉欧堆 #135: 24吉欧",
+          spoiler: "水晶山峰: Crystal Heart Gauntlet",
           id: "Geo Rock Mine",
           sceneName: "Mines_31",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock136: {
-          name: "Geo Rock #136: 24 Geo",
-          spoiler: "Crystal Peak: Grub Mimic",
+          name: "吉欧堆 #136: 24吉欧",
+          spoiler: "水晶山峰: 幼虫 Mimic",
           id: "Geo Rock Mine",
           sceneName: "Mines_16",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock137: {
-          name: "Geo Rock #137: 35 Geo",
-          spoiler: "Ancient Basin: Corridor to Broken Vessel",
+          name: "吉欧堆 #137: 35吉欧",
+          spoiler: "古老盆地: Corridor to Broken Vessel",
           id: "Geo Rock Abyss",
           sceneName: "Abyss_18",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock138: {
-          name: "Geo Rock #138: 35 Geo",
-          spoiler: "The Abyss: Main/Core Area",
+          name: "吉欧堆 #138: 35吉欧",
+          spoiler: "深渊: Main/Core Area",
           id: "Geo Rock Abyss (1)",
           sceneName: "Abyss_06_Core",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock139: {
-          name: "Geo Rock #139: 35 Geo",
-          spoiler: "The Abyss: Main/Core Area",
+          name: "吉欧堆 #139: 35吉欧",
+          spoiler: "深渊: Main/Core Area",
           id: "Geo Rock Abyss",
           sceneName: "Abyss_06_Core",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock140: {
-          name: "Geo Rock #140: 35 Geo",
-          spoiler: "The Abyss: Main/Core Area",
+          name: "吉欧堆 #140: 35吉欧",
+          spoiler: "深渊: Main/Core Area",
           id: "Geo Rock Abyss",
           sceneName: "Abyss_06_Core",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock141: {
-          name: "Geo Rock #141: 35 Geo",
-          spoiler: "Ancient Basin: Broken Vessel Grub",
+          name: "吉欧堆 #141: 35吉欧",
+          spoiler: "古老盆地: Broken Vessel Grub",
           id: "Geo Rock Abyss (1)",
           sceneName: "Abyss_19",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock142: {
-          name: "Geo Rock #142: 35 Geo",
-          spoiler: "Ancient Basin: Broken Vessel Grub",
+          name: "吉欧堆 #142: 35吉欧",
+          spoiler: "古老盆地: Broken Vessel Grub",
           id: "Geo Rock Abyss",
           sceneName: "Abyss_19",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock143: {
-          name: "Geo Rock #143: 24 Geo",
-          spoiler: "Crystal Peak: Hallownest Crown Climb",
+          name: "吉欧堆 #143: 24吉欧",
+          spoiler: "水晶山峰: Hallownest Crown Climb",
           id: "Geo Rock Mine",
           sceneName: "Mines_25",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock144: {
-          name: "Geo Rock #144: 24 Geo",
-          spoiler: "Crystal Peak: Hallownest Crown Climb",
+          name: "吉欧堆 #144: 24吉欧",
+          spoiler: "水晶山峰: Hallownest Crown Climb",
           id: "Geo Rock Mine (4)",
           sceneName: "Mines_25",
           hitsLeft: "4",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock145: {
-          name: "Geo Rock #145: 24 Geo",
-          spoiler: "Crystal Peak: Hallownest Crown Climb",
+          name: "吉欧堆 #145: 24吉欧",
+          spoiler: "水晶山峰: Hallownest Crown Climb",
           id: "Geo Rock Mine (2)",
           sceneName: "Mines_25",
           hitsLeft: "4",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock146: {
-          name: "Geo Rock #146: 24 Geo",
-          spoiler: "Crystal Peak: Hallownest Crown Climb",
+          name: "吉欧堆 #146: 24吉欧",
+          spoiler: "水晶山峰: Hallownest Crown Climb",
           id: "Geo Rock Mine (1)",
           sceneName: "Mines_25",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock147: {
-          name: "Geo Rock #147: 24 Geo",
-          spoiler: "Crystal Peak: Hallownest Crown Climb",
+          name: "吉欧堆 #147: 24吉欧",
+          spoiler: "水晶山峰: Hallownest Crown Climb",
           id: "Geo Rock Mine (3)",
           sceneName: "Mines_25",
           hitsLeft: "4",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock148: {
-          name: "Geo Rock #148: 30 Geo",
-          spoiler: "City of Tears: Watcher's Spire Second Floor",
+          name: "吉欧堆 #148: 30吉欧",
+          spoiler: "泪水之城: Watcher's Spire Second Floor",
           id: "Geo Rock City 1",
           sceneName: "Ruins2_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock149: {
-          name: "Geo Rock #149: 30 Geo",
-          spoiler: "Fog Canyon: East Tall",
+          name: "吉欧堆 #149: 30吉欧",
+          spoiler: "雾之峡谷: East Tall",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus3_26",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock150: {
-          name: "Geo Rock #150: 26 Geo",
-          spoiler: "Queen's Gardens: Main Arena",
+          name: "吉欧堆 #150: 26吉欧",
+          spoiler: "王后花园: Main Arena",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus3_10",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock151: {
-          name: "Geo Rock #151: 30 Geo",
-          spoiler: "Queen's Gardens: Outside White Lady",
+          name: "吉欧堆 #151: 30吉欧",
+          spoiler: "王后花园: Outside White Lady",
           id: "Geo Rock Green Path 02",
           sceneName: "Fungus3_48",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock152: {
-          name: "Geo Rock #152: 27 Geo",
-          spoiler: "Queen's Gardens: Moss Prophet Room",
+          name: "吉欧堆 #152: 27吉欧",
+          spoiler: "王后花园: Moss Prophet Room",
           id: "Geo Rock Green Path 01 (1)",
           sceneName: "Fungus3_39",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock153: {
-          name: "Geo Rock #153: 30 Geo",
-          spoiler: "Queen's Gardens: Moss Prophet Room",
+          name: "吉欧堆 #153: 30吉欧",
+          spoiler: "王后花园: Moss Prophet Room",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus3_39",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock154: {
-          name: "Geo Rock #154: 15 Geo",
-          spoiler: "Fungal Wastes: Deepnest Fall",
+          name: "吉欧堆 #154: 15吉欧",
+          spoiler: "真菌荒地: 深邃巢穴 Fall",
           id: "Geo Rock 1",
           sceneName: "Deepnest_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock155: {
-          name: "Geo Rock #155: 15 Geo",
-          spoiler: "Fungal Wastes: Deepnest Fall",
+          name: "吉欧堆 #155: 15吉欧",
+          spoiler: "真菌荒地: 深邃巢穴 Fall",
           id: "Geo Rock 2",
           sceneName: "Deepnest_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock156: {
-          name: "Geo Rock #156: 26 Geo",
-          spoiler: "Queen's Gardens: Corridor To Deepnest",
+          name: "吉欧堆 #156: 26吉欧",
+          spoiler: "王后花园: Corridor To 深邃巢穴",
           id: "Geo Rock Green Path 01 (1)",
           sceneName: "Deepnest_43",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock157: {
-          name: "Geo Rock #157: 26 Geo",
-          spoiler: "Queen's Gardens: Corridor To Deepnest",
+          name: "吉欧堆 #157: 26吉欧",
+          spoiler: "王后花园: Corridor To 深邃巢穴",
           id: "Geo Rock Green Path 01",
           sceneName: "Deepnest_43",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock158: {
-          name: "Geo Rock #158: 22 Geo",
-          spoiler: "Fungal Wastes: Fungal Core Lower",
+          name: "吉欧堆 #158: 22吉欧",
+          spoiler: "真菌荒地: Fungal Core Lower",
           id: "Geo Rock Fung 01",
           sceneName: "Fungus2_30",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock159: {
-          name: "Geo Rock #159: 22 Geo",
-          spoiler: "Fungal Wastes: Fungal Core Lower",
+          name: "吉欧堆 #159: 22吉欧",
+          spoiler: "真菌荒地: Fungal Core Lower",
           id: "Geo Rock Fung 01 (1)",
           sceneName: "Fungus2_30",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock160: {
-          name: "Geo Rock #160: 15 Geo",
-          spoiler: "Deepnest: Lower Cornifer",
+          name: "吉欧堆 #160: 15吉欧",
+          spoiler: "深邃巢穴: Lower 柯尼法",
           id: "Geo Rock Deepnest",
           sceneName: "Fungus2_25",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock161: {
-          name: "Geo Rock #161: 15 Geo",
-          spoiler: "Deepnest: Lower Cornifer",
+          name: "吉欧堆 #161: 15吉欧",
+          spoiler: "深邃巢穴: Lower 柯尼法",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Fungus2_25",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock162: {
-          name: "Geo Rock #162: 15 Geo",
-          spoiler: "Deepnest: Lower Cornifer",
+          name: "吉欧堆 #162: 15吉欧",
+          spoiler: "深邃巢穴: Lower 柯尼法",
           id: "Geo Rock Deepnest (2)",
           sceneName: "Fungus2_25",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock163: {
-          name: "Geo Rock #163: 15 Geo",
-          spoiler: "Deepnest: Top of Lower Cornifer",
+          name: "吉欧堆 #163: 15吉欧",
+          spoiler: "深邃巢穴: Top of Lower 柯尼法",
           id: "Geo Rock Deepnest (4)",
           sceneName: "Deepnest_16",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock164: {
-          name: "Geo Rock #164: 15 Geo",
-          spoiler: "Deepnest: Top of Lower Cornifer",
+          name: "吉欧堆 #164: 15吉欧",
+          spoiler: "深邃巢穴: Top of Lower 柯尼法",
           id: "Geo Rock Deepnest (3)",
           sceneName: "Deepnest_16",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock165: {
-          name: "Geo Rock #165: 15 Geo",
-          spoiler: "Deepnest: Top of Lower Cornifer",
+          name: "吉欧堆 #165: 15吉欧",
+          spoiler: "深邃巢穴: Top of Lower 柯尼法",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Deepnest_16",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock166: {
-          name: "Geo Rock #166: 15 Geo",
-          spoiler: "Deepnest: Top of Lower Cornifer",
+          name: "吉欧堆 #166: 15吉欧",
+          spoiler: "深邃巢穴: Top of Lower 柯尼法",
           id: "Geo Rock Deepnest",
           sceneName: "Deepnest_16",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock167: {
-          name: "Geo Rock #167: 15 Geo",
-          spoiler: "Deepnest: Top of Lower Cornifer",
+          name: "吉欧堆 #167: 15吉欧",
+          spoiler: "深邃巢穴: Top of Lower 柯尼法",
           id: "Geo Rock Deepnest (2)",
           sceneName: "Deepnest_16",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock168: {
-          name: "Geo Rock #168: 15 Geo",
-          spoiler: "Deepnest: Outside Grub Mimics",
+          name: "吉欧堆 #168: 15吉欧",
+          spoiler: "深邃巢穴: Outside 幼虫 Mimics",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Deepnest_02",
           hitsLeft: "3",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock169: {
-          name: "Geo Rock #169: 15 Geo",
-          spoiler: "Deepnest: Outside Grub Mimics",
+          name: "吉欧堆 #169: 15吉欧",
+          spoiler: "深邃巢穴: Outside 幼虫 Mimics",
           id: "Geo Rock Deepnest",
           sceneName: "Deepnest_02",
           hitsLeft: "3",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock170: {
-          name: "Geo Rock #170: 15 Geo",
-          spoiler: "Deepnest: Whispering Root",
+          name: "吉欧堆 #170: 15吉欧",
+          spoiler: "深邃巢穴: 低语之根",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Deepnest_39",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock171: {
-          name: "Geo Rock #171: 15 Geo",
-          spoiler: "Deepnest: Whispering Root",
+          name: "吉欧堆 #171: 15吉欧",
+          spoiler: "深邃巢穴: 低语之根",
           id: "Geo Rock Deepnest (2)",
           sceneName: "Deepnest_39",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock172: {
-          name: "Geo Rock #172: 15 Geo",
-          spoiler: "Deepnest: Whispering Root",
+          name: "吉欧堆 #172: 15吉欧",
+          spoiler: "深邃巢穴: 低语之根",
           id: "Geo Rock Deepnest",
           sceneName: "Deepnest_39",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock173: {
-          name: "Geo Rock #173: 15 Geo",
-          spoiler: "Deepnest: Left of Hot Spring",
+          name: "吉欧堆 #173: 15吉欧",
+          spoiler: "深邃巢穴: Left of Hot Spring",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Deepnest_03",
           hitsLeft: "3",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock174: {
-          name: "Geo Rock #174: 15 Geo",
-          spoiler: "Deepnest: Left of Hot Spring",
+          name: "吉欧堆 #174: 15吉欧",
+          spoiler: "深邃巢穴: Left of Hot Spring",
           id: "Geo Rock Deepnest (2)",
           sceneName: "Deepnest_03",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock175: {
-          name: "Geo Rock #175: 15 Geo",
-          spoiler: "Deepnest: Left of Hot Spring",
+          name: "吉欧堆 #175: 15吉欧",
+          spoiler: "深邃巢穴: Left of Hot Spring",
           id: "Geo Rock Deepnest",
           sceneName: "Deepnest_03",
           hitsLeft: "3",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock176: {
-          name: "Geo Rock #176: 15 Geo",
-          spoiler: "Deepnest: Outside Galien",
+          name: "吉欧堆 #176: 15吉欧",
+          spoiler: "深邃巢穴: Outside Galien",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Deepnest_35",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock177: {
-          name: "Geo Rock #177: 15 Geo",
-          spoiler: "Deepnest: Outside Galien",
+          name: "吉欧堆 #177: 15吉欧",
+          spoiler: "深邃巢穴: Outside Galien",
           id: "Geo Rock Deepnest",
           sceneName: "Deepnest_35",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock178: {
-          name: "Geo Rock #178: 15 Geo",
-          spoiler: "Deepnest: Corridor to Tram",
+          name: "吉欧堆 #178: 15吉欧",
+          spoiler: "深邃巢穴: Corridor to Tram",
           id: "Geo Rock Deepnest",
           sceneName: "Deepnest_37",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock179: {
-          name: "Geo Rock #179: 15 Geo",
-          spoiler: "Deepnest: Corridor to Tram",
+          name: "吉欧堆 #179: 15吉欧",
+          spoiler: "深邃巢穴: Corridor to Tram",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Deepnest_37",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock180: {
-          name: "Geo Rock #180: 15 Geo",
-          spoiler: "Kingdom's Edge: Left of The Hive",
+          name: "吉欧堆 #180: 15吉欧",
+          spoiler: "王国边缘: Left of 蜂巢",
           id: "Geo Rock Deepnest",
           sceneName: "Deepnest_East_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock181: {
-          name: "Geo Rock #181: 15 Geo",
-          spoiler: "Kingdom's Edge: Left of The Hive",
+          name: "吉欧堆 #181: 15吉欧",
+          spoiler: "王国边缘: Left of 蜂巢",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Deepnest_East_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock182: {
-          name: "Geo Rock #182: 15 Geo",
-          spoiler: "Kingdom's Edge: Above The Hive",
+          name: "吉欧堆 #182: 15吉欧",
+          spoiler: "王国边缘: Above 蜂巢",
           id: "Geo Rock Deepnest",
           sceneName: "Deepnest_East_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock183: {
-          name: "Geo Rock #183: 15 Geo",
-          spoiler: "Kingdom's Edge: Above The Hive",
+          name: "吉欧堆 #183: 15吉欧",
+          spoiler: "王国边缘: Above 蜂巢",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Deepnest_East_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock184: {
-          name: "Geo Rock #184: 30 Geo",
-          spoiler: "Royal Waterways: Left of Isma's Grove",
+          name: "吉欧堆 #184: 30吉欧",
+          spoiler: "皇家水道: Left of Isma's Grove",
           id: "Geo Rock City 1",
           sceneName: "Waterways_07",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock185: {
-          name: "Geo Rock #185: 56 Geo",
-          spoiler: "The Hive: Outside Grub",
+          name: "吉欧堆 #185: 56吉欧",
+          spoiler: "蜂巢: Outside Grub",
           id: "Geo Rock Hive (2)",
           sceneName: "Hive_03",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock186: {
-          name: "Geo Rock #186: 56 Geo",
-          spoiler: "The Hive: Outside Grub",
+          name: "吉欧堆 #186: 56吉欧",
+          spoiler: "蜂巢: Outside Grub",
           id: "Geo Rock Hive",
           sceneName: "Hive_03",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock187: {
-          name: "Geo Rock #187: 56 Geo",
-          spoiler: "The Hive: Outside Grub",
+          name: "吉欧堆 #187: 56吉欧",
+          spoiler: "蜂巢: Outside Grub",
           id: "Geo Rock Hive (1)",
           sceneName: "Hive_03",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock188: {
-          name: "Geo Rock #188: 56 Geo",
-          spoiler: "The Hive: Entrance",
+          name: "吉欧堆 #188: 56吉欧",
+          spoiler: "蜂巢: Entrance",
           id: "Geo Rock Hive",
           sceneName: "Hive_01",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock189: {
-          name: "Geo Rock #189: 56 Geo",
-          spoiler: "The Hive: Whispering Root",
+          name: "吉欧堆 #189: 56吉欧",
+          spoiler: "蜂巢: 低语之根",
           id: "Geo Rock Hive",
           sceneName: "Hive_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock190: {
-          name: "Geo Rock #190: 56 Geo",
-          spoiler: "The Hive: Whispering Root",
+          name: "吉欧堆 #190: 56吉欧",
+          spoiler: "蜂巢: 低语之根",
           id: "Geo Rock Hive (2)",
           sceneName: "Hive_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock191: {
-          name: "Geo Rock #191: 56 Geo",
-          spoiler: "The Hive: Whispering Root",
+          name: "吉欧堆 #191: 56吉欧",
+          spoiler: "蜂巢: 低语之根",
           id: "Geo Rock Hive (1)",
           sceneName: "Hive_02",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock192: {
-          name: "Geo Rock #192: 56 Geo",
-          spoiler: "The Hive: Mask Shard Room",
+          name: "吉欧堆 #192: 56吉欧",
+          spoiler: "蜂巢: Mask Shard Room",
           id: "Geo Rock Hive",
           sceneName: "Hive_04",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock193: {
-          name: "Geo Rock #193: 56 Geo",
-          spoiler: "The Hive: Mask Shard Room",
+          name: "吉欧堆 #193: 56吉欧",
+          spoiler: "蜂巢: Mask Shard Room",
           id: "Geo Rock Hive (1)",
           sceneName: "Hive_04",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock194: {
-          name: "Geo Rock #194: 15 Geo",
-          spoiler: "Deepnest: Nosk Corridor",
+          name: "吉欧堆 #194: 15吉欧",
+          spoiler: "深邃巢穴: Nosk Corridor",
           id: "Geo Rock Deepnest",
           sceneName: "Deepnest_31",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock195: {
-          name: "Geo Rock #195: 15 Geo",
-          spoiler: "Deepnest: Nosk Corridor",
+          name: "吉欧堆 #195: 15吉欧",
+          spoiler: "深邃巢穴: Nosk Corridor",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Deepnest_31",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock196: {
-          name: "Geo Rock #196: 15 Geo",
-          spoiler: "Deepnest: Nosk Corridor",
+          name: "吉欧堆 #196: 15吉欧",
+          spoiler: "深邃巢穴: Nosk Corridor",
           id: "Geo Rock Deepnest (2)",
           sceneName: "Deepnest_31",
           hitsLeft: "3",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock197: {
-          name: "Geo Rock #197: 15 Geo",
-          spoiler: "Deepnest: Beast's Den",
+          name: "吉欧堆 #197: 15吉欧",
+          spoiler: "深邃巢穴: Beast's Den",
           id: "Geo Rock Deepnest (3)",
           sceneName: "Deepnest_Spider_Town",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock198: {
-          name: "Geo Rock #198: 15 Geo",
-          spoiler: "Deepnest: Beast's Den",
+          name: "吉欧堆 #198: 15吉欧",
+          spoiler: "深邃巢穴: Beast's Den",
           id: "Geo Rock Deepnest (4)",
           sceneName: "Deepnest_Spider_Town",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock199: {
-          name: "Geo Rock #199: 20 Geo",
-          spoiler: "Deepnest: Beast's Den",
+          name: "吉欧堆 #199: 20吉欧",
+          spoiler: "深邃巢穴: Beast's Den",
           id: "Geo Rock Deepnest (5)",
           sceneName: "Deepnest_Spider_Town",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock200: {
-          name: "Geo Rock #200: 15 Geo",
-          spoiler: "Deepnest: Beast's Den",
+          name: "吉欧堆 #200: 15吉欧",
+          spoiler: "深邃巢穴: Beast's Den",
           id: "Geo Rock Deepnest",
           sceneName: "Deepnest_Spider_Town",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock201: {
-          name: "Geo Rock #201: 15 Geo",
-          spoiler: "Deepnest: Beast's Den",
+          name: "吉欧堆 #201: 15吉欧",
+          spoiler: "深邃巢穴: Beast's Den",
           id: "Geo Rock Deepnest (1)",
           sceneName: "Deepnest_Spider_Town",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock202: {
-          name: "Geo Rock #202: 30 Geo",
-          spoiler: "Deepnest: Beast's Den",
+          name: "吉欧堆 #202: 30吉欧",
+          spoiler: "深邃巢穴: Beast's Den",
           id: "Geo Rock Deepnest (7)",
           sceneName: "Deepnest_Spider_Town",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock203: {
-          name: "Geo Rock #203: 15 Geo",
-          spoiler: "Deepnest: Beast's Den",
+          name: "吉欧堆 #203: 15吉欧",
+          spoiler: "深邃巢穴: Beast's Den",
           id: "Geo Rock Deepnest (2)",
           sceneName: "Deepnest_Spider_Town",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock204: {
-          name: "Geo Rock #204: 20 Geo",
-          spoiler: "Deepnest: Beast's Den",
+          name: "吉欧堆 #204: 20吉欧",
+          spoiler: "深邃巢穴: Beast's Den",
           id: "Geo Rock Deepnest (6)",
           sceneName: "Deepnest_Spider_Town",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock205: {
-          name: "Geo Rock #205: 30 Geo",
-          spoiler: "City of Tears: Pleasure House Elevator",
+          name: "吉欧堆 #205: 30吉欧",
+          spoiler: "泪水之城: Pleasure House Elevator",
           id: "Geo Rock City 1",
           sceneName: "Ruins_Elevator",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock206: {
-          name: "Geo Rock #206: 44 Geo",
-          spoiler: "Kingdom's Edge: Near 420 Geo Rock",
+          name: "吉欧堆 #206: 44吉欧",
+          spoiler: "王国边缘: Near 420吉欧堆",
           id: "Geo Rock Outskirts",
           sceneName: "Deepnest_East_17",
           hitsLeft: "0",
           wiki: "Geo#How_to_Acquire"
         },
         geoRock207: {
-          name: "Geo Rock #207: 420 Geo",
-          spoiler: "Kingdom's Edge",
+          name: "巨大吉欧蛋 #207: 420吉欧",
+          spoiler: "王国边缘",
           id: "Giant Geo Egg",
           sceneName: "Deepnest_East_17",
           hitsLeft: "0",
@@ -5710,9 +5710,9 @@ const HK = {
     /* ###################################### Secrets -> World Interactions ############################################## */
 
     worldInteractions: {
-      h2: "World Interactions",
+      h2: "世界互动",
       id: "hk-world-interactions",
-      description: `Certain interactions the player can make with NPCs in the game or world objects. All these here don't count towards either 112% Game Completion or Achievements.`,
+      description: `Certain interactions the player can make with NPCs in the game or world objects. All these here don't count towards either 112% 游戏完成度 or Achievements.`,
       entries: {
         unlockedCompletionRate: {
           name: "World Sense Ability",
@@ -5721,96 +5721,96 @@ const HK = {
         },
         spaBugsEncountered: {
           name: "Gossipping Bugs",
-          spoiler: "Forgotten Crossroads: Hot Springs, acquire Mantis Claw",
+          spoiler: "遗忘十字路: Hot Springs, acquire Mantis Claw",
           wiki: "Hot_Spring#Forgotten_Crossroads"
         },
         jijiDoorUnlocked: {
           name: "Confessor Jiji's Cave Unlocked",
-          spoiler: "Dirtmouth, requires Simple Key",
+          spoiler: "德特茅斯, requires简单钥匙",
           wiki: "Jiji"
         },
         bathHouseOpened: {
           name: "Pleasure House Door Unlocked",
-          spoiler: "City of Tears: Right Side Main Hub Area",
+          spoiler: "泪水之城: Right Side Main Hub Area",
           wiki: "City_of_Tears#Sub-area:_Pleasure_House"
         },
         openedWaterwaysManhole: {
           name: "Waterways Manhole Unlocked",
-          spoiler: "City of Tears: below Lemm, use Simple Key",
+          spoiler: "泪水之城: below 文物搜寻者里姆, use简单钥匙",
           wiki: "Royal_Waterways#How_to_access"
         },
         gladeDoorOpened: {
           name: "Spirits' Glade Door Opened",
-          spoiler: "Resting Grounds, Seer: 200 Essence",
+          spoiler: "安息之地, Seer: 200 Essence",
           wiki: "Resting_Grounds#Sub-area:_Spirits'_Glade"
         },
         openedCityGate: {
-          name: "City of Tears Gate Opened",
-          spoiler: "Fungal Wastes, requires City Crest",
+          name: "泪水之城 Gate Opened",
+          spoiler: "真菌荒地, requires City Crest",
           wiki: "Fungal_Wastes"
         },
         soulSanctumShortcut: {
-          name: "Soul Sanctum Shortcut",
-          spoiler: "City of Tears: Cornifer Lift Room, break left wall",
+          name: "灵魂圣所 Shortcut",
+          spoiler: "泪水之城: 柯尼法 Lift Room, break left wall",
           id: "Breakable Wall Ruin Lift",
           sceneName: "Ruins1_31",
           wiki: "City_of_Tears#Sub-area:_Soul_Sanctum"
         },
         waterwaysGate: {
           name: "Waterways Gate Opened",
-          spoiler: "Royal Waterways: Cornifer Room, use lever",
+          spoiler: "皇家水道: 柯尼法 Room, use lever",
           wiki: "Royal_Waterways"
         },
         watcherChandelier: {
           name: "Chandelier Dropped",
-          spoiler: "City of Tears: Watcher Knights Room, break ceiling",
+          spoiler: "泪水之城: Watcher Knights Room, break ceiling",
           wiki: "Watcher_Knight#In-game_events"
         },
         colosseumHiddenHotSpring: {
           name: "Hidden Hot Spring",
-          spoiler: "Colosseum of Fools, break wall right of Bench",
+          spoiler: "愚人斗兽场, break wall right of Bench",
           id: "Breakable Wall_Silhouette",
           sceneName: "Room_Colosseum_02",
           wiki: "Colosseum_of_Fools#Description"
         },
         stagEggInspected: {
-          name: "Stag Nest Egg Inspected",
-          spoiler: "Howling Cliffs: Top of Stag Nest",
+          name: "鹿角虫巢穴 Egg Inspected",
+          spoiler: "呼啸悬崖: Top of 鹿角虫巢穴",
           wiki: "Howling_Cliffs#Sub-area:_Stag_Nest"
         },
         deepnestBridgeCollapsed: {
           name: "Deepnest Entry Bridge Collapsed",
-          spoiler: "Fungal Wastes, left of Spore Shroom",
+          spoiler: "真菌荒地, left of Spore Shroom",
           wiki: "Deepnest#How_to_access"
         },
         maskmakerUnmasked1: {
           name: "Mask Maker Unmasked",
-          spoiler: "Deepnest, use Desolate Dive on Mask Maker",
+          spoiler: "深邃巢穴, use Desolate Dive on Mask Maker",
           wiki: "Mask_Maker#In-game_events"
         },
         bankerAccountPurchased: {
           name: "Bank Account Opened",
-          spoiler: "100 Geo: Fog Canyon: Millibelle the Banker",
+          spoiler: "100 Geo: 雾之峡谷: Millibelle the Banker",
           wiki: "Millibelle"
         },
         millibelleLeft: {
           name: "Banker Disappeared",
-          spoiler: "Fog Canyon: Millibelle the Banker",
+          spoiler: "雾之峡谷: Millibelle the Banker",
           wiki: "Millibelle"
         },
         millibelleCheckedStand: {
           name: "Banker Stand Investigated",
-          spoiler: "Fog Canyon: Millibelle the Banker",
+          spoiler: "雾之峡谷: Millibelle the Banker",
           wiki: "Millibelle"
         },
         bankerSpaMet: {
           name: "Found & Talked to Millibelle",
-          spoiler: "City of Tears: Hot Springs, Simple Key",
+          spoiler: "泪水之城: Hot Springs,简单钥匙",
           wiki: "Millibelle"
         },
         millibelleReclaimedAllGeo: {
           name: "Reclaimed All Geo",
-          spoiler: "City of Tears: Hot Springs, Millibelle the Thief",
+          spoiler: "泪水之城: Hot Springs, Millibelle the Thief",
           wiki: "Millibelle"
         },
         elderbugGaveFlower: {
@@ -5850,58 +5850,58 @@ const HK = {
       entries: {
         grimmTentSecretRoom: {
           name: "Grimm's Tent: Secret Room (missable)",
-          spoiler: "Dirtmouth: inside Grimm's Tent",
+          spoiler: "德特茅斯: inside Grimm's Tent",
           id: "Secret Mask",
           sceneName: "Grimm_Main_Tent",
           wiki: "Dirtmouth#The_Grimm_Troupe.27s_Tents"
         },
         towerOfLoveSecretRoom: {
           name: "Tower of Love: Secret Room",
-          spoiler: "City of Tears: near The Collector's Map",
+          spoiler: "泪水之城: near The Collector's Map",
           id: "secret sound_grub room",
           sceneName: "Ruins2_11",
           wiki: "Collector#Trivia"
         },
         weaversDenSecretRoom1: {
           name: "Weaver's Den: Secret Room #1",
-          spoiler: "Deepnest: inside Weaver's Den",
+          spoiler: "深邃巢穴: inside Weaver's Den",
           id: "Breakable Wall",
           sceneName: "Deepnest_45_v02",
           wiki: "Deepnest#Sub-area:_Weavers.27_Den"
         },
         weaversDenSecretRoom2: {
           name: "Weaver's Den: Secret Room #2",
-          spoiler: "Deepnest: inside Weaver's Den",
+          spoiler: "深邃巢穴: inside Weaver's Den",
           id: "Breakable Wall Waterways",
           sceneName: "Deepnest_45_v02",
           wiki: "Deepnest#Sub-area:_Weavers.27_Den"
         },
         pathOfPainEntrance: {
-          name: "White Palace: Path of Pain Entrance",
+          name: "白色宫殿: Path of Pain Entrance",
           spoiler: "Break left wall above lift area",
           id: "Breakable Wall Ruin Lift",
           sceneName: "White_Palace_06",
           wiki: "White_Palace#Sub-area:_Path_of_Pain"
         },
         killsBindingSeal: {
-          name: "White Palace: Path of Pain",
+          name: "白色宫殿: Path of Pain",
           spoiler: "Main Secret Area, After Middle Lift",
           wiki: "White_Palace#Sub-area:_Path_of_Pain"
         },
         whitePalaceSecretRoomVisited: {
-          name: "White Palace: Secret Room #1",
-          spoiler: "The Pale King's Workshop",
+          name: "白色宫殿: Secret Room #1",
+          spoiler: "The 苍白之王's Workshop",
           wiki: "White_Palace#The_Pale_King.27s_workshop"
         },
         whiteLadyRoom: {
-          name: "White Palace: Secret Room #2",
+          name: "白色宫殿: Secret Room #2",
           spoiler: "White Lady's Room, break floor",
           id: "Quake Floor",
           sceneName: "White_Palace_09",
           wiki: "White_Palace#White_Lady.27s_room"
         },
         throneRoomLoreTablet: {
-          name: "White Palace: Secret Room #3",
+          name: "白色宫殿: Secret Room #3",
           spoiler: "Throne Room, break right wall",
           id: "Breakable Wall Waterways",
           sceneName: "White_Palace_09",
@@ -5915,79 +5915,79 @@ const HK = {
       },
     },
 
-    /* ###################################### Secrets -> Cornifer's Notes ############################################## */
+    /* ###################################### Secrets -> 柯尼法's Notes ############################################## */
 
     corniferNotes: {
-      h2: "Cornifer's Notes",
+      h2: "柯尼法's Notes",
       id: "hk-cornifer-notes",
-      description: `Cornifer the Cartographer leaves his note on the ground every time he leaves the current area. The note will be at the same spot where Cornifer was met. He leaves an area once a specific condition from that area was met, like defeating a boss or learning a new ability. After reading a note it will stop glowing and the entry will be marked as completed.`,
+      description: `柯尼法 the Cartographer leaves his note on the ground every time he leaves the current area. The note will be at the same spot where 柯尼法 was met. He leaves an area once a specific condition from that area was met, like defeating a boss or learning a new ability. After reading a note it will stop glowing and the entry will be marked as completed.`,
       entries: {
         corniferNote1: {
-          name: "Note #1: Forgotten Crossroads",
+          name: "Note #1: 遗忘十字路",
           spoiler: "Below Big Gruzzer Room",
           id: "Shiny",
           sceneName: "Crossroads_33",
           wiki: "Cornifer#Locations"
         },
         corniferNote2: {
-          name: "Note #2: Greenpath",
+          name: "Note #2: 苍绿之径",
           spoiler: "Room below the Crossroads entrance",
           id: "Shiny",
           sceneName: "Fungus1_06",
           wiki: "Cornifer#Locations"
         },
         corniferNote3: {
-          name: "Note #3: Fungal Wastes",
-          spoiler: "Right of Queen's Station",
+          name: "Note #3: 真菌荒地",
+          spoiler: "Right of 王后驿站",
           id: "Shiny",
           sceneName: "Fungus2_18",
           wiki: "Cornifer#Locations"
         },
         corniferNote4: {
-          name: "Note #4: Howling Cliffs",
+          name: "Note #4: 呼啸悬崖",
           spoiler: "Big Main Area on the left side",
           id: "Shiny",
           sceneName: "Cliffs_01",
           wiki: "Cornifer#Locations"
         },
         corniferNote5: {
-          name: "Note #5: City of Tears",
-          spoiler: "Toll Bench left of Soul Sanctum",
+          name: "Note #5: 泪水之城",
+          spoiler: "Toll Bench left of 灵魂圣所",
           id: "Shiny",
           sceneName: "Ruins1_31",
           wiki: "Cornifer#Locations"
         },
         corniferNote6: {
-          name: "Note #6: Crystal Peak",
+          name: "Note #6: 水晶山峰",
           spoiler: "Left of Central Bench",
           id: "Shiny",
           sceneName: "Mines_30",
           wiki: "Cornifer#Locations"
         },
         corniferNote7: {
-          name: "Note #7: Resting Grounds",
-          spoiler: "Near the Stag Station",
+          name: "Note #7: 安息之地",
+          spoiler: "Near the 鹿角虫车站",
           id: "Shiny",
           sceneName: "RestingGrounds_09",
           wiki: "Cornifer#Locations"
         },
         corniferNote8: {
-          name: "Note #8: Royal Waterways",
-          spoiler: "Near Fungal Wastes exit",
+          name: "Note #8: 皇家水道",
+          spoiler: "Near 真菌荒地 exit",
           id: "Shiny",
           sceneName: "Waterways_09",
           wiki: "Cornifer#Locations"
         },
         corniferNote9: {
-          name: "Note #9: Ancient Basin",
+          name: "Note #9: 古老盆地",
           spoiler: "Below the Tram and Fountain",
           id: "Shiny",
           sceneName: "Abyss_04",
           wiki: "Cornifer#Locations"
         },
         corniferNote10: {
-          name: "Note #10: Kingdom's Edge",
-          spoiler: "Below the King's Station entrance",
+          name: "Note #10: 王国边缘",
+          spoiler: "Below the 国王驿站 entrance",
           id: "Shiny",
           sceneName: "Deepnest_East_03",
           wiki: "Cornifer#Locations"
@@ -5998,14 +5998,14 @@ const HK = {
     /* ################ Game Statistics ################### */
 
     statistics: {
-      h2: "Game Statistics",
+      h2: "游戏统计",
       id: "hk-statistics",
       description: "Dedicated to numbers and stats fans. Everything what the game may not always tell you directly, but what can be read from a save file.",
       entries: {
         journalEntriesCompleted: {
           name: "Creatures Encountered",
-          spoiler: "Hunter's Journal (158-164 max)",
-          spoilerDefault: "Hunter's Journal",
+          spoiler: "猎人日志 (158-164 max)",
+          spoilerDefault: "猎人日志",
           max: 164,
           maxDefault: 164,
           wiki: "Category:Enemies_(Hollow_Knight)#Compendium"
@@ -6015,15 +6015,15 @@ const HK = {
         */
         journalNotesCompleted: {
           name: "Hunter Notes Completed",
-          spoiler: "Hunter's Journal (158-164 max)",
-          spoilerDefault: "Hunter's Journal",
+          spoiler: "猎人日志 (158-164 max)",
+          spoilerDefault: "猎人日志",
           max: 164,
           maxDefault: 164,
           wiki: "Category:Enemies_(Hollow_Knight)#Compendium"
         },
         nailDamage: {
           name: "Base Nail Damage",
-          spoiler: "Nailsmith upgrades, City of Tears",
+          spoiler: "钉子匠 upgrades, 泪水之城",
           max: 21,
           maxDefault: 21,
           wiki: "Nail#Nail_Upgrades"
@@ -6036,52 +6036,52 @@ const HK = {
           wiki: "Shade"
         },
         soldTrinket1: {
-          name: "Wanderer's Journals Sold",
-          spoiler: "City of Tears: Relic Seeker Lemm",
+          name: "漫游者日记 Sold",
+          spoiler: "泪水之城: 文物搜寻者里姆",
           geoValue: 200,
           wiki: "Wanderer's_Journal"
         },
         soldTrinket2: {
-          name: "Hallownest Seals Sold",
-          spoiler: "City of Tears: Relic Seeker Lemm",
+          name: "圣巢印章s Sold",
+          spoiler: "泪水之城: 文物搜寻者里姆",
           geoValue: 450,
           wiki: "Hallownest_Seal"
         },
         soldTrinket3: {
-          name: "King's Idols Sold",
-          spoiler: "City of Tears: Relic Seeker Lemm",
+          name: "国王神像s Sold",
+          spoiler: "泪水之城: 文物搜寻者里姆",
           geoValue: 800,
           wiki: "King's_Idol"
         },
         soldTrinket4: {
-          name: "Arcane Eggs Sold",
-          spoiler: "City of Tears: Relic Seeker Lemm",
+          name: "神秘蛋s Sold",
+          spoiler: "泪水之城: 文物搜寻者里姆",
           geoValue: 1200,
           wiki: "Arcane_Egg"
         },
         relicsSoldTotalGeo: {
           name: "Total Geo from Sold Relics",
-          spoiler: "City of Tears: Relic Seeker Lemm",
+          spoiler: "泪水之城: 文物搜寻者里姆",
           wiki: "Lemm#Collectibles"
         },
         ore: {
-          name: "Pale Ore",
-          spoiler: "Current amount of Pale Ore in inventory",
+          name: "苍白矿石",
+          spoiler: "Current amount of 苍白矿石 in inventory",
           wiki: "Pale_Ore"
         },
         simpleKeys: {
-          name: "Simple Keys",
-          spoiler: "Current amount of Simple Keys in inventory",
+          name: "简单钥匙s",
+          spoiler: "Current amount of简单钥匙s in inventory",
           wiki: "Simple_Key"
         },
         rancidEggs: {
-          name: "Rancid Eggs",
-          spoiler: "Current amount of Rancid Eggs in inventory",
+          name: "腐臭蛋",
+          spoiler: "Current amount of 腐臭蛋 in inventory",
           wiki: "Rancid_Egg"
         },
         jinnEggsSold: {
-          name: "Rancid Eggs Sold",
-          spoiler: "Dirtmouth: Jinn, Steel Soul Mode only",
+          name: "腐臭蛋 Sold",
+          spoiler: "德特茅斯: Jinn, Steel Soul Mode only",
           wiki: "Jinn"
         },
         xunFlowerBrokeTimes: {
@@ -6100,19 +6100,19 @@ const HK = {
         },
         bankerBalance: {
           name: "Bank Account Balance",
-          spoiler: "Fog Canyon: Millibelle the Banker",
+          spoiler: "雾之峡谷: Millibelle the Banker",
           wiki: "Millibelle"
         },
         whiteDefenderDefeats: {
-          name: "White Defender Times Defeated",
-          spoiler: "Royal Waterways (5 max)",
+          name: "白色防御者 Times Defeated",
+          spoiler: "皇家水道 (5 max)",
           max: 5,
           maxDefault: 5,
           wiki: "White_Defender"
         },
         greyPrinceDefeats: {
-          name: "Grey Prince Zote Times Defeated",
-          spoiler: "Dirtmouth (10 max)",
+          name: "灰色王子左特 Times Defeated",
+          spoiler: "德特茅斯 (10 max)",
           max: 10,
           maxDefault: 10,
           wiki: "Grey_Prince_Zote"
@@ -6120,12 +6120,12 @@ const HK = {
       },
     },
 
-    /* ################################################# Godhome Statistics ############################################## */
+    /* ################################################# 万神殿 Statistics ############################################## */
 
     godhomeStatistics: {
-      h2: "Godhome Statistics",
+      h2: "万神殿 Statistics",
       id: "hk-godhome-statistics",
-      description: "Everything in Godhome, that didn't fit any other category.",
+      description: "Everything in 万神殿, that didn't fit any other category.",
       entries: {
         seenGGWastes: {
           name: "Tuner Memory",
@@ -6139,17 +6139,17 @@ const HK = {
         },
         killedVoidIdol_1: {
           name: "Journal: Void Idol Attuned",
-          spoiler: "Hall of Gods: Defeat All (Attuned)",
+          spoiler: "诸神堂: Defeat All (Attuned)",
           wiki: "Void_Idol"
         },
         killedVoidIdol_2: {
           name: "Journal: Void Idol Ascended",
-          spoiler: "Hall of Gods: Defeat All (Ascended)",
+          spoiler: "诸神堂: Defeat All (Ascended)",
           wiki: "Void_Idol"
         },
         killedVoidIdol_3: {
           name: "Journal: Void Idol Radiant",
-          spoiler: "Hall of Gods: Defeat All (Radiant)",
+          spoiler: "诸神堂: Defeat All (Radiant)",
           wiki: "Void_Idol"
         },
         killedGodseekerMask: {
@@ -6159,7 +6159,7 @@ const HK = {
         },
         zoteStatueWallBroken: {
           name: "Intruder Discovered",
-          spoiler: "Hall of Gods: Zote Statue (upper right)",
+          spoiler: "诸神堂: Zote Statue (upper right)",
           wiki: "Hall_of_Gods#Zote"
         },
         ordealAchieved: {
@@ -6173,7 +6173,7 @@ const HK = {
     /* ################################################### Pantheon of the Master #################################################### */
 
     pantheonOfTheMaster: {
-      h2: "P1 – Pantheon of the Master",
+      h2: "P1 - Pantheon of the Master",
       id: "hk-pantheon-master",
       property: "bossDoorStateTier1",
       description: "Seek the Gods of Nail and Shell",
@@ -6199,7 +6199,7 @@ const HK = {
           wiki: "Pantheons#Bindings"
         },
         boundCharms: {
-          name: "P1 Binding: Charms",
+          name: "P1 Binding: 护符",
           spoiler: "Complete with the Charm binding active",
           wiki: "Pantheons#Bindings"
         },
@@ -6224,7 +6224,7 @@ const HK = {
     /* ################################################### Pantheon of the Artist #################################################### */
 
     pantheonOfTheArtist: {
-      h2: "P2 – Pantheon of the Artist",
+      h2: "P2 - Pantheon of the Artist",
       id: "hk-pantheon-artist",
       property: "bossDoorStateTier2",
       description: "Seek the God Inspired",
@@ -6250,8 +6250,8 @@ const HK = {
           wiki: "Pantheons#Bindings"
         },
         boundCharms: {
-          name: "P2 Binding: Charms",
-          spoiler: "Complete with the Charm binding active",
+          name: "P2 Binding: 护符",
+          spoiler: "Complete with the 护符 binding active",
           wiki: "Pantheons#Bindings"
         },
         boundSoul: {
@@ -6275,7 +6275,7 @@ const HK = {
     /* ################################################### Pantheon of the Sage #################################################### */
 
     pantheonOfTheSage: {
-      h2: "P3 – Pantheon of the Sage",
+      h2: "P3 - Pantheon of the Sage",
       id: "hk-pantheon-sage",
       property: "bossDoorStateTier3",
       description: "Seek the God of Wealth and Power",
@@ -6301,8 +6301,8 @@ const HK = {
           wiki: "Pantheons#Bindings"
         },
         boundCharms: {
-          name: "P3 Binding: Charms",
-          spoiler: "Complete with the Charm binding active",
+          name: "P3 Binding: 护符",
+          spoiler: "Complete with the 护符 binding active",
           wiki: "Pantheons#Bindings"
         },
         boundSoul: {
@@ -6326,7 +6326,7 @@ const HK = {
     /* ################################################### Pantheon of the Knight #################################################### */
 
     pantheonOfTheKnight: {
-      h2: "P4 – Pantheon of the Knight",
+      h2: "P4 - Pantheon of the Knight",
       id: "hk-pantheon-knight",
       property: "bossDoorStateTier4",
       description: "Seek the Pure God",
@@ -6352,8 +6352,8 @@ const HK = {
           wiki: "Pantheons#Bindings"
         },
         boundCharms: {
-          name: "P4 Binding: Charms",
-          spoiler: "Complete with the Charm binding active",
+          name: "P4 Binding: 护符",
+          spoiler: "Complete with the 护符 binding active",
           wiki: "Pantheons#Bindings"
         },
         boundSoul: {
@@ -6377,7 +6377,7 @@ const HK = {
     /* ################################################### Pantheon of Hallownest #################################################### */
 
     pantheonOfHallownest: {
-      h2: "P5 – Pantheon of Hallownest",
+      h2: "P5 - Pantheon of Hallownest",
       id: "hk-pantheon-hallownest",
       property: "bossDoorStateTier5",
       description: "Seek the Kingdom's Forgotten Light",
@@ -6403,8 +6403,8 @@ const HK = {
           wiki: "Pantheons#Bindings"
         },
         boundCharms: {
-          name: "P5 Binding: Charms",
-          spoiler: "Complete with the Charm binding active",
+          name: "P5 Binding: 护符",
+          spoiler: "Complete with the 护符 binding active",
           wiki: "Pantheons#Bindings"
         },
         boundSoul: {
@@ -6425,13 +6425,13 @@ const HK = {
       },
     },
 
-    /* ################################################### Hall of Gods ############################################################# */
+    /* ################################################### 诸神堂 ############################################################# */
 
     hallOfGods: {
-      h2: "Hall of Gods",
+      h2: "诸神堂",
       id: "hk-hall-of-gods",
       property: "statueState",
-      description: "Bottom of Godhome. Detecting what bosses have been unlocked and defeated on all three difficulty levels: Attuned, Ascended and Radiant.",
+      description: "Bottom of 万神殿. Detecting what bosses have been unlocked and defeated on all three difficulty levels: 调谐级 Attuned, 进升级 Ascended and 辐辉级 Radiant.",
       entries: {
         GruzMotherUnlocked: {
           name: "Gruz Mother: Unlocked",
@@ -6462,28 +6462,28 @@ const HK = {
           wiki: "Hall_of_Gods#Gruz_Mother"
         },
         VengeflyUnlocked: {
-          name: "Vengefly King: Unlocked",
+          name: "复仇蝇之王: Unlocked",
           spoiler: "I keep guard above a verdant land",
           id: "Vengefly",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Vengefly_King"
         },
         VengeflyAttuned: {
-          name: "Vengefly King: Attuned",
+          name: "复仇蝇之王: Attuned",
           spoiler: "Vicious god of territories",
           id: "Vengefly",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Vengefly_King"
         },
         VengeflyAscended: {
-          name: "Vengefly King: Ascended",
+          name: "复仇蝇之王: Ascended",
           spoiler: "Vicious god of territories",
           id: "Vengefly",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Vengefly_King"
         },
         VengeflyRadiant: {
-          name: "Vengefly King: Radiant",
+          name: "复仇蝇之王: Radiant",
           spoiler: "Vicious god of territories",
           id: "Vengefly",
           check: "completedTier3",
@@ -6518,56 +6518,56 @@ const HK = {
           wiki: "Hall_of_Gods#Brooding_Mawlek"
         },
         FalseKnightUnlocked: {
-          name: "False Knight: Unlocked",
+          name: "假骑士: Unlocked",
           spoiler: "I protect the weak in...",
           id: "FalseKnight",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#False_Knight"
         },
         FalseKnightAttuned: {
-          name: "False Knight: Attuned",
+          name: "假骑士: Attuned",
           spoiler: "...the heart of the crossroads",
           id: "FalseKnight",
           check: "completedTier1",
           wiki: "Hall_of_Gods#False_Knight"
         },
         FalseKnightAscended: {
-          name: "False Knight: Ascended",
+          name: "假骑士: Ascended",
           spoiler: "Angry god of the downtrodden",
           id: "FalseKnight",
           check: "completedTier2",
           wiki: "Hall_of_Gods#False_Knight"
         },
         FalseKnightRadiant: {
-          name: "False Knight: Radiant",
+          name: "假骑士: Radiant",
           spoiler: "Angry god of the downtrodden",
           id: "FalseKnight",
           check: "completedTier3",
           wiki: "Hall_of_Gods#False_Knight"
         },
         FailedChampionUnlocked: {
-          name: "Failed Champion: Unlocked",
+          name: "失败冠军: Unlocked",
           spoiler: "Baleful god of regrets",
           id: "FailedChampion",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Failed_Champion"
         },
         FailedChampionAttuned: {
-          name: "Failed Champion: Attuned",
+          name: "失败冠军: Attuned",
           spoiler: "Baleful god of regrets",
           id: "FailedChampion",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Failed_Champion"
         },
         FailedChampionAscended: {
-          name: "Failed Champion: Ascended",
+          name: "失败冠军: Ascended",
           spoiler: "Baleful god of regrets",
           id: "FailedChampion",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Failed_Champion"
         },
         FailedChampionRadiant: {
-          name: "Failed Champion: Radiant",
+          name: "失败冠军: Radiant",
           spoiler: "Baleful god of regrets",
           id: "FailedChampion",
           check: "completedTier3",
@@ -6630,56 +6630,56 @@ const HK = {
           wiki: "Hall_of_Gods#Hornet_Sentinel"
         },
         MegaMossChargerUnlocked: {
-          name: "Massive Moss Charger: Unlocked",
+          name: "大型苔藓冲锋者: Unlocked",
           spoiler: "Together we hunt in paths...",
           id: "MegaMossCharger",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Massive_Moss_Charger"
         },
         MegaMossChargerAttuned: {
-          name: "Massive Moss Charger: Attuned",
+          name: "大型苔藓冲锋者: Attuned",
           spoiler: "...overgrown with green",
           id: "MegaMossCharger",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Massive_Moss_Charger"
         },
         MegaMossChargerAscended: {
-          name: "Massive Moss Charger: Ascended",
+          name: "大型苔藓冲锋者: Ascended",
           spoiler: "Restless god of those...",
           id: "MegaMossCharger",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Massive_Moss_Charger"
         },
         MegaMossChargerRadiant: {
-          name: "Massive Moss Charger: Radiant",
+          name: "大型苔藓冲锋者: Radiant",
           spoiler: "...who band together",
           id: "MegaMossCharger",
           check: "completedTier3",
           wiki: "Hall_of_Gods#Massive_Moss_Charger"
         },
         FlukemarmUnlocked: {
-          name: "Flukemarm: Unlocked",
+          name: "吸虫之母: Unlocked",
           spoiler: "I lie within a maze of pipes",
           id: "Flukemarm",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Flukemarm"
         },
         FlukemarmAttuned: {
-          name: "Flukemarm: Attuned",
+          name: "吸虫之母: Attuned",
           spoiler: "Alluring god of motherhood",
           id: "Flukemarm",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Flukemarm"
         },
         FlukemarmAscended: {
-          name: "Flukemarm: Ascended",
+          name: "吸虫之母: Ascended",
           spoiler: "Alluring god of motherhood",
           id: "Flukemarm",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Flukemarm"
         },
         FlukemarmRadiant: {
-          name: "Flukemarm: Radiant",
+          name: "吸虫之母: Radiant",
           spoiler: "Alluring god of motherhood",
           id: "Flukemarm",
           check: "completedTier3",
@@ -6742,28 +6742,28 @@ const HK = {
           wiki: "Hall_of_Gods#Sisters_of_Battle"
         },
         OblobblesUnlocked: {
-          name: "Oblobbles: Unlocked",
+          name: "奥波路波: Unlocked",
           spoiler: "Together we are chained in a strange colosseum",
           id: "Oblobbles",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Oblobbles"
         },
         OblobblesAttuned: {
-          name: "Oblobbles: Attuned",
+          name: "奥波路波: Attuned",
           spoiler: "Lover gods of faith and devotion",
           id: "Oblobbles",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Oblobbles"
         },
         OblobblesAscended: {
-          name: "Oblobbles: Ascended",
+          name: "奥波路波: Ascended",
           spoiler: "Lover gods of faith and devotion",
           id: "Oblobbles",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Oblobbles"
         },
         OblobblesRadiant: {
-          name: "Oblobbles: Radiant",
+          name: "奥波路波: Radiant",
           spoiler: "Lover gods of faith and devotion",
           id: "Oblobbles",
           check: "completedTier3",
@@ -6826,29 +6826,29 @@ const HK = {
           wiki: "Hall_of_Gods#Broken_Vessel"
         },
         LostKinUnlocked: {
-          name: "Lost Kin: Unlocked",
-          spoiler: "Lost god of the Abyss",
+          name: "失落近亲: Unlocked",
+          spoiler: "Lost god of 深渊",
           id: "LostKin",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Lost_Kin"
         },
         LostKinAttuned: {
-          name: "Lost Kin: Attuned",
-          spoiler: "Lost god of the Abyss",
+          name: "失落近亲: Attuned",
+          spoiler: "Lost god of 深渊",
           id: "LostKin",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Lost_Kin"
         },
         LostKinAscended: {
-          name: "Lost Kin: Ascended",
-          spoiler: "Lost god of the Abyss",
+          name: "失落近亲: Ascended",
+          spoiler: "Lost god of 深渊",
           id: "LostKin",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Lost_Kin"
         },
         LostKinRadiant: {
-          name: "Lost Kin: Radiant",
-          spoiler: "Lost god of the Abyss",
+          name: "失落近亲: Radiant",
+          spoiler: "Lost god of 深渊",
           id: "LostKin",
           check: "completedTier3",
           wiki: "Hall_of_Gods#Lost_Kin"
@@ -6966,56 +6966,56 @@ const HK = {
           wiki: "Hall_of_Gods#God_Tamer"
         },
         CrystalGuardian1Unlocked: {
-          name: "Crystal Guardian: Unlocked",
+          name: "水晶守卫: Unlocked",
           spoiler: "I rest amongst crystals...",
           id: "CrystalGuardian1",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Crystal_Guardian"
         },
         CrystalGuardian1Attuned: {
-          name: "Crystal Guardian: Attuned",
+          name: "水晶守卫: Attuned",
           spoiler: "...and strange machinery",
           id: "CrystalGuardian1",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Crystal_Guardian"
         },
         CrystalGuardian1Ascended: {
-          name: "Crystal Guardian: Ascended",
+          name: "水晶守卫: Ascended",
           spoiler: "Shining god of greed",
           id: "CrystalGuardian1",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Crystal_Guardian"
         },
         CrystalGuardian1Radiant: {
-          name: "Crystal Guardian: Radiant",
+          name: "水晶守卫: Radiant",
           spoiler: "Shining god of greed",
           id: "CrystalGuardian1",
           check: "completedTier3",
           wiki: "Hall_of_Gods#Crystal_Guardian"
         },
         CrystalGuardian2Unlocked: {
-          name: "Enraged Guardian: Unlocked",
+          name: "暴怒守卫: Unlocked",
           spoiler: "Shining god of greed",
           id: "CrystalGuardian2",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Enraged_Guardian"
         },
         CrystalGuardian2Attuned: {
-          name: "Enraged Guardian: Attuned",
+          name: "暴怒守卫: Attuned",
           spoiler: "Shining god of greed",
           id: "CrystalGuardian2",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Enraged_Guardian"
         },
         CrystalGuardian2Ascended: {
-          name: "Enraged Guardian: Ascended",
+          name: "暴怒守卫: Ascended",
           spoiler: "Shining god of greed",
           id: "CrystalGuardian2",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Enraged_Guardian"
         },
         CrystalGuardian2Radiant: {
-          name: "Enraged Guardian: Radiant",
+          name: "暴怒守卫: Radiant",
           spoiler: "Shining god of greed",
           id: "CrystalGuardian2",
           check: "completedTier3",
@@ -7078,28 +7078,28 @@ const HK = {
           wiki: "Hall_of_Gods#Traitor_Lord"
         },
         GreyPrinceUnlocked: {
-          name: "Grey Prince Zote: Unlocked",
+          name: "灰色王子左特: Unlocked",
           spoiler: "I serve my Queen inside her dreams",
           id: "GreyPrince",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Grey_Prince_Zote"
         },
         GreyPrinceAttuned: {
-          name: "Grey Prince Zote: Attuned",
+          name: "灰色王子左特: Attuned",
           spoiler: "False god conjured by the lonely",
           id: "GreyPrince",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Grey_Prince_Zote"
         },
         GreyPrinceAscended: {
-          name: "Grey Prince Zote: Ascended",
+          name: "灰色王子左特: Ascended",
           spoiler: "False god conjured by the lonely",
           id: "GreyPrince",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Grey_Prince_Zote"
         },
         GreyPrinceRadiant: {
-          name: "Grey Prince Zote: Radiant",
+          name: "灰色王子左特: Radiant",
           spoiler: "False god conjured by the lonely",
           id: "GreyPrince",
           check: "completedTier3",
@@ -7162,28 +7162,28 @@ const HK = {
           wiki: "Hall_of_Gods#Soul_Master"
         },
         SoulTyrantUnlocked: {
-          name: "Soul Tyrant: Unlocked",
+          name: "灵魂暴君: Unlocked",
           spoiler: "Frenzied god of mortality",
           id: "SoulTyrant",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Soul_Tyrant"
         },
         SoulTyrantAttuned: {
-          name: "Soul Tyrant: Attuned",
+          name: "灵魂暴君: Attuned",
           spoiler: "Frenzied god of mortality",
           id: "SoulTyrant",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Soul_Tyrant"
         },
         SoulTyrantAscended: {
-          name: "Soul Tyrant: Ascended",
+          name: "灵魂暴君: Ascended",
           spoiler: "Frenzied god of mortality",
           id: "SoulTyrant",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Soul_Tyrant"
         },
         SoulTyrantRadiant: {
-          name: "Soul Tyrant: Radiant",
+          name: "灵魂暴君: Radiant",
           spoiler: "Frenzied god of mortality",
           id: "SoulTyrant",
           check: "completedTier3",
@@ -7218,28 +7218,28 @@ const HK = {
           wiki: "Hall_of_Gods#Dung_Defender"
         },
         WhiteDefenderUnlocked: {
-          name: "White Defender: Unlocked",
+          name: "白色防御者: Unlocked",
           spoiler: "Kindly god of bravery and honour",
           id: "WhiteDefender",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#White_Defender"
         },
         WhiteDefenderAttuned: {
-          name: "White Defender: Attuned",
+          name: "白色防御者: Attuned",
           spoiler: "Kindly god of bravery and honour",
           id: "WhiteDefender",
           check: "completedTier1",
           wiki: "Hall_of_Gods#White_Defender"
         },
         WhiteDefenderAscended: {
-          name: "White Defender: Ascended",
+          name: "白色防御者: Ascended",
           spoiler: "Kindly god of bravery and honour",
           id: "WhiteDefender",
           check: "completedTier2",
           wiki: "Hall_of_Gods#White_Defender"
         },
         WhiteDefenderRadiant: {
-          name: "White Defender: Radiant",
+          name: "白色防御者: Radiant",
           spoiler: "Kindly god of bravery and honour",
           id: "WhiteDefender",
           check: "completedTier3",
@@ -7498,28 +7498,28 @@ const HK = {
           wiki: "Hall_of_Gods#Oro_.26_Mato"
         },
         PaintmasterUnlocked: {
-          name: "Paintmaster Sheo: Unlocked",
+          name: "绘画大师席奥: Unlocked",
           spoiler: "I hone my craft at a Pantheon's peak",
           id: "Paintmaster",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Paintmaster_Sheo"
         },
         PaintmasterAttuned: {
-          name: "Paintmaster Sheo: Attuned",
+          name: "绘画大师席奥: Attuned",
           spoiler: "Talented god of artists and creators",
           id: "Paintmaster",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Paintmaster_Sheo"
         },
         PaintmasterAscended: {
-          name: "Paintmaster Sheo: Ascended",
+          name: "绘画大师席奥: Ascended",
           spoiler: "Talented god of artists and creators",
           id: "Paintmaster",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Paintmaster_Sheo"
         },
         PaintmasterRadiant: {
-          name: "Paintmaster Sheo: Radiant",
+          name: "绘画大师席奥: Radiant",
           spoiler: "Talented god of artists and creators",
           id: "Paintmaster",
           check: "completedTier3",
@@ -7554,28 +7554,28 @@ const HK = {
           wiki: "Hall_of_Gods#Nailsage_Sly"
         },
         HollowKnightUnlocked: {
-          name: "Pure Vessel: Unlocked",
+          name: "纯粹容器: Unlocked",
           spoiler: "This empty god stands at a Pantheon's peak",
           id: "HollowKnight",
           check: "isUnlocked",
           wiki: "Hall_of_Gods#Pure_Vessel"
         },
         HollowKnightAttuned: {
-          name: "Pure Vessel: Attuned",
+          name: "纯粹容器: Attuned",
           spoiler: "Mighty god of nothingness",
           id: "HollowKnight",
           check: "completedTier1",
           wiki: "Hall_of_Gods#Pure_Vessel"
         },
         HollowKnightAscended: {
-          name: "Pure Vessel: Ascended",
+          name: "纯粹容器: Ascended",
           spoiler: "Mighty god of nothingness",
           id: "HollowKnight",
           check: "completedTier2",
           wiki: "Hall_of_Gods#Pure_Vessel"
         },
         HollowKnightRadiant: {
-          name: "Pure Vessel: Radiant",
+          name: "纯粹容器: Radiant",
           spoiler: "Mighty god of nothingness",
           id: "HollowKnight",
           check: "completedTier3",

@@ -11,7 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Heebo:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-  <title>Save Completion Analyzer for Hollow Knight Online</title>
+  <title>空洞骑士 存档分析工具</title>
+  <!-- <title>Save Completion Analyzer for Hollow Knight Online</title> -->
 
   <meta name="description"
     content="A simple open source tool for checking every single thing you missed for your Game Completion Percentage.">
@@ -49,16 +50,21 @@
   <div id="background"></div>
 
   <div id="content">
+    <!-- 在顶部最右边增加一个外部链接 -->
+    <p class="smalltext" style="text-align: right; ">
+      <a href="https://reznormichael.github.io/hollow-knight-completion-check/" target="_blank">英文版</a>
+    </p>
 
-    <h1 id="h1-title">Save Completion Analyzer</h1>
-    <div id="sub-title">for Hollow Knight</div>
+    <h1 id="h1-title">空洞骑士 存档分析工具</h1>
+    <!-- <h1 id="h1-title">Save Completion Analyzer</h1>
+    <div id="sub-title">for Hollow Knight</div> -->
 
     <p class="smalltext">
       <a class="link-social" href="https://www.paypal.me/ReznoRMichael" target="_blank"><i
-          class="simpleicon-paypal"></i>Support Analyzer and get Featured!<i class="simpleicon-paypal"></i></a>
+          class="simpleicon-paypal"></i>赞助作者<i class="simpleicon-paypal"></i></a>
       <br>
       <a class="link-social" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2209910193" target="_blank"><i
-          class="simpleicon-steam"></i>Official Steam Guide</a>
+          class="simpleicon-steam"></i>Steam 上的使用说明</a>
       <a class="link-social" href="https://www.instagram.com/reznor.technology/" target="_blank"><i
           class="simpleicon-instagram"></i>Instagram</a>
       <a class="link-social" href="https://www.youtube.com/c/MichaelReznoR" target="_blank"><i
@@ -74,12 +80,12 @@
         <input type="text" id="save-location-input" value="%USERPROFILE%\AppData\LocalLow\Team Cherry\Hollow Knight\"
           readonly>
         <!-- <textarea id="save-location-input" value="%USERPROFILE%\AppData\LocalLow\Team Cherry\Hollow Knight\" readonly></textarea> -->
-        <span class="tooltip-text" id="save-location-input-tooltip">Click once to copy to clipboard</span>
+        <span class="tooltip-text" id="save-location-input-tooltip">点击复制到剪贴板</span>
       </div>
 
       <p class="smalltext">
-        Choose a <strong>user*.dat</strong> save <em>or</em> paste text from <a href="https://bloodorca.github.io/hollow/" target="_blank">Save
-          Editor</a> | <a href="https://pastebin.com/raw/xp1Gi7nG" target="_blank">Testing Save</a>
+        选择存档文件 <strong>user*.dat</strong> ， <em>或者</em> 从 <a href="https://bloodorca.github.io/hollow/" target="_blank">Save
+          Editor</a> | <a href="https://pastebin.com/raw/xp1Gi7nG" target="_blank">Testing Save</a> 复制存档内容
       </p>
     </p>
 
@@ -89,12 +95,13 @@
 
         <div class="input-buttons">
           <input id="toggle-mode" class="input-button" type="button" value="modeFile">
-          <label for="toggle-mode" id="toggle-mode-label" class="button button-square" title="Switch Mode: Text or File."><i class="icon-arrows-cw"></i></label>
+          <label for="toggle-mode" id="toggle-mode-label" class="button button-square" title="切换模式：文本或文件"><i class="icon-arrows-cw"></i></label>
           <!-- <input id="save-area-file" class="" type="file" name="file" accept=".dat,.bak*" onchange="LoadSaveFile(this);" onclick="this.value = '';"> -->
           <input id="save-area-file" class="input-file" type="file" name="file" accept=".dat,.bak*">
-          <label for="save-area-file" id="file-input-label" class="button button-large" title="Navigate to Hollow Knight's Save File Location and select a user*.dat File."><i class="icon-doc-text-inv"></i>Choose Save File...</label>
+          <!-- Choose Save File... -->
+          <label for="save-area-file" id="file-input-label" class="button button-large" title="Navigate to Hollow Knight's Save File Location and select a user*.dat File."><i class="icon-doc-text-inv"></i>选择存档文件……</label>
           
-          <button id="save-area-read" class="button button-large hidden" type="button" title="Press this button after pasting your Save Text from the Save Editor into the text box below.">Analyze Save Text</button>
+          <button id="save-area-read" class="button button-large hidden" type="button" title="Press this button after pasting your Save Text from the Save Editor into the text box below.">分析存档文本</button>
 
           <a class="button button-square" href="https://store.steampowered.com/account/remotestorageapp/?appid=367520"
             target="_blank" title="Download a Save File from your Steam Cloud Storage for Hollow Knight."><i class="icon-download-cloud"></i></a>
@@ -108,7 +115,7 @@
       </div>
 
       <textarea id="save-area" name="save-area" class="hidden" rows="6" spellcheck="false"
-        placeholder="Paste your decoded save text from Save Editor here (Ctrl&nbsp;+&nbsp;V)"
+        placeholder="粘贴 Save Editor 解码的存档文本 (Ctrl&nbsp;+&nbsp;V)"
         autofocus></textarea>
 
       <div class="buttons">
@@ -126,14 +133,14 @@
           <label for="checkbox-hints" class="checkbox-label"
             title="Check to see an optional clue for your first playthrough based on your save's progress.">
             <!-- <input type="checkbox" name="checkboxes" id="checkbox-hints" value="hints-off" onclick="CheckboxHintsToggle();"> -->
-            <span class="checkmark"></span><strong>Hints</strong>
+            <span class="checkmark"></span><strong>提示</strong>
           </label>
 
           <input type="checkbox" name="checkboxes" id="checkbox-spoilers" value="spoilers-off">
           <label for="checkbox-spoilers" class="checkbox-label"
             title="Check to show everything. By default only completed things are fully revealed.">
             <!-- <input type="checkbox" name="checkboxes" id="checkbox-spoilers" value="spoilers-off" onclick="CheckboxSpoilersToggle();"> -->
-            <span class="checkmark"></span><strong>Spoilers</strong>
+            <span class="checkmark"></span><strong>剧透</strong>
           </label>
           
         </div>
@@ -151,18 +158,18 @@
 
     <div style="margin-bottom: 20px;"></div>
 
-    <h6>Secrets!</h6>
+    <h6>秘技！</h6>
 
     <p class="smalltext">
-      Did you know? You can press <strong>Ctrl + Shift + I</strong> and choose the <strong>Console Tab</strong> to view some extra secret
-      data not currently shown in the tool. (after loading any save file)
+      知道吗？ 你还可以按 <strong>Ctrl + Shift + I</strong> ，选择 <strong>Console Tab</strong> 来查看一些额外的秘密数据，
+      这些数据目前在工具中没有显示。 (在加载存档文件后)
     </p>
 
     <div style="margin-bottom: 20px;"></div>
 
     <div class="hall-of-fame-border">
 
-      <h6 class="hall-of-fame">Analyzer Supporters</h6>
+      <h6 class="hall-of-fame">项目赞助者</h6>
 
       <p class="smalltext">
         <b class="pp-gold">Klaudia</b>&nbsp;(Lvl&nbsp;45) - 
@@ -176,10 +183,17 @@
       </p>
 
       <p class="smalltext">
-        You too can get immortalized here. <a href="https://www.paypal.me/ReznoRMichael" target="_blank"><i
-            class="simpleicon-paypal"></i>Donate<i
-            class="simpleicon-paypal"></i></a> at least $1 for the Analyzer!<br>
-        Lvl indicates your amount of support.
+        你也可以在这里赞助原作者 Rezno： <a href="https://www.paypal.me/ReznoRMichael" target="_blank"><i
+            class="simpleicon-paypal"></i>捐助<i
+            class="simpleicon-paypal"></i></a> <br>
+        Lvl 表示你的支持等级。
+      </p>
+
+      <p class="smalltext">
+        译者注：虽然 <a href="https://github.com/reznormichael/hollow-knight-completion-check/?tab=readme-ov-file#notice" target="_blank">ReznoR 已经在2022年离开了我们</a>，但是他的项目仍然在这里继续维护。你可以通过上面的链接进行捐助，他的哥哥会将捐款用于维护他的安息之地
+      </p>
+      <p class="smalltext">
+        Thought <a href="https://github.com/reznormichael/hollow-knight-completion-check/?tab=readme-ov-file#notice" target="_blank">the author ReznoR has left us in 2022</a>, his project is still here and will continue to be maintained. You can support him through the link above, and his brother will use the donations to maintain his Resting Grounds.
       </p>
 
     </div>
@@ -187,15 +201,17 @@
     <div style="margin-bottom: 20px;"></div>
 
     <p class="smalltext">
-      v2.2.0. Work-In-Progress. Ideas &amp; Bug Reports: <a
+      v2.2.0. 正-在-更-新。想法 &amp; 问题报告: <a
         href="https://steamcommunity.com/app/367520/discussions/0/2915472677711090083/" target="_blank"><i
-          class="simpleicon-steam"></i>Steam Discussions</a> <a
+          class="simpleicon-steam"></i>Steam 讨论</a> <a
         href="https://steamcommunity.com/sharedfiles/filedetails/?id=2209910193" target="_blank"><i
-          class="simpleicon-steam"></i>Steam Guide</a>.<br>
-      Programmed, written and created by 🉑 <a href="https://github.com/ReznoRMichael/hollow-knight-completion-check"
+          class="simpleicon-steam"></i>Steam 上的使用说明</a>.<br>
+      项目作者： <a href="https://github.com/ReznoRMichael/hollow-knight-completion-check"
         target="_blank">rezno[R]</a> &copy; 2020–2022<br>
-      <a href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank">Hollow Knight</a> by <a
-        href="https://teamcherry.com.au/" target="_blank">Team Cherry</a> &copy; 2017–2022<br>
+      中文版作者： <a href="https://github.com/yingw/hollow-knight-completion-check"
+        target="_blank">yinguowei</a> &copy; 2026<br>
+      <a href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank">空洞骑士</a> by <a
+        href="https://teamcherry.com.au/" target="_blank">樱桃组</a> &copy; 2017–2022<br></br>
     </p>
 
   </div> <!-- end content -->

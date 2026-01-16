@@ -61,15 +61,7 @@ module.exports = {
                 ga_property_id: 'UA-136831794-2'
             }
         }),
-        new HtmlWebpackPartialsPlugin({
-            path: './src/partials/cookiealert.html',
-            location: 'head',
-            priority: 'high',
-            options: {
-                mainColor: "#59d1da"
-            }
-        }),
-        new CssMinimizerPlugin(),
+        new CssMinimizerPlugin()
     ],
     module: {
         rules: [{

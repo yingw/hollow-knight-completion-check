@@ -183,14 +183,14 @@ function GenerateInnerHTML(db) {
 
         textFill += [
           `<div class="tab-switch-buttons">`,
-          `<button id="button-switch-main" name="main" class="button tab-switch" type="button">Main %</button>`,
-          `<button id="button-switch-essentials" name="essentials" class="button tab-switch" type="button">Essentials %</button>`,
-          `<button id="button-switch-journal" name="journal" class="button tab-switch" type="button">Journal</button>`,
-          `<button id="button-switch-collectibles" name="collectibles" class="button tab-switch" type="button">Collectibles</button>`,
-          `<button id="button-switch-geocaches" name="geocaches" class="button tab-switch" type="button">Geo Caches</button>`,
-          `<button id="button-switch-secrets" name="secrets" class="button tab-switch" type="button">Secrets</button>`,
-          `<button id="button-switch-godhome" name="godhome" class="button tab-switch" type="button">Godmaster</button>`,
-          `<button id="button-switch-statistics" name="statistics" class="button tab-switch" type="button">Statistics</button>`,
+          `<button id="button-switch-main" name="main" class="button tab-switch" type="button">主要 %</button>`,
+          `<button id="button-switch-essentials" name="essentials" class="button tab-switch" type="button">必要 %</button>`,
+          `<button id="button-switch-journal" name="journal" class="button tab-switch" type="button">猎人日志</button>`,
+          `<button id="button-switch-collectibles" name="collectibles" class="button tab-switch" type="button">收集品</button>`,
+          `<button id="button-switch-geocaches" name="geocaches" class="button tab-switch" type="button">吉欧</button>`,
+          `<button id="button-switch-secrets" name="secrets" class="button tab-switch" type="button">秘密</button>`,
+          `<button id="button-switch-godhome" name="godhome" class="button tab-switch" type="button">寻神者</button>`,
+          `<button id="button-switch-statistics" name="statistics" class="button tab-switch" type="button">统计</button>`,
           `</div>`,
         ].join("\n");
 
@@ -424,8 +424,14 @@ function GenerateInnerHTML(db) {
         obj.textPrefix = "";
         obj.div = div;
 
+        /* 作者原意图是基于游戏进度的线性提示系统，而不是随机提示
         /* display only one (current) hint */
         obj.textSuffix = entries[sections[section].current].spoiler;
+
+        /* 如果要改成随机选择一个提示 */
+        // const hintKeys = Object.keys(entries).filter(key => key !== "endOfHints");
+        // const randomKey = hintKeys[Math.floor(Math.random() * hintKeys.length)];
+        // obj.textSuffix = entries[randomKey].spoiler;
 
         textFill += SingleEntryFill(obj);
 
@@ -741,7 +747,7 @@ function CompletionFillNoSave(section) {
   switch (id) {
 
     case "hk-intro":
-      fullString += `<h2 id='hk-true-completion'>True Completion<div class='percent-box'>0.00%</div></h2>`;
+      fullString += `<h2 id='hk-true-completion'>整体完成度<div class='percent-box'>0.00%</div></h2>`;
       break;
     default:
   }
@@ -877,7 +883,7 @@ function CompletionFill(section) {
       else cl = "";
 
       fullString += `<h2 id='hk-true-completion'>
-      True Completion<div class='percent-box${cl}'>${trueCompletionPercent.toFixed(2)}${symbol}</div>
+      整体完成度<div class='percent-box${cl}'>${trueCompletionPercent.toFixed(2)}${symbol}</div>
       </h2>`;
       break;
     default:
