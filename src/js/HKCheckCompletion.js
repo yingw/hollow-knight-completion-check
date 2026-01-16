@@ -48,7 +48,7 @@ const SYMBOL_TRUE = "<i class='icon-ok-squared'></i>"; // "✅ "
 const SYMBOL_CLOCK = "<i class='icon-clock'></i>"; // "🕑 "
 const SYMBOL_EMPTY = "<span class='padding-left'></span>";
 const FLEUR_DIVIDE = "<div class='horizontal-line'></div>";
-const WIKI_LINK = "https://hollowknight.fandom.com/wiki/";
+const WIKI_LINK = "https://hkss.huijiwiki.com/wiki/";
 
 // ---------------- Variables ------------------------------------------------------------------------------------------------------- //
 
