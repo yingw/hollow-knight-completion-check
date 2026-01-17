@@ -209,7 +209,7 @@ const HK = {
         // killedMawlek
         bossBroodingMawlek: {
           name: "P1 躁郁的毛里克",
-          spoiler: "遗忘十字路, use Mantis Claw",
+          spoiler: "遗忘十字路, use 螳螂爪",
           id: "Battle Scene",
           sceneName: "Crossroads_09",
           wiki: "躁郁的毛里克"
@@ -227,12 +227,12 @@ const HK = {
         // "Battle Scene" - "Deepnest_32" ?
         killedMimicSpider: {
           name: "P2 诺斯克",
-          spoiler: "深邃巢穴, use Crystal Heart, left of Hot Spring",
+          spoiler: "深邃巢穴, use 水晶之心, left of Hot Spring",
           wiki: "诺斯克"
         },
         killedInfectedKnight: {
           name: "P2 残破容器",
-          spoiler: "古老盆地, lower left, use Crystal Heart",
+          spoiler: "古老盆地, lower left, use 水晶之心",
           wiki: "残破容器"
         },
         collectorDefeated: {
@@ -247,13 +247,13 @@ const HK = {
         },
         hornetOutskirtsDefeated: {
           name: "P3 岗哨大黄蜂",
-          spoiler: "王国边缘, requires Monarch Wings",
+          spoiler: "王国边缘, 需要帝王之翼",
           wiki: "岗哨大黄蜂"
         },
         // "Battle Scene" - "Fungus3_23" ?
         killedTraitorLord: {
           name: "P4 叛徒领主",
-          spoiler: "王后花园, requires Shade Cloak",
+          spoiler: "王后花园, 需要暗影披风",
           wiki: "叛徒领主"
         },
         killedBlackKnight: {
@@ -332,7 +332,7 @@ const HK = {
         }, // 3
         gotCharm_12: {
           name: "#12 苦痛荆棘",
-          spoiler: "苍绿之径, requires 蛾翼披风",
+          spoiler: "苍绿之径, 需要蛾翼披风",
           wiki: "苦痛荆棘"
         }, // 1
         gotCharm_13: {
@@ -347,12 +347,12 @@ const HK = {
         }, // 1
         gotCharm_15: {
           name: "#15 沉重之击",
-          spoiler: "斯莱: 350 Geo + 店主的钥匙",
+          spoiler: "斯莱: 350吉欧 + 店主的钥匙",
           wiki: "沉重之击"
         }, // 2
         gotCharm_16: {
           name: "#16 锋利之影",
-          spoiler: "深邃巢穴, requires Shade Cloak",
+          spoiler: "深邃巢穴, 需要暗影披风",
           wiki: "锋利之影"
         }, // 2
         gotCharm_17: {
@@ -377,27 +377,27 @@ const HK = {
         }, // 2
         gotCharm_21: {
           name: "#21 噬魂者",
-          spoiler: "安息之地, requires Desolate Dive",
+          spoiler: "安息之地, 需要荒芜俯冲",
           wiki: "噬魂者"
         }, // 4
         gotCharm_22: {
           name: "#22 发光子宫",
-          spoiler: "遗忘十字路, requires Crystal Heart",
+          spoiler: "遗忘十字路, 需要水晶之心",
           wiki: "发光子宫"
         }, // 2
         gotCharm_23: {
           name: "#23 易碎心脏",
-          spoiler: "Leg Eater: 350 Geo (280 with Defender's Crest)",
+          spoiler: "食腿者: 350吉欧 (佩戴着防御者纹章的话只需要280吉欧)",
           wiki: "易碎心脏"
         }, // 2
         gotCharm_24: {
           name: "#24 易碎贪婪",
-          spoiler: "Leg Eater: 250 Geo (200 with Defender's Crest)",
+          spoiler: "食腿者: 250吉欧 (佩戴着防御者纹章的话只需要200吉欧)",
           wiki: "易碎贪婪"
         }, // 2
         gotCharm_25: {
           name: "#25 易碎力量",
-          spoiler: "Leg Eater: 600 Geo (480 with Defender's Crest)",
+          spoiler: "食腿者: 600吉欧 (佩戴着防御者纹章的话只需要480吉欧)",
           wiki: "易碎力量"
         }, // 3
         gotCharm_26: {
@@ -407,12 +407,12 @@ const HK = {
         }, // 1
         gotCharm_27: {
           name: "#27 乔尼的祝福",
-          spoiler: "呼啸悬崖: Joni's Repose",
+          spoiler: "呼啸悬崖: 乔尼的长眠处",
           wiki: "乔尼的祝福"
         }, // 4
         gotCharm_28: {
           name: "#28 乌恩之形",
-          spoiler: "苍绿之径: Lake of Unn, requires 伊思玛的眼泪",
+          spoiler: "苍绿之径: Lake of Unn, 需要伊思玛的眼泪",
           wiki: "乌恩之形"
         }, // 2
         gotCharm_29: {
@@ -427,7 +427,7 @@ const HK = {
         }, // 1
         gotCharm_31: {
           name: "#31 冲刺大师",
-          spoiler: "真菌荒地, below bench, near Bretta",
+          spoiler: "真菌荒地, below bench, near 布蕾塔",
           wiki: "冲刺大师"
           /* 
           "id": "Shiny Item Stand",
@@ -436,7 +436,7 @@ const HK = {
         }, // 2
         gotCharm_32: {
           name: "#32 快速劈砍",
-          spoiler: "王国边缘, requires Desolate Dive",
+          spoiler: "王国边缘, 需要荒芜俯冲",
           wiki: "快速劈砍"
         }, // 3
         gotCharm_33: {
@@ -446,7 +446,7 @@ const HK = {
         }, // 2
         gotCharm_34: {
           name: "#34 深度凝聚",
-          spoiler: "水晶山峰, requires Crystal Heart",
+          spoiler: "水晶山峰, 需要水晶之心",
           wiki: "深度凝聚"
         }, // 4
         gotCharm_35: {
@@ -456,7 +456,7 @@ const HK = {
         }, // 3
         gotCharm_36: {
           name: "#36 国王之魂",
-          spoiler: "王后花园 (Shade Cloak) + 白色宫殿 (觉醒的梦之钉)",
+          spoiler: "王后花园 (暗影披风) + 白色宫殿 (觉醒的梦之钉)",
           wiki: "国王之魂"
         }, // 5
       },
@@ -473,37 +473,37 @@ const HK = {
       entries: {
         hasDash: {
           name: "蛾翼披风",
-          spoiler: "苍绿之径: Dash ability",
+          spoiler: "苍绿之径: 可在地面或空中向前冲刺的能力",
           wiki: "蛾翼披风"
         },
         hasWalljump: {
           name: "螳螂爪",
-          spoiler: "螳螂村: Wall Jump ability",
+          spoiler: "螳螂村: 紧贴墙壁并在墙上跳跃的能力",
           wiki: "螳螂爪"
         },
         hasSuperDash: {
           name: "水晶之心",
-          spoiler: "水晶山峰: Super Dash ability",
+          spoiler: "水晶山峰: 以危险的速度向前发射出去的能力",
           wiki: "水晶之心"
         },
         hasDoubleJump: {
           name: "帝王之翼",
-          spoiler: "古老盆地: Double Jump ability",
+          spoiler: "古老盆地: 在空中再次跳跃的能力",
           wiki: "帝王之翼"
         },
         hasAcidArmour: {
           name: "伊思玛的眼泪",
-          spoiler: "皇家水道: Acid Armour ability",
+          spoiler: "皇家水道: 保护持有者免受圣巢某些地方的酸性水池灼伤",
           wiki: "伊思玛的眼泪"
         },
         hasKingsBrand: {
           name: "王之印记",
-          spoiler: "王国边缘, defeat 岗哨大黄蜂",
+          spoiler: "王国边缘, 击败岗哨大黄蜂",
           wiki: "王之印记"
         },
         hasShadowDash: {
           name: "暗影披风",
-          spoiler: "深渊: Shadow Dash ability",
+          spoiler: "深渊: 冲刺时穿过敌人和他们的攻击而不受到伤害",
           wiki: "暗影披风"
         }
       },
@@ -520,7 +520,7 @@ const HK = {
       entries: {
         oldNail: {
           name: "#0 旧骨钉",
-          spoiler: "Starting Weapon",
+          spoiler: "初始武器",
           wiki: "骨钉"
         },
         sharpenedNail: {
@@ -530,17 +530,17 @@ const HK = {
         },
         channeledNail: {
           name: "#2 开槽骨钉",
-          spoiler: "钉子匠: 800 Geo + 1 苍白矿石",
+          spoiler: "钉子匠: 800吉欧 + 1 苍白矿石",
           wiki: "骨钉#升级"
         },
         coiledNail: {
           name: "#3 螺纹骨钉",
-          spoiler: "钉子匠: 2000 Geo + 2 苍白矿石",
+          spoiler: "钉子匠: 2000吉欧 + 2 苍白矿石",
           wiki: "骨钉#升级"
         },
         pureNail: {
           name: "#4 纯粹骨钉",
-          spoiler: "钉子匠: 4000 Geo + 3 苍白矿石",
+          spoiler: "钉子匠: 4000吉欧 + 3 苍白矿石",
           wiki: "骨钉#升级"
         }
       },
@@ -558,18 +558,18 @@ const HK = {
         /* this is correct - somehow Team Cherry switched the names here */
         hasDashSlash: {
           name: "强力劈砍",
-          spoiler: "Nailmaster Sheo: 苍绿之径",
+          spoiler: "骨钉大师席奥: 苍绿之径",
           wiki: "强力劈砍"
         },
         /* this is correct - somehow Team Cherry switched the names here */
         hasUpwardSlash: {
           name: "冲刺劈砍",
-          spoiler: "Nailmaster Oro: 王国边缘, 800吉欧",
+          spoiler: "骨钉大师奥罗: 王国边缘, 800吉欧",
           wiki: "冲刺劈砍"
         },
         hasCyclone: {
           name: "旋风劈砍",
-          spoiler: "Nailmaster Mato: 呼啸悬崖",
+          spoiler: "骨钉大师马托: 呼啸悬崖",
           wiki: "旋风劈砍"
         },
       },
@@ -605,7 +605,7 @@ const HK = {
         descendingDark: {
           quakeLevel: 2,
           name: "黑暗降临",
-          spoiler: "水晶山峰: Crystallised Mound",
+          spoiler: "水晶山峰: 结晶山丘",
           wiki: "黑暗降临"
         },
         howlingWraiths: {
@@ -617,7 +617,7 @@ const HK = {
         abyssShriek: {
           screamLevel: 2,
           name: "深渊尖啸",
-          spoiler: "深渊, use Howling Wraiths on podium",
+          spoiler: "深渊, 在平台上使用嚎叫幽灵",
           wiki: "深渊尖啸"
         }
       },
@@ -644,12 +644,12 @@ const HK = {
         },
         slyShellFrag3: {
           name: "面具碎片 #3",
-          spoiler: "斯莱: 800 Geo + 店主的钥匙",
+          spoiler: "斯莱: 800吉欧 + 店主的钥匙",
           wiki: "面具碎片"
         },
         slyShellFrag4: {
           name: "面具碎片 #4",
-          spoiler: "斯莱: 1500 Geo + 店主的钥匙",
+          spoiler: "斯莱: 1500吉欧 + 店主的钥匙",
           wiki: "面具碎片"
         },
         dreamReward7: {
@@ -682,14 +682,14 @@ const HK = {
         },
         maskShardBretta: {
           name: "面具碎片 #9",
-          spoiler: "德特茅斯: Bretta's Room, rescue Bretta",
+          spoiler: "德特茅斯: 布蕾塔的房间, rescue 布蕾塔",
           wiki: "面具碎片",
           id: "Heart Piece",
           sceneName: "Room_Bretta"
         },
         maskShardQueensStation: {
           name: "面具碎片 #10",
-          spoiler: "王后驿站: requires Mantis Claw",
+          spoiler: "王后驿站: 需要螳螂爪",
           wiki: "面具碎片",
           id: "Heart Piece",
           sceneName: "Fungus2_01"
@@ -717,21 +717,21 @@ const HK = {
         },
         maskShardDeepnest: {
           name: "面具碎片 #14",
-          spoiler: "深邃巢穴: from 真菌核心 (Monarch Wings)",
+          spoiler: "深邃巢穴: from 真菌核心 (帝王之翼)",
           wiki: "面具碎片",
           id: "Heart Piece",
           sceneName: "Fungus2_25"
         },
         maskShardHive: {
           name: "面具碎片 #15",
-          spoiler: "蜂巢: use Hive Guardian to break wall",
+          spoiler: "蜂巢: use 蜂巢守卫 to break wall",
           wiki: "面具碎片",
           id: "Heart Piece",
           sceneName: "Hive_04"
         },
         maskShardDelicateFlower: {
           name: "面具碎片 #16",
-          spoiler: "安息之地: Delicate Flower (灰色哀悼者)",
+          spoiler: "安息之地: 娇嫩的花 (灰色哀悼者)",
           wiki: "面具碎片",
           id: "Heart Piece",
           sceneName: "Room_Mansion"
@@ -739,7 +739,7 @@ const HK = {
       },
     },
 
-    /* ################ Vessel Fragments ################### */
+    /* ################ 容器碎片 ################### */
 
     vesselFragments: {
       h2: "容器碎片",
@@ -755,7 +755,7 @@ const HK = {
         },
         slyVesselFrag2: {
           name: "容器碎片 #2",
-          spoiler: "斯莱: 900 Geo + 店主的钥匙",
+          spoiler: "斯莱: 900吉欧 + 店主的钥匙",
           wiki: "容器碎片"
         },
         dreamReward5: {
@@ -768,7 +768,7 @@ const HK = {
           spoiler: "鹿角虫巢穴",
           wiki: "容器碎片"
         },
-        /* ########## Vessel Fragments World ############ */
+        /* ########## 容器碎片 World ############ */
         /* "Vessel Fragment" sceneData.persistentBoolItems.id */
         vesselFragmentGreenpath: {
           name: "容器碎片 #5",
@@ -793,7 +793,7 @@ const HK = {
         },
         vesselFragmentDeepnest: {
           name: "容器碎片 #8",
-          spoiler: "深邃巢穴: Goam platforming challenge",
+          spoiler: "深邃巢穴: 戈姆 platforming challenge",
           wiki: "容器碎片",
           id: "Vessel Fragment",
           sceneName: "Deepnest_38"
@@ -872,12 +872,12 @@ const HK = {
         },
         noEyesDefeated: {
           name: "P4 无眼",
-          spoiler: "苍绿之径: Stone Sanctuary, requires 光蝇灯笼",
+          spoiler: "苍绿之径: Stone Sanctuary, 需要光蝇灯笼",
           wiki: "无眼"
         },
         markothDefeated: {
           name: "P4 马科斯",
-          spoiler: "王国边缘, requires Shade Cloak",
+          spoiler: "王国边缘, 需要暗影披风",
           wiki: "马科斯"
         },
       },
@@ -926,12 +926,12 @@ const HK = {
         },
         colosseumSilverCompleted: {
           name: "征服者的试炼",
-          spoiler: "小愚人: 450 Geo + Warrior completed",
+          spoiler: "小愚人: 450吉欧 + Warrior completed",
           wiki: "征服者的试炼"
         },
         colosseumGoldCompleted: {
           name: "愚人的试炼",
-          spoiler: "小愚人: 800 Geo + Conqueror completed",
+          spoiler: "小愚人: 800吉欧 + Conqueror completed",
           wiki: "愚人的试炼"
         },
       },
@@ -949,7 +949,7 @@ const HK = {
       entries: {
         gotCharm_37: {
           name: "护符 #37 飞毛腿",
-          spoiler: "斯莱: 400 Geo + 店主的钥匙",
+          spoiler: "斯莱: 400吉欧 + 店主的钥匙",
           wiki: "飞毛腿"
         },
         gotCharm_38: {
@@ -983,18 +983,18 @@ const HK = {
           wikiCarefreeMelody: "无忧旋律"
         },
         killedGrimm: {
-          name: "P3 Troupe Master Grimm",
-          spoiler: "德特茅斯, collect 6 flames",
+          name: "P3 剧团团长格林",
+          spoiler: "德特茅斯, 收集 6 火焰",
           wiki: "格林"
         },
         grimmChildLevel: {
           name: "完成仪式或放逐格林剧团",
           nameDefault: "完成仪式或放逐格林剧团",
-          nameNightmareKing: "格林剧团 Choice: 梦魇之王",
-          nameBanishment: "格林剧团 Choice: Banishment",
-          spoiler: "One choice per save file: 德特茅斯 or 呼啸悬崖",
-          spoilerDefault: "One choice per save file: 德特茅斯 or 呼啸悬崖",
-          spoilerNightmareKing: "Completed the Ritual",
+          nameNightmareKing: "格林剧团分支: 梦魇之王",
+          nameBanishment: "格林剧团分支: 放逐",
+          spoiler: "一次游戏只能选择一边: 德特茅斯 or 呼啸悬崖",
+          spoilerDefault: "一次游戏只能选择一边: 德特茅斯 or 呼啸悬崖",
+          spoilerNightmareKing: "完成仪式",
           spoilerBanishment: "放逐格林剧团",
           wiki: "格林剧团",
           wikiDefault: "格林剧团",
@@ -1038,25 +1038,25 @@ const HK = {
         /* ########## Godmaster doors ########## */
         pantheonMaster: {
           name: "P1 大师万神殿",
-          spoiler: "万神殿: defeat P1 bosses",
+          spoiler: "万神殿: 击败所有大师万神殿BOSS",
           wiki: "大师万神殿",
           property: "bossDoorStateTier1"
         },
         pantheonArtist: {
           name: "P2 艺术家万神殿",
-          spoiler: "万神殿: defeat P2 bosses",
+          spoiler: "万神殿: 击败所有艺术家万神殿BOSS",
           wiki: "艺术家万神殿",
           property: "bossDoorStateTier2"
         },
         pantheonSage: {
           name: "P3 贤者万神殿",
-          spoiler: "万神殿: defeat P3 bosses",
+          spoiler: "万神殿: 击败所有贤者万神殿BOSS",
           wiki: "贤者万神殿",
           property: "bossDoorStateTier3"
         },
         pantheonKnight: {
           name: "P4 骑士万神殿",
-          spoiler: "万神殿: complete P1, P2 and P3",
+          spoiler: "万神殿: 完成大师万神殿、艺术家万神殿、骑士万神殿",
           wiki: "骑士万神殿",
           property: "bossDoorStateTier4"
         }
@@ -1110,7 +1110,7 @@ const HK = {
         },
         elegantKey: {
           name: "典雅的钥匙",
-          spoiler: "斯莱: 800 Geo + 店主的钥匙",
+          spoiler: "斯莱: 800吉欧 + 店主的钥匙",
           wiki: "典雅的钥匙"
         },
         loveKey: {
@@ -1139,7 +1139,7 @@ const HK = {
         },
         gotLurkerKey: {
           name: "简单钥匙 #4",
-          spoiler: "愚人斗兽场: 苍白潜伏者's Retreat",
+          spoiler: "击败愚人斗兽场: 苍白潜伏者",
           wiki: "简单钥匙#获取"
         },
         paleOreAncientBasin: {
@@ -1156,7 +1156,7 @@ const HK = {
         },
         paleOreCrystalPeak: {
           name: "苍白矿石 #3",
-          spoiler: "Top of 水晶山峰, use Monarch Wings",
+          spoiler: "Top of 水晶山峰, use 帝王之翼",
           id: "Shiny Item Stand",
           sceneName: "Mines_34",
           wiki: "苍白矿石#获取方式"
@@ -1177,7 +1177,7 @@ const HK = {
         },
         paleOreColosseum: {
           name: "苍白矿石 #6",
-          spoiler: "愚人斗兽场: Trial of the Conqueror",
+          spoiler: "愚人斗兽场: 征服者的试炼",
           id: "Shiny Item",
           sceneName: "Room_Colosseum_Silver",
           wiki: "苍白矿石#获取方式"
@@ -1185,11 +1185,11 @@ const HK = {
         hasTramPass: {
           name: "电车通行证",
           spoiler: "深邃巢穴: 废弃电车轨道",
-          wiki: "Tram_Pass"
+          wiki: "电车通行证"
         },
         gotQueenFragment: {
           name: "白色碎片: 王后",
-          spoiler: "White Lady: 王后花园",
+          spoiler: "白色夫人: 王后花园",
           wiki: "国王之魂#获取"
         },
         gotKingFragment: {
@@ -1206,7 +1206,7 @@ const HK = {
     essentialsStagStations: {
       h2: "游戏完成度 % Essentials - 鹿角虫车站",
       id: "hk-essentials-stag-stations",
-      description: `Opened 鹿角虫车站 don't count directly towards 112% 游戏完成度, but are required to achieve full 112% by discovering the <span class="spoiler-span blurred">鹿角虫巢穴 for the Vessel Fragment</span>.`,
+      description: `已开放的鹿角虫车站不会直接计入112%的完成度，但需要找到<span class="spoiler-span blurred">鹿角虫巢穴里的一个容器碎片</span>才能达到112%的完整完成度。`,
       entries: {
         openedTownBuilding: {
           name: "鹿角虫车站: 德特茅斯",
@@ -1215,47 +1215,47 @@ const HK = {
         },
         openedCrossroads: {
           name: "鹿角虫车站: 遗忘十字路",
-          spoiler: "50 Geo: Right middle-bottom area",
+          spoiler: "50吉欧: Right middle-bottom area",
           wiki: "遗忘十字路"
         },
         openedGreenpath: {
           name: "鹿角虫车站: 苍绿之径",
-          spoiler: "140 Geo: Top middle area, below Hornet",
+          spoiler: "140吉欧: Top middle area, below Hornet",
           wiki: "苍绿之径"
         },
         openedFungalWastes: {
           name: "鹿角虫车站: 王后驿站",
-          spoiler: "120 Geo: 真菌荒地, near 雾之峡谷",
+          spoiler: "120吉欧: 真菌荒地, near 雾之峡谷",
           wiki: "真菌荒地#王后驿站"
         },
         openedRuins1: {
           name: "鹿角虫车站: 城市仓库",
-          spoiler: "200 Geo: 泪水之城, top left area",
+          spoiler: "200吉欧: 泪水之城, top left area",
           wiki: "传送_(空洞骑士)#位置和解锁价格"
         },
         openedRestingGrounds: {
           name: "鹿角虫车站: 安息之地",
-          spoiler: "0 Geo: Right middle area, near 先知",
+          spoiler: "0吉欧: Right middle area, near 先知",
           wiki: "传送_(空洞骑士)#位置和解锁价格"
         },
         openedRuins2: {
           name: "鹿角虫车站: 国王驿站",
-          spoiler: "300 Geo: 泪水之城, far right area",
+          spoiler: "300吉欧: 泪水之城, far right area",
           wiki: "传送_(空洞骑士)#位置和解锁价格"
         },
         openedRoyalGardens: {
           name: "鹿角虫车站: 王后花园",
-          spoiler: "200 Geo: Middle area, near Traitor's Grave",
+          spoiler: "200吉欧: Middle area, near Traitor's Grave",
           wiki: "传送_(空洞骑士)#位置和解锁价格"
         },
         openedDeepnest: {
           name: "鹿角虫车站: 遥远的村庄",
-          spoiler: "250 Geo: 深邃巢穴, far left area",
+          spoiler: "250吉欧: 深邃巢穴, far left area",
           wiki: "传送_(空洞骑士)#位置和解锁价格"
         },
         openedHiddenStation: {
           name: "鹿角虫车站: 隐藏的鹿角站",
-          spoiler: "300 Geo: 古老盆地: Palace Grounds",
+          spoiler: "300吉欧: 古老盆地: Palace Grounds",
           wiki: "传送_(空洞骑士)#位置和解锁价格"
         },
         openedStagNest: {
@@ -1292,17 +1292,17 @@ const HK = {
         },
         paidLegEater: {
           name: "支付看好东西",
-          spoiler: "真菌荒地, Leg Eater: 86吉欧",
+          spoiler: "真菌荒地, 食腿者: 86吉欧",
           wiki: "食腿者"
         },
         gaveSlykey: {
-          name: "店主的钥匙 Returned to Sly",
-          spoiler: "德特茅斯, Sly's Shop",
+          name: "归还店主的钥匙给斯莱",
+          spoiler: "德特茅斯, Sly的商店",
           wiki: "斯莱"
         },
         mantisVillageFloorLever: {
-          name: "螳螂村 Floor Lever",
-          spoiler: "真菌荒地, right of Mantis Claw",
+          name: "螳螂村地板开关",
+          spoiler: "真菌荒地, right of 螳螂爪",
           id: "Mantis Lever (1)",
           sceneName: "Fungus2_14",
           wiki: "螳螂村"
@@ -1313,53 +1313,53 @@ const HK = {
           wiki: "灰色哀悼者"
         },
         waterwaysAcidDrained: {
-          name: "Acid Drained",
+          name: "释放酸液",
           spoiler: "皇家水道, lever after 粪虫防御者",
-          wiki: "Royal_Waterways#Sub-area:_Isma.27s_Grove"
+          wiki: "皇家水道#伊思玛的树林"
         },
         openedMageDoor_v2: {
           name: "打开典雅的门",
-          spoiler: "泪水之城: 灵魂圣所, requires 典雅的钥匙",
+          spoiler: "泪水之城: 灵魂圣所, 需要典雅的钥匙",
           wiki: "典雅的钥匙"
         },
         openedLoveDoor: {
           name: "打开爱之塔大门",
-          spoiler: "泪水之城, requires 爱之钥",
+          spoiler: "泪水之城, 需要爱之钥",
           wiki: "泪水之城#爱之塔"
         },
         abyssGateOpened: {
           name: "打开深渊入口",
-          spoiler: "古老盆地, requires 王之印记",
+          spoiler: "古老盆地, 需要王之印记",
           wiki: "深渊"
         },
         blueVineDoor: {
-          name: "Lifeblood Door Opened",
-          spoiler: "深渊, requires 14-15+ Lifeblood Masks",
-          wiki: "Lifeblood_Core#How_to_Acquire"
+          name: "打开生命血房间的大门",
+          spoiler: "深渊, 只有拥有14格及以上生命血血量时才会开放",
+          wiki: "生命血核心#获取"
         },
         nightmareLanternLit: {
-          name: "Nightmare Lantern Lit",
-          spoiler: "呼啸悬崖, corpse of a large bug",
-          wiki: "Howling_Cliffs#Nightmare_Lantern_Chamber"
+          name: "点燃梦魇之灯",
+          spoiler: "呼啸悬崖, 一个大型的虫子的尸体",
+          wiki: "呼啸悬崖#梦魇之灯房间"
         },
         paleLurkersRetreat: {
-          name: "苍白潜伏者's Retreat",
-          spoiler: "愚人斗兽场, Room above Bench, break wall",
+          name: "击败苍白潜伏者",
+          spoiler: "愚人斗兽场, 在长椅右上方，打破墙",
           id: "Breakable Wall_Silhouette",
           sceneName: "Room_Colosseum_Spectate",
           wiki: "愚人斗兽场"
         },
         godseekerUnlocked: {
-          name: "Godseeker Cocoon 已解锁",
+          name: "解锁寻神者的茧",
           spoiler: "皇家水道: 垃圾坑",
-          wiki: "Royal_Waterways#Sub-area:_Junk_Pit"
+          wiki: "皇家水道#垃圾坑"
         },
         fountainGeo: {
           name: "投入喷泉的吉欧",
           spoiler: "古老盆地: 3000吉欧最多",
           max: 3000,
           maxDefault: 3000,
-          wiki: "Ancient_Basin#Description"
+          wiki: "古老盆地"
         },
       },
     },
@@ -1392,56 +1392,56 @@ const HK = {
         },
         pantheonCrystalGuardian: {
           name: "P2 水晶守卫",
-          spoiler: "水晶山峰, guards Central Bench",
+          spoiler: "水晶山峰, 守卫着长椅",
           id: "Mega Zombie Beam Miner (1)",
           sceneName: "Mines_18",
           wiki: "水晶守卫"
         },
         killedBigBuzzer: {
           name: "复仇蝇之王",
-          spoiler: "愚人斗兽场: Trial of the Warrior, 苍绿之径",
+          spoiler: "愚人斗兽场: 勇士的试炼, 苍绿之径",
           wiki: "复仇蝇之王"
         },
         killedOblobble: {
           name: "P2 奥波路波",
-          spoiler: "愚人斗兽场: Trial of the Conqueror",
+          spoiler: "愚人斗兽场: 征服者的试炼",
           wiki: "奥波路波"
         },
         killedLobsterLancer: {
           name: "神之驯服者",
-          spoiler: "愚人斗兽场: Trial of the Fool",
+          spoiler: "愚人斗兽场: 愚人的试炼",
           wiki: "神之驯服者"
         },
         killedFlukeMother: {
           name: "P2 吸虫之母",
-          spoiler: "皇家水道, requires Desolate Dive",
+          spoiler: "皇家水道, 需要荒芜俯冲",
           wiki: "吸虫之母"
         },
         pantheonEnragedGuardian: {
           name: "P4 暴怒守卫",
-          spoiler: "水晶山峰, requires Monarch Wings",
+          spoiler: "水晶山峰, 需要 帝王之翼",
           id: "Zombie Beam Miner Rematch",
           sceneName: "Mines_32",
           wiki: "暴怒守卫"
         },
         killedNailBros: {
           name: "骨钉兄弟奥罗与马托",
-          spoiler: "万神殿: Pantheon of the Master",
+          spoiler: "万神殿: 大师万神殿",
           wiki: "骨钉兄弟奥罗与马托"
         },
         killedPaintmaster: {
           name: "绘画大师席奥",
-          spoiler: "万神殿: Pantheon of the Artist",
+          spoiler: "万神殿: 艺术家万神殿",
           wiki: "绘画大师席奥"
         },
         killedNailsage: {
           name: "伟大骨钉贤者斯莱",
-          spoiler: "万神殿: Pantheon of the Sage",
+          spoiler: "万神殿: 贤者万神殿",
           wiki: "伟大骨钉贤者斯莱"
         },
         killedHollowKnightPrime: {
           name: "纯粹容器",
-          spoiler: "万神殿: Pantheon of the Knight",
+          spoiler: "万神殿: 骑士万神殿",
           wiki: "纯粹容器"
         },
       },
@@ -1455,11 +1455,11 @@ const HK = {
       description: `重要搜集品，用于解锁成就。它们影响或计入 112% 游戏完成度。`,
       entries: {
         hasMap: {
-          name: "Inventory Map",
+          name: "购入地图",
           spoiler: "First map bought from 柯尼法或伊赛尔达",
-          wiki: "Map_and_Quill"
+          wiki: "地图和羽毛笔"
         },
-        hasJournal: {
+        has日志: {
           name: "猎人日志",
           spoiler: "苍绿之径: Hunter, above Stone Sanctuary",
           wiki: "猎人日志"
@@ -1470,18 +1470,18 @@ const HK = {
           wiki: "猎人的印记"
         },
         killsBigBuzzer: {
-          name: "复仇蝇之王 Journal Note",
-          spoiler: "Colosseum: Trial of the Warrior",
-          wiki: "Vengefly_King"
+          name: "复仇蝇之王 日志 Note",
+          spoiler: "愚人斗兽场: 勇士的试炼",
+          wiki: "复仇蝇之王"
         },
         salubraBlessing: {
           name: "萨鲁巴的祝福",
-          spoiler: "萨鲁巴: 800 Geo + all 40 护符 Owned",
+          spoiler: "萨鲁巴: 800吉欧 + all 40 护符 Owned",
           wiki: "萨鲁巴的祝福"
         },
         gotShadeCharm: {
           name: "虚空之心",
-          spoiler: "Equip Kingsoul 护符 and find Birthplace",
+          spoiler: "Equip 国王之魂 护符 and find Birthplace",
           wiki: "虚空之心"
         },
       },
@@ -1492,71 +1492,71 @@ const HK = {
     achievementsMaps: {
       h2: "成就 - 地图",
       id: "hk-achievements-maps",
-      description: `Acquired maps are important for unlocking achievements. They don't count or matter towards 112% 游戏完成度.`,
+      description: `获得的地图对于解锁成就至关重要。但它们不计入112%的完成度。`,
       entries: {
         mapCrossroads: {
           name: "地图: 遗忘十字路",
-          spoiler: "30/40 Geo: below Gruzzer area",
+          spoiler: "30/40吉欧: below 格鲁兹 area",
           wiki: "遗忘十字路"
         },
         mapGreenpath: {
           name: "地图: 苍绿之径",
-          spoiler: "60/80 Geo: just below 苍绿之径 entrance",
+          spoiler: "60/80吉欧: just below 苍绿之径 entrance",
           wiki: "苍绿之径"
         },
         mapFungalWastes: {
           name: "地图: 真菌荒地",
-          spoiler: "75/100 Geo: right of 王后驿站",
+          spoiler: "75/100吉欧: right of 王后驿站",
           wiki: "真菌荒地"
         },
         mapCliffs: {
           name: "地图: 呼啸悬崖",
-          spoiler: "75/100 Geo: left middle area, near Journal",
+          spoiler: "75/100吉欧: left middle area, near 日志",
           wiki: "呼啸悬崖"
         },
         mapCity: {
           name: "地图: 泪水之城",
-          spoiler: "90/120 Geo: left of 灵魂圣所",
+          spoiler: "90/120吉欧: left of 灵魂圣所",
           wiki: "泪水之城"
         },
         mapMines: {
           name: "地图: 水晶山峰",
-          spoiler: "120/150 Geo: top left area",
+          spoiler: "120/150吉欧: top left area",
           wiki: "水晶山峰"
         },
         mapWaterways: {
           name: "地图: 皇家水道",
-          spoiler: "75/100 Geo: far left area, near Fungal",
+          spoiler: "75/100吉欧: far left area, near Fungal",
           wiki: "皇家水道"
         },
         mapRestingGrounds: {
           name: "地图: 安息之地",
-          spoiler: "75 Geo: 伊赛尔达's Shop",
+          spoiler: "75吉欧: 伊赛尔达的商店",
           wiki: "安息之地"
         },
         mapAbyss: {
           name: "地图: 古老盆地",
-          spoiler: "112/150 Geo: center area, near fountain",
+          spoiler: "112/150吉欧: center area, near fountain",
           wiki: "古老盆地"
         },
         mapOutskirts: {
           name: "地图: 王国边缘",
-          spoiler: "112/150 Geo: left bottom area, inside pipe",
+          spoiler: "112/150吉欧: left bottom area, inside pipe",
           wiki: "王国边缘"
         },
         mapFogCanyon: {
           name: "地图: 雾之峡谷",
-          spoiler: "150/200 Geo: above 教师档案馆",
+          spoiler: "150/200吉欧: above 教师档案馆",
           wiki: "雾之峡谷"
         },
         mapRoyalGardens: {
           name: "地图: 王后花园",
-          spoiler: "150/200 Geo: below 雾之峡谷 entrance",
+          spoiler: "150/200吉欧: below 雾之峡谷 entrance",
           wiki: "王后花园"
         },
         mapDeepnest: {
           name: "地图: 深邃巢穴",
-          spoiler: "38/50 Geo: near both 真菌荒地 entrances",
+          spoiler: "38/50吉欧: near both 真菌荒地 entrances",
           wiki: "深邃巢穴"
         },
         areaMaps: {
@@ -1574,37 +1574,37 @@ const HK = {
     achievementsWorldInteractions: {
       h2: "成就 - 世界互动",
       id: "hk-achievements-world-interactions",
-      description: `Certain interactions the player can make with NPCs in the game or world objects important for unlocking achievements. They don't count or matter towards 112% 游戏完成度. This section includes some choices that the player can make in the game.`,
+      description: `玩家在游戏中与NPC或世界物体进行的一些互动对于解锁成就至关重要。但这些互动不会计入112%的游戏完成度。本部分包含玩家在游戏中可以做出的一些选择。`,
       entries: {
         quirrelEpilogueCompleted: {
-          name: "奎若: Witness",
+          name: "奎若: 最后的相遇",
           spoiler: "蓝湖: after defeating 教师莫诺蒙",
           wiki: "奎若"
         },
         xunRewardGiven: {
           name: "灰色哀悼者: 慰藉",
-          spoiler: "安息之地: Complete Delicate Flower quest",
+          spoiler: "安息之地: Complete 娇嫩的花 quest",
           wiki: "灰色哀悼者"
         },
         zoteStatus: {
           id: "zoteStatus",
           name: "左特",
           nameDefault: "左特",
-          nameNeglect: "左特: 忽略 不管左特让他去死",
-          nameRivalry: "左特: 恩怨 在愚人斗兽场中击败左特",
-          nameTrappedVengefly: "左特: Vengefly",
+          nameNeglect: "左特: 忽略",
+          nameRivalry: "左特: 恩怨",
+          nameTrappedVengefly: "左特: 复仇蝇之王",
           nameNotRescuedVengefly: "左特: 苍绿之径",
           nameTrappedDeepnest: "左特: 深邃巢穴",
           nameColosseum: "左特: 愚人斗兽场",
           spoiler: "一次游戏只能拿到一个成就",
           spoilerDefault: "一次游戏只能拿到一个成就",
-          spoilerNeglect: "Left Zote to die",
-          spoilerRivalry: "Defeated Zote in the 愚人斗兽场",
-          spoilerTrappedVengefly: "苍绿之径, defeat 复仇蝇之王",
-          spoilerNotRescuedVengefly: "Check what happened with Zote",
-          spoilerTrappedDeepnest: "深邃巢穴, free from cobwebs",
-          spoilerColosseum: "Trial of the Warrior",
-          wiki: "Zote"
+          spoilerNeglect: "不管左特让他去死",
+          spoilerRivalry: "在愚人斗兽场中击败左特",
+          spoilerTrappedVengefly: "苍绿之径, 击败复仇蝇之王",
+          spoilerNotRescuedVengefly: "检查左特发生了什么",
+          spoilerTrappedDeepnest: "深邃巢穴, 从蛛网中解救左特",
+          spoilerColosseum: "愚人斗兽场: 勇士的试炼",
+          wiki: "左特"
         },
         nailsmithStatus: {
           id: "nailsmithStatus",
@@ -1616,10 +1616,10 @@ const HK = {
           nameUpgradeNail: "钉子匠: 等待",
           spoiler: "一次游戏只能拿到一个成就",
           spoilerDefault: "一次游戏只能拿到一个成就",
-          spoilerHappyCouple: "Found a new calling",
-          spoilerPurity: "Slain with Pure Nail",
-          spoilerSheoHutWaiting: "Waiting at Sheo's Hut",
-          spoilerUpgradeNail: "Upgrade Nail to Pure Nail",
+          spoilerHappyCouple: "找到新的召唤",
+          spoilerPurity: "用纯粹骨钉杀了他",
+          spoilerSheoHutWaiting: "在席奥的小屋里等待",
+          spoilerUpgradeNail: "升级骨钉为纯粹骨钉",
           wiki: "钉子匠"
         },
         mrMushroomState1: {
@@ -1642,13 +1642,13 @@ const HK = {
         },
         mrMushroomState4: {
           name: "蘑菇先生 #4",
-          spoiler: "呼啸悬崖, near Nailmaster Mato",
+          spoiler: "呼啸悬崖, near 骨钉大师马托",
           wiki: "蘑菇先生",
           state: 5
         },
         mrMushroomState5: {
           name: "蘑菇先生 #5",
-          spoiler: "古老盆地, near Monarch Wings",
+          spoiler: "古老盆地, near 帝王之翼",
           wiki: "蘑菇先生",
           state: 6
         },
@@ -1685,7 +1685,7 @@ const HK = {
           2. Aside the source of acid blight, (王国边缘, near 伊思玛的树林)
           3. Aglow in darkest, winding depths, (深邃巢穴, near 加利安)
           4. Winds all howl above fossilstone steps, (呼啸悬崖)
-          5. Monarchflys in air set still, (古老盆地, near the Monarch Wings location)
+          5. Monarchflys in air set still, (古老盆地, near the 帝王之翼 location)
           6. To Root's domain and snail once shrill, (雾之峡谷, near 长满植物的山丘)
           7. Path of Wyrm, at new lands entered, (国王山道)
           8. There journeys end. The kingdom ventured.
@@ -1698,7 +1698,7 @@ const HK = {
     achievementsBosses: {
       h2: "成就 - BOSS",
       id: "hk-achievements-bosses",
-      description: `Bosses important for unlocking achievements. They don't count or matter towards 112% 游戏完成度.`,
+      description: `对于解锁成就至关重要的 Boss，但它们不计入112%的完成度。`,
       entries: {
         falseKnightDreamDefeated: {
           name: "失败冠军",
@@ -1717,12 +1717,12 @@ const HK = {
         },
         whiteDefenderDefeated: {
           name: "白色防御者",
-          spoiler: "皇家水道, 粪虫防御者, use Desolate Dive",
+          spoiler: "皇家水道, 粪虫防御者, use 荒芜俯冲",
           wiki: "白色防御者"
         },
         greyPrinceDefeated: {
           name: "灰色王子左特",
-          spoiler: "德特茅斯: Bretta's Room (per save choice)",
+          spoiler: "德特茅斯: 布蕾塔的房间 (per save choice)",
           wiki: "灰色王子左特"
         },
         killedHollowKnight: {
@@ -1748,471 +1748,471 @@ const HK = {
     huntersJournal: {
       h2: "猎人日志",
       id: "hk-journal",
-      description: `All the 146 base-game 猎人日志 entries that are counted for Hunter's Mark and Keen Hunter/True Hunter achievements. The 17 most commonly missed Journal entries are right at the top of this list.<br>
-      Numbers above: <b>Completed/Encountered</b> of <b>146</b> Base Total<br>
-      <i class="icon-ok-squared"></i>= note completed.<br>
-      <i class="icon-ok-squared partial"></i>= entry discovered, but note not completed.<br>
-      <i class="icon-cancel"></i>= entry not yet discovered.<br>
-      <b>(no.)</b> = amount left to complete note.`,
+      description: `所有 146 条基础游戏的猎人日志条目都属于猎人的印记以及成就：敏锐的猎人/真正的猎人. 这份列表的最上方列出了17个最容易被遗漏的笔记条目。<br>
+      上面的数字代表: <b>已完成/已发现</b>，总 <b>146</b> 日志条目<br>
+      <i class="icon-ok-squared"></i>= 标记已完成<br>
+      <i class="icon-ok-squared partial"></i>= 发现了日志条目，但未完成。<br>
+      <i class="icon-cancel"></i>= 日志条目还未发现。<br>
+      <b>(no.)</b> = 完成日志条目所需的数量。`,
       percent: 0,
       midPercent: 0,
       maxPercent: 146,
       entries: {
         PrayerSlug: {
-          name: "Maggot (2)",
-          nameDefault: "Maggot",
-          spoiler: "遗忘十字路: 假骑士 secret room",
-          wiki: "Maggot"
+          name: "蛆虫 (2)",
+          nameDefault: "蛆虫",
+          spoiler: "遗忘十字路: 假骑士 隐藏房间",
+          wiki: "蛆虫"
         },
         OrangeScuttler: {
-          name: "Lightseed (20)",
-          nameDefault: "Lightseed",
+          name: "光籽 (20)",
+          nameDefault: "光籽",
           spoiler: "感染的十字路",
-          wiki: "Lightseed"
+          wiki: "光籽"
         },
         Pigeon: {
-          name: "Maskfly (15)",
-          nameDefault: "Maskfly",
+          name: "面具鸟 (15)",
+          nameDefault: "面具鸟",
           spoiler: "苍绿之径, 王后花园",
-          wiki: "Maskfly"
+          wiki: "面具鸟"
         },
         LazyFlyer: {
-          name: "Aluba (1)",
-          nameDefault: "Aluba",
-          spoiler: "Lake of Unn, 王后花园 (near White Lady)",
-          wiki: "Aluba"
+          name: "阿鲁巴 (1)",
+          nameDefault: "阿鲁巴",
+          spoiler: "Lake of Unn, 王后花园 (near 白色夫人)",
+          wiki: "阿鲁巴"
         },
         AcidFlyer: {
-          name: "Duranda (8)",
-          nameDefault: "Duranda",
-          spoiler: "苍绿之径: Nailmaster Sheo's tent path",
-          wiki: "Duranda"
+          name: "杜兰达 (8)",
+          nameDefault: "杜兰达",
+          spoiler: "苍绿之径: 骨钉大师 Sheo's tent path",
+          wiki: "杜兰达"
         },
         AcidWalker: {
-          name: "Durandoo (8)",
-          nameDefault: "Durandoo",
+          name: "杜兰多 (8)",
+          nameDefault: "杜兰多",
           spoiler: "苍绿之径, 王后花园",
-          wiki: "Durandoo"
+          wiki: "杜兰多"
         },
         PlantShooter: {
-          name: "Gulka (15)",
-          nameDefault: "Gulka",
+          name: "古尔卡 (15)",
+          nameDefault: "古尔卡",
           spoiler: "苍绿之径: left of Stone Sanctuary",
-          wiki: "Gulka"
+          wiki: "古尔卡"
         },
         MushroomTurret: {
-          name: "Sporg (20)",
-          nameDefault: "Sporg",
+          name: "斯孢格 (20)",
+          nameDefault: "斯孢格",
           spoiler: "真菌荒地",
-          wiki: "Sporg"
+          wiki: "斯孢格"
         },
         ZapBug: {
-          name: "Charged Lumafly (1)",
-          nameDefault: "Charged Lumafly",
+          name: "带电光蝇 (1)",
+          nameDefault: "带电光蝇",
           spoiler: "雾之峡谷: 教师档案馆 (tank)",
-          wiki: "Charged_Lumafly"
+          wiki: "带电光蝇"
         },
         LaserBug: {
-          name: "Crystal Crawler (15)",
-          nameDefault: "Crystal Crawler",
+          name: "水晶爬虫 (15)",
+          nameDefault: "水晶爬虫",
           spoiler: "水晶山峰: try to use spells",
-          wiki: "Crystal_Crawler"
+          wiki: "水晶爬虫"
         },
         GorgeousHusk: {
-          name: "Gorgeous Husk (1)",
-          nameDefault: "Gorgeous Husk",
-          spoiler: "泪水之城: secret room",
-          wiki: "Gorgeous_Husk"
+          name: "华丽躯壳 (1)",
+          nameDefault: "华丽躯壳",
+          spoiler: "泪水之城: 隐藏房间",
+          wiki: "华丽躯壳"
         },
         Worm: {
-          name: "Goam (10)",
-          nameDefault: "Goam",
+          name: "戈姆 (10)",
+          nameDefault: "戈姆",
           spoiler: "感染的十字路: near 真菌荒地 entrance",
-          wiki: "Goam"
+          wiki: "戈姆"
         },
         BigCentipede: {
-          name: "Garpede (10)",
-          nameDefault: "Garpede",
+          name: "加皮德 (10)",
+          nameDefault: "加皮德",
           spoiler: "深邃巢穴: right of Hot Spring",
-          wiki: "Garpede"
+          wiki: "加皮德"
         },
         AbyssTendril: {
-          name: "Void Tendrils (10)",
-          nameDefault: "Void Tendrils",
-          spoiler: "深渊: secret room near Shade Cloak",
-          wiki: "Void_Tendrils"
+          name: "虚空卷须 (10)",
+          nameDefault: "虚空卷须",
+          spoiler: "深渊: 隐藏房间 near 暗影披风",
+          wiki: "虚空卷须"
         },
         LobsterLancer: {
           name: "神之驯服者 (1)",
           nameDefault: "神之驯服者",
-          spoiler: "愚人斗兽场: Trial of the Fool boss",
-          wiki: "God_Tamer"
+          spoiler: "愚人斗兽场: 愚人的试炼 boss",
+          wiki: "神之驯服者"
         },
         FatFluke: {
-          name: "Flukemunga (8)",
-          nameDefault: "Flukemunga",
+          name: "贪食吸虫 (8)",
+          nameDefault: "贪食吸虫",
           spoiler: "皇家水道: secret area, left of bench",
-          wiki: "Flukemunga"
+          wiki: "贪食吸虫"
         },
         PaleLurker: {
           name: "苍白潜伏者 (1)",
           nameDefault: "苍白潜伏者",
           spoiler: "愚人斗兽场: top right breakable wall",
-          wiki: "Pale_Lurker"
+          wiki: "苍白潜伏者"
         },
         Crawler: {
-          name: "Crawlid (0)",
-          nameDefault: "Crawlid",
+          name: "小爬虫 (0)",
+          nameDefault: "小爬虫",
           spoiler: "国王山道, 遗忘十字路, 苍绿之径",
-          wiki: "Crawlid"
+          wiki: "小爬虫"
         },
         Buzzer: {
-          name: "Vengefly (45)",
-          nameDefault: "Vengefly",
+          name: "复仇蝇 (45)",
+          nameDefault: "复仇蝇",
           spoiler: "呼啸悬崖, 遗忘十字路, 泪水之城",
-          wiki: "Vengefly"
+          wiki: "复仇蝇"
         },
         Bouncer: {
-          name: "Gruzzer (25)",
-          nameDefault: "Gruzzer",
+          name: "格鲁兹 (25)",
+          nameDefault: "格鲁兹",
           spoiler: "遗忘十字路",
-          wiki: "Gruzzer"
+          wiki: "格鲁兹"
         },
         Climber: {
-          name: "Tiktik (30)",
-          nameDefault: "Tiktik",
+          name: "提克提克 (30)",
+          nameDefault: "提克提克",
           spoiler: "遗忘十字路, 呼啸悬崖, 苍绿之径",
-          wiki: "Tiktik"
+          wiki: "提克提克"
         },
         Hopper: {
-          name: "Hopper (25)",
-          nameDefault: "Hopper",
+          name: "跳虫 (25)",
+          nameDefault: "跳虫",
           spoiler: "王国边缘",
-          wiki: "Hopper"
+          wiki: "跳虫"
         },
         Spitter: {
-          name: "Aspid Hunter (20)",
-          nameDefault: "Aspid Hunter",
+          name: "阿司匹德猎手 (20)",
+          nameDefault: "阿司匹德猎手",
           spoiler: "遗忘十字路, 古老盆地, 收藏家",
-          wiki: "Aspid_Hunter"
+          wiki: "阿司匹德猎手"
         },
         Hatcher: {
-          name: "Aspid Mother (15)",
-          nameDefault: "Aspid Mother",
+          name: "阿司匹德之母 (15)",
+          nameDefault: "阿司匹德之母",
           spoiler: "遗忘十字路, mainly next to the Tram station",
-          wiki: "Aspid_Mother"
+          wiki: "阿司匹德之母"
         },
         Hatchling: {
-          name: "Aspid Hatchling (30)",
-          nameDefault: "Aspid Hatchling",
-          spoiler: "遗忘十字路, summoned by Aspid Mother",
-          wiki: "Aspid_Hatchling"
+          name: "阿司匹德幼体 (30)",
+          nameDefault: "阿司匹德幼体",
+          spoiler: "遗忘十字路, summoned by 阿司匹德之母",
+          wiki: "阿司匹德幼体"
         },
         ZombieRunner: {
-          name: "Wandering Husk (35)",
-          nameDefault: "Wandering Husk",
+          name: "游荡躯壳 (35)",
+          nameDefault: "游荡躯壳",
           spoiler: "遗忘十字路, 泪水之城, 深邃巢穴",
-          wiki: "Wandering_Husk"
+          wiki: "游荡躯壳"
         },
         ZombieHornhead: {
-          name: "Husk Hornhead (35)",
-          nameDefault: "Husk Hornhead",
+          name: "有角躯壳 (35)",
+          nameDefault: "有角躯壳",
           spoiler: "遗忘十字路, 泪水之城, 深邃巢穴",
-          wiki: "Husk_Hornhead"
+          wiki: "有角躯壳"
         },
         ZombieLeaper: {
-          name: "Leaping Husk (35)",
-          nameDefault: "Leaping Husk",
+          name: "跳跃躯壳 (35)",
+          nameDefault: "跳跃躯壳",
           spoiler: "遗忘十字路, 泪水之城, 呼啸悬崖",
-          wiki: "Leaping_Husk"
+          wiki: "跳跃躯壳"
         },
         ZombieBarger: {
-          name: "Husk Bully (35)",
-          nameDefault: "Husk Bully",
+          name: "躯壳恶霸 (35)",
+          nameDefault: "躯壳恶霸",
           spoiler: "遗忘十字路, 泪水之城, 呼啸悬崖",
-          wiki: "Husk_Bully"
+          wiki: "躯壳恶霸"
         },
         ZombieShield: {
-          name: "Husk Warrior (10)",
-          nameDefault: "Husk Warrior",
+          name: "躯壳战士 (10)",
+          nameDefault: "躯壳战士",
           spoiler: "遗忘十字路: right of the 鹿角虫车站",
-          wiki: "Husk_Warrior"
+          wiki: "躯壳战士"
         },
         ZombieGuard: {
-          name: "Husk Guard (6)",
-          nameDefault: "Husk Guard",
+          name: "躯壳守卫 (6)",
+          nameDefault: "躯壳守卫",
           spoiler: "遗忘十字路: upper right area",
-          wiki: "Husk_Guard"
+          wiki: "躯壳守卫"
         },
         BigBuzzer: {
           name: "复仇蝇之王 (2)",
           nameDefault: "复仇蝇之王",
-          spoiler: "苍绿之径, Colosseum: Trial of the Warrior",
-          wiki: "Vengefly_King"
+          spoiler: "苍绿之径, 愚人斗兽场: 勇士的试炼",
+          wiki: "复仇蝇之王"
         },
         BigFly: {
           name: "格鲁兹之母 (3)",
           nameDefault: "格鲁兹之母",
           spoiler: "遗忘十字路: lower right area",
-          wiki: "Gruz_Mother"
+          wiki: "格鲁兹之母"
         },
         Mawlek: {
           name: "躁郁的毛里克 (1)",
           nameDefault: "躁郁的毛里克",
           spoiler: "遗忘十字路: down from 虫爷爷",
-          wiki: "Brooding_Mawlek"
+          wiki: "躁郁的毛里克"
         },
         FalseKnight: {
           name: "假骑士 (1)",
           nameDefault: "假骑士",
           spoiler: "遗忘十字路: middle area map symbol",
-          wiki: "False_Knight"
+          wiki: "假骑士"
         },
         Roller: {
-          name: "Baldur (20)",
-          nameDefault: "Baldur",
-          spoiler: "祖先山丘, Crystallised Mound, 呼啸悬崖",
-          wiki: "Baldur"
+          name: "巴德尔 (20)",
+          nameDefault: "巴德尔",
+          spoiler: "祖先山丘, 结晶山丘, 呼啸悬崖",
+          wiki: "巴德尔"
         },
         Blocker: {
-          name: "Elder Baldur (1)",
-          nameDefault: "Elder Baldur",
+          name: "巴德尔长者 (1)",
+          nameDefault: "巴德尔长者",
           spoiler: "祖先山丘, 苍绿之径, 呼啸悬崖",
-          wiki: "Elder_Baldur"
+          wiki: "巴德尔长者"
         },
         MossmanRunner: {
-          name: "Mosskin (25)",
-          nameDefault: "Mosskin",
-          spoiler: "苍绿之径: usually near a Volatile Mosskin",
-          wiki: "Mosskin"
+          name: "苔藓怪 (25)",
+          nameDefault: "苔藓怪",
+          spoiler: "苍绿之径: usually near a 爆炸苔藓怪",
+          wiki: "苔藓怪"
         },
         MossmanShaker: {
-          name: "Volatile Mosskin (25)",
-          nameDefault: "Volatile Mosskin",
+          name: "爆炸苔藓怪 (25)",
+          nameDefault: "爆炸苔藓怪",
           spoiler: "苍绿之径",
-          wiki: "Volatile_Mosskin"
+          wiki: "爆炸苔藓怪"
         },
         Mosquito: {
-          name: "Squit (25)",
-          nameDefault: "Squit",
+          name: "斯奎特 (25)",
+          nameDefault: "斯奎特",
           spoiler: "苍绿之径 and the 长满植物的山丘",
-          wiki: "Squit"
+          wiki: "斯奎特"
         },
         BlobFlyer: {
-          name: "Obble (20)",
-          nameDefault: "Obble",
+          name: "奥波 (20)",
+          nameDefault: "奥波",
           spoiler: "苍绿之径: top left of Stone Sanctuary",
-          wiki: "Obble"
+          wiki: "奥波"
         },
         FungifiedZombie: {
-          name: "Fungified Husk (10)",
-          nameDefault: "Fungified Husk",
-          spoiler: "Found only in 真菌荒地",
-          wiki: "Fungified_Husk"
+          name: "真菌躯壳 (10)",
+          nameDefault: "真菌躯壳",
+          spoiler: "只会出现在 真菌荒地",
+          wiki: "真菌躯壳"
         },
         MossCharger: {
-          name: "Moss Charger (15)",
-          nameDefault: "Moss Charger",
-          spoiler: "Found only in 苍绿之径",
-          wiki: "Moss_Charger"
+          name: "苔藓冲锋者 (15)",
+          nameDefault: "苔藓冲锋者",
+          spoiler: "只会出现在 苍绿之径",
+          wiki: "苔藓冲锋者"
         },
         MegaMossCharger: {
           name: "大型苔藓冲锋者 (1)",
           nameDefault: "大型苔藓冲锋者",
           spoiler: "苍绿之径: bottom left near 雾之峡谷",
-          wiki: "Massive_Moss_Charger"
+          wiki: "大型苔藓冲锋者"
         },
         SnapperTrap: {
-          name: "Fool Eater (15)",
-          nameDefault: "Fool Eater",
+          name: "捕蠢草 (15)",
+          nameDefault: "捕蠢草",
           spoiler: "苍绿之径 and 王后花园",
-          wiki: "Fool_Eater"
+          wiki: "捕蠢草"
         },
         MossKnight: {
-          name: "Moss Knight (8)",
-          nameDefault: "Moss Knight",
-          spoiler: "Found only in 苍绿之径",
-          wiki: "Moss_Knight"
+          name: "苔藓骑士 (8)",
+          nameDefault: "苔藓骑士",
+          spoiler: "只会出现在 苍绿之径",
+          wiki: "苔藓骑士"
         },
         GrassHopper: {
-          name: "Loodle (15)",
-          nameDefault: "Loodle",
-          spoiler: "Found only in 王后花园",
-          wiki: "Loodle"
+          name: "鲁多 (15)",
+          nameDefault: "鲁多",
+          spoiler: "只会出现在 王后花园",
+          wiki: "鲁多"
         },
         MossFlyer: {
-          name: "Mossfly (25)",
-          nameDefault: "Mossfly",
+          name: "苔藓蝶 (25)",
+          nameDefault: "苔藓蝶",
           spoiler: "王后花园, 长满植物的山丘",
-          wiki: "Mossfly"
+          wiki: "苔藓蝶"
         },
         MossKnightFat: {
-          name: "Mossy Vagabond (10)",
-          nameDefault: "Mossy Vagabond",
+          name: "苔藓流浪者 (10)",
+          nameDefault: "苔藓流浪者",
           spoiler: "王后花园: near exit to 真菌荒地",
-          wiki: "Mossy_Vagabond"
+          wiki: "苔藓流浪者"
         },
         MossWalker: {
-          name: "Mosscreep (30)",
-          nameDefault: "Mosscreep",
+          name: "苔藓爬虫 (30)",
+          nameDefault: "苔藓爬虫",
           spoiler: "苍绿之径 and 王后花园",
-          wiki: "Mosscreep"
+          wiki: "苔藓爬虫"
         },
         InfectedKnight: {
           name: "残破容器 (1)",
           nameDefault: "残破容器",
-          spoiler: "古老盆地: far left, needs Crystal Heart",
-          wiki: "Broken_Vessel"
+          spoiler: "古老盆地: far left, needs 水晶之心",
+          wiki: "残破容器"
         },
         Jellyfish: {
-          name: "Ooma (12)",
-          nameDefault: "Ooma",
+          name: "欧玛 (12)",
+          nameDefault: "欧玛",
           spoiler: "雾之峡谷: almost everywhere",
-          wiki: "Ooma"
+          wiki: "欧玛"
         },
         JellyCrawler: {
-          name: "Uoma (20)",
-          nameDefault: "Uoma",
+          name: "乌玛 (20)",
+          nameDefault: "乌玛",
           spoiler: "雾之峡谷: almost everywhere",
-          wiki: "Uoma"
+          wiki: "乌玛"
         },
         MegaJellyfish: {
           name: "乌姆 (1)",
           nameDefault: "乌姆",
           spoiler: "雾之峡谷: inside 教师档案馆",
-          wiki: "Uumuu"
+          wiki: "乌姆"
         },
         FungoonBaby: {
-          name: "Fungling (30)",
-          nameDefault: "Fungling",
+          name: "小真菌球 (30)",
+          nameDefault: "小真菌球",
           spoiler: "真菌荒地, 真菌核心, 垃圾坑",
-          wiki: "Fungling"
+          wiki: "小真菌球"
         },
         Mantis: {
-          name: "Mantis Warrior (25)",
-          nameDefault: "Mantis Warrior",
+          name: "螳螂战士 (25)",
+          nameDefault: "螳螂战士",
           spoiler: "真菌荒地: 螳螂村",
-          wiki: "Mantis_Warrior"
+          wiki: "螳螂战士"
         },
         MushroomRoller: {
-          name: "Shrumal Warrior (20)",
-          nameDefault: "Shrumal Warrior",
+          name: "蘑菇战士 (20)",
+          nameDefault: "蘑菇战士",
           spoiler: "真菌荒地, 真菌核心",
-          wiki: "Shrumal_Warrior"
+          wiki: "蘑菇战士"
         },
         MushroomBrawler: {
-          name: "Shrumal Ogre (8)",
-          nameDefault: "Shrumal Ogre",
+          name: "蘑菇巨怪 (8)",
+          nameDefault: "蘑菇巨怪",
           spoiler: "真菌荒地, bottom of 真菌核心",
-          wiki: "Shrumal_Ogre"
+          wiki: "蘑菇巨怪"
         },
         MushroomBaby: {
-          name: "Shrumeling (20)",
-          nameDefault: "Shrumeling",
-          spoiler: "真菌荒地, near Shrumal Warriors",
-          wiki: "Shrumeling"
+          name: "小蘑菇 (20)",
+          nameDefault: "小蘑菇",
+          spoiler: "真菌荒地, near 蘑菇战士s",
+          wiki: "小蘑菇"
         },
         MantisFlyerChild: {
-          name: "Mantis Youth (25)",
-          nameDefault: "Mantis Youth",
+          name: "螳螂青年 (25)",
+          nameDefault: "螳螂青年",
           spoiler: "真菌荒地: 螳螂村",
-          wiki: "Mantis_Youth"
+          wiki: "螳螂青年"
         },
         FungusFlyer: {
-          name: "Fungoon (20)",
-          nameDefault: "Fungoon",
-          spoiler: "Found only in 真菌荒地",
-          wiki: "Fungoon"
+          name: "真菌球 (20)",
+          nameDefault: "真菌球",
+          spoiler: "只会出现在 真菌荒地",
+          wiki: "真菌球"
         },
         FungCrawler: {
-          name: "Ambloom (15)",
-          nameDefault: "Ambloom",
+          name: "漫步菇 (15)",
+          nameDefault: "漫步菇",
           spoiler: "真菌荒地, 真菌核心",
-          wiki: "Ambloom"
+          wiki: "漫步菇"
         },
         MantisLord: {
           name: "螳螂领主 (1)",
           nameDefault: "螳螂领主",
           spoiler: "真菌荒地: 螳螂村, switch lever",
-          wiki: "Mantis_Lords"
+          wiki: "螳螂领主"
         },
         BlackKnight: {
           name: "守望者骑士 (10)",
           nameDefault: "守望者骑士",
-          spoiler: "泪水之城: 守望者的尖塔, Monarch Wings",
-          wiki: "Watcher_Knight"
+          spoiler: "泪水之城: 守望者的尖塔, 帝王之翼",
+          wiki: "守望者骑士"
         },
         ElectricMage: {
-          name: "Volt Twister (6)",
-          nameDefault: "Volt Twister",
-          spoiler: "愚人斗兽场: Trial of the Fool",
-          wiki: "Volt_Twister"
+          name: "闪电扭曲者 (6)",
+          nameDefault: "闪电扭曲者",
+          spoiler: "愚人斗兽场: 愚人的试炼",
+          wiki: "闪电扭曲者"
         },
         Mage: {
-          name: "Soul Twister (20)",
-          nameDefault: "Soul Twister",
-          spoiler: "泪水之城: 灵魂圣所, Trial of the Fool",
-          wiki: "Soul_Twister"
+          name: "灵魂扭曲者 (20)",
+          nameDefault: "灵魂扭曲者",
+          spoiler: "泪水之城: 灵魂圣所, 愚人的试炼",
+          wiki: "灵魂扭曲者"
         },
         MageKnight: {
           name: "灵魂战士 (2)",
           nameDefault: "灵魂战士",
-          spoiler: "泪水之城: 灵魂圣所, Trial of the Fool",
-          wiki: "Soul_Warrior"
+          spoiler: "泪水之城: 灵魂圣所, 愚人的试炼",
+          wiki: "灵魂战士"
         },
         RoyalDandy: {
-          name: "Husk Dandy (25)",
-          nameDefault: "Husk Dandy",
+          name: "躯壳公子 (25)",
+          nameDefault: "躯壳公子",
           spoiler: "泪水之城: right section",
-          wiki: "Husk_Dandy"
+          wiki: "躯壳公子"
         },
         RoyalCoward: {
-          name: "Cowardly Husk (25)",
-          nameDefault: "Cowardly Husk",
+          name: "怯懦躯壳 (25)",
+          nameDefault: "怯懦躯壳",
           spoiler: "泪水之城: right section",
-          wiki: "Cowardly_Husk"
+          wiki: "怯懦躯壳"
         },
         RoyalPlumper: {
-          name: "Gluttonous Husk (25)",
-          nameDefault: "Gluttonous Husk",
+          name: "暴食躯壳 (25)",
+          nameDefault: "暴食躯壳",
           spoiler: "泪水之城: right section",
-          wiki: "Gluttonous_Husk"
+          wiki: "暴食躯壳"
         },
         FlyingSentrySword: {
-          name: "Winged Sentry (30)",
-          nameDefault: "Winged Sentry",
+          name: "有翼哨兵 (30)",
+          nameDefault: "有翼哨兵",
           spoiler: "泪水之城, 皇家水道, 古老盆地",
-          wiki: "Winged_Sentry"
+          wiki: "有翼哨兵"
         },
         FlyingSentryJavelin: {
-          name: "Lance Sentry (25)",
-          nameDefault: "Lance Sentry",
+          name: "长矛哨兵 (25)",
+          nameDefault: "长矛哨兵",
           spoiler: "泪水之城, 皇家水道, 古老盆地",
-          wiki: "Lance_Sentry"
+          wiki: "长矛哨兵"
         },
         Sentry: {
-          name: "Husk Sentry (25)",
-          nameDefault: "Husk Sentry",
+          name: "躯壳哨兵 (25)",
+          nameDefault: "躯壳哨兵",
           spoiler: "泪水之城, 皇家水道, 伊思玛的树林",
-          wiki: "Husk_Sentry"
+          wiki: "躯壳哨兵"
         },
         SentryFat: {
-          name: "Heavy Sentry (20)",
-          nameDefault: "Heavy Sentry",
-          spoiler: "Found only in 泪水之城",
-          wiki: "Heavy_Sentry"
+          name: "重型哨兵 (20)",
+          nameDefault: "重型哨兵",
+          spoiler: "只会出现在 泪水之城",
+          wiki: "重型哨兵"
         },
         MageBlob: {
-          name: "Mistake (25)",
-          nameDefault: "Mistake",
-          spoiler: "泪水之城: 灵魂圣所, Trial of the Fool",
-          wiki: "Mistake"
+          name: "错误 (25)",
+          nameDefault: "错误",
+          spoiler: "泪水之城: 灵魂圣所, 愚人的试炼",
+          wiki: "错误"
         },
         GreatShieldZombie: {
-          name: "Great Husk Sentry (10)",
-          nameDefault: "Great Husk Sentry",
+          name: "大型躯壳哨兵 (10)",
+          nameDefault: "大型躯壳哨兵",
           spoiler: "泪水之城, 守望者的尖塔",
-          wiki: "Great_Husk_Sentry"
+          wiki: "大型躯壳哨兵"
         },
         JarCollector: {
           name: "收藏家 (1)",
@@ -2221,512 +2221,512 @@ const HK = {
           wiki: "收藏家"
         },
         MageBalloon: {
-          name: "Folly (15)",
-          nameDefault: "Folly",
-          spoiler: "泪水之城: 灵魂圣所, Trial of the Fool",
-          wiki: "Folly"
+          name: "愚蠢 (15)",
+          nameDefault: "愚蠢",
+          spoiler: "泪水之城: 灵魂圣所, 愚人的试炼",
+          wiki: "愚蠢"
         },
         MageLord: {
           name: "灵魂大师 (1)",
           nameDefault: "灵魂大师",
           spoiler: "泪水之城: 灵魂圣所",
-          wiki: "Soul_Master"
+          wiki: "灵魂大师"
         },
         FlipHopper: {
-          name: "Pilflip (20)",
-          nameDefault: "Pilflip",
+          name: "翻身怪 (20)",
+          nameDefault: "翻身怪",
           spoiler: "皇家水道: central part",
-          wiki: "Pilflip"
+          wiki: "翻身怪"
         },
         Flukeman: {
-          name: "Flukemon (20)",
-          nameDefault: "Flukemon",
+          name: "吸虫怪 (20)",
+          nameDefault: "吸虫怪",
           spoiler: "皇家水道: central part",
-          wiki: "Flukemon"
+          wiki: "吸虫怪"
         },
         Inflater: {
-          name: "Hwurmp (20)",
-          nameDefault: "Hwurmp",
+          name: "呼噗 (20)",
+          nameDefault: "呼噗",
           spoiler: "皇家水道, 伊思玛的树林",
-          wiki: "Hwurmp"
+          wiki: "呼噗"
         },
         Flukefly: {
-          name: "Flukefey (15)",
-          nameDefault: "Flukefey",
-          spoiler: "Found only in 皇家水道",
-          wiki: "Flukefey"
+          name: "吸虫幼雏 (15)",
+          nameDefault: "吸虫幼雏",
+          spoiler: "只会出现在 皇家水道",
+          wiki: "吸虫幼雏"
         },
         FlukeMother: {
           name: "吸虫之母 (1)",
           nameDefault: "吸虫之母",
-          spoiler: "皇家水道: bottom, Desolate Dive",
-          wiki: "Flukemarm"
+          spoiler: "皇家水道: bottom, 荒芜俯冲",
+          wiki: "吸虫之母"
         },
         DungDefender: {
           name: "粪虫防御者 (1)",
           nameDefault: "粪虫防御者",
           spoiler: "皇家水道: right area",
-          wiki: "Dung_Defender"
+          wiki: "粪虫防御者"
         },
         CrystalCrawler: {
-          name: "Glimback (15)",
-          nameDefault: "Glimback",
+          name: "亮背虫 (15)",
+          nameDefault: "亮背虫",
           spoiler: "水晶山峰, 遗忘十字路 toll booth",
-          wiki: "Glimback"
+          wiki: "亮背虫"
         },
         CrystalFlyer: {
-          name: "Crystal Hunter (20)",
-          nameDefault: "Crystal Hunter",
+          name: "水晶猎手 (20)",
+          nameDefault: "水晶猎手",
           spoiler: "水晶山峰, Crystallized Mound",
-          wiki: "Crystal_Hunter"
+          wiki: "水晶猎手"
         },
         BeamMiner: {
-          name: "Crystallised Husk (15)",
-          nameDefault: "Crystallised Husk",
+          name: "结晶躯壳 (15)",
+          nameDefault: "结晶躯壳",
           spoiler: "水晶山峰: top right areas",
-          wiki: "Crystallised_Husk"
+          wiki: "结晶躯壳"
         },
         ZombieMiner: {
-          name: "Husk Miner (20)",
-          nameDefault: "Husk Miner",
-          spoiler: "Found only in 水晶山峰",
-          wiki: "Husk_Miner"
+          name: "躯壳矿工 (20)",
+          nameDefault: "躯壳矿工",
+          spoiler: "只会出现在 水晶山峰",
+          wiki: "躯壳矿工"
         },
         MegaBeamMiner: {
           name: "水晶守卫 (2)",
           nameDefault: "水晶守卫",
           spoiler: "水晶山峰: center bench area",
-          wiki: "Crystal_Guardian"
+          wiki: "水晶守卫"
         },
         MinesCrawler: {
-          name: "Shardmite (15)",
-          nameDefault: "Shardmite",
-          spoiler: "Found only in 水晶山峰",
-          wiki: "Shardmite"
+          name: "晶刺螨 (15)",
+          nameDefault: "晶刺螨",
+          spoiler: "只会出现在 水晶山峰",
+          wiki: "晶刺螨"
         },
         AngryBuzzer: {
-          name: "Furious Vengefly (15)",
-          nameDefault: "Furious Vengefly",
-          spoiler: "感染的十字路, Trial of the Fool",
-          wiki: "Furious_Vengefly"
+          name: "愤怒复仇蝇 (15)",
+          nameDefault: "愤怒复仇蝇",
+          spoiler: "感染的十字路, 愚人的试炼",
+          wiki: "愤怒复仇蝇"
         },
         BurstingBouncer: {
-          name: "Volatile Gruzzer (15)",
-          nameDefault: "Volatile Gruzzer",
-          spoiler: "感染的十字路, Colosseum Trials",
-          wiki: "Volatile_Gruzzer"
+          name: "爆炸格鲁兹 (15)",
+          nameDefault: "爆炸格鲁兹",
+          spoiler: "感染的十字路, 愚人斗兽场 试炼",
+          wiki: "爆炸格鲁兹"
         },
         BurstingZombie: {
-          name: "Violent Husk (15)",
-          nameDefault: "Violent Husk",
-          spoiler: "Found only in 感染的十字路",
-          wiki: "Violent_Husk"
+          name: "暴力躯壳 (15)",
+          nameDefault: "暴力躯壳",
+          spoiler: "只会出现在 感染的十字路",
+          wiki: "暴力躯壳"
         },
         SpittingZombie: {
-          name: "Slobbering Husk (15)",
-          nameDefault: "Slobbering Husk",
-          spoiler: "Found only in 感染的十字路",
-          wiki: "Slobbering_Husk"
+          name: "流涎躯壳 (15)",
+          nameDefault: "流涎躯壳",
+          spoiler: "只会出现在 感染的十字路",
+          wiki: "流涎躯壳"
         },
         BabyCentipede: {
-          name: "Dirtcarver (35)",
-          nameDefault: "Dirtcarver",
-          spoiler: "深邃巢穴, Carver Hatcher",
-          wiki: "Dirtcarver"
+          name: "刻尘者 (35)",
+          nameDefault: "刻尘者",
+          spoiler: "深邃巢穴, 刻尘孵化者",
+          wiki: "刻尘者"
         },
         CentipedeHatcher: {
-          name: "Carver Hatcher (15)",
-          nameDefault: "Carver Hatcher",
+          name: "刻尘孵化者 (15)",
+          nameDefault: "刻尘孵化者",
           spoiler: "深邃巢穴: top area 废弃电车轨道",
-          wiki: "Carver_Hatcher"
+          wiki: "刻尘孵化者"
         },
         LesserMawlek: {
-          name: "Lesser Mawlek (10)",
-          nameDefault: "Lesser Mawlek",
-          spoiler: "古老盆地: left of tram, Trial of the Fool",
-          wiki: "Lesser_Mawlek"
+          name: "小型毛里克 (10)",
+          nameDefault: "小型毛里克",
+          spoiler: "古老盆地: left of tram, 愚人的试炼",
+          wiki: "小型毛里克"
         },
         SlashSpider: {
-          name: "Stalking Devout (15)",
-          nameDefault: "Stalking Devout",
+          name: "潜行信徒 (15)",
+          nameDefault: "潜行信徒",
           spoiler: "深邃巢穴: left area, 遥远的村庄",
-          wiki: "Stalking_Devout"
+          wiki: "潜行信徒"
         },
         SpiderCorpse: {
-          name: "Corpse Creeper (15)",
-          nameDefault: "Corpse Creeper",
-          spoiler: "Found only in 深邃巢穴: middle area",
-          wiki: "Corpse_Creeper"
+          name: "尸体爬虫 (15)",
+          nameDefault: "尸体爬虫",
+          spoiler: "只会出现在 深邃巢穴: middle area",
+          wiki: "尸体爬虫"
         },
         ShootSpider: {
-          name: "Deephunter (20)",
-          nameDefault: "Deephunter",
-          spoiler: "Found only in 深邃巢穴",
-          wiki: "Deephunter"
+          name: "深巢猎手 (20)",
+          nameDefault: "深巢猎手",
+          spoiler: "只会出现在 深邃巢穴",
+          wiki: "深巢猎手"
         },
         MiniSpider: {
-          name: "Deepling (25)",
-          nameDefault: "Deepling",
+          name: "深巢幼蛛 (25)",
+          nameDefault: "深巢幼蛛",
           spoiler: "深邃巢穴: left areas",
-          wiki: "Deepling"
+          wiki: "深巢幼蛛"
         },
         SpiderFlyer: {
-          name: "Little Weaver (20)",
-          nameDefault: "Little Weaver",
+          name: "小型编织者 (20)",
+          nameDefault: "小型编织者",
           spoiler: "深邃巢穴: left areas",
-          wiki: "Little_Weaver"
+          wiki: "小型编织者"
         },
         MimicSpider: {
           name: "诺斯克 (1)",
           nameDefault: "诺斯克",
-          spoiler: "深邃巢穴: left of Hot Spring, use Crystal Heart",
-          wiki: "Nosk"
+          spoiler: "深邃巢穴: left of Hot Spring, use 水晶之心",
+          wiki: "诺斯克"
         },
         BeeHatchling: {
-          name: "Hiveling (30)",
-          nameDefault: "Hiveling",
+          name: "小蜜蜂 (30)",
+          nameDefault: "小蜜蜂",
           spoiler: "蜂巢, 王国边缘",
-          wiki: "Hiveling"
+          wiki: "小蜜蜂"
         },
         BeeStinger: {
-          name: "Hive Soldier (15)",
-          nameDefault: "Hive Soldier",
-          spoiler: "Found only in the Hive",
-          wiki: "Hive_Soldier"
+          name: "蜂巢士兵 (15)",
+          nameDefault: "蜂巢士兵",
+          spoiler: "只会出现在 蜂巢",
+          wiki: "蜂巢士兵"
         },
         BigBee: {
-          name: "Hive Guardian (12)",
-          nameDefault: "Hive Guardian",
-          spoiler: "Found only in the Hive",
-          wiki: "Hive_Guardian"
+          name: "蜂巢守卫 (12)",
+          nameDefault: "蜂巢守卫",
+          spoiler: "只会出现在 蜂巢",
+          wiki: "蜂巢守卫"
         },
         HiveKnight: {
           name: "蜂巢骑士 (1)",
           nameDefault: "蜂巢骑士",
           spoiler: "蜂巢: right area",
-          wiki: "Hive_Knight"
+          wiki: "蜂巢骑士"
         },
         BlowFly: {
-          name: "Boofly (20)",
-          nameDefault: "Boofly",
-          spoiler: "Found only in 王国边缘",
-          wiki: "Boofly"
+          name: "肥波 (20)",
+          nameDefault: "肥波",
+          spoiler: "只会出现在 王国边缘",
+          wiki: "肥波"
         },
         CeilingDropper: {
-          name: "Belfly (15)",
-          nameDefault: "Belfly",
+          name: "爆肚蝠 (15)",
+          nameDefault: "爆肚蝠",
           spoiler: "泪水之城, 皇家水道, 王国边缘",
-          wiki: "Belfly"
+          wiki: "爆肚蝠"
         },
         GiantHopper: {
-          name: "Great Hopper (10)",
-          nameDefault: "Great Hopper",
-          spoiler: "王国边缘, Trial of the Conqueror",
-          wiki: "Great_Hopper"
+          name: "大跳虫 (10)",
+          nameDefault: "大跳虫",
+          spoiler: "王国边缘, 征服者的试炼",
+          wiki: "大跳虫"
         },
         GrubMimic: {
-          name: "Grub Mimic (5)",
-          nameDefault: "Grub Mimic",
-          spoiler: "水晶山峰, 深邃巢穴, Trial of the Conqueror",
-          wiki: "Grub_Mimic"
+          name: "幼虫模仿者 (5)",
+          nameDefault: "幼虫模仿者",
+          spoiler: "水晶山峰, 深邃巢穴, 征服者的试炼",
+          wiki: "幼虫模仿者"
         },
         MawlekTurret: {
-          name: "Mawlurk (10)",
-          nameDefault: "Mawlurk",
+          name: "毛鲁克 (10)",
+          nameDefault: "毛鲁克",
           spoiler: "古老盆地: left area",
-          wiki: "Mawlurk"
+          wiki: "毛鲁克"
         },
         HealthScuttler: {
-          name: "Lifeseed (10)",
-          nameDefault: "Lifeseed",
-          spoiler: "圣巢: inside Lifeblood Cocoons",
-          wiki: "Lifeseed"
+          name: "生命籽 (10)",
+          nameDefault: "生命籽",
+          spoiler: "圣巢: inside 生命血茧",
+          wiki: "生命籽"
         },
         ZombieHive: {
-          name: "Husk Hive (10)",
-          nameDefault: "Husk Hive",
-          spoiler: "found only in the Hive",
-          wiki: "Husk_Hive"
+          name: "蜂巢躯壳 (10)",
+          nameDefault: "蜂巢躯壳",
+          spoiler: "只会出现在 蜂巢",
+          wiki: "蜂巢躯壳"
         },
         Hornet: {
           name: "大黄蜂 (2)",
-          nameDefault: "Hornet",
+          nameDefault: "大黄蜂",
           spoiler: "苍绿之径, 王国边缘, 万神殿",
-          wiki: "Hornet"
+          wiki: "大黄蜂"
         },
         AbyssCrawler: {
-          name: "Shadow Creeper (20)",
-          nameDefault: "Shadow Creeper",
+          name: "暗影爬虫 (20)",
+          nameDefault: "暗影爬虫",
           spoiler: "古老盆地, 深渊",
-          wiki: "Shadow_Creeper"
+          wiki: "暗影爬虫"
         },
         SuperSpitter: {
           name: "原始阿司匹德 (25)",
           nameDefault: "原始阿司匹德",
-          spoiler: "王国边缘, 愚人斗兽场 Trials",
-          wiki: "Primal_Aspid"
+          spoiler: "王国边缘, 愚人斗兽场 试炼",
+          wiki: "原始阿司匹德"
         },
         Sibling: {
           name: "同胞 (25)",
           nameDefault: "同胞",
           spoiler: "深渊, lighthouse, Birthplace",
-          wiki: "Sibling"
+          wiki: "同胞"
         },
         PalaceFly: {
           name: "翅膀傀儡 (10)",
           nameDefault: "翅膀傀儡",
-          spoiler: "Found only in the 白色宫殿",
-          wiki: "Wingmould"
+          spoiler: "只会出现在 白色宫殿",
+          wiki: "翅膀傀儡"
         },
         EggSac: {
-          name: "Bluggsac (5)",
-          nameDefault: "Bluggsac",
+          name: "臭蛋口袋 (5)",
+          nameDefault: "臭蛋口袋",
           spoiler: "皇家水道, 水晶山峰, 深邃巢穴, 圣巢",
-          wiki: "Bluggsac"
+          wiki: "臭蛋口袋"
         },
         Mummy: {
-          name: "Entombed Husk (10)",
-          nameDefault: "Entombed Husk",
-          spoiler: "安息之地: bottom area tombs",
-          wiki: "Entombed_Husk"
+          name: "埋葬躯壳 (10)",
+          nameDefault: "埋葬躯壳",
+          spoiler: "安息之地: 底部墓地区域",
+          wiki: "埋葬躯壳"
         },
         OrangeBalloon: {
-          name: "Infected Balloon (10)",
-          nameDefault: "Infected Balloon",
+          name: "感染气球 (10)",
+          nameDefault: "感染气球",
           spoiler: "古老盆地: left areas",
-          wiki: "Infected_Balloon"
+          wiki: "感染气球"
         },
         HeavyMantis: {
           name: "螳螂叛徒 (15)",
           nameDefault: "螳螂叛徒",
-          spoiler: "王后花园, Trial of the Fool",
-          wiki: "Mantis_Traitor"
+          spoiler: "王后花园, 愚人的试炼",
+          wiki: "螳螂叛徒"
         },
         TraitorLord: {
           name: "叛徒领主 (1)",
           nameDefault: "叛徒领主",
-          spoiler: "王后花园: upper left, Shade Cloak",
-          wiki: "Traitor_Lord"
+          spoiler: "王后花园: upper left, 暗影披风",
+          wiki: "叛徒领主"
         },
         MantisHeavyFlyer: {
           name: "螳螂佩特拉 (16)",
           nameDefault: "螳螂佩特拉",
-          spoiler: "王后花园, Trial of the Fool",
-          wiki: "Mantis_Petra"
+          spoiler: "王后花园, 愚人的试炼",
+          wiki: "螳螂佩特拉"
         },
         GardenZombie: {
-          name: "Spiny Husk (20)",
-          nameDefault: "Spiny Husk",
-          spoiler: "Found only in 王后花园",
-          wiki: "Spiny_Husk"
+          name: "多刺躯壳 (20)",
+          nameDefault: "多刺躯壳",
+          spoiler: "只会出现在 王后花园",
+          wiki: "多刺躯壳"
         },
         RoyalGuard: {
           name: "国王傀儡 (2)",
           nameDefault: "国王傀儡",
-          spoiler: "Found only in the 白色宫殿",
-          wiki: "Kingsmould"
+          spoiler: "只会出现在 白色宫殿",
+          wiki: "国王傀儡"
         },
         WhiteRoyal: {
           name: "皇室家臣 (10)",
           nameDefault: "皇室家臣",
-          spoiler: "Found only in the 白色宫殿",
-          wiki: "Royal_Retainer"
+          spoiler: "只会出现在 白色宫殿",
+          wiki: "皇室家臣"
         },
         Oblobble: {
           name: "奥波路波 (3)",
           nameDefault: "奥波路波",
-          spoiler: "Trial of the Conqueror, 万神殿",
-          wiki: "Oblobbles"
+          spoiler: "愚人斗兽场: 征服者的试炼, 万神殿",
+          wiki: "奥波路波"
         },
         Blobble: {
-          name: "Battle Obble (15)",
-          nameDefault: "Battle Obble",
-          spoiler: "愚人斗兽场: Trials #2 and #3",
-          wiki: "Battle_Obble"
+          name: "战斗奥波 (15)",
+          nameDefault: "战斗奥波",
+          spoiler: "愚人斗兽场: 试炼 #2 and #3",
+          wiki: "战斗奥波"
         },
         ColMosquito: {
-          name: "Armoured Squit (15)",
-          nameDefault: "Armoured Squit",
-          spoiler: "愚人斗兽场: Trials #2 and #3",
-          wiki: "Armoured_Squit"
+          name: "装甲斯奎特 (15)",
+          nameDefault: "装甲斯奎特",
+          spoiler: "愚人斗兽场: 试炼 #2 and #3",
+          wiki: "装甲斯奎特"
         },
         ColRoller: {
-          name: "Sharp Baldur (20)",
-          nameDefault: "Sharp Baldur",
-          spoiler: "愚人斗兽场: Trials #1 and #3",
-          wiki: "Sharp_Baldur"
+          name: "尖刺巴德尔 (20)",
+          nameDefault: "尖刺巴德尔",
+          spoiler: "愚人斗兽场: 试炼 #1 and #3",
+          wiki: "尖刺巴德尔"
         },
         ColFlyingSentry: {
-          name: "Winged Fool (25)",
-          nameDefault: "Winged Fool",
-          spoiler: "愚人斗兽场: Trials #2 and #3",
-          wiki: "Winged_Fool"
+          name: "有翼愚人 (25)",
+          nameDefault: "有翼愚人",
+          spoiler: "愚人斗兽场: 试炼 #2 and #3",
+          wiki: "有翼愚人"
         },
         ColMiner: {
-          name: "Sturdy Fool (25)",
-          nameDefault: "Sturdy Fool",
-          spoiler: "愚人斗兽场: Trials #1 and #3",
-          wiki: "Sturdy_Fool"
+          name: "强壮愚人 (25)",
+          nameDefault: "强壮愚人",
+          spoiler: "愚人斗兽场: 试炼 #1 and #3",
+          wiki: "强壮愚人"
         },
         ColShield: {
-          name: "Shielded Fool (25)",
-          nameDefault: "Shielded Fool",
-          spoiler: "愚人斗兽场: All Trials",
-          wiki: "Shielded_Fool"
+          name: "带盾愚人 (25)",
+          nameDefault: "带盾愚人",
+          spoiler: "愚人斗兽场: All 试炼",
+          wiki: "带盾愚人"
         },
         ColWorm: {
-          name: "Heavy Fool (20)",
-          nameDefault: "Heavy Fool",
-          spoiler: "愚人斗兽场: Trials #2 and #3",
-          wiki: "Heavy_Fool"
+          name: "强壮愚人 (20)",
+          nameDefault: "强壮愚人",
+          spoiler: "愚人斗兽场: 试炼 #2 and #3",
+          wiki: "强壮愚人"
         },
         ColHopper: {
-          name: "Death Loodle (15)",
-          nameDefault: "Death Loodle",
-          spoiler: "愚人斗兽场: Trial of the Fool",
-          wiki: "Death_Loodle"
+          name: "死亡鲁多 (15)",
+          nameDefault: "死亡鲁多",
+          spoiler: "愚人斗兽场: 愚人的试炼",
+          wiki: "死亡鲁多"
         },
         GhostAladar: {
           name: "戈布 (1)",
           nameDefault: "戈布",
           spoiler: "呼啸悬崖: top area",
-          wiki: "Gorb"
+          wiki: "戈布"
         },
         GhostXero: {
           name: "泽若 (1)",
           nameDefault: "泽若",
           spoiler: "安息之地: left area",
-          wiki: "Xero"
+          wiki: "泽若"
         },
         GhostHu: {
           name: "胡长老 (1)",
           nameDefault: "胡长老",
           spoiler: "真菌荒地: above acid bridge",
-          wiki: "Elder_Hu"
+          wiki: "胡长老"
         },
         GhostMarmu: {
           name: "马尔穆 (1)",
           nameDefault: "马尔穆",
           spoiler: "王后花园: left of 鹿角虫车站",
-          wiki: "Marmu"
+          wiki: "马尔穆"
         },
         GhostNoEyes: {
           name: "无眼 (1)",
           nameDefault: "无眼",
-          spoiler: "苍绿之径: Stone Sanctuary, requires 光蝇灯笼",
-          wiki: "No_Eyes"
+          spoiler: "苍绿之径: Stone Sanctuary, 需要光蝇灯笼",
+          wiki: "无眼"
         },
         GhostMarkoth: {
           name: "马科斯 (1)",
           nameDefault: "马科斯",
-          spoiler: "王国边缘, requires Shade Cloak",
-          wiki: "Markoth"
+          spoiler: "王国边缘, 需要暗影披风",
+          wiki: "马科斯"
         },
         GhostGalien: {
           name: "加利安 (1)",
           nameDefault: "加利安",
           spoiler: "深邃巢穴: below 废弃电车轨道",
-          wiki: "Galien"
+          wiki: "加利安"
         },
         ShadeJournal: {
-          name: "Shade (0)",
-          nameDefault: "Shade",
-          spoiler: "Unlocked automatically after getting the Journal",
-          wiki: "Shade"
+          name: "暗影 (0)",
+          nameDefault: "暗影",
+          spoiler: "获取日志后自动解锁",
+          wiki: "暗影"
         },
       },
     },
 
-    /* ################ Optional Journal Entries ################### */
+    /* ################ Optional 日志 Entries ################### */
 
     huntersJournalOptional: {
-      h2: "Optional Journal Entries",
+      h2: "可选的日志条目",
       id: "hk-journal-optional",
-      description: "The remaining 猎人日志 entries which don't count for Hunter's Mark and Keen/True Hunter achievements. Note: 6 entries can be permanently unobtainable, depending on your choices in the save file (<span class='spoiler-span blurred'>灰色王子左特, all 3 Zotelings, Grimmkin Nightmare and 梦魇之王</span>).",
+      description: "以下这些猎人日志条目不作为猎人的印记或成就的一部分。注意：6 个条目在保存文件中是永久无法获取的（<span class='spoiler-span blurred'>灰色王子左特, 3 种左特变种, 格林亲族梦魇, 梦魇之王</span>）。",
       entries: {
         HunterMark: {
-          name: "Hunter's Mark (1)",
-          nameDefault: "Hunter's Mark",
+          name: "猎人的印记 (1)",
+          nameDefault: "猎人的印记",
           spoiler: "苍绿之径: Hunter, complete base 146 Hunter Notes",
-          wiki: "Hunter's_Mark"
+          wiki: "猎人的印记"
         },
         MenderBug: {
-          name: "Menderbug (1)",
-          nameDefault: "Menderbug",
-          spoiler: "遗忘十字路: destroy sign",
-          wiki: "Menderbug"
+          name: "维修虫 (1)",
+          nameDefault: "维修虫",
+          spoiler: "遗忘十字路: 摧毁路牌",
+          wiki: "维修虫"
         },
         Zote: {
-          name: "Zote (1)",
-          nameDefault: "Zote",
-          spoiler: "Colosseum: Trial of the Warrior or The Eternal Ordeal",
-          wiki: "Zote"
+          name: "左特 (1)",
+          nameDefault: "左特",
+          spoiler: "愚人斗兽场: 勇士的试炼 or The Eternal Ordeal",
+          wiki: "左特"
         },
         HollowKnight: {
           name: "空洞骑士 (1)",
           nameDefault: "空洞骑士",
           spoiler: "遗忘十字路: Black Egg Temple",
-          wiki: "Hollow_Knight"
+          wiki: "空洞骑士"
         },
         FinalBoss: {
           name: "辐光 (1)",
           nameDefault: "辐光",
           spoiler: "Requires 虚空之心 & 梦之钉 空洞骑士",
-          wiki: "Radiance"
+          wiki: "辐光"
         },
         WhiteDefender: {
           name: "白色防御者 (1)",
           nameDefault: "白色防御者",
-          spoiler: "皇家水道: 粪虫防御者, Desolate Dive",
-          wiki: "White_Defender"
+          spoiler: "皇家水道: 粪虫防御者, 荒芜俯冲",
+          wiki: "白色防御者"
         },
         GreyPrince: {
           name: "灰色王子左特 (1)",
           nameDefault: "灰色王子左特",
-          spoiler: "德特茅斯: Bretta's Room (per save choice)",
-          wiki: "Grey_Prince_Zote"
+          spoiler: "德特茅斯: 布蕾塔的房间 (per save choice)",
+          wiki: "灰色王子左特"
         },
         ZotelingBalloon: {
-          name: "Volatile Zoteling (1)",
-          nameDefault: "Volatile Zoteling",
+          name: "爆炸小左特 (1)",
+          nameDefault: "爆炸小左特",
           spoiler: "Only from 灰色王子左特, Battle 3+",
-          wiki: "Volatile_Zoteling"
+          wiki: "爆炸小左特"
         },
         ZotelingHopper: {
-          name: "Hopping Zoteling (1)",
-          nameDefault: "Hopping Zoteling",
+          name: "跳跃小左特 (1)",
+          nameDefault: "跳跃小左特",
           spoiler: "Only from 灰色王子左特, Battle 2+",
-          wiki: "Hopping_Zoteling"
+          wiki: "跳跃小左特"
         },
         ZotelingBuzzer: {
-          name: "Winged Zoteling (1)",
-          nameDefault: "Winged Zoteling",
+          name: "有翼小左特 (1)",
+          nameDefault: "有翼小左特",
           spoiler: "Only from 灰色王子左特, Battle 1+",
-          wiki: "Winged_Zoteling"
+          wiki: "有翼小左特"
         },
         FlameBearerSmall: {
-          name: "Grimmkin Novice (3)",
-          nameDefault: "Grimmkin Novice",
+          name: "格林亲族新手 (3)",
+          nameDefault: "格林亲族新手",
           spoiler: "苍绿之径, 水晶山峰, 泪水之城",
-          wiki: "Grimmkin_Novice"
+          wiki: "格林亲族新手"
         },
         FlameBearerMed: {
-          name: "Grimmkin Master (4)",
-          nameDefault: "Grimmkin Master",
+          name: "格林亲族大师 (4)",
+          nameDefault: "格林亲族大师",
           spoiler: "国王山道, 安息之地, 王国边缘",
-          wiki: "Grimmkin_Master"
+          wiki: "格林亲族大师"
         },
         FlameBearerLarge: {
-          name: "Grimmkin Nightmare (5)",
-          nameDefault: "Grimmkin Nightmare",
+          name: "格林亲族梦魇 (5)",
+          nameDefault: "格林亲族梦魇",
           spoiler: "真菌核心, 皇家水道, Hive",
-          wiki: "Grimmkin_Nightmare"
+          wiki: "格林亲族梦魇"
         },
         Grimm: {
-          name: "Troupe Master Grimm (1)",
-          nameDefault: "Troupe Master Grimm",
+          name: "剧团团长格林 (1)",
+          nameDefault: "剧团团长格林",
           spoiler: "德特茅斯: collect 6 flames",
-          wiki: "Grimm"
+          wiki: "格林"
         },
         NightmareGrimm: {
           name: "梦魇之王 (1)",
@@ -2735,58 +2735,58 @@ const HK = {
           wiki: "梦魇之王"
         },
         BindingSeal: {
-          name: "Seal of Binding (1)",
-          nameDefault: "Seal of Binding",
-          spoiler: "白色宫殿: 苦痛之路 completion",
-          wiki: "Seal_of_Binding"
+          name: "束缚封印 (1)",
+          nameDefault: "束缚封印",
+          spoiler: "白色宫殿: 完成苦痛之路",
+          wiki: "束缚封印"
         },
         NailBros: {
           name: "骨钉兄弟奥罗与马托 (1)",
           nameDefault: "骨钉兄弟奥罗与马托",
           spoiler: "万神殿: Pantheon of the Master",
-          wiki: "Brothers_Oro_%26_Mato"
+          wiki: "骨钉兄弟奥罗与马托"
         },
         Paintmaster: {
           name: "绘画大师席奥 (1)",
           nameDefault: "绘画大师席奥",
           spoiler: "万神殿: Pantheon of the Artist",
-          wiki: "Paintmaster_Sheo"
+          wiki: "绘画大师席奥"
         },
         Nailsage: {
           name: "伟大骨钉贤者斯莱 (1)",
           nameDefault: "伟大骨钉贤者斯莱",
           spoiler: "万神殿: Pantheon of the Sage",
-          wiki: "Great_Nailsage_Sly"
+          wiki: "伟大骨钉贤者斯莱"
         },
         HollowKnightPrime: {
           name: "纯粹容器 (1)",
           nameDefault: "纯粹容器",
           spoiler: "万神殿: Pantheon of the Knight",
-          wiki: "Pure_Vessel"
+          wiki: "纯粹容器"
         },
         GodseekerMask: {
-          name: "Weathered Mask (1)",
-          nameDefault: "Weathered Mask",
-          spoiler: "Land of Storms: All Pantheons & Bindings",
-          wiki: "Weathered_Mask"
+          name: "风化面具 (1)",
+          nameDefault: "风化面具",
+          spoiler: "Land of Storms: All 万神殿 & Bindings",
+          wiki: "风化面具"
         },
         VoidIdol_1: {
           name: "虚空神像 调谐 (1)",
           nameDefault: "虚空神像 调谐",
-          spoiler: "诸神堂: Defeat All (调谐级)",
-          wiki: "Void_Idol"
+          spoiler: "诸神堂: 击败所有 Boss (调谐级)",
+          wiki: "虚空神像"
         },
         VoidIdol_2: {
           name: "虚空神像 进升 (1)",
           nameDefault: "虚空神像 进升",
-          spoiler: "诸神堂: Defeat All (进升级)",
-          wiki: "Void_Idol"
+          spoiler: "诸神堂: 击败所有 Boss (进升级)",
+          wiki: "虚空神像"
         },
         VoidIdol_3: {
           name: "虚空神像 辐辉 (1)",
           nameDefault: "虚空神像 辐辉",
-          spoiler: "诸神堂: Defeat All (辐辉级)",
-          wiki: "Void_Idol"
+          spoiler: "诸神堂: 击败所有 Boss (辐辉级)",
+          wiki: "虚空神像"
         },
       },
     },
@@ -2796,49 +2796,49 @@ const HK = {
     charmNotches: {
       h2: "护符槽",
       id: "hk-charm-notches",
-      description: `护符槽 are required to equip 护符. They can be found in the game world, bought from 萨鲁巴 or won from certain challenges.`,
+      description: `护符槽用于装备护符。可以通过在游戏中找到、从萨鲁巴购买或在特定的挑战中获得。`,
       percent: 0,
       maxPercent: 8,
       entries: {
         notchShroomOgres: {
           name: "护符槽 #1",
           spoiler: "真菌荒地: Shroom Ogres room",
-          wiki: "Category:Charms#Notches"
+          wiki: "护符#护符槽"
         },
         salubraNotch1: {
           name: "护符槽 #2",
-          spoiler: "萨鲁巴: 120 Geo + 5 护符 found",
-          wiki: "Category:Charms#Notches"
+          spoiler: "萨鲁巴: 120吉欧 + 5 护符 found",
+          wiki: "护符#护符槽"
         },
         salubraNotch2: {
           name: "护符槽 #3",
-          spoiler: "萨鲁巴: 500 Geo + 10 护符 found",
-          wiki: "Category:Charms#Notches"
+          spoiler: "萨鲁巴: 500吉欧 + 10 护符 found",
+          wiki: "护符#护符槽"
         },
         salubraNotch3: {
           name: "护符槽 #4",
-          spoiler: "萨鲁巴: 900 Geo + 18 护符 found",
-          wiki: "Category:Charms#Notches"
+          spoiler: "萨鲁巴: 900吉欧 + 18 护符 found",
+          wiki: "护符#护符槽"
         },
         salubraNotch4: {
           name: "护符槽 #5",
-          spoiler: "萨鲁巴: 1400 Geo + 25 护符 found",
-          wiki: "Category:Charms#Notches"
+          spoiler: "萨鲁巴: 1400吉欧 + 25 护符 found",
+          wiki: "护符#护符槽"
         },
         colosseumBronzeCompleted: {
           name: "护符槽 #6",
-          spoiler: "愚人斗兽场: Trial of the Warrior",
-          wiki: "Category:Charms#Notches"
+          spoiler: "愚人斗兽场: 勇士的试炼",
+          wiki: "护符#护符槽"
         },
         notchFogCanyon: {
           name: "护符槽 #7",
           spoiler: "雾之峡谷: explosive eggs room",
-          wiki: "Category:Charms#Notches"
+          wiki: "护符#护符槽"
         },
         gotGrimmNotch: {
           name: "护符槽 #8",
           spoiler: "德特茅斯: Troupe Leader Grimm",
-          wiki: "Category:Charms#Notches"
+          wiki: "护符#护符槽"
         },
       },
     },
@@ -2848,8 +2848,8 @@ const HK = {
     grubs: {
       h2: "幼虫",
       id: "hk-grubs",
-      description: `Creatures found trapped in glass jars throughout 圣巢. They can be freed from their jar after which the 虫爷爷 grants a reward for each 幼虫 that is saved.<br>
-      <b>Note:</b> Due to a bug in recent versions of 空洞骑士, 幼虫 #33 and #34 (收藏家/爱之塔) are not marked as released correctly in the save file. As a workaround for this bug, when 幼虫 #32 is detected as released, #33 and #34 are automatically marked as released too in this app.`,
+      description: `在圣巢中被困在玻璃罐子里的生物。当这些生物被释放出来后， 虫爷爷会给每个被救下的幼虫以奖励。<br>
+      <b>注意：</b> 由于最近版本的空洞骑士存在一个 bug，导致 幼虫 #33 和 #34（收藏者/爱之塔）在保存文件中没有被正确标记为已释放。为了解决这个问题，当 幼虫 #32 被检测为已释放时，此应用会自动将 #33 和 #34 也标记为已释放。`,
       percent: 0,
       maxPercent: 46,
       entries: {
@@ -2858,322 +2858,322 @@ const HK = {
           spoiler: "遗忘十字路: Acid Corridor",
           id: "Grub Bottle",
           sceneName: "Crossroads_35",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub2: {
           name: "幼虫 #2",
           spoiler: "遗忘十字路: Left of Dark Corridor",
           id: "Grub Bottle",
           sceneName: "Crossroads_03",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub3: {
           name: "幼虫 #3",
           spoiler: "遗忘十字路: Above 祖先山丘",
           id: "Grub Bottle",
           sceneName: "Crossroads_05",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub4: {
           name: "幼虫 #4",
-          spoiler: "遗忘十字路: Husk Guard Room",
+          spoiler: "遗忘十字路: 躯壳守卫的房间",
           id: "Grub Bottle",
           sceneName: "Crossroads_48",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub5: {
           name: "幼虫 #5",
-          spoiler: "遗忘十字路: Spikes Room",
+          spoiler: "遗忘十字路: Spikes的房间",
           id: "Grub Bottle",
           sceneName: "Crossroads_31",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub6: {
           name: "幼虫 #6",
-          spoiler: "苍绿之径: 柯尼法 Room",
+          spoiler: "苍绿之径: 柯尼法的房间",
           id: "Grub Bottle",
           sceneName: "Fungus1_06",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub7: {
           name: "幼虫 #7",
           spoiler: "苍绿之径: Outside Hunter",
           id: "Grub Bottle",
           sceneName: "Fungus1_07",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub8: {
           name: "幼虫 #8",
           spoiler: "苍绿之径: Outside Hornet",
           id: "Grub Bottle",
           sceneName: "Fungus1_21",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub9: {
           name: "幼虫 #9",
-          spoiler: "呼啸悬崖: Baldur's Shell Room",
+          spoiler: "呼啸悬崖: Baldur's Shell的房间",
           id: "Grub Bottle",
           sceneName: "Fungus1_28",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub10: {
           name: "幼虫 #10",
-          spoiler: "真菌荒地: 柯尼法 Room",
+          spoiler: "真菌荒地: 柯尼法的房间",
           id: "Grub Bottle",
           sceneName: "Fungus2_18",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub11: {
           name: "幼虫 #11",
           spoiler: "泪水之城: Above 文物搜寻者里姆",
           id: "Grub Bottle (1)",
           sceneName: "Ruins1_05",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub12: {
           name: "幼虫 #12",
           spoiler: "水晶山峰: Left of Dark Corridor",
           id: "Grub Bottle",
           sceneName: "Mines_04",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub13: {
           name: "幼虫 #13",
           spoiler: "水晶山峰: Spiked Conveyor Belts",
           id: "Grub Bottle",
           sceneName: "Mines_03",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub14: {
           name: "幼虫 #14",
           spoiler: "水晶山峰: Crystal Heart Gauntlet",
           id: "Grub Bottle",
           sceneName: "Mines_31",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub15: {
           name: "幼虫 #15",
           spoiler: "水晶山峰: Crushers Below Top Bench",
           id: "Grub Bottle",
           sceneName: "Mines_19",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub16: {
           name: "幼虫 #16",
-          spoiler: "泪水之城: 灵魂大师 Rewards Room",
+          spoiler: "泪水之城: 灵魂大师 Rewards的房间",
           id: "Grub Bottle",
           sceneName: "Ruins1_32",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub17: {
           name: "幼虫 #17",
           spoiler: "安息之地: 地窖",
           id: "Grub Bottle",
           sceneName: "RestingGrounds_10",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub18: {
           name: "幼虫 #18",
-          spoiler: "泪水之城: Guarded House Room in Main Hub",
+          spoiler: "泪水之城: Guarded House的房间 in Main Hub",
           id: "Grub Bottle",
           sceneName: "Ruins_House_01",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub19: {
           name: "幼虫 #19",
           spoiler: "水晶山峰: Crystallized Mound",
           id: "Grub Bottle",
           sceneName: "Mines_35",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub20: {
           name: "幼虫 #20",
           spoiler: "水晶山峰: Down from 德特茅斯 entrance",
           id: "Grub Bottle",
           sceneName: "Mines_16",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub21: {
           name: "幼虫 #21",
           spoiler: "皇家水道: Top Left Corridor Above Bench",
           id: "Grub Bottle",
           sceneName: "Waterways_04",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub22: {
           name: "幼虫 #22",
           spoiler: "皇家水道: 伊思玛的树林",
           id: "Grub Bottle",
           sceneName: "Waterways_13",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub23: {
           name: "幼虫 #23",
-          spoiler: "古老盆地: 残破容器 Top Room",
+          spoiler: "古老盆地: 残破容器 Top房间",
           id: "Grub Bottle",
           sceneName: "Abyss_19",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub24: {
           name: "幼虫 #24",
-          spoiler: "古老盆地: Cloth/苍白矿石 Room",
+          spoiler: "古老盆地: Cloth/苍白矿石房间",
           id: "Grub Bottle",
           sceneName: "Abyss_17",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub25: {
           name: "幼虫 #25",
           spoiler: "水晶山峰: 圣巢之冠 Corridor",
           id: "Grub Bottle",
           sceneName: "Mines_24",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub26: {
           name: "幼虫 #26",
           spoiler: "苍绿之径: 低语之根 Corridor",
           id: "Grub Bottle",
           sceneName: "Fungus1_13",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub27: {
           name: "幼虫 #27",
           spoiler: "雾之峡谷: 教师档案馆 Entrance",
           id: "Grub Bottle",
           sceneName: "Fungus3_47",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub28: {
           name: "幼虫 #28",
           spoiler: "王后花园: Main Arena Above Left Bench",
           id: "Grub Bottle",
           sceneName: "Fungus3_10",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub29: {
           name: "幼虫 #29",
-          spoiler: "王后花园: Near White Lady",
+          spoiler: "王后花园: Near 白色夫人",
           id: "Grub Bottle",
           sceneName: "Fungus3_48",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub30: {
           name: "幼虫 #30",
-          spoiler: "王后花园: Upper Room near 苍绿之径",
+          spoiler: "王后花园: Upper房间 near 苍绿之径",
           id: "Grub Bottle",
           sceneName: "Fungus3_22",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub31: {
           name: "幼虫 #31",
           spoiler: "泪水之城: Below 国王驿站",
           id: "Grub Bottle",
           sceneName: "Ruins2_07",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub32: {
           name: "幼虫 #32",
           spoiler: "泪水之城: 收藏家 Arena",
           id: "Grub Bottle",
           sceneName: "Ruins2_11",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub33: {
           name: "幼虫 #33",
           spoiler: "泪水之城: 收藏家 Arena",
           id: "Grub Bottle (1)",
           sceneName: "Ruins2_11",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub34: {
           name: "幼虫 #34",
           spoiler: "泪水之城: 收藏家 Arena",
           id: "Grub Bottle (2)",
           sceneName: "Ruins2_11",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub35: {
           name: "幼虫 #35",
           spoiler: "王国边缘: Below Camp Bench",
           id: "Grub Bottle",
           sceneName: "Deepnest_East_11",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub36: {
           name: "幼虫 #36",
-          spoiler: "王国边缘: Below Nailmaster Oro",
+          spoiler: "王国边缘: Below 骨钉大师奥罗",
           id: "Grub Bottle",
           sceneName: "Deepnest_East_14",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub37: {
           name: "幼虫 #37",
-          spoiler: "真菌荒地: Spore Shroom Room",
+          spoiler: "真菌荒地: Spore Shroom房间",
           id: "Grub Bottle",
           sceneName: "Fungus2_20",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub38: {
           name: "幼虫 #38",
           spoiler: "泪水之城: 守望者的尖塔 Fourth Floor",
           id: "Grub Bottle",
           sceneName: "Ruins2_03",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub39: {
           name: "幼虫 #39",
           spoiler: "深邃巢穴: Right of 真菌荒地 Drop",
           id: "Grub Bottle",
           sceneName: "Deepnest_36",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub40: {
           name: "幼虫 #40",
           spoiler: "深邃巢穴: Left of Hot Spring",
           id: "Grub Bottle",
           sceneName: "Deepnest_03",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub41: {
           name: "幼虫 #41",
           spoiler: "深邃巢穴: 诺斯克 Corridor",
           id: "Grub Bottle",
           sceneName: "Deepnest_31",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub42: {
           name: "幼虫 #42",
-          spoiler: "深邃巢穴: 低语之根 Room",
+          spoiler: "深邃巢穴: 低语之根房间",
           id: "Grub Bottle",
           sceneName: "Deepnest_39",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub43: {
           name: "幼虫 #43",
           spoiler: "深邃巢穴: 野兽巢穴",
           id: "Grub Bottle",
           sceneName: "Deepnest_Spider_Town",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub44: {
           name: "幼虫 #44",
           spoiler: "皇家水道: 王国边缘 Acid Corridor",
           id: "Grub Bottle",
           sceneName: "Waterways_14",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub45: {
           name: "幼虫 #45",
           spoiler: "蜂巢: 王国边缘 Secret",
           id: "Grub Bottle",
           sceneName: "Hive_03",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
         grub46: {
           name: "幼虫 #46",
-          spoiler: "蜂巢: Mask Shard Room",
+          spoiler: "蜂巢: Mask Shard房间",
           id: "Grub Bottle",
           sceneName: "Hive_04",
-          wiki: "Grub#Rewards_and_locations"
+          wiki: "幼虫#奖励和地点"
         },
       },
     },
@@ -3183,7 +3183,7 @@ const HK = {
     whisperingRoots: {
       h2: "低语之根",
       id: "hk-whispering-roots",
-      description: `There are 15 低语之根 in the game, containing a total of 482 精华. 低语之根 Pin from 伊赛尔达 reveals the locations of every 低语之根 in an area after that area's Map has been purchased.`,
+      description: `在游戏中总共有 15 个低语之根，包含 482 个精华。 低语之根图针：从伊赛尔达可以在每个区域的地图购买后，显示该区域内所有低语之根的位置。`,
       percent: 0,
       maxPercent: 15,
       entries: {
@@ -3192,105 +3192,105 @@ const HK = {
           spoiler: "遗忘十字路: Right of 虫爷爷",
           id: "Dream Plant",
           sceneName: "Crossroads_07",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot2: {
           name: "低语之根 #2: 42 精华",
           spoiler: "遗忘十字路: 祖先山丘",
           id: "Dream Plant",
           sceneName: "Crossroads_ShamanTemple",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot3: {
           name: "低语之根 #3: 18 精华",
           spoiler: "真菌荒地: Above 螳螂村",
           id: "Dream Plant",
           sceneName: "Fungus2_17",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot4: {
           name: "低语之根 #4: 28 精华",
           spoiler: "泪水之城: Below 鹿角虫车站",
           id: "Dream Plant",
           sceneName: "Ruins1_17",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot5: {
           name: "低语之根 #5: 46 精华",
           spoiler: "呼啸悬崖: Big Main Area",
           id: "Dream Plant",
           sceneName: "Cliffs_01",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot6: {
           name: "低语之根 #6: 21 精华",
           spoiler: "水晶山峰: 圣巢之冠 Big Area",
           id: "Dream Plant",
           sceneName: "Mines_23",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot7: {
           name: "低语之根 #7: 20 精华",
           spoiler: "安息之地: Right of 先知, Main Area",
           id: "Dream Plant",
           sceneName: "RestingGrounds_05",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot8: {
           name: "低语之根 #8: 34 精华",
           spoiler: "安息之地: 灵魂沼地",
           id: "Dream Plant",
           sceneName: "RestingGrounds_08",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot9: {
           name: "低语之根 #9: 35 精华",
           spoiler: "泪水之城: Broken Elevator",
           id: "Dream Plant",
           sceneName: "Abyss_01",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot10: {
           name: "低语之根 #10: 44 精华",
           spoiler: "苍绿之径: Right of 王后花园",
           id: "Dream Plant",
           sceneName: "Fungus1_13",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot11: {
           name: "低语之根 #11: 20 精华",
-          spoiler: "真菌荒地: Left of Leg Eater",
+          spoiler: "真菌荒地: Left of 食腿者",
           id: "Dream Plant",
           sceneName: "Fungus2_33",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot12: {
           name: "低语之根 #12: 29 精华",
           spoiler: "王后花园: Below Right Bench",
           id: "Dream Plant",
           sceneName: "Fungus3_11",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot13: {
           name: "低语之根 #13: 51 精华",
           spoiler: "王国边缘: Right of 爱之塔",
           id: "Dream Plant",
           sceneName: "Deepnest_East_07",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot14: {
           name: "低语之根 #14: 45 精华",
           spoiler: "深邃巢穴: Below 王后花园",
           id: "Dream Plant",
           sceneName: "Deepnest_39",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
         whisperingRoot15: {
           name: "低语之根 #15: 20 精华",
           spoiler: "蜂巢: Right of Bench",
           id: "Dream Plant",
           sceneName: "Hive_02",
-          wiki: "Whispering_Root"
+          wiki: "低语之根"
         },
       },
     },
@@ -3300,8 +3300,8 @@ const HK = {
     relicsWanderersJournal: {
       h2: "文物 - 漫游者日记",
       id: "hk-relics-journal",
-      description: `Tablets found commonly throughout 圣巢. They are always found next to corpses that are assumed to be the authors of the journal. Can be sold to 文物搜寻者里姆 for 200 Geo.<br>
-      14 x 200 = 2800 Geo Total.`,
+      description: `圣巢到处都能找到的小石碑，通常位于尸体旁，那些死者可能就是日志的作者。可以在 文物搜寻者里姆 处卖 200 吉欧。<br>
+      14 x 200 = 2800 吉欧 总价。`,
       percent: 0,
       maxPercent: 14,
       entries: {
@@ -3310,98 +3310,98 @@ const HK = {
           spoiler: "苍绿之径: Room Above 雾之峡谷",
           id: "Shiny Item",
           sceneName: "Fungus1_11",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal2: {
           name: "漫游者日记 #2",
           spoiler: "苍绿之径: Right of 鹿角虫车站",
           id: "Shiny Item",
           sceneName: "Fungus1_22",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal3: {
           name: "漫游者日记 #3",
-          spoiler: "真菌荒地: Below Shrumal Ogres",
+          spoiler: "真菌荒地: Below 蘑菇巨怪s",
           id: "Shiny Item",
           sceneName: "Fungus2_04",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal4: {
           name: "漫游者日记 #4",
           spoiler: "真菌荒地: Room Above 螳螂村",
           id: "Shiny Item",
           sceneName: "Fungus2_17",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal5: {
           name: "漫游者日记 #5",
           spoiler: "泪水之城: 城市仓库",
           id: "Shiny Item",
           sceneName: "Ruins1_28",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal6: {
           name: "漫游者日记 #6",
           spoiler: "呼啸悬崖: Main Open Air Area",
           id: "Shiny Item (1)",
           sceneName: "Cliffs_01",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal7: {
           name: "漫游者日记 #7",
-          spoiler: "水晶山峰: Right Tall Room",
+          spoiler: "水晶山峰: Right Tall房间",
           id: "Shiny Item (1)",
           sceneName: "Mines_20",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal8: {
           name: "漫游者日记 #8",
           spoiler: "安息之地: 地窖",
           id: "Shiny Item",
           sceneName: "RestingGrounds_10",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal9: {
           name: "漫游者日记 #9",
           spoiler: "泪水之城: Room Above 国王驿站",
           id: "Shiny Item",
           sceneName: "Ruins2_05",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal10: {
           name: "漫游者日记 #10",
           spoiler: "古老盆地: Broken Bridge",
           id: "Shiny Item",
           sceneName: "Abyss_02",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal11: {
           name: "漫游者日记 #11",
           spoiler: "泪水之城: 欢乐之屋 Elevator",
           id: "Shiny Item (1)",
           sceneName: "Ruins_Elevator",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal12: {
           name: "漫游者日记 #12",
           spoiler: "王国边缘: 低语之根 Area",
           id: "Shiny Item",
           sceneName: "Deepnest_East_07",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal13: {
           name: "漫游者日记 #13",
           spoiler: "王国边缘: Camp Bench",
           id: "Shiny Item",
           sceneName: "Deepnest_East_13",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
         wanderersJournal14: {
           name: "漫游者日记 #14",
           spoiler: "王国边缘: Left of 马科斯",
           id: "Shiny Item",
           sceneName: "Deepnest_East_18",
-          wiki: "Wanderer%27s_Journal"
+          wiki: "漫游者日记"
         },
       },
     },
@@ -3411,21 +3411,21 @@ const HK = {
     relicsHallownestSeal: {
       h2: "文物 - 圣巢印章",
       id: "hk-relics-seal",
-      description: `Official symbols of the 苍白之王 and the Five Great Knights. The seals can be found in various locations throughout the world. Can be sold to 文物搜寻者里姆 for 450 Geo. Seal #16 is missable when a player enters the <span class="spoiler-span blurred">野兽巢穴</span> through the secret path without <span class="spoiler-span blurred">being trapped by using the bench</span>.<br>
-      17 x 450 = 7650 Geo Total.`,
+      description: `苍白之王和五大骑士的官方印章。这些印章可以在世界各地的不同地方找到。 可以以450吉欧卖给文物搜寻者里姆。印章 #16 有错过的可能，如果玩家从隐藏通道进入 <span class="spoiler-span blurred">野兽巢穴</span>，而不是 <span class="spoiler-span blurred">被椅子粘住绑进去</span>。<br>
+      总共 17 x 450 = 7650吉欧。`,
       percent: 0,
       maxPercent: 17,
       entries: {
         hallownestSeal1: {
           name: "圣巢印章 #1",
-          spoiler: "遗忘十字路: Inside the Well",
+          spoiler: "遗忘十字路: 在墙里面",
           id: "Shiny Item",
           sceneName: "Crossroads_01",
           wiki: "圣巢印章"
         },
         hallownestSeal2: {
           name: "圣巢印章 #2",
-          spoiler: "真菌荒地: Willoh's Room above 王后驿站",
+          spoiler: "真菌荒地: 王后驿站维洛的房间",
           id: "Shiny Item",
           sceneName: "Fungus2_34",
           wiki: "圣巢印章"
@@ -3439,7 +3439,7 @@ const HK = {
         },
         hallownestSeal4: {
           name: "圣巢印章 #4",
-          spoiler: "真菌荒地: Right of 王后驿站",
+          spoiler: "真菌荒地: 王后驿站右边",
           id: "Shiny Item",
           sceneName: "Fungus2_03",
           wiki: "圣巢印章"
@@ -3453,7 +3453,7 @@ const HK = {
         },
         hallownestSeal6: {
           name: "圣巢印章 #6",
-          spoiler: "泪水之城: 灵魂大师 Rewards Room",
+          spoiler: "泪水之城: 灵魂大师 奖励房间",
           id: "Shiny Item",
           sceneName: "Ruins1_32",
           wiki: "圣巢印章"
@@ -3474,7 +3474,7 @@ const HK = {
         },
         hallownestSeal9: {
           name: "圣巢印章 #9",
-          spoiler: "虫爷爷: 23 幼虫 rescued",
+          spoiler: "虫爷爷: 找到 23 只幼虫",
           id: "Shiny Item Relic2",
           sceneName: "Crossroads_38",
           wiki: "圣巢印章"
@@ -3488,41 +3488,41 @@ const HK = {
         },
         hallownestSeal11: {
           name: "圣巢印章 #11",
-          spoiler: "雾之峡谷: Lifeblood Cocoon Room",
+          spoiler: "雾之峡谷: 生命血茧房间",
           id: "Shiny Item",
           sceneName: "Fungus3_30",
           wiki: "圣巢印章"
         },
         hallownestSeal12: {
           name: "圣巢印章 #12",
-          spoiler: "王后花园: Outside White Lady",
+          spoiler: "王后花园: 白色夫人外面",
           id: "Shiny Item",
           sceneName: "Fungus3_48",
           wiki: "圣巢印章"
         },
         hallownestSeal13: {
           name: "圣巢印章 #13",
-          spoiler: "真菌荒地: 螳螂领主 Reward Room",
+          spoiler: "真菌荒地: 螳螂领主 奖励房间",
           id: "Shiny Item",
           sceneName: "Fungus2_31",
           wiki: "圣巢印章"
         },
         hallownestSeal14: {
           name: "圣巢印章 #14",
-          spoiler: "泪水之城: 守望者的尖塔 Fourth Floor",
+          spoiler: "泪水之城: 守望者的尖塔 第四层",
           id: "Shiny Item",
           sceneName: "Ruins2_03",
           wiki: "圣巢印章"
         },
         hallownestSeal15: {
           name: "圣巢印章 #15",
-          spoiler: "深邃巢穴: Room Above Lower 柯尼法",
+          spoiler: "深邃巢穴: 柯尼法房间上面",
           id: "Shiny Item",
           sceneName: "Deepnest_16",
           wiki: "圣巢印章"
         },
         hallownestSeal16: {
-          name: "圣巢印章 #16 (missable)",
+          name: "圣巢印章 #16 (有错过的可能)",
           spoiler: "深邃巢穴: 野兽巢穴",
           id: "Shiny Item",
           sceneName: "Deepnest_Spider_Town",
@@ -3530,7 +3530,7 @@ const HK = {
         },
         hallownestSeal17: {
           name: "圣巢印章 #17",
-          spoiler: "先知: 100精华 collected",
+          spoiler: "先知: 收集 100 精华",
           id: "dreamReward1",
           sceneName: "",
           wiki: "圣巢印章"
@@ -3543,8 +3543,8 @@ const HK = {
     relicsKingsIdol: {
       h2: "文物 - 国王神像",
       id: "hk-relics-idol",
-      description: `Idols made of a mysterious white metal that depict the 苍白之王. They are found in various locations throughout 圣巢. Can be sold to 文物搜寻者里姆 for 800 Geo.<br>
-      8 x 800 = 6400 Geo Total.`,
+      description: `用神秘的白色材料雕刻而成的苍白之王神像. 小骑士可以在圣巢各处找到一些. 可以卖给 文物搜寻者里姆 800 吉欧.<br>
+      8 x 800 = 6400 吉欧 总价.`,
       percent: 0,
       maxPercent: 8,
       entries: {
@@ -3553,56 +3553,56 @@ const HK = {
           spoiler: "呼啸悬崖: Main Open Air Area",
           id: "Shiny Item",
           sceneName: "Cliffs_01",
-          wiki: "King%27s_Idol"
+          wiki: "国王神像"
         },
         kingsIdol2: {
           name: "国王神像 #2",
-          spoiler: "水晶山峰: 柯尼法 Room, use Monarch Wings",
+          spoiler: "水晶山峰: 柯尼法房间, 需要帝王之翼",
           id: "Shiny Item Stand",
           sceneName: "Mines_30",
-          wiki: "King%27s_Idol"
+          wiki: "国王神像"
         },
         kingsIdol3: {
           name: "国王神像 #3",
           spoiler: "安息之地: 灵魂沼地, 瀑布",
           id: "Shiny Item",
           sceneName: "RestingGrounds_08",
-          wiki: "King%27s_Idol"
+          wiki: "国王神像"
         },
         kingsIdol4: {
           name: "国王神像 #4",
-          spoiler: "皇家水道: 粪虫防御者's Cave",
+          spoiler: "皇家水道: 粪虫防御者的洞穴",
           id: "Shiny Item Stand",
           sceneName: "Waterways_15",
-          wiki: "King%27s_Idol"
+          wiki: "国王神像"
         },
         kingsIdol5: {
           name: "国王神像 #5",
-          spoiler: "王国边缘: Great Hopper Below Colosseum Entrance",
+          spoiler: "王国边缘: 大跳虫 Below Colosseum Entrance",
           id: "Shiny Item",
           sceneName: "Deepnest_East_08",
-          wiki: "King%27s_Idol"
+          wiki: "国王神像"
         },
         kingsIdol6: {
           name: "国王神像 #6",
-          spoiler: "深邃巢穴: Zote Arena Left Side",
+          spoiler: "深邃巢穴: 左特区域左边",
           id: "Shiny Item",
           sceneName: "Deepnest_33",
-          wiki: "King%27s_Idol"
+          wiki: "国王神像"
         },
         kingsIdol7: {
           name: "国王神像 #7",
-          spoiler: "虫爷爷: 38 幼虫 rescued",
+          spoiler: "虫爷爷: 找到 38 只幼虫",
           id: "Shiny Item Relic3",
           sceneName: "Crossroads_38",
-          wiki: "King%27s_Idol"
+          wiki: "国王神像"
         },
         kingsIdol8: {
           name: "国王神像 #8",
-          spoiler: "王国边缘: 苍白潜伏者 Room",
+          spoiler: "王国边缘: 苍白潜伏者的房间",
           id: "Shiny Item",
           sceneName: "GG_Lurker",
-          wiki: "King%27s_Idol"
+          wiki: "国王神像"
         },
       },
     },
@@ -3612,38 +3612,38 @@ const HK = {
     relicsArcaneEgg: {
       h2: "文物 - 神秘蛋",
       id: "hk-relics-egg",
-      description: `Jet black stone eggs originating from a civilisation that existed before the Kingdom of 圣巢 was founded. Egg #4 is missable when the player will go right instead of left in the <span class="spoiler-span blurred">Lifeblood Core room in 深渊</span> and will touch the Charm. Can be sold to 文物搜寻者里姆 for 1200 Geo.<br>
-      4 x 1200 = 4800 Geo Total.`,
+      description: `乌黑发亮的石卵，来自圣巢王国建立前存在的远古文明. #4 是有可能被错过的，当玩家在 <span class="spoiler-span blurred">深渊的生命血核心之间</span> 里面走了右边直接去拿了护符，而不是左边。可以卖给 文物搜寻者里姆 1200 吉欧.<br>
+      4 x 1200 = 4800 吉欧 总价.`,
       percent: 0,
       maxPercent: 4,
       entries: {
         arcaneEgg1: {
           name: "神秘蛋 #1",
-          spoiler: "深渊: Shade Cloak Room",
+          spoiler: "深渊: 阴影披风房间",
           id: "Shiny Item",
           sceneName: "Abyss_10",
-          wiki: "Arcane_Egg"
+          wiki: "神秘蛋"
         },
         arcaneEgg2: {
           name: "神秘蛋 #2",
           spoiler: "先知: 1200精华",
           id: "dreamReward6",
           sceneName: "",
-          wiki: "Arcane_Egg"
+          wiki: "神秘蛋"
         },
         arcaneEgg3: {
           name: "神秘蛋 #3",
-          spoiler: "深渊: Birthplace, requires Kingsoul",
+          spoiler: "深渊: 出生地, 需要国王之魂",
           id: "Shiny Item",
           sceneName: "Abyss_15",
-          wiki: "Arcane_Egg"
+          wiki: "神秘蛋"
         },
         arcaneEgg4: {
-          name: "神秘蛋 #4 (missable)",
-          spoiler: "深渊: Lifeblood Core Room",
+          name: "神秘蛋 #4 (有错过的可能)",
+          spoiler: "深渊: 生命血核心之间",
           id: "Shiny Item (1)",
           sceneName: "Abyss_08",
-          wiki: "Abyss#Lifeblood_Chamber"
+          wiki: "深渊#生命血核心之间"
         },
       },
     },
@@ -3653,159 +3653,159 @@ const HK = {
     rancidEggs: {
       h2: "腐臭蛋",
       id: "hk-rancid-eggs",
-      description: `A collectable item recovered from the corpses of Bluggsacs. Either an already-dead Bluggsac has to be found or a living one has to be killed to make it drop a 腐臭蛋. A certain NPC in the game may be <em>very</em> interested in these... Egg #16 is missable when a player enters the <span class="spoiler-span blurred">野兽巢穴</span> through the secret path without <span class="spoiler-span blurred">being trapped by using the bench</span>.`,
+      description: `腐臭蛋是从臭蛋口袋的尸体处取得的收集品，找到死亡的臭蛋口袋或是击杀它们都能获得。臭蛋口袋一旦被杀死就不会复活。也可以从一些 NPC 处获取。可以给予忏悔师吉吉以召唤仍遗留在世间的暗影。#16 有错过的可能，当玩家在 <span class="spoiler-span blurred">野兽巢穴</span> 是，从隐藏通道进入，而不是 <span class="spoiler-span blurred">被椅子粘住绑进去</span>`,
       percent: 0,
       maxPercent: 21,
       entries: {
         rancidEgg1: {
           name: "腐臭蛋 #1",
-          spoiler: "真菌荒地: 真菌核心 Upper Room",
+          spoiler: "真菌荒地: 真菌核心 Upper房间",
           id: "Shiny Item",
           sceneName: "Fungus2_29",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg2: {
           name: "腐臭蛋 #2",
           spoiler: "泪水之城: Room Above 文物搜寻者里姆",
           id: "Shiny Item",
           sceneName: "Ruins1_05",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg3: {
           name: "腐臭蛋 #3",
-          spoiler: "水晶山峰: Dark Bench Room",
+          spoiler: "水晶山峰: Dark Bench房间",
           id: "Shiny Item",
           sceneName: "Mines_29",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg4: {
           name: "腐臭蛋 #4",
           spoiler: "安息之地: 蓝湖",
           id: "Shiny Item(Clone)",
           sceneName: "Crossroads_50",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg5: {
           name: "腐臭蛋 #5",
-          spoiler: "水晶山峰: Desolate Dive Entrance",
+          spoiler: "水晶山峰: 荒芜俯冲 Entrance",
           id: "Shiny Item(Clone)",
           sceneName: "Mines_01",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg6: {
           name: "腐臭蛋 #6",
-          spoiler: "皇家水道: Mask Shard Room",
+          spoiler: "皇家水道: Mask Shard房间",
           id: "Shiny Item",
           sceneName: "Waterways_04b",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg7: {
           name: "腐臭蛋 #7",
-          spoiler: "皇家水道: Hidden 幼虫 Room",
+          spoiler: "皇家水道: Hidden 幼虫房间",
           id: "Shiny Item(Clone)",
           sceneName: "Waterways_04",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg8: {
           name: "腐臭蛋 #8",
           spoiler: "皇家水道: Left of 伊思玛的树林",
           id: "Shiny Item(Clone)",
           sceneName: "Waterways_07",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg9: {
           name: "腐臭蛋 #9",
           spoiler: "苍绿之径: Outside Sheo's Hut",
           id: "Shiny Item",
           sceneName: "Fungus1_15",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg10: {
           name: "腐臭蛋 #10",
           spoiler: "虫爷爷: 16 幼虫 rescued",
           id: "Shiny Item Rancid Egg",
           sceneName: "Crossroads_38",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg11: {
           name: "腐臭蛋 #11",
           spoiler: "王后花园: Entrance from 雾之峡谷",
           id: "Shiny Item(Clone)",
           sceneName: "Fungus3_34",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg12: {
           name: "腐臭蛋 #12",
           spoiler: "泪水之城: 欢乐之屋 Elevator",
           id: "Shiny Item",
           sceneName: "Ruins_Elevator",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg13: {
           name: "腐臭蛋 #13",
           spoiler: "王国边缘: 低语之根 Area",
           id: "Shiny Item (1)",
           sceneName: "Deepnest_East_07",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg14: {
           name: "腐臭蛋 #14",
           spoiler: "深邃巢穴: 编织者巢穴",
           id: "Shiny Item",
           sceneName: "Deepnest_45_v02",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg15: {
           name: "腐臭蛋 #15",
           spoiler: "深邃巢穴: 低语之根 Big Area Left Side",
           id: "Shiny Item(Clone)",
           sceneName: "Deepnest_39",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg16: {
-          name: "腐臭蛋 #16 (missable)",
+          name: "腐臭蛋 #16 (有错过的可能)",
           spoiler: "深邃巢穴: 野兽巢穴",
           id: "Shiny Item(Clone)",
           sceneName: "Deepnest_Spider_Town",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg17: {
           name: "腐臭蛋 #17",
-          spoiler: "水晶山峰: Right Tall Room",
+          spoiler: "水晶山峰: Right Tall房间",
           id: "Shiny Item(Clone)",
           sceneName: "Mines_20",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg18: {
           name: "腐臭蛋 #18",
           spoiler: "皇家水道: Main Bench Area",
           id: "Shiny Item(Clone)",
           sceneName: "Waterways_02",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg19: {
           name: "腐臭蛋 #19",
-          spoiler: "王国边缘: Below Nailmaster Oro",
+          spoiler: "王国边缘: Below 骨钉大师奥罗",
           id: "Shiny Item(Clone)",
           sceneName: "Deepnest_East_14",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg20: {
           name: "腐臭蛋 #20",
           spoiler: "斯莱: 60吉欧",
           id: "slyRancidEgg",
           sceneName: "",
-          wiki: "Rancid_Egg"
+          wiki: "腐臭蛋"
         },
         rancidEgg21: {
           name: "腐臭蛋 #21",
-          spoiler: "皇家水道: Tuk's free Egg",
-          spoilerNormal: "皇家水道: Tuk, with Defender's Crest",
+          spoiler: "皇家水道: 图克的免费腐臭蛋",
+          spoilerNormal: "皇家水道: 图克, 佩戴 防御者纹章",
           spoilerSteelSoul: "皇家水道: Inspect Tuk",
           idPlayerData: "tukDungEgg",
           id: "Shiny Item",
           sceneName: "Waterways_03",
-          wiki: "Tuk"
+          wiki: "图克"
         },
       },
     },
@@ -3815,126 +3815,126 @@ const HK = {
     items: {
       h2: "物品",
       id: "hk-items",
-      description: `Certain acquirable items, map markers or collectibles in the game that won't fit any specific category. Using custom map pins to mark interesting locations on the map is very useful while playing 空洞骑士. 1440 Geo is needed to buy all map pins from 伊赛尔达.`,
+      description: `游戏中有些可获取的物品、地图标记或收藏品不属于任何特定类别。使用自定义地图标记来标记地图上的有趣地点非常实用。1440 吉欧 是购买所有地图标记的价格.`,
       percent: 0,
       maxPercent: 21,
       entries: {
         hasQuill: {
           name: "羽毛笔",
-          spoiler: "120 Geo: 伊赛尔达's Shop, updates map with explored areas",
-          wiki: "Map_and_Quill#Mapping_Tools"
+          spoiler: "120吉欧: 伊赛尔达的商店, updates map with explored areas",
+          wiki: "地图和羽毛笔#制图工具"
         },
         hasPinBench: {
           name: "长椅图针",
-          spoiler: "100 Geo: 伊赛尔达's Shop",
-          wiki: "Bench_(Hollow_Knight)"
+          spoiler: "100吉欧: 伊赛尔达的商店",
+          wiki: "长椅_(空洞骑士)"
         },
         hasPinShop: {
           name: "商贩图针",
-          spoiler: "100 Geo: 伊赛尔达's Shop",
-          wiki: "Category:NPCs_(Hollow_Knight)#Merchants"
+          spoiler: "100吉欧: 伊赛尔达的商店",
+          wiki: "NPC_(空洞骑士)#商贩"
         },
         hasPinCocoon: {
           name: "虫茧图针",
-          spoiler: "100 Geo: 伊赛尔达's Shop",
-          wiki: "Lifeblood_Cocoon"
+          spoiler: "100吉欧: 伊赛尔达的商店",
+          wiki: "生命血茧"
         },
         hasPinSpa: {
           name: "温泉图针",
-          spoiler: "100 Geo: 伊赛尔达's Shop",
-          wiki: "Hot_Springs"
+          spoiler: "100吉欧: 伊赛尔达的商店",
+          wiki: "温泉"
         },
         hasPinStag: {
           name: "鹿角虫车站图针",
-          spoiler: "100 Geo: 伊赛尔达's Shop, unlock first Station",
-          wiki: "Stag_Station"
+          spoiler: "100吉欧: 伊赛尔达的商店, unlock first Station",
+          wiki: "鹿角虫车站"
         },
         hasPinGhost: {
           name: "战士之墓图针",
-          spoiler: "180 Geo: 伊赛尔达's Shop, acquire 梦之钉",
-          wiki: "Warrior_Dreams"
+          spoiler: "180吉欧: 伊赛尔达的商店, 获得梦之钉后",
+          wiki: "战士之墓"
         },
         hasPinDreamPlant: {
           name: "低语之根图针",
-          spoiler: "150 Geo: 伊赛尔达's Shop, acquire 梦之钉",
-          wiki: "Whispering_Root"
+          spoiler: "150吉欧: 伊赛尔达的商店, 获得梦之钉后",
+          wiki: "低语之根"
         },
         hasPinTram: {
           name: "电车图针",
-          spoiler: "100 Geo: 伊赛尔达's Shop, acquire 电车通行证",
-          wiki: "Tram"
+          spoiler: "100吉欧: 伊赛尔达的商店, 获得电车通行证后",
+          wiki: "传送_(空洞骑士)#电车"
         },
         hasMarker_r: {
           name: "贝壳标记",
-          spoiler: "100 Geo: 伊赛尔达's Shop",
-          wiki: "Iselda#Map_Pins"
+          spoiler: "100吉欧: 伊赛尔达的商店",
+          wiki: "伊塞尔达#图针"
         },
         hasMarker_b: {
           name: "圣甲虫标记",
-          spoiler: "100 Geo: 伊赛尔达's Shop",
-          wiki: "Iselda#Map_Pins"
+          spoiler: "100吉欧: 伊赛尔达的商店",
+          wiki: "伊塞尔达#图针"
         },
         hasMarker_y: {
           name: "铜币标记",
-          spoiler: "100 Geo: 伊赛尔达's Shop, acquire 蛾翼披风",
-          wiki: "Iselda#Map_Pins"
+          spoiler: "100吉欧: 伊赛尔达的商店, 获得蛾翼披风后",
+          wiki: "伊塞尔达#图针"
         },
         hasMarker_w: {
           name: "闪亮标记",
-          spoiler: "210 Geo: 伊赛尔达, acquire 蛾翼披风",
-          wiki: "Iselda#Map_Pins"
+          spoiler: "210吉欧: 伊赛尔达, 获得蛾翼披风后",
+          wiki: "伊塞尔达#图针"
         },
         hasPinGuardian: {
-          name: "Map Pin: 守梦者",
+          name: "守梦者标记",
           spoiler: "安息之地: 调查守梦者神龛",
-          wiki: "Dreamers"
+          wiki: "守梦者"
         },
         hasPinBlackEgg: {
-          name: "Map Pin: 黑卵圣殿",
+          name: "黑卵圣殿标记",
           spoiler: "泪水之城: Inspect fountain",
-          wiki: "Temple_of_the_Black_Egg"
+          wiki: "黑卵圣殿"
         },
         hasPinGrub: {
-          name: "Collector's Map",
+          name: "收藏家的地图",
           spoiler: "王国边缘: 爱之塔, 爱之钥",
-          wiki: "Map_and_Quill#The_Collector's_Map"
+          wiki: "地图和羽毛笔#收藏家的地图"
         },
         cityCrest: {
-          name: "City Crest",
+          name: "城市纹章",
           spoiler: "遗忘十字路: 假骑士 Reward",
           id: "Shiny Item",
           sceneName: "Crossroads_10",
-          wiki: "City_Crest"
+          wiki: "城市纹章"
         },
         hasDreamGate: {
-          name: "Dreamgate",
+          name: "梦之门",
           spoiler: "先知: 900精华",
-          wiki: "Dreamgate"
+          wiki: "梦之门"
         },
         fragileGreed_unbreakable: {
-          name: "Unbreakable Greed",
-          spoiler: "Divine: Fragile Greed + 9000吉欧",
-          wiki: "Divine#Unbreakable_Charms"
+          name: "坚固贪婪",
+          spoiler: "迪万: 易碎贪婪 + 9000吉欧",
+          wiki: "迪万#坚固护符"
         },
         fragileHealth_unbreakable: {
-          name: "Unbreakable Heart",
-          spoiler: "Divine: Fragile Heart + 12000吉欧",
-          wiki: "Divine#Unbreakable_Charms"
+          name: "坚固心脏",
+          spoiler: "迪万: 易碎心脏 + 12000吉欧",
+          wiki: "迪万#坚固护符"
         },
         fragileStrength_unbreakable: {
-          name: "Unbreakable Strength",
-          spoiler: "Divine: Fragile Strength + 15000吉欧",
-          wiki: "Divine#Unbreakable_Charms"
+          name: "坚固力量",
+          spoiler: "迪万: 易碎力量 + 15000吉欧",
+          wiki: "迪万#坚固护符"
         },
       },
     },
 
-    /* ###################################### Geo Caches -> 吉欧宝箱 ############################################## */
+    /* ###################################### 吉欧 Caches -> 吉欧宝箱 ############################################## */
 
     geoChests: {
       h2: "吉欧宝箱",
       id: "hk-geo-chests",
-      description: `All 吉欧宝箱 in the game, including one empty one and one with 1 Geo. A total of 2380 Geo can be collected from 吉欧宝箱. Equipping the Fragile Greed Charm won't increase the amount of Geo found inside 吉欧宝箱.`,
+      description: `游戏中所有的吉欧宝箱，包括空宝箱和有 1 吉欧 的宝箱。从所有的吉欧宝箱中收集起来，总价值为 2380 吉欧。装备坚固贪婪护符不会增加吉欧宝箱中吉欧的数量。`,
       percent: 0,
       maxPercent: 14,
       entries: {
@@ -3947,14 +3947,14 @@ const HK = {
         },
         chest2: {
           name: "宝箱 #2: 1吉欧",
-          spoiler: "呼啸悬崖: Baldur's Shell Room",
+          spoiler: "呼啸悬崖: Baldur's Shell房间",
           id: "Chest",
           sceneName: "Fungus1_28",
           wiki: "吉欧#获取"
         },
         chest3: {
           name: "宝箱 #3: 78吉欧",
-          spoiler: "水晶山峰: Crushers Room",
+          spoiler: "水晶山峰: Crushers房间",
           id: "Chest",
           sceneName: "Mines_37",
           wiki: "吉欧#获取"
@@ -3975,7 +3975,7 @@ const HK = {
         },
         chest6: {
           name: "宝箱 #6: 85吉欧",
-          spoiler: "苍绿之径: 低语之根 Room",
+          spoiler: "苍绿之径: 低语之根房间",
           id: "Chest",
           sceneName: "Fungus1_13",
           wiki: "吉欧#获取"
@@ -3996,7 +3996,7 @@ const HK = {
         },
         chest9: {
           name: "宝箱 #9: 160吉欧",
-          spoiler: "深邃巢穴: 编织者巢穴, Secret Room",
+          spoiler: "深邃巢穴: 编织者巢穴, 隐藏房间",
           id: "Chest",
           sceneName: "Deepnest_45_v02",
           wiki: "吉欧#获取"
@@ -4039,12 +4039,12 @@ const HK = {
       },
     },
 
-    /* ###################################### Geo Caches -> 吉欧堆 ############################################## */
+    /* ###################################### 吉欧 Caches -> 吉欧堆 ############################################## */
 
     geoRocks: {
       h2: "吉欧堆",
       id: "hk-geo-rocks",
-      description: `All 吉欧堆 that can be found in the game. Only fully destroyed 吉欧堆 are counted. Partially hit 吉欧堆 won't be counted. Equipping the Fragile Greed Charm won't increase the amount of Geo found inside 吉欧堆. A total of 5074 Geo can be collected from 吉欧堆 (credit: <a href="https://github.com/ReznoRMichael/hollow-knight-completion-check/pull/9" target="_blank">Araraura</a>).`,
+      description: `游戏中所有的 吉欧堆。只有完全打碎 吉欧堆 才计作完成。部分击打 吉欧堆 不算。装备坚固贪婪护符不会增加吉欧堆中吉欧的数量。一共可以找到 5074吉欧 (credit: <a href="https://github.com/ReznoRMichael/hollow-knight-completion-check/pull/9" target="_blank">Araraura</a>).`,
       percent: 0,
       maxPercent: 207,
       entries: {
@@ -4098,7 +4098,7 @@ const HK = {
         },
         geoRock7: {
           name: "吉欧堆 #7: 15吉欧",
-          spoiler: "遗忘十字路: Gruzzer Vertical Room",
+          spoiler: "遗忘十字路: Gruzzer Vertical房间",
           id: "Geo Rock 1",
           sceneName: "Crossroads_07",
           hitsLeft: "0",
@@ -4106,7 +4106,7 @@ const HK = {
         },
         geoRock8: {
           name: "吉欧堆 #8: 15吉欧",
-          spoiler: "遗忘十字路: Gruzzer Vertical Room",
+          spoiler: "遗忘十字路: Gruzzer Vertical房间",
           id: "Geo Rock 1 (2)",
           sceneName: "Crossroads_07",
           hitsLeft: "0",
@@ -4114,7 +4114,7 @@ const HK = {
         },
         geoRock9: {
           name: "吉欧堆 #9: 15吉欧",
-          spoiler: "遗忘十字路: Gruzzer Vertical Room",
+          spoiler: "遗忘十字路: Gruzzer Vertical房间",
           id: "Geo Rock 1 (1)",
           sceneName: "Crossroads_07",
           hitsLeft: "0",
@@ -4546,7 +4546,7 @@ const HK = {
         },
         geoRock63: {
           name: "吉欧堆 #63: 22吉欧",
-          spoiler: "真菌荒地: Below Shrumal Ogres",
+          spoiler: "真菌荒地: Below 蘑菇巨怪s",
           id: "Geo Rock Fung 01",
           sceneName: "Fungus2_04",
           hitsLeft: "0",
@@ -4586,7 +4586,7 @@ const HK = {
         },
         geoRock68: {
           name: "吉欧堆 #68: 15吉欧",
-          spoiler: "遗忘十字路: Goam Journal",
+          spoiler: "遗忘十字路: 戈姆 日志",
           id: "Geo Rock 1",
           sceneName: "Crossroads_52",
           hitsLeft: "0",
@@ -4594,7 +4594,7 @@ const HK = {
         },
         geoRock69: {
           name: "吉欧堆 #69: 15吉欧",
-          spoiler: "遗忘十字路: Goam Journal",
+          spoiler: "遗忘十字路: 戈姆 日志",
           id: "Geo Rock 2",
           sceneName: "Crossroads_52",
           hitsLeft: "0",
@@ -4634,7 +4634,7 @@ const HK = {
         },
         geoRock74: {
           name: "吉欧堆 #74: 22吉欧",
-          spoiler: "真菌荒地: Bretta Bench",
+          spoiler: "真菌荒地: 布蕾塔 长椅",
           id: "Geo Rock Fung 01 (1)",
           sceneName: "Fungus2_13",
           hitsLeft: "0",
@@ -4642,7 +4642,7 @@ const HK = {
         },
         geoRock75: {
           name: "吉欧堆 #75: 22吉欧",
-          spoiler: "真菌荒地: Bretta Bench",
+          spoiler: "真菌荒地: 布蕾塔 长椅",
           id: "Geo Rock Fung 01",
           sceneName: "Fungus2_13",
           hitsLeft: "0",
@@ -4650,7 +4650,7 @@ const HK = {
         },
         geoRock76: {
           name: "吉欧堆 #76: 17吉欧",
-          spoiler: "真菌荒地: Bretta Bench",
+          spoiler: "真菌荒地: 布蕾塔 长椅",
           id: "Geo Rock Fung 02",
           sceneName: "Fungus2_13",
           hitsLeft: "0",
@@ -4738,7 +4738,7 @@ const HK = {
         },
         geoRock87: {
           name: "吉欧堆 #87: 30吉欧",
-          spoiler: "泪水之城: 文物搜寻者里姆 Room",
+          spoiler: "泪水之城: 文物搜寻者里姆房间",
           id: "Geo Rock City 1 (1)",
           sceneName: "Ruins1_05b",
           hitsLeft: "0",
@@ -4754,7 +4754,7 @@ const HK = {
         },
         geoRock89: {
           name: "吉欧堆 #89: 15吉欧",
-          spoiler: "遗忘十字路: Vessel Fragment",
+          spoiler: "遗忘十字路: 容器碎片",
           id: "Geo Rock 2",
           sceneName: "Crossroads_37",
           hitsLeft: "0",
@@ -4922,7 +4922,7 @@ const HK = {
         },
         geoRock110: {
           name: "吉欧堆 #110: 30吉欧",
-          spoiler: "皇家水道: Mask Shard Room",
+          spoiler: "皇家水道: Mask Shard房间",
           id: "Geo Rock City 1",
           sceneName: "Waterways_04b",
           hitsLeft: "0",
@@ -5010,7 +5010,7 @@ const HK = {
         },
         geoRock121: {
           name: "吉欧堆 #121: 44吉欧",
-          spoiler: "王国边缘: Outside Nailmaster Oro",
+          spoiler: "王国边缘: Outside 骨钉大师奥罗",
           id: "Geo Rock Outskirts",
           sceneName: "Deepnest_East_06",
           hitsLeft: "0",
@@ -5018,7 +5018,7 @@ const HK = {
         },
         geoRock122: {
           name: "吉欧堆 #122: 44吉欧",
-          spoiler: "王国边缘: Outside Nailmaster Oro",
+          spoiler: "王国边缘: Outside 骨钉大师奥罗",
           id: "Geo Rock Outskirts (1)",
           sceneName: "Deepnest_East_06",
           hitsLeft: "0",
@@ -5034,7 +5034,7 @@ const HK = {
         },
         geoRock124: {
           name: "吉欧堆 #124: 44吉欧",
-          spoiler: "王国边缘: Great Hopper 国王神像",
+          spoiler: "王国边缘: 大跳虫 国王神像",
           id: "Geo Rock Outskirts",
           sceneName: "Deepnest_East_08",
           hitsLeft: "0",
@@ -5058,7 +5058,7 @@ const HK = {
         },
         geoRock127: {
           name: "吉欧堆 #127: 30吉欧",
-          spoiler: "泪水之城: 灵魂大师 Rewards Room",
+          spoiler: "泪水之城: 灵魂大师 Rewards房间",
           id: "Geo Rock City 1",
           sceneName: "Ruins1_32",
           hitsLeft: "0",
@@ -5074,7 +5074,7 @@ const HK = {
         },
         geoRock129: {
           name: "吉欧堆 #129: 30吉欧",
-          spoiler: "皇家水道: Flukemunga Corridor",
+          spoiler: "皇家水道: 贪食吸虫 Corridor",
           id: "Geo Rock City 1",
           sceneName: "GG_Pipeway",
           hitsLeft: "0",
@@ -5082,7 +5082,7 @@ const HK = {
         },
         geoRock130: {
           name: "吉欧堆 #130: 22吉欧",
-          spoiler: "皇家水道: Fluke Hermit Room",
+          spoiler: "皇家水道: Fluke Hermit房间",
           id: "Geo Rock Fung 01",
           sceneName: "Room_GG_Shortcut",
           hitsLeft: "0",
@@ -5090,7 +5090,7 @@ const HK = {
         },
         geoRock131: {
           name: "吉欧堆 #131: 17吉欧",
-          spoiler: "皇家水道: Fluke Hermit Room",
+          spoiler: "皇家水道: Fluke Hermit房间",
           id: "Geo Rock Fung 02 (1)",
           sceneName: "Room_GG_Shortcut",
           hitsLeft: "0",
@@ -5250,7 +5250,7 @@ const HK = {
         },
         geoRock151: {
           name: "吉欧堆 #151: 30吉欧",
-          spoiler: "王后花园: Outside White Lady",
+          spoiler: "王后花园: Outside 白色夫人",
           id: "Geo Rock Green Path 02",
           sceneName: "Fungus3_48",
           hitsLeft: "0",
@@ -5258,7 +5258,7 @@ const HK = {
         },
         geoRock152: {
           name: "吉欧堆 #152: 27吉欧",
-          spoiler: "王后花园: Moss Prophet Room",
+          spoiler: "王后花园: Moss Prophet房间",
           id: "Geo Rock Green Path 01 (1)",
           sceneName: "Fungus3_39",
           hitsLeft: "0",
@@ -5266,7 +5266,7 @@ const HK = {
         },
         geoRock153: {
           name: "吉欧堆 #153: 30吉欧",
-          spoiler: "王后花园: Moss Prophet Room",
+          spoiler: "王后花园: Moss Prophet房间",
           id: "Geo Rock Green Path 01",
           sceneName: "Fungus3_39",
           hitsLeft: "0",
@@ -5578,7 +5578,7 @@ const HK = {
         },
         geoRock192: {
           name: "吉欧堆 #192: 56吉欧",
-          spoiler: "蜂巢: Mask Shard Room",
+          spoiler: "蜂巢: Mask Shard房间",
           id: "Geo Rock Hive",
           sceneName: "Hive_04",
           hitsLeft: "0",
@@ -5586,7 +5586,7 @@ const HK = {
         },
         geoRock193: {
           name: "吉欧堆 #193: 56吉欧",
-          spoiler: "蜂巢: Mask Shard Room",
+          spoiler: "蜂巢: Mask Shard房间",
           id: "Geo Rock Hive (1)",
           sceneName: "Hive_04",
           hitsLeft: "0",
@@ -5712,200 +5712,200 @@ const HK = {
     worldInteractions: {
       h2: "世界互动",
       id: "hk-world-interactions",
-      description: `Certain interactions the player can make with NPCs in the game or world objects. All these here don't count towards either 112% 游戏完成度 or Achievements.`,
+      description: `玩家可以与游戏中的NPC或世界物体进行某些互动。所有这些互动都不会计入112%的游戏完成度或成就。`,
       entries: {
         unlockedCompletionRate: {
-          name: "World Sense Ability",
-          spoiler: "黑卵圣殿: Lore Tablet",
-          wiki: "World_Sense"
+          name: "世界感知能力",
+          spoiler: "黑卵圣殿: 长椅旁的石碑",
+          wiki: "世界感知"
         },
         spaBugsEncountered: {
-          name: "Gossipping Bugs",
-          spoiler: "遗忘十字路: Hot Springs, acquire Mantis Claw",
-          wiki: "Hot_Spring#Forgotten_Crossroads"
+          name: "两只八卦虫",
+          spoiler: "遗忘十字路: 温泉，需要螳螂爪",
+          wiki: "温泉#遗忘十字路"
         },
         jijiDoorUnlocked: {
-          name: "忏悔师吉吉 Cave 已解锁",
-          spoiler: "德特茅斯, requires简单钥匙",
+          name: "解锁忏悔师吉吉的房间",
+          spoiler: "德特茅斯, 需要简单钥匙",
           wiki: "吉吉"
         },
         bathHouseOpened: {
-          name: "欢乐之屋 Door 已解锁",
-          spoiler: "泪水之城: Right Side Main Hub Area",
-          wiki: "City_of_Tears#Sub-area:_Pleasure_House"
+          name: "解锁欢乐之屋",
+          spoiler: "泪水之城: 在城市右部区域",
+          wiki: "泪水之城#欢乐之屋"
         },
         openedWaterwaysManhole: {
-          name: "Waterways Manhole 已解锁",
+          name: "解锁皇家水道井口",
           spoiler: "泪水之城: below 文物搜寻者里姆, use简单钥匙",
-          wiki: "Royal_Waterways#How_to_access"
+          wiki: "皇家水道#入口"
         },
         gladeDoorOpened: {
-          name: "灵魂沼地 Door Opened",
+          name: "解锁灵魂沼地入口",
           spoiler: "安息之地, 先知: 200精华",
-          wiki: "Resting_Grounds#Sub-area:_Spirits'_Glade"
+          wiki: "安息之地#灵魂沼地"
         },
         openedCityGate: {
-          name: "泪水之城 Gate Opened",
-          spoiler: "真菌荒地, requires City Crest",
-          wiki: "Fungal_Wastes"
+          name: "解锁泪水之城的入口",
+          spoiler: "真菌荒地, 需要城市纹章",
+          wiki: "真菌荒地"
         },
         soulSanctumShortcut: {
-          name: "灵魂圣所 Shortcut",
-          spoiler: "泪水之城: 柯尼法 Lift Room, break left wall",
+          name: "解锁灵魂圣所的捷径",
+          spoiler: "泪水之城: 柯尼法 Lift房间, break left wall",
           id: "Breakable Wall Ruin Lift",
           sceneName: "Ruins1_31",
-          wiki: "City_of_Tears#Sub-area:_Soul_Sanctum"
+          wiki: "泪水之城#灵魂圣所"
         },
         waterwaysGate: {
-          name: "Waterways Gate Opened",
-          spoiler: "皇家水道: 柯尼法 Room, use lever",
+          name: "解锁皇家水道的入口",
+          spoiler: "皇家水道: 柯尼法房间, use lever",
           wiki: "皇家水道"
         },
         watcherChandelier: {
-          name: "Chandelier Dropped",
-          spoiler: "泪水之城: 守望者骑士 Room, break ceiling",
-          wiki: "Watcher_Knight#In-game_events"
+          name: "打下守望者骑士房间的吊灯",
+          spoiler: "泪水之城: 守望者骑士房间，打坏天花板",
+          wiki: "守望者骑士#游戏剧情"
         },
         colosseumHiddenHotSpring: {
-          name: "Hidden Hot Spring",
-          spoiler: "愚人斗兽场, break wall right of Bench",
+          name: "愚人斗兽场的隐藏温泉",
+          spoiler: "愚人斗兽场, 打破椅子右边的隐藏墙壁",
           id: "Breakable Wall_Silhouette",
           sceneName: "Room_Colosseum_02",
-          wiki: "Colosseum_of_Fools#Description"
+          wiki: "愚人斗兽场#简介"
         },
         stagEggInspected: {
-          name: "鹿角虫巢穴 Egg Inspected",
-          spoiler: "呼啸悬崖: Top of 鹿角虫巢穴",
-          wiki: "Howling_Cliffs#Sub-area:_Stag_Nest"
+          name: "鹿角虫巢穴的蛋",
+          spoiler: "呼啸悬崖: 鹿角虫巢穴",
+          wiki: "呼啸悬崖#鹿角虫巢穴"
         },
         deepnestBridgeCollapsed: {
-          name: "Deepnest Entry Bridge Collapsed",
-          spoiler: "真菌荒地, left of Spore Shroom",
-          wiki: "Deepnest#How_to_access"
+          name: "深邃巢穴的桥",
+          spoiler: "真菌荒地, left of 蘑菇孢子",
+          wiki: "深邃巢穴#入口"
         },
         maskmakerUnmasked1: {
-          name: "Mask Maker Unmasked",
-          spoiler: "深邃巢穴, use Desolate Dive on Mask Maker",
-          wiki: "Mask_Maker#In-game_events"
+          name: "打破面具制作师的面具",
+          spoiler: "深邃巢穴, use 荒芜俯冲 on Mask Maker",
+          wiki: "面具制作师#游戏剧情"
         },
         bankerAccountPurchased: {
-          name: "Bank Account Opened",
-          spoiler: "100 Geo: 雾之峡谷: 银行家米莉贝利",
+          name: "在米莉贝利银行开户",
+          spoiler: "100吉欧: 雾之峡谷: 银行家米莉贝利",
           wiki: "米莉贝利"
         },
         millibelleLeft: {
-          name: "Banker Disappeared",
+          name: "米莉贝利跑路了",
           spoiler: "雾之峡谷: 银行家米莉贝利",
           wiki: "米莉贝利"
         },
         millibelleCheckedStand: {
-          name: "Banker Stand Investigated",
+          name: "检查米莉贝利的柜台",
           spoiler: "雾之峡谷: 银行家米莉贝利",
           wiki: "米莉贝利"
         },
         bankerSpaMet: {
-          name: "Found & Talked to 米莉贝利",
-          spoiler: "泪水之城: Hot Springs,简单钥匙",
+          name: "在温泉与米莉贝利互动",
+          spoiler: "泪水之城: 温泉,简单钥匙",
           wiki: "米莉贝利"
         },
         millibelleReclaimedAllGeo: {
-          name: "Reclaimed All Geo",
-          spoiler: "泪水之城: Hot Springs, 小偷米莉贝利",
+          name: "取回米莉贝利所有吉欧",
+          spoiler: "泪水之城: 温泉, 小偷米莉贝利",
           wiki: "米莉贝利"
         },
         elderbugGaveFlower: {
-          name: "Delicate Flower: Elderbug",
-          spoiler: "Deliver from Traitor's Child Grave",
-          wiki: "Delicate_Flower#List_of_Possible_Recipients"
+          name: "娇嫩的花: 虫长者",
+          spoiler: "从叛徒的孩子之墓送花",
+          wiki: "娇嫩的花#能送花的_NPC"
         },
         givenGodseekerFlower: {
-          name: "Delicate Flower: Godseeker",
-          spoiler: "Possible after completing 2 Pantheons",
-          wiki: "Delicate_Flower#List_of_Possible_Recipients"
+          name: "娇嫩的花: 寻神者",
+          spoiler: "从叛徒的孩子之墓送花，需要先完成2个万神殿",
+          wiki: "娇嫩的花#能送花的_NPC"
         },
         givenOroFlower: {
-          name: "Delicate Flower: Nailmaster Oro",
-          spoiler: "D. from Traitor's Child Grave",
-          wiki: "Delicate_Flower#List_of_Possible_Recipients"
+          name: "娇嫩的花: 骨钉大师奥罗",
+          spoiler: "从叛徒的孩子之墓送花",
+          wiki: "娇嫩的花#能送花的_NPC"
         },
         givenWhiteLadyFlower: {
-          name: "Delicate Flower: White Lady",
-          spoiler: "Deliver from Traitor's Child Grave",
-          wiki: "Delicate_Flower#List_of_Possible_Recipients"
+          name: "娇嫩的花: 白色夫人",
+          spoiler: "从叛徒的孩子之墓送花",
+          wiki: "娇嫩的花#能送花的_NPC"
         },
         givenEmilitiaFlower: {
-          name: "Delicate Flower: Emilitia",
-          spoiler: "Deliver from Traitor's Child Grave",
-          wiki: "Delicate_Flower#List_of_Possible_Recipients"
+          name: "娇嫩的花: 永恒的艾米丽塔",
+          spoiler: "从叛徒的孩子之墓送花",
+          wiki: "娇嫩的花#能送花的_NPC"
         },
       },
     },
 
-    /* ###################################### Secrets -> Secret Rooms ############################################## */
+    /* ###################################### Secrets -> 隐藏房间 ############################################## */
 
     secretRooms: {
-      h2: "Secret Rooms",
+      h2: "隐藏房间",
       id: "hk-secret-rooms",
-      description: `Certain Secret Rooms in the game. <span class="spoiler-span blurred">Grimm's Tent Secret</span> is missable when the player will <span class="spoiler-span blurred">Banish the Troupe or complete the Ritual</span>.`,
+      description: `游戏中的隐藏房间， <span class="spoiler-span blurred">格林帐篷的隐藏房间</span> 有错过的可能，如果玩家选择 <span class="spoiler-span blurred">放弃团队或完成仪式</span>.`,
       entries: {
         grimmTentSecretRoom: {
-          name: "Grimm's Tent: Secret Room (missable)",
+          name: "格林的帐篷: 隐藏房间 (有错过的可能)",
           spoiler: "德特茅斯: inside Grimm's Tent",
           id: "Secret Mask",
           sceneName: "Grimm_Main_Tent",
-          wiki: "Dirtmouth#The_Grimm_Troupe.27s_Tents"
+          wiki: "德特茅斯#格林剧团的帐篷"
         },
         towerOfLoveSecretRoom: {
-          name: "爱之塔: Secret Room",
+          name: "爱之塔: 隐藏房间",
           spoiler: "泪水之城: near 收藏家的地图",
           id: "secret sound_grub room",
           sceneName: "Ruins2_11",
-          wiki: "Collector#Trivia"
+          wiki: "收藏家"
         },
         weaversDenSecretRoom1: {
-          name: "编织者巢穴: Secret Room #1",
+          name: "编织者巢穴: 隐藏房间 #1",
           spoiler: "深邃巢穴: inside 编织者巢穴",
           id: "Breakable Wall",
           sceneName: "Deepnest_45_v02",
-          wiki: "Deepnest#Sub-area:_Weavers.27_Den"
+          wiki: "深邃巢穴#编织者巢穴"
         },
         weaversDenSecretRoom2: {
-          name: "编织者巢穴: Secret Room #2",
+          name: "编织者巢穴: 隐藏房间 #2",
           spoiler: "深邃巢穴: inside 编织者巢穴",
           id: "Breakable Wall Waterways",
           sceneName: "Deepnest_45_v02",
-          wiki: "Deepnest#Sub-area:_Weavers.27_Den"
+          wiki: "深邃巢穴#编织者巢穴"
         },
         pathOfPainEntrance: {
-          name: "白色宫殿: 苦痛之路 Entrance",
-          spoiler: "Break left wall above lift area",
+          name: "白色宫殿: 苦痛之路入口",
+          spoiler: "打破电梯区域上方的左侧墙壁",
           id: "Breakable Wall Ruin Lift",
           sceneName: "White_Palace_06",
           wiki: "白色宫殿#苦痛之路"
         },
         killsBindingSeal: {
           name: "白色宫殿: 苦痛之路",
-          spoiler: "Main Secret Area, After Middle Lift",
+          spoiler: "主要秘密区域，位于中间电梯之后",
           wiki: "白色宫殿#苦痛之路"
         },
         whitePalaceSecretRoomVisited: {
-          name: "白色宫殿: Secret Room #1",
-          spoiler: "The 苍白之王's Workshop",
-          wiki: "White_Palace#The_Pale_King.27s_workshop"
+          name: "白色宫殿: 隐藏房间 #1",
+          spoiler: "苍白之王的工作室",
+          wiki: "白色宫殿#国王工坊"
         },
         whiteLadyRoom: {
-          name: "白色宫殿: Secret Room #2",
-          spoiler: "White Lady's Room, break floor",
+          name: "白色宫殿: 隐藏房间 #2",
+          spoiler: "白色夫人的房间，打破地板",
           id: "Quake Floor",
           sceneName: "White_Palace_09",
-          wiki: "White_Palace#White_Lady.27s_room"
+          wiki: "白色宫殿#白色夫人的房间"
         },
         throneRoomLoreTablet: {
-          name: "白色宫殿: Secret Room #3",
-          spoiler: "Throne Room, break right wall",
+          name: "白色宫殿: 隐藏房间 #3",
+          spoiler: "王座之间的石碑，打破右侧墙壁",
           id: "Breakable Wall Waterways",
           sceneName: "White_Palace_09",
-          wiki: "White_Palace#Throne_room_Lore_Tablet"
+          wiki: "白色宫殿#王座之间的石碑"
         },
         /* 
         #52 Quake Floor 🗺️ Palace Caged Lever ⌨️ White_Palace_15
@@ -5915,79 +5915,79 @@ const HK = {
       },
     },
 
-    /* ###################################### Secrets -> 柯尼法's Notes ############################################## */
+    /* ###################################### Secrets -> 柯尼法的卡片 ############################################## */
 
     corniferNotes: {
-      h2: "柯尼法's Notes",
+      h2: "柯尼法的卡片",
       id: "hk-cornifer-notes",
-      description: `柯尼法 the Cartographer leaves his note on the ground every time he leaves the current area. The note will be at the same spot where 柯尼法 was met. He leaves an area once a specific condition from that area was met, like defeating a boss or learning a new ability. After reading a note it will stop glowing and the entry will be marked as completed.`,
+      description: `制图师柯尼法每次离开当前区域时都会在地上留下纸条。纸条会留在柯尼法之前所在的位置。当该区域的特定条件达成后，例如击败某个首领或习得一项新能力，他就会离开该区域。阅读纸条后，纸条会停止发光，并且相应的条目会被标记为已完成。`,
       entries: {
         corniferNote1: {
-          name: "Note #1: 遗忘十字路",
-          spoiler: "Below Big Gruzzer Room",
+          name: "卡片 #1: 遗忘十字路",
+          spoiler: "遗忘十字路下方的格鲁兹之母房间",
           id: "Shiny",
           sceneName: "Crossroads_33",
           wiki: "柯尼法#位置"
         },
         corniferNote2: {
-          name: "Note #2: 苍绿之径",
+          name: "卡片 #2: 苍绿之径",
           spoiler: "Room below the Crossroads entrance",
           id: "Shiny",
           sceneName: "Fungus1_06",
           wiki: "柯尼法#位置"
         },
         corniferNote3: {
-          name: "Note #3: 真菌荒地",
-          spoiler: "Right of 王后驿站",
+          name: "卡片 #3: 真菌荒地",
+          spoiler: "王后驿站右边",
           id: "Shiny",
           sceneName: "Fungus2_18",
           wiki: "柯尼法#位置"
         },
         corniferNote4: {
-          name: "Note #4: 呼啸悬崖",
+          name: "卡片 #4: 呼啸悬崖",
           spoiler: "Big Main Area on the left side",
           id: "Shiny",
           sceneName: "Cliffs_01",
           wiki: "柯尼法#位置"
         },
         corniferNote5: {
-          name: "Note #5: 泪水之城",
+          name: "卡片 #5: 泪水之城",
           spoiler: "Toll Bench left of 灵魂圣所",
           id: "Shiny",
           sceneName: "Ruins1_31",
           wiki: "柯尼法#位置"
         },
         corniferNote6: {
-          name: "Note #6: 水晶山峰",
-          spoiler: "Left of Central Bench",
+          name: "卡片 #6: 水晶山峰",
+          spoiler: "中部长椅的左方",
           id: "Shiny",
           sceneName: "Mines_30",
           wiki: "柯尼法#位置"
         },
         corniferNote7: {
-          name: "Note #7: 安息之地",
-          spoiler: "Near the 鹿角虫车站",
+          name: "卡片 #7: 安息之地",
+          spoiler: "靠近鹿角虫车站",
           id: "Shiny",
           sceneName: "RestingGrounds_09",
           wiki: "柯尼法#位置"
         },
         corniferNote8: {
-          name: "Note #8: 皇家水道",
-          spoiler: "Near 真菌荒地 exit",
+          name: "卡片 #8: 皇家水道",
+          spoiler: "靠近真菌荒地出口",
           id: "Shiny",
           sceneName: "Waterways_09",
           wiki: "柯尼法#位置"
         },
         corniferNote9: {
-          name: "Note #9: 古老盆地",
-          spoiler: "Below the Tram and Fountain",
+          name: "卡片 #9: 古老盆地",
+          spoiler: "车站和喷泉下方",
           id: "Shiny",
           sceneName: "Abyss_04",
           wiki: "柯尼法#位置"
         },
         corniferNote10: {
-          name: "Note #10: 王国边缘",
-          spoiler: "Below the 国王驿站 entrance",
+          name: "卡片 #10: 王国边缘",
+          spoiler: "国王驿站入口下方",
           id: "Shiny",
           sceneName: "Deepnest_East_03",
           wiki: "柯尼法#位置"
@@ -6000,11 +6000,11 @@ const HK = {
     statistics: {
       h2: "游戏统计",
       id: "hk-statistics",
-      description: "Dedicated to numbers and stats fans. Everything what the game may not always tell you directly, but what can be read from a save file.",
+      description: "专为收藏家和数据爱好者打造。游戏中可能不会直接告诉你的所有信息，但都可以从存档文件中读取。",
       entries: {
         journalEntriesCompleted: {
           name: "遇到的生物",
-          spoiler: "猎人日志 (158-164 max)",
+          spoiler: "猎人日志 (158-164)",
           spoilerDefault: "猎人日志",
           max: 164,
           maxDefault: 164,
@@ -6015,7 +6015,7 @@ const HK = {
         */
         journalNotesCompleted: {
           name: "完成猎人日志",
-          spoiler: "猎人日志 (158-164 max)",
+          spoiler: "猎人日志 (158-164)",
           spoilerDefault: "猎人日志",
           max: 164,
           maxDefault: 164,
@@ -6039,7 +6039,7 @@ const HK = {
           name: "漫游者日记 售出",
           spoiler: "泪水之城: 文物搜寻者里姆",
           geoValue: 200,
-          wiki: "Wanderer's_Journal"
+          wiki: "漫游者日记"
         },
         soldTrinket2: {
           name: "圣巢印章 售出",
@@ -6062,21 +6062,21 @@ const HK = {
         relicsSoldTotalGeo: {
           name: "售卖文物的吉欧收入",
           spoiler: "泪水之城: 文物搜寻者里姆",
-          wiki: "Lemm#Collectibles"
+          wiki: "里姆#文物"
         },
         ore: {
           name: "苍白矿石",
-          spoiler: "Current amount of 苍白矿石 in inventory",
+          spoiler: "当前持有的苍白矿石数量",
           wiki: "苍白矿石"
         },
         simpleKeys: {
           name: "简单钥匙",
-          spoiler: "Current amount of简单钥匙s in inventory",
+          spoiler: "当前持有的简单钥匙数量",
           wiki: "简单钥匙"
         },
         rancidEggs: {
           name: "腐臭蛋",
-          spoiler: "Current amount of 腐臭蛋 in inventory",
+          spoiler: "当前持有的腐臭蛋数量",
           wiki: "腐臭蛋"
         },
         jinnEggsSold: {
@@ -6091,31 +6091,31 @@ const HK = {
         },
         itemsDiscovered: {
           id: "itemsDiscovered",
-          name: "Interactables",
-          spoiler: "Not A. | Activated | Discovered",
-          wiki: "Category:Exploration_(Hollow_Knight)",
+          name: "可交互对象",
+          spoiler: "未激活 | 已激活 | 发现",
+          wiki: "区域_(空洞骑士)",
           notActivated: 0,
           activated: 0,
           discoveredTotal: 0
         },
         bankerBalance: {
-          name: "Bank Account Balance",
+          name: "银行账户余额",
           spoiler: "雾之峡谷: 银行家米莉贝利",
           wiki: "米莉贝利"
         },
         whiteDefenderDefeats: {
           name: "多次击败白色防御者",
-          spoiler: "皇家水道 (5 max)",
+          spoiler: "皇家水道 (最多5次)",
           max: 5,
           maxDefault: 5,
-          wiki: "White_Defender"
+          wiki: "白色防御者"
         },
         greyPrinceDefeats: {
           name: "多次击败灰色王子左特",
           spoiler: "德特茅斯 (最多10次)",
           max: 10,
           maxDefault: 10,
-          wiki: "Grey_Prince_Zote"
+          wiki: "灰色王子左特"
         }
       },
     },
@@ -6125,7 +6125,7 @@ const HK = {
     godhomeStatistics: {
       h2: "万神殿",
       id: "hk-godhome-statistics",
-      description: "Everything in 万神殿, 在垃圾坑对寻神者使用梦之钉时，有2%的几率进入调谐器的记忆。",
+      description: "万神殿相关, 在垃圾坑对寻神者使用梦之钉时，有2%的几率进入调谐器的记忆。",
       entries: {
         seenGGWastes: {
           name: "调谐器的记忆",
@@ -6138,28 +6138,28 @@ const HK = {
           wiki: "神居#上锁的生命血房间"
         },
         killedVoidIdol_1: {
-          name: "Journal: 虚空神像 调谐",
-          spoiler: "诸神堂: Defeat All (调谐级)",
+          name: "日志: 虚空神像 调谐",
+          spoiler: "诸神堂: 击败所有 Boss (调谐级)",
           wiki: "虚空神像"
         },
         killedVoidIdol_2: {
-          name: "Journal: 虚空神像 进升",
-          spoiler: "诸神堂: Defeat All (进升级)",
+          name: "日志: 虚空神像 进升",
+          spoiler: "诸神堂: 击败所有 Boss (进升级)",
           wiki: "虚空神像"
         },
         killedVoidIdol_3: {
-          name: "Journal: 虚空神像 辐辉",
-          spoiler: "诸神堂: Defeat All (辐辉级)",
+          name: "日志: 虚空神像 辐辉",
+          spoiler: "诸神堂: 击败所有 Boss (辐辉级)",
           wiki: "虚空神像"
         },
         killedGodseekerMask: {
-          name: "Journal: 风化面具",
+          name: "日志: 风化面具",
           spoiler: "风暴之地: 完成所有万神殿和所有束缚",
           wiki: "风化面具"
         },
         zoteStatueWallBroken: {
-          name: "Intruder Discovered",
-          spoiler: "诸神堂: Zote Statue (upper right)",
+          name: "发现入侵者",
+          spoiler: "诸神堂: 左特的雕像 (右上方)",
           wiki: "诸神堂#左特"
         },
         ordealAchieved: {
@@ -6176,47 +6176,47 @@ const HK = {
       h2: "P1 - 大师万神殿",
       id: "hk-pantheon-master",
       property: "bossDoorStateTier1",
-      description: "Seek the Gods of Nail and Shell",
+      description: "寻觅骨钉与外壳之神",
       entries: {
         unlocked: {
           name: "P1 已解锁",
-          spoiler: "Defeat P1 bosses in the game world to unlock",
-          wiki: "Pantheon_of_the_Master"
+          spoiler: "击败游戏中的所有大师万神殿Boss后解锁",
+          wiki: "大师万神殿"
         },
         completed: {
           name: "P1 已完成",
-          spoiler: "Defeat all bosses in a row to complete",
-          wiki: "Pantheon_of_the_Master"
+          spoiler: "击败所有大师万神殿Boss后完成",
+          wiki: "大师万神殿"
         },
         boundNail: {
           name: "P1 骨钉束缚",
-          spoiler: "Nail binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以骨钉束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         boundShell: {
           name: "P1 外壳束缚",
-          spoiler: "Shell binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以外壳束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         boundCharms: {
           name: "P1 护符束缚",
           spoiler: "Charm binding active",
-          wiki: "Pantheons#Bindings"
+          wiki: "万神殿#束缚"
         },
         boundSoul: {
           name: "P1 灵魂束缚",
-          spoiler: "Soul binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以灵魂束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         allBindings: {
           name: "P1 全部束缚（四锁）",
-          spoiler: "Complete with all bindings active at once",
-          wiki: "Pantheons#Bindings"
+          spoiler: "四锁状态完成大师万神殿",
+          wiki: "万神殿#束缚"
         },
         noHits: {
           name: "P1 无伤",
-          spoiler: "Complete without taking a single hit",
-          wiki: "Pantheons"
+          spoiler: "无伤害完成大师万神殿",
+          wiki: "万神殿"
         },
       },
     },
@@ -6227,47 +6227,47 @@ const HK = {
       h2: "P2 - 艺术家万神殿",
       id: "hk-pantheon-artist",
       property: "bossDoorStateTier2",
-      description: "Seek the God Inspired",
+      description: "寻觅创造力之神",
       entries: {
         unlocked: {
           name: "P2 已解锁",
-          spoiler: "Defeat P2 bosses in the game world to unlock",
+          spoiler: "击败游戏中的所有艺术家万神殿Boss后解锁",
           wiki: "艺术家万神殿"
         },
         completed: {
           name: "P2 已完成",
-          spoiler: "Defeat all bosses in a row to complete",
+          spoiler: "击败所有艺术家万神殿Boss后完成",
           wiki: "艺术家万神殿"
         },
         boundNail: {
           name: "P2 骨钉束缚",
-          spoiler: "Nail binding active",
+          spoiler: "以骨钉束缚状态通关",
           wiki: "艺术家万神殿#绑定"
         },
         boundShell: {
           name: "P2 外壳束缚",
-          spoiler: "Shell binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以外壳束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         boundCharms: {
           name: "P2 护符束缚",
-          spoiler: "护符 binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以护符束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         boundSoul: {
           name: "P2 灵魂束缚",
-          spoiler: "Soul binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以灵魂束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         allBindings: {
           name: "P2 全部束缚（四锁）",
-          spoiler: "Complete with all bindings active at once",
-          wiki: "Pantheons#Bindings"
+          spoiler: "四锁状态完成艺术家万神殿",
+          wiki: "万神殿#束缚"
         },
         noHits: {
           name: "P2 无伤",
-          spoiler: "Complete without taking a single hit",
-          wiki: "Pantheons"
+          spoiler: "无伤害完成艺术家万神殿",
+          wiki: "万神殿"
         },
       },
     },
@@ -6278,47 +6278,47 @@ const HK = {
       h2: "P3 - Pantheon of the Sage",
       id: "hk-pantheon-sage",
       property: "bossDoorStateTier3",
-      description: "Seek the God of Wealth and Power",
+      description: "寻觅财富与力量之神",
       entries: {
         unlocked: {
           name: "P3 已解锁",
-          spoiler: "Defeat P3 bosses in the game world to unlock",
-          wiki: "Pantheon_of_the_Sage"
+          spoiler: "击败游戏中的所有贤者万神殿Boss后解锁",
+          wiki: "贤者万神殿"
         },
         completed: {
           name: "P3 已完成",
-          spoiler: "Defeat all bosses in a row to complete",
-          wiki: "Pantheon_of_the_Sage"
+          spoiler: "击败所有贤者万神殿Boss后完成",
+          wiki: "贤者万神殿"
         },
         boundNail: {
           name: "P3 骨钉束缚",
-          spoiler: "Nail binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以骨钉束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         boundShell: {
           name: "P3 外壳束缚",
-          spoiler: "Shell binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以外壳束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         boundCharms: {
           name: "P3 护符束缚",
-          spoiler: "护符 binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以护符束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         boundSoul: {
           name: "P3 灵魂束缚",
-          spoiler: "Soul binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以灵魂束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         allBindings: {
           name: "P3 全部束缚（四锁）",
-          spoiler: "Complete with all bindings active at once",
-          wiki: "Pantheons#Bindings"
+          spoiler: "四锁状态完成贤者万神殿",
+          wiki: "万神殿#束缚"
         },
         noHits: {
           name: "P3 无伤",
-          spoiler: "Complete without taking a single hit",
-          wiki: "Pantheons"
+          spoiler: "无伤害完成贤者万神殿",
+          wiki: "万神殿"
         },
       },
     },
@@ -6329,47 +6329,47 @@ const HK = {
       h2: "P4 - 骑士万神殿",
       id: "hk-pantheon-knight",
       property: "bossDoorStateTier4",
-      description: "Seek the Pure God",
+      description: "寻觅纯粹之神",
       entries: {
         unlocked: {
           name: "P4 已解锁",
-          spoiler: "Complete 3 previous Pantheons to unlock",
+          spoiler: "完成前三个万神殿后解锁",
           wiki: "骑士万神殿"
         },
         completed: {
           name: "P4 已完成",
-          spoiler: "Defeat all bosses in a row to complete",
+          spoiler: "击败所有骑士万神殿Boss后完成",
           wiki: "骑士万神殿"
         },
         boundNail: {
           name: "P4 骨钉束缚",
-          spoiler: "Nail binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以骨钉束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         boundShell: {
           name: "P4 外壳束缚",
-          spoiler: "Shell binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以外壳束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         boundCharms: {
           name: "P4 护符束缚",
-          spoiler: "护符 binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以护符束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         boundSoul: {
           name: "P4 灵魂束缚",
-          spoiler: "Soul binding active",
-          wiki: "Pantheons#Bindings"
+          spoiler: "以灵魂束缚状态通关",
+          wiki: "万神殿#束缚"
         },
         allBindings: {
           name: "P4 全部束缚（四锁）",
-          spoiler: "Complete with all bindings active at once",
-          wiki: "Pantheons#Bindings"
+          spoiler: "四锁状态完成骑士万神殿",
+          wiki: "万神殿#束缚"
         },
         noHits: {
           name: "P4 无伤",
-          spoiler: "Complete without taking a single hit",
-          wiki: "Pantheons"
+          spoiler: "无伤害完成骑士万神殿",
+          wiki: "万神殿"
         },
       },
     },
@@ -6380,21 +6380,21 @@ const HK = {
       h2: "P5 - 圣巢万神殿",
       id: "hk-pantheon-hallownest",
       property: "bossDoorStateTier5",
-      description: "Seek the Kingdom's Forgotten Light",
+      description: "寻觅王国那被遗忘的光芒",
       entries: {
         unlocked: {
           name: "P5 已解锁",
-          spoiler: "Complete 4 previous Pantheons to unlock",
+          spoiler: "完成前四个万神殿后解锁",
           wiki: "圣巢万神殿"
         },
         completed: {
           name: "P5 已完成",
-          spoiler: "Defeat all bosses in a row to complete",
+          spoiler: "击败所有圣巢万神殿Boss后完成",
           wiki: "圣巢万神殿"
         },
         boundNail: {
           name: "P5 骨钉束缚",
-          spoiler: "骨钉束缚：若骨钉伤害在13及以下，则将骨钉伤害降至80%，若骨钉伤害大于13，则会降至13。",
+          spoiler: "骨钉束缚：若骨钉伤降低",
           wiki: "万神殿#束缚"
         },
         boundShell: {
@@ -6414,12 +6414,12 @@ const HK = {
         },
         allBindings: {
           name: "P5 全部束缚（四锁）",
-          spoiler: "Complete with all bindings active at once",
+          spoiler: "四锁状态完成圣巢万神殿",
           wiki: "万神殿#束缚"
         },
         noHits: {
           name: "P5 无伤",
-          spoiler: "Complete without taking a single hit",
+          spoiler: "无伤害完成圣巢万神殿",
           wiki: "万神殿"
         },
       },
@@ -6431,60 +6431,60 @@ const HK = {
       h2: "诸神堂",
       id: "hk-hall-of-gods",
       property: "statueState",
-      description: "Bottom of 万神殿. Detecting what bosses have been unlocked and defeated on all three difficulty levels: 调谐级 Attuned, 进升级 Ascended and 辐辉级 Radiant.",
+      description: "万神殿底部，放置了许多 Boss 的雕像。可以通过雕像开启战斗，挑战这些 Boss，每一个 Boss 都有三个不同的难度挑战等级：调谐级 (Attuned), 进升级 (Ascended), 辐辉级 (Radiant).",
       entries: {
         GruzMotherUnlocked: {
           name: "格鲁兹之母: 解锁",
-          spoiler: "I sleep amongst winding roads",
+          spoiler: "“我沉睡在蜿蜒的路口”",
           id: "GruzMother",
           check: "isUnlocked",
           wiki: "诸神堂#格鲁兹之母"
         },
         GruzMotherAttuned: {
           name: "格鲁兹之母: 调谐级",
-          spoiler: "Slumbering god of fertility",
+          spoiler: "“我沉睡在蜿蜒的路口”",
           id: "GruzMother",
           check: "completedTier1",
           wiki: "诸神堂#格鲁兹之母"
         },
         GruzMotherAscended: {
           name: "格鲁兹之母: 进升级",
-          spoiler: "Slumbering god of fertility",
+          spoiler: "沉睡的生育之神",
           id: "GruzMother",
           check: "completedTier2",
           wiki: "诸神堂#格鲁兹之母"
         },
         GruzMotherRadiant: {
           name: "格鲁兹之母: 辐辉级",
-          spoiler: "Slumbering god of fertility",
+          spoiler: "沉睡的生育之神",
           id: "GruzMother",
           check: "completedTier3",
           wiki: "诸神堂#格鲁兹之母"
         },
         VengeflyUnlocked: {
           name: "复仇蝇之王: 解锁",
-          spoiler: "I keep guard above a verdant land",
+          spoiler: "“我守卫于翠绿的土地之上”",
           id: "Vengefly",
           check: "isUnlocked",
           wiki: "诸神堂#复仇蝇之王"
         },
         VengeflyAttuned: {
           name: "复仇蝇之王: 调谐级",
-          spoiler: "Vicious god of territories",
+          spoiler: "凶恶的领土之神",
           id: "Vengefly",
           check: "completedTier1",
           wiki: "诸神堂#复仇蝇之王"
         },
         VengeflyAscended: {
           name: "复仇蝇之王: 进升级",
-          spoiler: "Vicious god of territories",
+          spoiler: "凶恶的领土之神",
           id: "Vengefly",
           check: "completedTier2",
           wiki: "诸神堂#复仇蝇之王"
         },
         VengeflyRadiant: {
           name: "复仇蝇之王: 辐辉级",
-          spoiler: "Vicious god of territories",
+          spoiler: "凶恶的领土之神",
           id: "Vengefly",
           check: "completedTier3",
           wiki: "诸神堂#复仇蝇之王"
@@ -6505,70 +6505,70 @@ const HK = {
         },
         BroodingMawlekAscended: {
           name: "躁郁的毛里克: 进升级",
-          spoiler: "Lonely god of the nest",
+          spoiler: "孤独的巢穴之神",
           id: "BroodingMawlek",
           check: "completedTier2",
           wiki: "诸神堂#躁郁的毛里克"
         },
         BroodingMawlekRadiant: {
           name: "躁郁的毛里克: 辐辉级",
-          spoiler: "Lonely god of the nest",
+          spoiler: "孤独的巢穴之神",
           id: "BroodingMawlek",
           check: "completedTier3",
           wiki: "诸神堂#躁郁的毛里克"
         },
         FalseKnightUnlocked: {
           name: "假骑士: 解锁",
-          spoiler: "I protect the weak in...",
+          spoiler: "“我在十字路的中心保护弱者”",
           id: "FalseKnight",
           check: "isUnlocked",
           wiki: "诸神堂#假骑士"
         },
         FalseKnightAttuned: {
           name: "假骑士: 调谐级",
-          spoiler: "...the heart of the crossroads",
+          spoiler: "“我在十字路的中心保护弱者”",
           id: "FalseKnight",
           check: "completedTier1",
           wiki: "诸神堂#假骑士"
         },
         FalseKnightAscended: {
           name: "假骑士: 进升级",
-          spoiler: "Angry god of the downtrodden",
+          spoiler: "愤怒的受压迫之神",
           id: "FalseKnight",
           check: "completedTier2",
           wiki: "诸神堂#假骑士"
         },
         FalseKnightRadiant: {
           name: "假骑士: 辐辉级",
-          spoiler: "Angry god of the downtrodden",
+          spoiler: "愤怒的受压迫之神",
           id: "FalseKnight",
           check: "completedTier3",
           wiki: "诸神堂#假骑士"
         },
         FailedChampionUnlocked: {
           name: "失败冠军: 解锁",
-          spoiler: "Baleful god of regrets",
+          spoiler: "凶恶的悔恨之神",
           id: "FailedChampion",
           check: "isUnlocked",
           wiki: "诸神堂#失败冠军"
         },
         FailedChampionAttuned: {
           name: "失败冠军: 调谐级",
-          spoiler: "Baleful god of regrets",
+          spoiler: "凶恶的悔恨之神",
           id: "FailedChampion",
           check: "completedTier1",
           wiki: "诸神堂#失败冠军"
         },
         FailedChampionAscended: {
           name: "失败冠军: 进升级",
-          spoiler: "Baleful god of regrets",
+          spoiler: "凶恶的悔恨之神",
           id: "FailedChampion",
           check: "completedTier2",
           wiki: "诸神堂#失败冠军"
         },
         FailedChampionRadiant: {
           name: "失败冠军: 辐辉级",
-          spoiler: "Baleful god of regrets",
+          spoiler: "凶恶的悔恨之神",
           id: "FailedChampion",
           check: "completedTier3",
           wiki: "诸神堂#失败冠军"
@@ -7471,196 +7471,196 @@ const HK = {
         },
         NailmastersUnlocked: {
           name: "骨钉兄弟奥罗与马托: 解锁",
-          spoiler: "Together, we stand at a Pantheon's peak",
+          spoiler: "“我们一同立于万神殿之巅”",
           id: "Nailmasters",
           check: "isUnlocked",
           wiki: "诸神堂#骨钉兄弟奥罗与马托"
         },
         NailmastersAttuned: {
           name: "骨钉兄弟奥罗与马托: 调谐级",
-          spoiler: "Loyal brother gods of the nail",
+          spoiler: "忠诚的骨钉兄弟神",
           id: "Nailmasters",
           check: "completedTier1",
           wiki: "诸神堂#骨钉兄弟奥罗与马托"
         },
         NailmastersAscended: {
           name: "骨钉兄弟奥罗与马托: 进升级",
-          spoiler: "Loyal brother gods of the nail",
+          spoiler: "忠诚的骨钉兄弟神",
           id: "Nailmasters",
           check: "completedTier2",
           wiki: "诸神堂#骨钉兄弟奥罗与马托"
         },
         NailmastersRadiant: {
           name: "骨钉兄弟奥罗与马托: 辐辉级",
-          spoiler: "Loyal brother gods of the nail",
+          spoiler: "忠诚的骨钉兄弟神",
           id: "Nailmasters",
           check: "completedTier3",
           wiki: "诸神堂#骨钉兄弟奥罗与马托"
         },
         PaintmasterUnlocked: {
           name: "绘画大师席奥: 解锁",
-          spoiler: "I hone my craft at a Pantheon's peak",
+          spoiler: "“我在万神殿之巅磨练技艺”",
           id: "Paintmaster",
           check: "isUnlocked",
           wiki: "诸神堂#绘画大师席奥"
         },
         PaintmasterAttuned: {
           name: "绘画大师席奥: 调谐级",
-          spoiler: "Talented god of artists and creators",
+          spoiler: "天赋异禀的艺术家与创作者之神",
           id: "Paintmaster",
           check: "completedTier1",
           wiki: "诸神堂#绘画大师席奥"
         },
         PaintmasterAscended: {
           name: "绘画大师席奥: 进升级",
-          spoiler: "Talented god of artists and creators",
+          spoiler: "天赋异禀的艺术家与创作者之神",
           id: "Paintmaster",
           check: "completedTier2",
           wiki: "诸神堂#绘画大师席奥"
         },
         PaintmasterRadiant: {
           name: "绘画大师席奥: 辐辉级",
-          spoiler: "Talented god of artists and creators",
+          spoiler: "天赋异禀的艺术家与创作者之神",
           id: "Paintmaster",
           check: "completedTier3",
           wiki: "诸神堂#绘画大师席奥"
         },
         SlyUnlocked: {
           name: "伟大骨钉贤者斯莱: 解锁",
-          spoiler: "I await you at a Pantheon's peak",
+          spoiler: "“我在万神殿的巅峰等你”",
           id: "Sly",
           check: "isUnlocked",
           wiki: "诸神堂#伟大骨钉贤者斯莱"
         },
         SlyAttuned: {
           name: "伟大骨钉贤者斯莱: 调谐级",
-          spoiler: "Cunning god of opportunity",
+          spoiler: "狡黠的机遇之神",
           id: "Sly",
           check: "completedTier1",
           wiki: "诸神堂#伟大骨钉贤者斯莱"
         },
         SlyAscended: {
           name: "伟大骨钉贤者斯莱: 进升级",
-          spoiler: "Cunning god of opportunity",
+          spoiler: "邪恶的机遇之神",
           id: "Sly",
           check: "completedTier2",
           wiki: "诸神堂#伟大骨钉贤者斯莱"
         },
         SlyRadiant: {
           name: "伟大骨钉贤者斯莱: 辐辉级",
-          spoiler: "Cunning god of opportunity",
+          spoiler: "邪恶的机遇之神",
           id: "Sly",
           check: "completedTier3",
           wiki: "诸神堂#伟大骨钉贤者斯莱"
         },
         HollowKnightUnlocked: {
           name: "纯粹容器: 解锁",
-          spoiler: "This empty god stands at a Pantheon's peak",
+          spoiler: "“这位空虚之神屹立在万神殿之巅”",
           id: "HollowKnight",
           check: "isUnlocked",
           wiki: "诸神堂#纯粹容器"
         },
         HollowKnightAttuned: {
           name: "纯粹容器: 调谐级",
-          spoiler: "Mighty god of nothingness",
+          spoiler: "强大的虚无之神",
           id: "HollowKnight",
           check: "completedTier1",
           wiki: "诸神堂#纯粹容器"
         },
         HollowKnightAscended: {
           name: "纯粹容器: 进升级",
-          spoiler: "Mighty god of nothingness",
+          spoiler: "强大的虚无之神",
           id: "HollowKnight",
           check: "completedTier2",
           wiki: "诸神堂#纯粹容器"
         },
         HollowKnightRadiant: {
           name: "纯粹容器: 辐辉级",
-          spoiler: "Mighty god of nothingness",
+          spoiler: "强大的虚无之神",
           id: "HollowKnight",
           check: "completedTier3",
           wiki: "诸神堂#纯粹容器"
         },
         GrimmUnlocked: {
           name: "格林: 解锁",
-          spoiler: "I await the lighting of the lantern",
+          spoiler: "“我等待着灯被点燃”",
           id: "Grimm",
           check: "isUnlocked",
           wiki: "诸神堂#格林"
         },
         GrimmAttuned: {
           name: "格林: 调谐级",
-          spoiler: "Travelling god of the troupe",
+          spoiler: "巡回的剧团之神",
           id: "Grimm",
           check: "completedTier1",
           wiki: "诸神堂#格林"
         },
         GrimmAscended: {
           name: "格林: 进升级",
-          spoiler: "Travelling god of the troupe",
+          spoiler: "巡回的剧团之神",
           id: "Grimm",
           check: "completedTier2",
           wiki: "诸神堂#格林"
         },
         GrimmRadiant: {
           name: "格林: 辐辉级",
-          spoiler: "Travelling god of the troupe",
+          spoiler: "巡回的剧团之神",
           id: "Grimm",
           check: "completedTier3",
           wiki: "诸神堂#格林"
         },
         NightmareGrimmUnlocked: {
           name: "梦魇之王: 解锁",
-          spoiler: "God of nightmares",
+          spoiler: "梦魇之神",
           id: "NightmareGrimm",
           check: "isUnlocked",
           wiki: "诸神堂#梦魇之王"
         },
         NightmareGrimmAttuned: {
           name: "梦魇之王: 调谐级",
-          spoiler: "God of nightmares",
+          spoiler: "梦魇之神",
           id: "NightmareGrimm",
           check: "completedTier1",
           wiki: "诸神堂#梦魇之王"
         },
         NightmareGrimmAscended: {
           name: "梦魇之王: 进升级",
-          spoiler: "God of nightmares",
+          spoiler: "梦魇之神",
           id: "NightmareGrimm",
           check: "completedTier2",
           wiki: "诸神堂#梦魇之王"
         },
         NightmareGrimmRadiant: {
           name: "梦魇之王: 辐辉级",
-          spoiler: "God of nightmares",
+          spoiler: "梦魇之神",
           id: "NightmareGrimm",
           check: "completedTier3",
           wiki: "诸神堂#梦魇之王"
         },
         RadianceUnlocked: {
           name: "辐光: 解锁",
-          spoiler: "Forgotten god of light",
+          spoiler: "被遗忘的光芒神",
           id: "Radiance",
           check: "isUnlocked",
           wiki: "诸神堂#辐光"
         },
         RadianceAttuned: {
           name: "辐光: 调谐级",
-          spoiler: "Forgotten god of light",
+          spoiler: "被遗忘的光芒神",
           id: "Radiance",
           check: "completedTier1",
           wiki: "诸神堂#辐光"
         },
         RadianceAscended: {
           name: "辐光: 进升级",
-          spoiler: "Forgotten god of light",
+          spoiler: "被遗忘的光芒神",
           id: "Radiance",
           check: "completedTier2",
           wiki: "诸神堂#辐光"
         },
         RadianceRadiant: {
           name: "辐光: 辐辉级",
-          spoiler: "Forgotten god of light",
+          spoiler: "被遗忘的光芒神",
           id: "Radiance",
           check: "completedTier3",
           wiki: "诸神堂#辐光"

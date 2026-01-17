@@ -7,3 +7,7 @@ node_modules/
 js/LoadJson.js
 src/js/LoadJson.js
 config.json
+**/.DS_Store
+.nvmrc
+.vscode/**
+*.bak
