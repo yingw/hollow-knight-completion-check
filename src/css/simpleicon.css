@@ -44,3 +44,7 @@
 .simpleicon-twitter:before {
     content: url("../img/twitter.svg");
 }
+
+.simpleicon-wikipedia:before {
+    content: url("../img/wikipedia.svg");
+}

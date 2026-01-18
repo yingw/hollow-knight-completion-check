@@ -1144,7 +1144,7 @@ const HK = {
         },
         paleOreAncientBasin: {
           name: "苍白矿石 #1",
-          spoiler: "古老盆地, left of Tram Station",
+          spoiler: "古老盆地, left of 鹿角虫车站",
           id: "Battle Scene Ore",
           sceneName: "Abyss_17",
           wiki: "苍白矿石"
@@ -1204,7 +1204,7 @@ const HK = {
     /* ################ Essentials % -> 鹿角虫车站 ################### */
 
     essentialsStagStations: {
-      h2: "游戏完成度 % Essentials - 鹿角虫车站",
+      h2: "游戏完成度 %  鹿角虫车站",
       id: "hk-essentials-stag-stations",
       description: `已开放的鹿角虫车站不会直接计入112%的完成度，但需要找到<span class="spoiler-span blurred">鹿角虫巢穴里的一个容器碎片</span>才能达到112%的完整完成度。`,
       entries: {
@@ -1899,7 +1899,7 @@ const HK = {
         Hatcher: {
           name: "阿司匹德之母 (15)",
           nameDefault: "阿司匹德之母",
-          spoiler: "遗忘十字路, mainly next to the Tram station",
+          spoiler: "遗忘十字路, mainly next to the 鹿角虫车站",
           wiki: "阿司匹德之母"
         },
         Hatchling: {
@@ -6215,7 +6215,7 @@ const HK = {
         },
         noHits: {
           name: "P1 无伤",
-          spoiler: "无伤害完成大师万神殿",
+          spoiler: "无伤完成大师万神殿",
           wiki: "万神殿"
         },
       },
@@ -6266,7 +6266,7 @@ const HK = {
         },
         noHits: {
           name: "P2 无伤",
-          spoiler: "无伤害完成艺术家万神殿",
+          spoiler: "无伤完成艺术家万神殿",
           wiki: "万神殿"
         },
       },
@@ -6317,7 +6317,7 @@ const HK = {
         },
         noHits: {
           name: "P3 无伤",
-          spoiler: "无伤害完成贤者万神殿",
+          spoiler: "无伤完成贤者万神殿",
           wiki: "万神殿"
         },
       },
@@ -6368,7 +6368,7 @@ const HK = {
         },
         noHits: {
           name: "P4 无伤",
-          spoiler: "无伤害完成骑士万神殿",
+          spoiler: "无伤完成骑士万神殿",
           wiki: "万神殿"
         },
       },
@@ -6419,7 +6419,7 @@ const HK = {
         },
         noHits: {
           name: "P5 无伤",
-          spoiler: "无伤害完成圣巢万神殿",
+          spoiler: "无伤完成圣巢万神殿",
           wiki: "万神殿"
         },
       },
