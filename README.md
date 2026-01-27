@@ -9,6 +9,8 @@
   <img src="https://img.shields.io/static/v1?label=Youtube&message=reznor.technology&labelColor=lightgrey&color=FF0000&style=flat&logo=youtube"></a>
   <a href="https://www.instagram.com/reznor.technology/" target="_blank">
   <img src="https://img.shields.io/static/v1?label=Instagram&message=reznor.technology&labelColor=lightgrey&color=E4405F&style=flat&logo=Instagram"></a>
+  <a href="./README_zh.md">
+  <img src="https://img.shields.io/static/v1?label=README&message=中文说明&logo=read-the-docs"></a>
 </p>
 
 
